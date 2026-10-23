@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contents and quick links for the Chemistry 12 study companion.">
+  <meta name="theme-color" content="#235b47">
+  <title>Chemistry 12 — Contents</title>
+  <style>
+    :root { color-scheme: light; --green: #235b47; --ink: #213e36; --muted: #64716a; --border: #dce2d9; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f8f7f2; color: var(--ink); font: 16px/1.6 system-ui, sans-serif; }
+    main { max-width: 880px; margin: auto; padding: 64px 24px; }
+    .eyebrow { color: var(--green); font-size: 12px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+    h1 { margin: 12px 0; font: 400 clamp(40px, 7vw, 64px)/1.15 Georgia, serif; }
+    .intro { margin: 0 0 28px; color: var(--muted); }
+    a { color: var(--green); text-underline-offset: 4px; }
+    a:focus-visible { outline: 3px solid #d46a43; outline-offset: 5px; }
+    .open { display: inline-block; padding: 12px 20px; border-radius: 8px; background: var(--green); color: white; text-decoration: none; font-weight: 600; }
+    h2 { margin: 40px 0 16px; font: 400 28px Georgia, serif; }
+    ol { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .unit { display: block; height: 100%; padding: 22px; border: 1px solid var(--border); border-radius: 12px; background: white; color: var(--ink); text-decoration: none; }
+    .unit:hover { border-color: var(--green); background: #eef2e9; }
+    .number { display: block; margin-bottom: 10px; color: var(--muted); font-size: 11px; letter-spacing: 1px; text-transform: uppercase; }
+    .title { display: block; margin-bottom: 6px; font-size: 18px; font-weight: 650; }
+    .description { display: block; color: var(--muted); font-size: 13px; }
+    .resources { display: flex; flex-wrap: wrap; gap: 12px 24px; padding: 20px 0; border-top: 1px solid var(--border); }
+    footer { margin-top: 28px; color: var(--muted); font-size: 12px; }
+    @media (max-width: 560px) { main { padding: 36px 20px; } ol { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="eyebrow">Chemistry 12 · Study companion</div>
+      <h1>Course contents</h1>
+      <p class="intro">Explore the six course units, worked examples, interactive models, and self-check quizzes.</p>
+      <a class="open" href="tutorial.html">Open the full tutorial →</a>
+    </header>
+    <nav aria-label="Course units">
+      <h2>Choose a unit</h2>
+      <ol>
+        <li><a class="unit" href="tutorial.html#kinetics"><span class="number">Unit 01</span><span class="title">Kinetics</span><span class="description">Reaction rates, collision theory, energy diagrams, and reaction mechanisms.</span></a></li>
+        <li><a class="unit" href="tutorial.html#equilibrium"><span class="number">Unit 02</span><span class="title">Dynamic equilibrium</span><span class="description">Equilibrium constants, reaction direction, Le Chatelier’s principle, and ICE tables.</span></a></li>
+        <li><a class="unit" href="tutorial.html#solubility"><span class="number">Unit 03</span><span class="title">Solubility</span><span class="description">Ionic equations, solubility products, precipitation, and common ions.</span></a></li>
+        <li><a class="unit" href="tutorial.html#acid-base-1"><span class="number">Unit 04</span><span class="title">Acid–base I</span><span class="description">Conjugate pairs, acid and base strength, pH, and strong-acid/base calculations.</span></a></li>
+        <li><a class="unit" href="tutorial.html#acid-base-2"><span class="number">Unit 05</span><span class="title">Acid–base II</span><span class="description">Weak acids and bases, hydrolysis, buffers, indicators, and titration curves.</span></a></li>
+        <li><a class="unit" href="tutorial.html#electrochemistry"><span class="number">Unit 06</span><span class="title">Electrochemistry</span><span class="description">Redox reactions, electrochemical cells, standard potentials, and electrolysis.</span></a></li>
+      </ol>
+    </nav>
+    <nav aria-label="Study resources">
+      <h2>Study resources</h2>
+      <div class="resources">
+        <a href="tutorial.html#overview">Course overview</a>
+        <a href="tutorial.html#formula-sheet">Formula sheet</a>
+        <a href="tutorial.html#sources">Original course materials</a>
+      </div>
+    </nav>
+    <footer>Chemistry 12 · Learn, practise, and review at your own pace.</footer>
+  </main>
+</body>
+</html>
