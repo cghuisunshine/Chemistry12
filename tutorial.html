@@ -167,7 +167,22 @@
 <details class="tutor-note" id="tutor-1-3">
 <summary><span class="tutor-badge">Tutor explanation 1.3</span><span>The barrier and the endpoint energy answer different questions</span></summary>
 <div class="tutor-body">
-<p class="tutor-say"><strong>Say to students</strong>“The hill height tells us how difficult the route is. The difference between the starting and finishing heights tells us the overall energy change.”</p>
+<p class="tutor-say"><strong>Say to students</strong>“First account for energy entering as heat and leaving as expansion work. Enthalpy combines the terms so that its change gives the heat at constant pressure. Then the diagram can distinguish the reaction’s energy change from the barrier along its route.”</p>
+<h4 id="enthalpy-origin">How does enthalpy arise? Start with the First Law</h4>
+<p>Following <a href="https://openstax.org/books/chemistry-2e/pages/5-3-enthalpy" target="_blank" rel="noopener">OpenStax Chemistry 2e, §5.3: Enthalpy</a>, build H from energy accounting:</p>
+<ol>
+<li><strong>Choose the system.</strong> Its molecular energy is U. Heat q and work w transfer energy across its boundary; positive signs mean energy enters.<div class="equation" data-copy>ΔU = q + w</div></li>
+<li><strong>Include expansion.</strong> Pushing the surroundings costs energy. At constant external pressure:<div class="equation" data-copy>w = −p<sub>ext</sub>ΔV</div>Expansion gives ΔV &gt; 0 and w &lt; 0; compression reverses both signs.</li>
+<li><strong>Define a useful state function.</strong> Enthalpy combines internal energy and pV:<div class="equation" data-copy>H ≡ U + pV<br>At constant p: ΔH = ΔU + pΔV</div>Its change depends on endpoint states, although heat and work individually depend on the path.</li>
+<li><strong>Substitute the First Law.</strong> At constant pressure, with p = p<sub>ext</sub> and only expansion work:<div class="equation" data-copy>ΔU = q<sub>p</sub> − pΔV<br>ΔH = (q<sub>p</sub> − pΔV) + pΔV<br>ΔH = q<sub>p</sub></div>The expansion terms cancel. This makes ΔH useful for atmospheric-pressure chemistry.</li>
+</ol>
+<p class="assumption"><strong>Keep the conditions:</strong> ΔH = q<sub>p</sub> requires constant pressure and only pressure–volume work. At fixed volume with no other work, q<sub>V</sub> = ΔU.</p>
+<h4>Original energy-budget example: where did the heat go?</h4>
+<p>Imagine a closed gas sample absorbing 500 J while expanding by 2.00 L against a constant pressure of 1.00 × 10⁵ Pa. Take its initial and final pressures to equal that external pressure. Since 2.00 L = 0.00200 m³ and 1 Pa m³ = 1 J:</p>
+<div class="equation" data-copy>w = −(1.00 × 10⁵ Pa)(0.00200 m³) = −200 J<br>ΔU = +500 J − 200 J = +300 J<br>ΔH = +300 J + 200 J = +500 J = q<sub>p</sub></div>
+<p>The sample retains 300 J as increased internal energy and transfers 200 J outward as expansion work. Adding pΔV restores that work contribution when calculating the heat received. Enthalpy is defined by this combination of state properties; energy conservation supplies the reason its change equals constant-pressure heat under these conditions.</p>
+<p><strong>Connect this to the diagram.</strong> For specified initial and final states, ΔH = H<sub>products</sub> − H<sub>reactants</sub>. A negative value means the reacting system releases heat under the conditions above; a positive value means it absorbs heat. The intermediate barrier concerns the pathway. These are the endpoint and pathway questions compared below.</p>
+<p class="tutor-check"><strong>Check the reasoning</strong>A closed system absorbs 500 J at fixed volume with no other work. What is ΔU? <strong>Expected:</strong> +500 J, because expansion work is zero. Do we also know ΔH? Not from that information alone: use ΔH = ΔU + Δ(pV), since pressure may change.</p>
 <aside class="textbook-basis" aria-labelledby="basis-1-3">
 <h4 id="basis-1-3">Back to the textbook: energy differences need a named thermodynamic quantity</h4>
 <p class="basis-route"><strong>Definitions to revisit:</strong> <a href="#foundation-energy">U and H</a> → <a href="#foundation-entropy">S</a> → <a href="#foundation-gibbs">G</a> → <a href="#foundation-rate">activation</a>.</p>
