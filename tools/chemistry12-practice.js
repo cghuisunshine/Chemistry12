@@ -509,7 +509,7 @@ function show(p,reason,fromLive=false){
   if(p.generatedData)$('badge').replaceChildren(aiMarker(),document.createTextNode('Practice · '+Adaptive.skills[p.skill]));else $('badge').textContent=p.questionType;
   $('badge').hidden=false;$('question-title').textContent=p.title;
   $('question-meta').textContent=`Chapter ${p.chapterNumber}: ${p.chapterTitle} · ${p.topicTitle||p.topic} · ${P.levels[p.level-1]} (estimated)`;
-  $('statement').innerHTML=p.html;$('source').href=p.url;$('source').hidden=false;$('source').textContent='Open original textbook page ↗';flagButton();
+  $('statement').innerHTML=p.html;if(p.generatedData)window.ChemistrySolutionFormat.enhance($('statement'));$('source').href=p.url;$('source').hidden=false;$('source').textContent='Open original textbook page ↗';flagButton();
   buildAnswerInput(p);$('photo-section').hidden=false;openDrawing();
 }
 function next(reset=false,persistSelection=true){
@@ -648,7 +648,10 @@ function recordSubmittedAnswer(correct,assessment='self',verification=null){
   save();dashboard();$('response-input').readOnly=true;const dock=$('dock-response');if(dock)dock.readOnly=true;
   $('self-rating').hidden=true;$('feedback').hidden=false;$('feedback').className=correct?'':'wrong';
   const verdict=verification?{correct:'Correct',partly_correct:'Partly correct',incorrect:'Incorrect'}[verification.verdict]:'';
-  $('feedback').textContent=(verification?'AI checked against the model answer: '+verdict+'. '+(verification.answer_check||verification.feedback).slice(0,400):correct?'Self-rated correct.':'Self-rated as needing practice.')+(correct?' Saved.':' Saved to your review queue.')+' Time spent: '+describeDuration(activeAttempt.seconds)+'.';
+  const comparison=verification&&(verification.answer_check||verification.feedback);
+  const comparisonSummary=comparison&&comparison.length<=400?comparison:'See the full AI review below.';
+  $('feedback').textContent=(verification?'AI checked against the model answer: '+verdict+'. '+comparisonSummary:correct?'Self-rated correct.':'Self-rated as needing practice.')+(correct?' Saved.':' Saved to your review queue.')+' Time spent: '+describeDuration(activeAttempt.seconds)+'.';
+  if(verification)window.ChemistrySolutionFormat.enhance($('feedback'));
   $('next').hidden=false;$('skip').hidden=true;updatePhotoControls();
   if($('mode').value==='coach')$('adaptive-status').textContent='Answer saved. Choose Next question for practice based on this result.';
   return true;
@@ -998,7 +1001,7 @@ canvas.addEventListener('touchend',e=>{if(!tap||e.touches.length)return;const qu
 const syncButtons=()=>{for(const id of ['check','next','skip','verify-retry']){const r=$(id),d=$('dock-'+id);d.hidden=r.hidden;d.disabled=r.disabled;d.textContent=r.textContent;if(r.hasAttribute('aria-busy'))d.setAttribute('aria-busy',r.getAttribute('aria-busy'));else d.removeAttribute('aria-busy');}
     for(const id of ['rate-correct','rate-practice'])$('dock-'+id).disabled=$(id).disabled;
     $('dock-self-rating').hidden=$('self-rating').hidden;
-    const f=$('feedback'),df=$('dock-feedback');df.hidden=f.hidden;df.className='dock-feedback'+(f.classList.contains('wrong')?' wrong':'');df.textContent=f.textContent;};
+    const f=$('feedback'),df=$('dock-feedback');df.hidden=f.hidden;df.className='dock-feedback'+(f.classList.contains('wrong')?' wrong':'');df.replaceChildren(...[...f.childNodes].map(n=>n.cloneNode(true)));df.querySelectorAll('[id]').forEach(n=>n.removeAttribute('id'));};
   for(const id of ['check','next','skip','rate-correct','rate-practice','verify-retry'])$('dock-'+id).onclick=()=>$(id).click();
   new MutationObserver(syncResponse).observe($('choice-list'),{childList:true,subtree:true,attributes:true,attributeFilter:['readonly']});
   const mo=new MutationObserver(syncButtons);for(const id of ['check','next','skip','self-rating','rate-correct','rate-practice','verify-retry'])mo.observe($(id),{attributes:true,childList:true});
