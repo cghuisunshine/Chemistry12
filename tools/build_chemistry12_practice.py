@@ -197,7 +197,7 @@ def build(require_prebuilt=True):
         entry = prebuilt.get(q['id']) if q['id'] not in missing else None
         solution = ''
         if entry:
-            solution = '<div class="answer-provenance" data-answer-source="prebuilt-ai"><span class="badge">Prebuilt AI answer &amp; solution</span></div><p class="small">Prepared in advance in this session · available offline · separate from the publisher key.</p>'
+            solution = '<div class="answer-provenance" data-answer-source="prebuilt-ai"><span class="badge">Prebuilt AI answer &amp; solution</span></div>'
             solution += '<p class="prebuilt-answer" style="white-space:pre-wrap"><strong>'+E(entry['answer'])+'</strong></p>'
             solution += '<h3>Step-by-step solution</h3><ol class="worked-steps">'+''.join('<li style="white-space:pre-wrap">'+E(step)+'</li>' for step in entry['steps'])+'</ol>'
             for diagram in entry.get('solutionImages', []):

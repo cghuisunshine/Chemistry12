@@ -851,6 +851,7 @@ function renderLearningLog(){
     for(const content of [topicName(weak.topic)+' · observed in '+weak.count+' question'+(weak.count===1?'':'s'),weak.evidence,weak.practice]){const p=document.createElement('p');p.textContent=content;row.append(p);}
     const b=document.createElement('button');b.className='secondary';b.textContent='Practice '+topicName(weak.topic);b.onclick=()=>{$('mode').value='adaptive';$('practice-chapter').value=bank.find(p=>p.topic===weak.topic)?.chapter||'';selectedTopics=new Set([weak.topic]);refreshTopicOptions();next();$('question-title').focus();};row.append(b);box.append(row);
   }
+  window.ChemistrySolutionFormat.enhance(box);
   const history=$('ai-history-list');history.replaceChildren();
   const reviews=state.attempts.filter(a=>a.aiReview).slice().reverse();
   if(!reviews.length)history.textContent='No AI reviews saved yet.';
