@@ -1855,7 +1855,15 @@ function next(reset=false,persistSelection=true){
   show(p,p?`${topicName(p.topic)}: an unseen ${P.levels[p.level-1].toLowerCase()} question. Topics with lower recent accuracy receive more practice.`:'You have attempted every available textbook question in this selection. Review your misses or try random questions.');
 }
 $('check').onclick=()=>{
-  if(!current||checked||revealed||reviewRequest?.kind==='answer')return;
+  if(!current||reviewRequest?.kind==='answer')return;
+  if(revealed){
+    if($('check').hidden)return;
+    $('check').hidden=true;
+    $('solution').hidden=false;$('solution').open=true;
+    showWorkedSolution(current);
+    return;
+  }
+  if(checked)return;
   const problem=current;
   cancelGeneration();
   cancelReview();stopCamera();drawing.finish();
@@ -1922,8 +1930,9 @@ async function showWorkedSolution(problem){
 }
 function changeAIAnswerOption(checked){
   $('generate-ai-answer').checked=checked;$('dock-generate-ai-answer').checked=checked;
-  if(!checked){cancelWorkedSolution();followUp.setAnswer(null);$('worked-solution').hidden=true;}
-  else if(current&&revealed)showWorkedSolution(current);
+  cancelWorkedSolution();
+  if(!checked){followUp.setAnswer(null);$('worked-solution').hidden=true;}
+  if(current&&revealed){$('check').hidden=false;$('check').disabled=false;$('check').textContent='Show answer';}
 }
 $('generate-ai-answer').onchange=()=>changeAIAnswerOption($('generate-ai-answer').checked);
 $('dock-generate-ai-answer').onchange=()=>changeAIAnswerOption($('dock-generate-ai-answer').checked);

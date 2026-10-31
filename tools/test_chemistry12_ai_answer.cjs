@@ -30,8 +30,10 @@ function respond(r,id,status=200,body=null){r.resolve({ok:status===200,status,js
  assert.equal($('generate-ai-answer').checked,false);$('check').click();
  assert.equal($('solution').hidden,false,JSON.stringify({errors,disabled:$('check').disabled,title:$('question-title').textContent,login:$('login-overlay').hidden,feedback:$('feedback').textContent}));assert.equal($('worked-solution').hidden,true);assert.equal(requests.length,0);
  assert.match($('solution-body').textContent,/Prebuilt AI answer/);
- // Enabling the option on an already revealed question is an explicit request.
- option(true,true);assert.ok($('generate-ai-answer').checked);await turn();
+ // Toggling restores both buttons; the next click explicitly requests generation.
+ option(true,true);assert.ok($('generate-ai-answer').checked);assert.equal($('check').hidden,false);await turn();
+ assert.equal($('dock-check').hidden,false);assert.equal(requests.length,0,'Toggling alone must not request generation');
+ $('dock-check').click();assert.equal($('check').hidden,true);await turn();
  assert.equal(requests.length,1);assert.equal($('worked-solution').hidden,false);assert.equal($('worked-solution-cancel').hidden,false);
  const first=requests[0],payload=JSON.parse(first.options.body);
  assert.equal(first.options.method,'POST');assert.match(payload.message,/ClNO₂/);
@@ -45,10 +47,13 @@ function respond(r,id,status=200,body=null){r.resolve({ok:status===200,status,js
  assert.equal($('worked-solution-body').querySelectorAll('.math-text,.katex-error').length,0,'The reported malformed formula must typeset in all AI fields');
  const feedback=d.createElement('div');w.eval('renderAIReview')({verdict:'unassessed',feedback:reportedMath,answer_check:'',steps:[],next_step:''},feedback,'AI explanation',true);assert.ok(feedback.querySelector('.katex'));assert.equal(feedback.querySelectorAll('.math-text').length,0);
  assert.equal($('solution-body').innerHTML,originalKey);assert.equal(w.eval('current.solution'),q.solution);assert.equal(w.eval('current.answer'),q.answer);
+ const completedCount=requests.length;$('solution').open=false;option(false);assert.equal($('check').hidden,false);assert.equal($('worked-solution').hidden,true);$('check').click();assert.equal($('solution').open,true);await turn();assert.equal(requests.length,completedCount);assert.equal($('solution-body').innerHTML,originalKey);
+ option(true);await turn();assert.equal($('check').hidden,false);assert.equal(requests.length,completedCount);$('check').click();await turn();respond(requests.at(-1),q.id);await turn();
+
  assert.equal($('attempt-count').textContent,'0');assert.match($('dock-solution-body').textContent,/Prebuilt AI answer[\s\S]*New AI result/);
  assert.equal([...Array(w.localStorage.length)].map((_,i)=>w.localStorage.key(i)).filter(k=>/AnswerKey|WorkedSolution/.test(k)).length,0,'Do not cache over prebuilt answers');
  // Retry makes a fresh request; cancellation ignores a late response.
- $('worked-solution-retry').click();await turn();assert.equal(requests.length,2);const retry=requests.at(-1);
+ $('worked-solution-retry').click();await turn();assert.equal(requests.length,completedCount+2);const retry=requests.at(-1);
  $('worked-solution-cancel').click();assert.ok(retry.options.signal.aborted);respond(retry,q.id);await turn();
  assert.match($('worked-solution-status').textContent,/canceled/);assert.equal($('worked-solution-body').textContent,'');assert.equal($('solution-body').innerHTML,originalKey);
  // Navigation aborts old work, and late completion cannot populate a new question.
@@ -81,6 +86,10 @@ function respond(r,id,status=200,body=null){r.resolve({ok:status===200,status,js
  assert.ok($('feedback').querySelector('.katex'));
  assert.equal($('dock-feedback').querySelectorAll('.katex').length,$('feedback').querySelectorAll('.katex').length,'Pinned feedback must clone rendered math, not MathML textContent');
  assert.ok($('weak-points').querySelector('.katex'));assert.ok($('ai-history-list').querySelector('.katex'));
+ const gradedCount=$('attempt-count').textContent,conversation=$('follow-up-messages').innerHTML;
+ option(false);assert.equal($('check').hidden,false);$('check').click();await turn();
+ assert.equal($('attempt-count').textContent,gradedCount);assert.equal($('follow-up-messages').innerHTML,conversation);assert.equal($('next').hidden,false);assert.equal($('self-rating').hidden,true);
+
  option(false);
  const data={id:'gen-00000000-0000-0000-0000-000000000001',anchorId:bank[0].id,skill:'calculations',level:2,title:'Math formatting check',question:String.raw`Calculate $n_e = 10^{-5}$ and interpret $\ce{H3O+}$.`,answer:reportedMath,steps:[reportedMath,'Q_sp = [Ag^+][Cl^-]'],check:String.raw`$\pu{0.1125 mol}$`};
  const generated=w.AdaptivePractice.problem(data,bank);assert.ok(generated);w.eval('show')(generated,'Formatting regression test');

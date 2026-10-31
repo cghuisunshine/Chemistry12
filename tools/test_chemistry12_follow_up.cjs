@@ -48,7 +48,7 @@ function generated(id){return {answers:[{id,answer:'A fresh model answer.',steps
  $('check').click();ask('How do I solve the quadratic?');await turn();active=requests.at(-1);timeoutRequest();active.reject(new w.DOMException('Aborted','AbortError'));await turn();assert.match($('follow-up-status').textContent,/timed out/);assert.equal($('follow-up-retry').hidden,false);
  $('follow-up-retry').click();await turn();active=requests.at(-1);active.reject(new w.TypeError('Failed to fetch'));await turn();assert.match($('follow-up-status').textContent,/Could not reach/);
  // Generate an additional answer and include that exact response in follow-ups.
- option(true);assert.equal($('follow-up-send').disabled,true);await turn();active=requests.at(-1);active.resolve({ok:true,status:200,json:async()=>generated('chem12-s4-5-q1')});await turn();
+ option(true);assert.equal($('check').hidden,false);$('check').click();assert.equal($('follow-up-send').disabled,true);await turn();active=requests.at(-1);active.resolve({ok:true,status:200,json:async()=>generated('chem12-s4-5-q1')});await turn();
  ask('Why did your new answer use that equilibrium relation?');await turn();active=requests.at(-1);const fresh=JSON.parse(JSON.parse(active.options.body).message.split('\n').slice(1).join('\n'));
  assert.equal(fresh.freshAIResponse.answer,'A fresh model answer.');assert.deepEqual(fresh.freshAIResponse.steps,['First identify the ion.','Then use the equilibrium relation.']);reply(active,'The relation connects the equilibrium concentrations to the constant.');await turn();
  // A subsequent generation cancels an in-flight follow-up safely.
