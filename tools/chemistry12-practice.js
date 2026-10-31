@@ -20,6 +20,7 @@ let drawingOpen=false, drawingShift=false;
 let drawVersion=0, reviewedDrawVersion=null;
 let submittedAnswer=null;
 const drawing=new window.DrawingPad($('drawing-canvas'),()=>{drawVersion++;$('drawing-help').classList.toggle('faded',drawing.hasInk||!!drawing.active);updatePhotoControls();});
+const followUp=window.ChemistryFollowUp.create({endpoint:AI.endpoint,prepareImage:(problem,signal)=>questionAndWorkingImage(problem,[],signal,true),referenceText:problem=>readableHTML(problem.solution),onFocus:()=>setQuestionCollapsed(false)});
 function validState(s){return P.validState(s,bank);}
 function canonicalize(s) {
   s=P.hydrate(s,bank);
@@ -173,6 +174,7 @@ $('share-question').onclick=async()=>{
   try{await navigator.clipboard.writeText(url);done('Link copied');}catch(e){window.prompt('Copy this link to share the question:',url);}
 };
 function useStudent(name){
+  followUp.setProblem(null);
   cancelWorkedSolution();cancelGeneration();coachPresented=new Set();
   cancelReview();student=students.login(name);state={version:1,attempts:[],items:{}};updatedAt='';
   const local=students.loadLocal(student),s=readPayload(local);
@@ -498,7 +500,7 @@ function show(p,reason,fromLive=false){
   if(live.role==='follower'&&!fromLive){p=followedQuestion;reason='Following live — your answers and progress are your own.';}
   if(p?.generatedData){state.generated=state.generated||{};state.generated[p.id]=p.generatedData;}
   $('adaptive-panel').hidden=$('mode').value!=='coach'||live.role==='follower';
-  resetPhotoReview();submittedAnswer=null;current=p;selected=null;checked=false;revealed=false;started=Date.now();$('reason').textContent=reason;
+  resetPhotoReview();followUp.setProblem(p);submittedAnswer=null;current=p;selected=null;checked=false;revealed=false;started=Date.now();$('reason').textContent=reason;
   refreshChapterControls();
   $('feedback').hidden=true;$('self-rating').hidden=true;$('verify-retry').hidden=true;$('solution').hidden=true;$('solution').open=false;$('solution-body').replaceChildren();$('image-warning').hidden=true;
   $('check').hidden=!p;$('check').disabled=false;$('check').textContent='Show answer';$('next').hidden=true;$('skip').hidden=!p;$('choices').hidden=!p;$('flag').hidden=!p;$('share-question').hidden=!p;$('photo-section').hidden=!p;
@@ -558,7 +560,7 @@ $('check').onclick=()=>{
   if(current!==problem)return;
   revealed=true;selected=submittedAnswer.choice;
   $('solution-body').innerHTML=current.solution;window.ChemistrySolutionFormat.enhance($('solution-body'));$('solution').hidden=false;$('solution').open=true;
-  showWorkedSolution(problem);
+  followUp.reveal();showWorkedSolution(problem);
   $('check').hidden=true;$('self-rating').hidden=true;$('feedback').hidden=false;$('feedback').className='';
   updatePhotoControls();
   if($('question-dock').hidden)$('solution').scrollIntoView({block:'start'});
@@ -567,6 +569,7 @@ $('check').onclick=()=>{
   else verificationFallback('No answer was submitted. The model solution is shown below. Self-check if you worked elsewhere.');
 };
 function cancelWorkedSolution(){
+  followUp.setGenerating(false);
   if(!solutionRequest)return;
   const request=solutionRequest;solutionRequest=null;
   request.controller.abort();clearTimeout(request.timer);
@@ -580,10 +583,10 @@ async function showWorkedSolution(problem){
   if(current!==problem||!revealed)return;
   cancelWorkedSolution();
   if(!$('generate-ai-answer').checked){$('worked-solution').hidden=true;return;}
-  $('worked-solution').hidden=false;$('worked-solution-body').replaceChildren();
+  $('worked-solution').hidden=false;$('worked-solution-body').replaceChildren();followUp.setAnswer(null);
   if(navigator.onLine===false){workedSolutionMessage('You are offline. The original prebuilt answer and solution are still available above. Reconnect and try again.',true);return;}
   const controller=new AbortController(),request={controller,problem,timedOut:false};solutionRequest=request;
-  request.timer=setTimeout(()=>{request.timedOut=true;controller.abort();},120000);
+  request.timer=setTimeout(()=>{request.timedOut=true;controller.abort();},120000);followUp.setGenerating(true);
   workedSolutionMessage('Generating a fresh AI answer and worked solution… The original prebuilt version is available above.');
   $('worked-solution-cancel').hidden=false;
   try{
@@ -603,18 +606,18 @@ async function showWorkedSolution(problem){
     if(controller.signal.aborted)throw new DOMException('AI generation canceled.','AbortError');
     // Render separately; never replace or cache over the canonical prebuilt key.
     $('worked-solution-body').innerHTML=WorkedSolution.render(entry);window.ChemistrySolutionFormat.enhance($('worked-solution-body'));
-    workedSolutionMessage('Fresh AI answer ready. Compare it with the original prebuilt solution above.',true);
+    followUp.setAnswer(entry);workedSolutionMessage('Fresh AI answer ready. Compare it with the original prebuilt solution above.',true);
   }catch(error){
     if(solutionRequest!==request||current!==problem)return;
     const message=request.timedOut?'AI generation timed out.':error.name==='AbortError'?'AI generation was canceled.':error instanceof TypeError?'Could not reach the AI service. Check your connection and try again.':error.message;
     workedSolutionMessage(message+' The original prebuilt answer and solution are still available above.',true);
   }finally{
-    clearTimeout(request.timer);if(solutionRequest===request)solutionRequest=null;
+    clearTimeout(request.timer);if(solutionRequest===request){solutionRequest=null;followUp.setGenerating(false);}
   }
 }
 function changeAIAnswerOption(checked){
   $('generate-ai-answer').checked=checked;$('dock-generate-ai-answer').checked=checked;
-  if(!checked){cancelWorkedSolution();$('worked-solution').hidden=true;}
+  if(!checked){cancelWorkedSolution();followUp.setAnswer(null);$('worked-solution').hidden=true;}
   else if(current&&revealed)showWorkedSolution(current);
 }
 $('generate-ai-answer').onchange=()=>changeAIAnswerOption($('generate-ai-answer').checked);
