@@ -1,0 +1,2209 @@
+{
+  "version": 1,
+  "scope": "All 373 numbered review questions and their embedded prebuilt solutions in chemistry12-practice.html; not a claim to cover every possible chemistry problem.",
+  "reviewedQuestionSignatures": {
+    "chem12-s1-1-q1": "ce26016bbfebfd950795f34f5fc10459879efa3a6cefabec4ed5836b4d54afa7",
+    "chem12-s1-1-q2": "b411b5750e6d3c715fc6c70419dff02d24631c6d0eeb91c4e2880f884c9f2705",
+    "chem12-s1-1-q3": "2e98438ad8e87a40d74bcbb63005a869c5b4b92ed80ff82a608522f306f06d72",
+    "chem12-s1-1-q4": "6063e7791303e60252153855a0fbd261697c9f15337da3bcfebf23424c7e4c4f",
+    "chem12-s1-1-q5": "1a13e8b734ffb9e6ac1543c31f5f76a4efe4e203a59bd7e0e8cdd647c341a3ee",
+    "chem12-s1-2-q1": "ebb148df86de14e5d519631d0b21700ee35b2d3423ed41746d56798c299a1f08",
+    "chem12-s1-2-q2": "169dc52c4d0ba38f588cc127d177f0b9f97982720ac1641e00f8a9d120241d06",
+    "chem12-s1-2-q3": "a59cab8749ea7178fb0469a4f6d1d1fe2412107952eeb423609085868befceb9",
+    "chem12-s1-2-q4": "1387b5e98a54e4a208d47c29cb37547cc0453e99168f6b413aa57b21bb0d6248",
+    "chem12-s1-2-q5": "7cf6cc64c650428f6e2ea8e03097e61fc338c157320142ff3c1f8b03603166e2",
+    "chem12-s1-2-q6": "302cb2c554b10db8fcf571e895e9569e2d8b827097913b8e21325a08272e9157",
+    "chem12-s1-2-q7": "beb06af01f47b20f232348c51e9b853c7878f794e5d080c0d0186ce1c1852d7d",
+    "chem12-s1-3-q1": "7b125c50f3a5a556156d2156ff0ba95332f8add597003c34365778dc606ff6f7",
+    "chem12-s1-3-q2": "15636f504410e27791143972b25a4c94ae6a4e1ab6c183ed65fbd40dfc54414d",
+    "chem12-s1-3-q3": "58b6b66b80006d8027fa3ddfbff44ac6dc324c5bb682ae734f7a20ad1c9b1b8d",
+    "chem12-s1-3-q4": "560293dcbd2c88a6d7deef09cfceda01c990c35f720ec6b7940f65ee609b3c24",
+    "chem12-s1-3-q5": "d4c51d7c6f9b03c68b971cda8a3c2b6033085d62c0ca40912aadb9f28fa2cf4f",
+    "chem12-s1-3-q6": "41b82dac6adcf6156064afbe774d057b44b2e68ef9de57d589a4a7a9c3a4f9e5",
+    "chem12-s1-3-q7": "68b4d22001cff331fe11a9e29d05886f959bdd79b3f875acae29daf815dcbd08",
+    "chem12-s1-3-q8": "eabe09b1fd1c1b5eba6320333098603e444f853fbce7edb71906bfa2ae4e829d",
+    "chem12-s1-4-q1": "c52c0e355a2549a997e899f4c08b054147562e89ecb2ee96c14c6df21aace3d8",
+    "chem12-s1-4-q2": "34a4693cd517cd0472b3ea22cc6b97c8b3f1645143080f0513620264687d6083",
+    "chem12-s1-4-q3": "25a8292c0c7b6936c055ac6ef6b3f3f30174531c266e427b8e8e2eb8f6c75286",
+    "chem12-s1-4-q4": "ccf550f60beb9715c4a4a517dfbfb1d95a8a42e5683791b1537b5204875e1d3a",
+    "chem12-s1-4-q5": "e50ab55add2e54100133387c78a766bb7dca853953678169d4624d965018e409",
+    "chem12-s1-4-q6": "a231503983349fbcc0f2adfa239c8a13b7ed47bf50f289a131ae26c38bdd083c",
+    "chem12-s1-4-q7": "07915d0842d84eb2974d314966d20016051bbe5575a71744e0fcae1d8b76871a",
+    "chem12-s1-4-q8": "c714d9aa135e68b3489d42855c1d4f2f133c29cbcd1e23e42fa71766ce445d85",
+    "chem12-s1-4-q9": "ec41f8a59ae3718b431b1569d336b01cf151188ce4d8c0dabad22cc5c27d1462",
+    "chem12-s1-4-q10": "0f6ca79f56cc6f23c1ce272ba6a277fd10641328722c0d07a8c2717c404abb67",
+    "chem12-s1-5-q1": "714f034bb7d9606d6aa38473976e8af31f142cd293a42d56381a0374f5959acc",
+    "chem12-s1-5-q2": "db9e72dd5052a7535dbfa6b9f0a976285491600e689aad2c6024b83313c269e2",
+    "chem12-s1-5-q3": "fe6f22987cbc80aa3dc3f4bb1a0e0477fda6af8d011c35140fee583aba254b10",
+    "chem12-s1-5-q4": "37aae7f2f16ccc5d65bc9c1a2fec66b2014c09333579a7534001ad35c1cc57a0",
+    "chem12-s1-5-q5": "33c7e384293b5c73210c13e805a00b14c4a68e73a8d1f032712f49107183d99f",
+    "chem12-s1-5-q6": "37800f8e6b360d7e938c53f5544dceeec4a76f152682b50d5d02fbbfed16e72b",
+    "chem12-s1-5-q7": "bc27293fec4a815d9cf69aec9af95e95055d7ff8fed7ecbd40e58611734f6803",
+    "chem12-s1-5-q8": "ea8534148be3328db14d59d324b40fa52372610b5794c03a67cc74625e6aa4e6",
+    "chem12-s1-5-q9": "65f752f6f36898ec3e8adbf30f405a6c92931410bff1950de5e677b5c54aa31e",
+    "chem12-s1-5-q10": "652595ba0cbf528bec131563709b240467eb59525be313555ceb459030335012",
+    "chem12-s2-1-q1": "44db2a93cef348fc207bb22ef5f2b92a54a2c9e0c60590d503eec2f6c9147113",
+    "chem12-s2-1-q2": "6df0406fe61f63fdd1d78c5ad3a949efc5298f684e3ad61beebae048d72035f6",
+    "chem12-s2-1-q3": "6edd303fe503eaee795a82d6d8dd95a66916562d9a7c733b92445249cabb9ee1",
+    "chem12-s2-1-q4": "274c23cb008acbfb8b7051c3c306438627a642afe21ac71612c3a90ccb2ac6ce",
+    "chem12-s2-1-q5": "940b710bccd9fff03b20690789181d2e74aa69fa0fb1aa795dff82f144eb2b43",
+    "chem12-s2-1-q6": "3dfc265fd074892bcccaec284e42d58cad31dbd4822da6dde52c2f6020c3080b",
+    "chem12-s2-1-q7": "0590449d98320b45e061b771b63032410926341e5cd5ac521f74b45b24a50b85",
+    "chem12-s2-1-q8": "25e80a3c78698592f7ad18da64dafc78889eaa2d861b3e5d03bf6922f6e9d6d3",
+    "chem12-s2-1-q9": "677923588f4b90d64970b8ce1785534ca8788d43b31079745aff80eada37879e",
+    "chem12-s2-1-q10": "ddee91707538d068ce16d6d46fe4640f751ceaaf0095bf30aa9dcb5ee6accfc9",
+    "chem12-s2-1-q11": "8bd2ac7ae39947d412f25004e0d6428f7ac3e56c18157590d7617423822f10d2",
+    "chem12-s2-2-q1": "325273b0bec7716f616b97548021332c8e44e9536579bf37930b2add794dc04c",
+    "chem12-s2-2-q2": "abb8682e92e8519e0c1c789523e3b61c33245889b466ffc45cf247a574238125",
+    "chem12-s2-2-q3": "5472331e369f780f0936c8ba73cb49ec6d339d7ad83802ae5c684547ef64d94f",
+    "chem12-s2-2-q4": "8ca66431e5fbf64f0576412f0c499c02de8059fba50af4907e637d231eef4ac7",
+    "chem12-s2-2-q5": "c299af1c65e1a59d0310006fedc90984ab137530226cfcd0df07bdd9311f2efd",
+    "chem12-s2-2-q6": "45df3e8057a09aea5d4bc773aee3acaedfc33f2ae8403fd66bdfc58c1a2806ad",
+    "chem12-s2-2-q7": "5a39eaeee8594a105809b6306c091487f5392b7faae2167520a607a0a5b4817f",
+    "chem12-s2-2-q8": "ebc6175ed1e5e9a43eb2a6993a3b75e9a37957be6f2a97bc6621e9a8c220dbe3",
+    "chem12-s2-2-q9": "b0550c54f462439ab30b130528b0899bd7ec4a27fa08598d01a1b29851fbb46e",
+    "chem12-s2-2-q10": "da3ec96bbd00ace0332843418fc4b12ab767b0fbab1968f2e7c918d1fe062d08",
+    "chem12-s2-2-q11": "99016313175475150dcad1c0e7fb0b5900cda7fd136f97fb948fcf3fb6b95c34",
+    "chem12-s2-2-q12": "531b38e2d23cb0d9d5cc0a520a8e707899c76e3b75e8269aac358abea56416d7",
+    "chem12-s2-2-q13": "a08b45983743bb220787de2c1a7f164aa70bf4f8d9a5ce4aab1ef6a9547fef56",
+    "chem12-s2-2-q14": "386567f2700d6955514b6ade38c2ef3db0045cbeca717b58916a765fd4110928",
+    "chem12-s2-2-q15": "964801c47b6fc7be90474cab45844c2db220d7ae9e78b6deba71b83b475a805a",
+    "chem12-s2-2-q16": "f9f9185c5975f7a2b21142297b328317c6c60681c43bf8711a4d9677901e2168",
+    "chem12-s2-3-q1": "2043a5156cebfb6dcd037c9ea6693aefcb990f2aad2ecffa263bfc025797bc06",
+    "chem12-s2-3-q2": "0dbe80c832f31e9ae470f9470a02797adfa2ba07364de535b0811a032e100bfe",
+    "chem12-s2-3-q3": "8cae139ef8d4a32b0f6071f42789b62b7d412060c8643a7f78c1f5d3370b5fe5",
+    "chem12-s2-3-q4": "7350ed08f5d9035084d6d88e813600746484dcbe2f1205105d964ccf173c8a0d",
+    "chem12-s2-3-q5": "4609e130cdef6b8cde603b3913708aa5ff11e4728bcd9f7ac9666e2ec1ba46fa",
+    "chem12-s2-3-q6": "0ec6f17f6d255422a893103191b174eb367905e354a250bb86ab62abbf3ca6aa",
+    "chem12-s2-3-q7": "46cb70dbed8155608c634aed7821522dd200e5f6e9ce2e77fbc851ed74187aec",
+    "chem12-s2-3-q8": "c42fc6beb4b0810a2d77a726e37b4d8d5ac337b5c4ccfeeec1d16441b2f78496",
+    "chem12-s2-3-q9": "b41fe8233023b66d5b26a2795cde55208531ca1dd2a39c91baa1c21f1a491812",
+    "chem12-s2-3-q10": "7b93b0a994dff2816077097da7b820fb5681a6e6beba9ae92e5aa3ef027afd38",
+    "chem12-s2-3-q11": "ff3e125948f2ef28bca573860c8075a81513fbbe6b1bcf88d81ac32944f10079",
+    "chem12-s2-3-q12": "a1be1ad84beff79a48bba79fe6fe5fd30852c77206e39d43223c832ad5f36c44",
+    "chem12-s2-3-q13": "2f44622bde3d5ba15ccfa14153e6f279acf070a2dde3c48f937945cc3fd7391b",
+    "chem12-s2-3-q14": "d061d6bdab3847ad72e3650c9a3c6988da149c4584e8a131f36f16126f3a9118",
+    "chem12-s2-3-q15": "969c02822271be1c8b200938d84246ab622059335fca3e3c0ae56234bcb611cf",
+    "chem12-s2-3-q16": "4bf74166691327b5a237b27c095f90e1fcb2a70e93fb42d38081b25ed474d33c",
+    "chem12-s2-3-q17": "7807fe13f4cb19b75d23dec9eb2cc059cab1cd5bd4d82a31fa192218b8bec535",
+    "chem12-s2-3-q18": "fbdcd94ae2f4aaf8e67852233847c5b79900c8ecf7a1815e2775a4be1ccec3f1",
+    "chem12-s2-3-q19": "dd47399458ae04a7cbaa6075ef9b97e0bbda1f3c2b6d3892e92a582774d21836",
+    "chem12-s2-3-q20": "f8c2e2a26c941d74bdf15aa84669a10e26f4cb3ea220d6bc5300d16ac16e0a2e",
+    "chem12-s2-3-q21": "31bc95f61bbc39bf320651d359d16b8ecca0568cbfcebe3c0330df965b2d8cc0",
+    "chem12-s2-3-q22": "1ae1fd24fa1a9c3d928ae75bcc2a14705bd0da1fcf43dfb799281e52f67a9bee",
+    "chem12-s2-4-q1": "4252e1683053e25ae18e428ef06f4a7d13a2e81ad9ee469d0919cd9b3a58e8f5",
+    "chem12-s2-4-q2": "6575d7e061b4c38ccb52a1bbc2e127ab81f3f02728083044a15883570d9cc29b",
+    "chem12-s2-4-q3": "60a01a5c65af9f5e96dd34a4760cc73528c7b3b92edc1ea3391917db6924e701",
+    "chem12-s2-4-q4": "ae6763c8eed324dcb2b220ab8c7f75bc373457627bbed2a2561bf2b138b3fd4a",
+    "chem12-s2-4-q5": "d48ed76b0445b956da8b2654833a630074858ccff82bf658920908463a01fb76",
+    "chem12-s2-4-q6": "4f7fe5ea54f1ab6a499c55d2e0011cf7d1a79642b0c16bd79182bddbf777bb69",
+    "chem12-s2-4-q7": "4bb52a45f92c998a6ec047f2ce1bf88e72809274d071defd9a51d914dd0fb097",
+    "chem12-s2-4-q8": "abc9da56de6bc152af09c91961ca94579a5405ea4e9fb02111cdd7b1bf8178c7",
+    "chem12-s2-5-q1": "99f95860ba2f5676c9ccc293ed4441c7e1357bf3f9336e0dcf00beb706b06939",
+    "chem12-s2-5-q2": "a1ccb72acc5b4e625a101df1aa123793c5d3dc2a7f65451540c3d38aedb3c3f0",
+    "chem12-s2-5-q3": "29b8eda0cb43a7b8dfecaa4ed0a5c56c1b2c4ce3182321fa651ed1cf049f272b",
+    "chem12-s2-5-q4": "a89f7cce8910c9a4e3bcd3a4cc2c38332f945bf27371c5f7cd535a5cf1059356",
+    "chem12-s2-5-q5": "4cf48691360165aa46c101c0b1bb8f383f34b5564df429254a999d0fa236fdc6",
+    "chem12-s2-5-q6": "8c69f6519810d2b38619433e3163527d1e32bbd70ee572cad49ae3b0aed20a20",
+    "chem12-s2-5-q7": "195a0f6800d21c36b8c0d5a39e22cd7ec7cc9bb3090b93502620f99e45e59150",
+    "chem12-s2-5-q8": "032ba7002fd150cea2e48646111d143a91ed12db29c1d11112cc1d49d163ba1b",
+    "chem12-s2-5-q9": "ffbf40a077ed2ce573ca811eea877085129f873f36ed94ac8ab6ff3e961a646b",
+    "chem12-s2-5-q10": "841a823563e6533004279ccab589538c2f7ea5c8079a0972ebb2c8a0163a237e",
+    "chem12-s2-5-q11": "c0937a5323ff813df5d2e2680678abc008e880bbc63b5a25aa817ffc87ad76d6",
+    "chem12-s2-5-q12": "d2a2366afeda2ba8067d2c7a4939ce1b554a3651ccec97c79b0d41d4ce531db8",
+    "chem12-s2-5-q13": "78e6c9d3d554bae7f389a42ad4a798eb93c89fa92358ab94498f96b9b29454c4",
+    "chem12-s2-5-q14": "0eb3cafae161e6761dc747b84f1d7c9a07b1fc0c6f4d45e2e65a0145cca9c6a9",
+    "chem12-s2-6-q1": "8adf49b19ae9251f33b3b46e810f935e806091599a0a71eea64360b4f80fa4e8",
+    "chem12-s2-6-q2": "b1b0a0eb27903bd5e53cea01a9cc93b099ae4a11191879f2e4d12cf54621c9d6",
+    "chem12-s2-6-q3": "18c731b476eb47a1457edf33e751d5ddfb5d87db360d094ef776ae2a9cfc1534",
+    "chem12-s2-6-q4": "e9e932d32e41fbcbf5df1cc13e0eeffa4c1b260c635a174849b7725b344468f1",
+    "chem12-s2-6-q5": "53b0a4da6a3e73e66bcba4f0e788132d19f9e420e95a7990dc5b94970c297bb5",
+    "chem12-s2-6-q6": "5b269e989303f9f6d64993369fdb6516546b1264c7798b26b97b216c1ecea38f",
+    "chem12-s2-6-q7": "bbbe1a77ef507ad866d0497cf3e0ebe8266aea7887941f7054e8cdcf2963b328",
+    "chem12-s2-6-q8": "3d9e6270425ccc27d8fb3f7f790c44b58120d196c4a3badf20dd16c9cd8e5c33",
+    "chem12-s2-6-q9": "db0038d10078fd29c4d41ff30f3115d281af45506b709958727da0f111bb3b74",
+    "chem12-s2-6-q10": "fe3c971a2289f87f8da5eb3ba4afa01c5d5ad61e8142c6f8e77b44c59a50c4d0",
+    "chem12-s2-6-q11": "a81778f426e43e14184cf3d335ae0d64ee4e343a8993edcc2db3e2cdc31b4038",
+    "chem12-s2-6-q12": "08f8b03d926cf634efd6ae0b72291419d0637bd7842fb9cb0712097137a2331b",
+    "chem12-s2-6-q13": "d24a3cd782893321224506f8af117d5aff09d9c7d3c25cc3d2fcaef92030f3ad",
+    "chem12-s2-6-q14": "9397ef1b19dccafdb410b2ecb34583e44dd60e28c9e8e893bab85073acee45db",
+    "chem12-s2-6-q15": "ce127f58e69cc3648f24419c5e334a07cf7b3ce406f326b00de81d52bbf444ab",
+    "chem12-s2-6-q16": "a40a27b7850d69faf3e2f33c93fcc55da7fba08ac40fb10de8b5c988dcaee815",
+    "chem12-s2-6-q17": "ac3e7e8d917fb8bd576761cb33f6a7761100b11be6501db8a1a49757243a0d20",
+    "chem12-s3-1-q1": "a1876ed087cf8cd656745c69554e9f0410944aabf241db38bd1d4076086a1f7b",
+    "chem12-s3-1-q2": "1bcbeab964cb2a5ceacf36f4430147aee11ab001517feb520b7fb745820aa75b",
+    "chem12-s3-1-q3": "11c86e1a3714c1a7c96dbdd0d006bfa3d20a197eb1e71d6584d7ba638d346105",
+    "chem12-s3-1-q4": "ed754f8c1ef46a7b524b4d2469793d79d94328b3f61823ae36d50ce5dc4d19c8",
+    "chem12-s3-1-q5": "a8ceeb05f6a027a9d7842cceb407a24f58a5241a72b4e2841c646bf31ef1507e",
+    "chem12-s3-1-q6": "b47fe23ddab4759ee1b8d949f189e7c362a8e6e7b2bcc57ded06d2fd292a9e80",
+    "chem12-s3-1-q7": "9cf8c0cc647105b7e0cb7569933dee71b3018ba205981d1b49bb5795e60edb60",
+    "chem12-s3-1-q8": "3fd32c96274e0bd7a3e2a77d6984bc33249ca5fd222455357775f664f5c58af1",
+    "chem12-s3-1-q9": "8d00d22e75d699b1ab5465a53c93a6d99bc2ef710e7b50d1ce5a9006c825b88d",
+    "chem12-s3-2-q1": "ca94b30358188b7e090cafa08a1dc1fb96790b06628649ae927be07fc59a6210",
+    "chem12-s3-2-q2": "10f7a2e7a2c5d07f8996e3ea8f198020a5772773eaf1347192be6bc491a7f4fe",
+    "chem12-s3-2-q3": "c93a4ee6a10e7350f4688429102bbf065c8e5cbfa146d648bf9a0d7ffb76ace9",
+    "chem12-s3-2-q4": "d6607e7f9927fedfbb40aff1e8ab082b990db224c1d2c563e715250593cc3bcb",
+    "chem12-s3-2-q5": "2135b3e3a027273f43e6f1c9ae69190b71950cacac29072cb05201ee39e5b146",
+    "chem12-s3-2-q6": "0747a704f0ee8d4076a5827f3b7c6c7deee1d30445ebaa6c0bbf74e424f3b7bc",
+    "chem12-s3-2-q7": "3dbee22be1e6014fc2d3be2ccef5a4fe3e1842f65dbe623e6865b4d7a577a17e",
+    "chem12-s3-2-q8": "98ab33b0571f0cc7363048f3f4ea680b2db6e8148196203f111acab873c2de9e",
+    "chem12-s3-2-q9": "3d72b831d3a236aa7e0527a5da40959e1a29da54aceb3f159c6963efeb981be6",
+    "chem12-s3-2-q10": "260ed0e6e933edeee09a7a9b96b44e573d1a90475a990fb673977b88875f8260",
+    "chem12-s3-2-q11": "5b79cef9b8ee0a730cdede2e6e7f3bd62e0818e268f9c8f6b1308fe3b4f95c77",
+    "chem12-s3-2-q12": "bf769eb9642763f4c1831ec8a1caeb2dee3714197d13dee5a6948809bd5f68e0",
+    "chem12-s3-2-q13": "f6d52db546ff876c1415b912c91b4fe0b57c2b0fabc2cde6c89c8efaaa23529c",
+    "chem12-s3-3-q1": "51170afe0ec44f12ed2c1a8576dd7e00ce630770b65d6dfd9d8426eff2f80b33",
+    "chem12-s3-3-q2": "f5a75cd3e0bba0d935e401ac00185b407c7a0976c83cdb3dc007b4f581383a8f",
+    "chem12-s3-3-q3": "c205b8404b2084ca4a8c3943ae57f977ed6a1f4038ebeb775f7f17897173662e",
+    "chem12-s3-3-q4": "ce1e9eb6b077223ce9d69ce2ae211f9f7b0921a9fb1b9729034ce252d5f233e2",
+    "chem12-s3-3-q5": "1944b8961a478222733c41ecc22b57773dfdeaea144080adfddb53c7f882bf93",
+    "chem12-s3-3-q6": "8f9337793b474c45ad19ad548ebdbcccb60045518d448d19c235ae49d7ec1473",
+    "chem12-s3-3-q7": "14cdaa0fb7d1f8746b72bb07dbbdfdb05d43de928a59a6e7eb8d7dd93b1367b1",
+    "chem12-s3-3-q8": "1b3daf9dff91e94fa300caf6c923466365cf81bb2b4ba1495fa0d160a15dca7d",
+    "chem12-s3-3-q9": "2ea96f1a6da24d7f1ea661d9edcbb2c5562836ec1b2eb51e9f9c535dc7764d40",
+    "chem12-s3-3-q10": "3927f0267b4455b99071ab3410d9f5bfd9df3ce9a67e4eb6c28110c884e9a442",
+    "chem12-s3-4-q1": "183038d6f678d1ada64c0ed33aaca871d64acfd52e2ab5b9e287292095562cc4",
+    "chem12-s3-4-q2": "c238aeba3855d6c23e62122d53510682c03357e94522258a16d12ce625d9a7f1",
+    "chem12-s3-4-q3": "dacc7d33ad24a99486fd6c3555888c0f920ceaf21d0f85e55aabebf5636107d7",
+    "chem12-s3-4-q4": "95c4668f1a63f2acbaff324ba2a6b2b80ccca7aadcc615a579c80d703f0efd3f",
+    "chem12-s3-4-q5": "acd432688edce7b3f3e1e5a720bf7f764b1a75dca5c7fbd6905d3b40da6924c1",
+    "chem12-s3-4-q6": "01e39bfe3ae789dcf4991c5f4e2d973f571704cfa4e18a499e612a7761017973",
+    "chem12-s3-4-q7": "721c35b2ebb338ddba1f1eb5fccf327a7365062d666c46cb6c3a03cce53269c3",
+    "chem12-s3-4-q8": "ba96a318dbecd8fd719a55d86517db78df56e267d11af86acaf758fcb80fdeee",
+    "chem12-s3-4-q9": "5dd489cc079ff336de7984cf22ec03438436526df363ca1c7b0f3c4a6451500d",
+    "chem12-s3-4-q10": "c4c98cf3d275b46b45431da7ad0429eab13b5be669c53e4fcffd4901cf3fbbb1",
+    "chem12-s3-4-q11": "0c514a01797218f8fb9b613116c54d0301674a26fbf34c927175a6722aa5db24",
+    "chem12-s3-4-q12": "d55c88cd08741563ed8cc779290401ac49b268cb2635ccf8a6996030bb9dbf3b",
+    "chem12-s3-4-q13": "4b0059bd4d663bb8a0ff022ab5bab3a6e4009d380a88a03db2d05cf0be162164",
+    "chem12-s3-4-q14": "e8e769bca3ac212376e5d862cd1cca8e4819a161da9df15a4eb8dddeaf51f671",
+    "chem12-s4-1-q1": "b6da3aab968406dfbbe7001ef4c711c4f387760f290cc28c4c7ce29adfec29f8",
+    "chem12-s4-1-q2": "614f1a238841bafe8b134eec0aed710808470fcaeadc36eab0f6220c9d081c8c",
+    "chem12-s4-1-q3": "2344d60c0a9075fb94428e5e25519cc25b3863b84331eb9e102217cdf71f8720",
+    "chem12-s4-1-q4": "6832f69d6bf093b6a160fa24a40f24380b60eaa1eb0883e1f8ba093a535bca75",
+    "chem12-s4-1-q5": "ac3c10ad2035a88952143099394053eefd9cba81915160517d3d17be9cd98305",
+    "chem12-s4-1-q6": "14be66fef9639f574d8fab4abf9ccd617d382603d632f717578ef1ea27617e3e",
+    "chem12-s4-1-q7": "6781ca17daafd2379651b530bb1d9ee401913e6614696ba86241175d757dd304",
+    "chem12-s4-1-q8": "db0ac4909a1437384d51af1ab7287895379e522d776c2e48c5127bdb05f804b4",
+    "chem12-s4-1-q9": "9a6d473c4e029f04968633f70d31e9c61ddc3513d9c80635eb16908f5472518b",
+    "chem12-s4-1-q10": "ffa8cc5a0e71998f0c2cded780d7bae22eec4abe39a9f9abb6e1c89d78037d41",
+    "chem12-s4-1-q11": "897a92451a2361f258afb58a0efed7f578bc00e1f3f33beee6278d724ce621c3",
+    "chem12-s4-1-q12": "bdda29dd15a2356f377e83d610988b941ccd5841ce76d60944831e3b6d939e7f",
+    "chem12-s4-2-q1": "6e8150a432abd6c3465c48b5265ea43cbf4d6f8e3b5b1f7bbd0e999df4598fe5",
+    "chem12-s4-2-q2": "b63ce50542732844f1f61be41cba01d71a0732d40e69b39d85afd791dc09df21",
+    "chem12-s4-2-q3": "ea1072eead945d99af24c9c495f833ea92f0c8aa51c957497c3fe15deaac5ef7",
+    "chem12-s4-2-q4": "d045b78e69db29d3ca2a8bddb0807612f6291beac258c239d0cc2cf1a226cd19",
+    "chem12-s4-2-q5": "c6a85d1f0ed0b126d3e120cf5e3c2d31115ce82cf3c08203aa3719af1213fcb0",
+    "chem12-s4-2-q6": "2452090abf81d41db6a888b8a7d62dd32cd33e5371bfd03c32200acb8373c3bb",
+    "chem12-s4-2-q7": "01ced57ab475b143cc6089ba2c974db8d0486f6be319030efede37b0f0f49469",
+    "chem12-s4-2-q8": "beb31c160f1fe2b368fa06b0e65b691bc19bd7e2173d3b4906dc9ba5025d7642",
+    "chem12-s4-2-q9": "b0dbb058b36da8b46a04d5382dd177597589ab39b6d4100c61ad1d9f638a2de3",
+    "chem12-s4-2-q10": "a7fb6b5e7db6c0ce39a66001339beff19593a38767093173964a02fda329fd6c",
+    "chem12-s4-2-q11": "11faaa5a08688a6d6a7663bc3001fa6a8a0ebf65352cb0c5f810a18a676c9b0e",
+    "chem12-s4-2-q12": "044634520aeb4554d7ff209648a166997d35528a2fb0b593d478e72c77afde4f",
+    "chem12-s4-3-q1": "bb509d9bea3ee557d98acca410d9927a151ae187dfc5808e642fe732c4bd35da",
+    "chem12-s4-3-q2": "ee2d44d1a0e4fff651d5f49f326b3f95df25f233a906e0528196832836f456cc",
+    "chem12-s4-3-q3": "ec96a648aae19e87ecd6799beef660f63058f8be073a4ab77a424cf4ad2bca7e",
+    "chem12-s4-3-q4": "4452a1bf0098d91a80600593230511d293115602bf9eec5197ba0c1a7e2404aa",
+    "chem12-s4-3-q5": "179f114152bb576ccd969833a656b16bc6ca6c9fdcf71a2fbf6c3cfaa96bc04f",
+    "chem12-s4-3-q6": "a7397ea2a91a5683b47b0ca675cf8527946252d2dbb4980e3a3681ee438896be",
+    "chem12-s4-3-q7": "41a47ed2fccb350669dbf850087e38a1c05afdff2f1b8265d2e1f71a46efe49d",
+    "chem12-s4-3-q8": "9a54432d9e6d03f122dbe222b74ded282b30fa5415e5ae6790fe0ceebbdfc015",
+    "chem12-s4-3-q9": "e7c1d43ef6202442064cf9d2f31d015551fe9523744c7ad833bb60cf9a20237f",
+    "chem12-s4-3-q10": "97547565af6e3f377364314382521d473a13061aacc4a5b95163e97dd1788c38",
+    "chem12-s4-4-q1": "0a268e248d3273516579b9f1dabf9b702fbb6e96f797c81df2445d0132683984",
+    "chem12-s4-4-q2": "c179b03d504ed8ffa2aea28aa0d4ece7c8adaf4f849fc9e0e357b879aafca211",
+    "chem12-s4-4-q3": "556a4e28afee2f5331383449323ff48bb7c331cb48e772d8ee68e8fe84a5e180",
+    "chem12-s4-4-q4": "44b76fd21174bd6502fded86450dbc4c1233e58e773e5f826b3a08a1632072d6",
+    "chem12-s4-4-q5": "387b5cb17f28c3befb44360965bc4a8c2db52ec4cce32e2f555a48737aa37de0",
+    "chem12-s4-4-q6": "8899b63636e64296b65c4fdf5e2617487663167a74876c679ecfc18a06968c88",
+    "chem12-s4-4-q7": "4f6842bb34e8f763c3199a0bc2ce5a7523aade36bf2bf85418df08f339c78585",
+    "chem12-s4-4-q8": "a2d4e642bebf28a3ef004570daa87817bcdfbefbab2e7869d9b03af805fcf069",
+    "chem12-s4-4-q9": "88d111bd2d131ab9bf9f6078d08cc0278cd65b64e3c9b1f8f75470ec8d919d4d",
+    "chem12-s4-4-q10": "37f8dc56be662cf82977e09f107fbe71b9b7b1732bb1e55eb8fdcd9899105ccd",
+    "chem12-s4-4-q11": "40c92734017faccc59effa74210d55fd0db70ea628559d3d5fd89ec1cd780e70",
+    "chem12-s4-4-q12": "f7301686a184ffa2dc06c3f8653181f3690297b6a357cc3ac832414b3135a254",
+    "chem12-s4-4-q13": "a6f9e7e1ce67251801bc525e9d6b8e2c1f155765929ebbf7e9b632675f88d3c2",
+    "chem12-s4-4-q14": "23bb9284eacddb8c92edbe090ca328ee417d3b7008237b0860d8f3939a59f5e7",
+    "chem12-s4-4-q15": "624dc3e79d2cbcfa4f8813d1614881b97cf4a974cdebfea972513e1951e4d573",
+    "chem12-s4-4-q16": "13e864752efc1d93fb9089e04b81eb9294a9a83a7e4a87e9b4e71f3a79c2efed",
+    "chem12-s4-4-q17": "20a7581b81140a10f59567ecadb59a8f17b257a69e3139784cc66643f48c71cb",
+    "chem12-s4-5-q1": "25c03340ca43025c02efa74ca654472b60e1c90dd3a3a24e06d9cf249a2d61a5",
+    "chem12-s4-5-q2": "6423d6a9419c9d31d74fc4bf96eed6790dce24d851a882eacbe1fbe6f20ebb83",
+    "chem12-s4-5-q3": "43e7295b46c3db470e2f874f6f25427d4accf548f24b4199f0653a0ddf8e4e92",
+    "chem12-s4-5-q4": "67e8d02068cadd2f3d755a5d55ed643101cc1463daeb14e230b67434173760ae",
+    "chem12-s4-5-q5": "fc81aabf890b0e98ccf30ff3de47aff27c67defa557ff00d8625e2af49c14d0f",
+    "chem12-s4-5-q6": "0283c9c7f2cfa018136be3e8a6130c328d67ca8a326c9a3dd68f869cf8393251",
+    "chem12-s4-5-q7": "bcecbbb369650b85454e2876abf29f711c8dba10480013e6a87f62774ca26d43",
+    "chem12-s4-5-q8": "9dc079837cfb58ea0a73a100da11f489384b2babc83e53f6828a6646efcf96ad",
+    "chem12-s4-5-q9": "702e28fe8754f6d7c597f863346dd86b79656c79e87548b5b4106214faed3140",
+    "chem12-s4-5-q10": "04145949750d1db61e7df3ed8c561c1039f6373a3e2c08cb95834ff57e9b6f44",
+    "chem12-s4-5-q11": "2ddd90351997fe2da84b6bf0fe9d348be4bd9c0141a28824b3d32ed65580f3f1",
+    "chem12-s4-5-q12": "327b668a74c9b2cd72b5b98c5c78ecf9e3788014dc0424ac62c265728722a3e9",
+    "chem12-s4-5-q13": "adac4929cafa1edc5c3b47fb2866ccb4e38a231588948f290305dbf6600d31fe",
+    "chem12-s4-5-q14": "20ac8bcb36ef2f7b4237f0c150ad5e0e4f99ccd6de8877b082144dcf627cc924",
+    "chem12-s4-5-q15": "8eaa60764bc9576770520fd43915981b088aabad0b27959a4026685e9d350d54",
+    "chem12-s5-1-q1": "cf313257a4c4e6d44b5443ac69db349a9707f07cb8d7f92c37ece031d402b57c",
+    "chem12-s5-1-q2": "93f72769624d6fe88dc56e39bd77442e2f0d66afb3f2a16885e89c9cccf220f7",
+    "chem12-s5-1-q3": "4936e349579b5b17e117df5cd865c0a92dab6c21ef3461ac8a8efb9a93ffa178",
+    "chem12-s5-1-q4": "eb441641b1c9e0289dbd991d66c042c75339a207ea999949fd54093f0b72984a",
+    "chem12-s5-1-q5": "7e1b661118e3bfadf4acb9bb9be122b87330d2b9480293a7b1d4ba4821901937",
+    "chem12-s5-1-q6": "cf80c32632cf307e1ae8499a2a8bdcf78fde965eece99c5ce338beb96ee3da86",
+    "chem12-s5-1-q7": "304c5aa58b95d244b1a374a57cb5d3b466618f1b2800caba9577d057536ec77c",
+    "chem12-s5-1-q8": "c917d016f672e6e8de024ecb895328f24d190283f5606bde1b2a113399c4a7c8",
+    "chem12-s5-1-q9": "4685f950bf61ab02f951115a4cf161dd7d387ee3e326cfb2e1e10a9f033f6966",
+    "chem12-s5-1-q10": "3dd86bf125b48122c57ae18c458b7bfe0daeaa2fac89fc6c0687e1a93e99def6",
+    "chem12-s5-2-q1": "f9376db8c46ef3787de8a3032c0d2a70aa5483b06cf18527e9d0e65173cd6aed",
+    "chem12-s5-2-q2": "4a6c277099e67d6890a803426ffe8a00aa7512d1a5d7eeb039a70862325b211d",
+    "chem12-s5-2-q3": "5f985837b9b1d1434182faffe56631ac6a299ffb26ba50e1793a81390647fb9d",
+    "chem12-s5-2-q4": "0730948f40249c2b273ef232185b33aff0b90519d77ddc1b85f03aabab115072",
+    "chem12-s5-2-q5": "80512ff01c737416ca239adecce382ecc7248b0488a55a552185b8575ce33ea8",
+    "chem12-s5-2-q6": "6da696753b5fbf0ebc05f088a98100c3fef8848bcc43972d1afbc914ffc17d08",
+    "chem12-s5-2-q7": "76a8acc3b135e0c9323590500c1aad3d65a9633dc723b5ff0205493d855c24cd",
+    "chem12-s5-2-q8": "083a77bd26d95282e624c39666b7668a7ba79834b9187c4b289e864fd3c3dfe6",
+    "chem12-s5-2-q9": "41354e11e1ca0481afe33bbc5489eabb91f7bd386eb895896be295078eb928da",
+    "chem12-s5-2-q10": "07b528d0411f75036bf7d48c1df4e2f31e014373aecfc0afe8b8a53515c5881d",
+    "chem12-s5-2-q11": "b9fcbbc21a52793f9517062f38f7aa266cd41a6acd26459fd94a873ae7ab6a8e",
+    "chem12-s5-2-q12": "21a1bc8c54cb68be715a615c944308be85d02f1addbedea4246f14a3f128a607",
+    "chem12-s5-2-q13": "08381c57191df60b346fa2f39286fa9df1d49bc43646a442dea44c75d92555e2",
+    "chem12-s5-2-q14": "b046c64877cb87be1ac98a2d459173c2a1c44f7f4acb5c1ee98708ee2f7eb4cc",
+    "chem12-s5-2-q15": "ca9a082aa4fefbec4a43e1d14dce72332af2b8f98c5f6f3c0c03bb149b091399",
+    "chem12-s5-2-q16": "50572a7607b6d659ba0ed6bd20b7a00f0d80f998ca9bda4a3bfc02c7bf39e8d5",
+    "chem12-s5-3-q1": "55cbb520bd9bd35ee2c308278b9739c8728aa1cf707f0ed52196300449d4ca5a",
+    "chem12-s5-3-q2": "a37b331b913ca021d38667f5ac837f70a77a79457dccabe99e5e5367c1851d3c",
+    "chem12-s5-3-q3": "ea318311cfd3751387a2176f41014ee8f42ca53b33d79cdc8cf6bfedea19ac83",
+    "chem12-s5-3-q4": "1bf103de2855b0604e663be875ffdc7530fd7ec7bd3f50b8b2efa0f17b781283",
+    "chem12-s5-3-q5": "80848e0861c048ef26024df57e1a7c2fa3cb58eed9fb7d3a99dfecb9f37b0b4d",
+    "chem12-s5-3-q6": "2acbb9fc56a392842ce6c1e5bb6e5bc162e3bf8144429e4145eaebd925e4ff94",
+    "chem12-s5-3-q7": "e1df1411800c5ad8480f4790b3a6d49964df0f9836f32e9b1cade4ea46b0d7ce",
+    "chem12-s5-3-q8": "d7c81e62f1c43b0fc3e4ac41ac5c228a6c5fb581a42fea7249f905d287823d3e",
+    "chem12-s5-3-q9": "0ad3dc87795cc8f1a495afc776bc929ffac3c5b74a6429163b6faf55fb2887ed",
+    "chem12-s5-3-q10": "c36c7b9386542dfcc49be1fb6ca86cea627b15c3554c5208f0448fafdb2ad6dc",
+    "chem12-s5-3-q11": "37a85e24cf83ee6fae6a46ca7316dd463631c269b9c63f8d363ea75ce6524418",
+    "chem12-s5-3-q12": "65f8c68323c5c6a357e1d0deb1cff04aac76da23db9b58496d39646ddc10ee29",
+    "chem12-s5-3-q13": "10781c5acd1ad4110d809e9aeb69942cff15a37ddb2c16992d76689d1596f972",
+    "chem12-s5-3-q14": "068fdac871c8c21d69dbdcf942e48b2f8f0c0923768a91cbee69fc552da75099",
+    "chem12-s5-4-q1": "cb0bb1a3d8655b2cdc519fac150cea8b80175fcc9c8673da6f5c6f08d1110707",
+    "chem12-s5-4-q2": "52d8be08629d56f50ad5b84b26a71081424dc72933fb2377a9489d4e1106c21a",
+    "chem12-s5-4-q3": "3bc00070071be0dd8937d1f1fb4d4f0041304b824db4d00963400e0957824ea3",
+    "chem12-s5-4-q4": "1811137b0ed46d44e10a8d00913097051aba3445221244b27674ff736da3aa35",
+    "chem12-s5-4-q5": "bb5ae3abe7803e3c8f903ba5d3721877aee7d93f6b3ab84f7cb3da90974ffcd2",
+    "chem12-s5-4-q6": "e217107b855ba410fe22c5a7c8f3b155276b5878ffbe82a709adaa8fc26a32e7",
+    "chem12-s5-4-q7": "7d35cc092cd554287aebfc4c023599ee99cdff90240aa9ac7827a2b178cb7f60",
+    "chem12-s5-4-q8": "33c064e2b250673fb7ce275d3664fd8ad594b2e93600e63c09076acb99234efe",
+    "chem12-s5-4-q9": "18acafd72f3764a39373aa1d0c691f00e91a2ceda233e51b4ca17303311a0dbf",
+    "chem12-s5-4-q10": "74964764644584e9c241daf002480d1b62794e637995aa18fd8db30b1f18d777",
+    "chem12-s5-4-q11": "03abba8acce112fea5b6bf0b3f8f2456864d63afe90437570588a03341817cb5",
+    "chem12-s5-4-q12": "a32e3c54637a5d083819eb26bea90584743571daf3d78571b5be71c65bfdbb2b",
+    "chem12-s5-4-q13": "80dc35419af1300e9df297b83a4a83c68c04d7c41edeeab71d2f36238c437f4b",
+    "chem12-s5-4-q14": "83fb8977b59c61a7a2299daec74dd519e00b43929cb31c4a0bba7e0a37fbc861",
+    "chem12-s5-4-q15": "23187f58228fa058ce83c4dd91c8d3db8f134def9c551f09470f773a57fcd29c",
+    "chem12-s5-5-q1": "5d5c2c40188f62da59b7bd63c6597050c7273e55627b5e5b1c6cdc0de7a63a6f",
+    "chem12-s5-5-q2": "c625b442f73922183bc3e4793cb59bbac504a42f3125fcd9deaf8abdd946dff2",
+    "chem12-s5-5-q3": "2b072ff1a584aa1058453787e5a8572b6ea74fa3dbfe0cb7817491d44a844886",
+    "chem12-s5-5-q4": "4ab775a53f53d1eb3071c78275597c3811395ab74c3527d7c9927d56b2607f28",
+    "chem12-s5-5-q5": "94abf600b0c72dfba53884030e1f0ae15fef3facdcee6b8a0629b7c0e4193f84",
+    "chem12-s5-5-q6": "5538e34931acb91e2668c4c98698ed4405ab7267742054b4eab0dd824691b2e7",
+    "chem12-s5-5-q7": "e90e1cfd3d9c5acf3565b559dc2c74ceed9cc75999ce8fb8ed8664796776e84c",
+    "chem12-s5-5-q8": "cad00d1218832137244f90aa7ae9e163d636aab9ee909bab9150b5a32cbacd4c",
+    "chem12-s5-5-q9": "57aea65af9d184cf9cf2f3e0c84e763c6fc52df8ba7df8c0c059e8ed44d65234",
+    "chem12-s5-5-q10": "ac3fb20d26d0b9eed4389faf1e83939c0221dced90bbd4faf7b31ac49d2efbe6",
+    "chem12-s5-5-q11": "7e514b2929c996b3f4c3a24448ea2c6370c222ecf5fd9b05bd908291bf27b96f",
+    "chem12-s6-1-q1": "2a0c1e8ec67ba2e4d44d2af14c783c620873285410f405a051a80d8c0cc8ad87",
+    "chem12-s6-1-q2": "fb8a5e0ad52a835c2d00619e89faa856b191ec788cc79378e799eadb016a5f49",
+    "chem12-s6-1-q3": "ce3099e1842c85f5654e6385346a111abaf969ca921603cf786c7b39fdd1619d",
+    "chem12-s6-1-q4": "10817928b821c431d1224567a36bf2399879f83d552256ecb8e0f4bdb9f988de",
+    "chem12-s6-1-q5": "ddc10e38164c7b62b487a58f08c04fe32f09a5f2cc2a4101784aef8a133e3223",
+    "chem12-s6-1-q6": "fe0447eb128dec4bbb3fd342a600af5a0fcb0b89c5fe133456e9e3d8f01e3be6",
+    "chem12-s6-1-q7": "aa6887d9c0ff56d25c2502a9a1ea813cbb04c327ed792a034ac112ab7d862b6d",
+    "chem12-s6-1-q8": "651df08a63c421c470da8c90cc57250ad50432ca1feb1802af311e293021c0e3",
+    "chem12-s6-1-q9": "25a0591dfdb32d64af8f78fffd92ffd7881252143f6c6cc7c7e6d27e4f9f68ce",
+    "chem12-s6-1-q10": "52132e2cf67c773746582e031548a8cc44fabbe0b160ce30dbf4dd2ac0c95ca4",
+    "chem12-s6-2-q1": "d9d1d355691266d95dc1df708f91c51007aecc4106c3e8676d11458628e77b84",
+    "chem12-s6-2-q2": "9cab9b943c8b44cb20148e1dc1ba98d6a3c15b64bd1a01d7d332c01666e88353",
+    "chem12-s6-2-q3": "c48eaa2b6bdd0642f84f16c9da2ad741899f9e4d9dede44a00a6ac72d24a828c",
+    "chem12-s6-2-q4": "b1bfe6f08a6e066ea94e65f8c8afcfa757dee05e89af60b17f619531bfcdeb8b",
+    "chem12-s6-2-q5": "6923fa727edf363bfbcaecd25c513fac2ade1e3d1f6f668291d664011d3944b7",
+    "chem12-s6-2-q6": "914af9abedaaf739072b2e9f5df04ca4e1ae4ae44df38ffa90efcc70a05b09fe",
+    "chem12-s6-2-q7": "4637e348846388aa59225d91bcd67a09f546b4b97ce1f1f443e5b3f360807338",
+    "chem12-s6-3-q1": "5ff5d817193017e93790edbb1cf30eeaf23f697f18ad30b74615535d9bd10670",
+    "chem12-s6-3-q2": "96b8c7e055620ee73393f7ba1a6c3440cec381395b0720bce27e0e09e84d79f3",
+    "chem12-s6-3-q3": "c7bb298992bf8cdcc28da8298f01a835905a366a070c921f9452ae6d6f381124",
+    "chem12-s6-3-q4": "7856cff9e5362178e5942eb8973390f2cde8b657cf40eb8ecf536bf7d78b64c1",
+    "chem12-s6-3-q5": "153a0e940ceed136dcd0cdc2b681e4500c01ada56dbc59fead9f02ab417b5b7a",
+    "chem12-s6-3-q6": "4b6bd06d8c6a4879ea3c1633f66ba5dfcbae4e03ad00c5aca0edc2af63f41152",
+    "chem12-s6-3-q7": "d7d3118fa27b9ef6dc9bfb447d41198cfee8870dddfa502405646d1ec0fff6c0",
+    "chem12-s6-3-q8": "fc154e6e1d82a4ab6cc1feaf8d2255ae6c4f90b0c3c170f165f3812aaf56b122",
+    "chem12-s6-3-q9": "92986f429c9add52d864a597538e47c3fdfa40b7ec743589e307dbb056ba9517",
+    "chem12-s6-3-q10": "4a5fc3081d108dd111bf31312ab1311a88a1c000f299ac643d48e2fd34460d41",
+    "chem12-s6-3-q11": "e115644358581364a8e6eb61a33c3043b36190b9d2b3d0985f372653faba8574",
+    "chem12-s6-3-q12": "b68e2e2f9320f34b35377be2568006bd13ef2129974f8210e17fe24b5bccadbe",
+    "chem12-s6-3-q13": "793574889abac388681602dbad1a136a91d27cf3363832184972a7988bc240ac",
+    "chem12-s6-3-q14": "834e186e87b394471052634eac461a93f4b5689d9017f2bb08841a9d74fe21c1",
+    "chem12-s6-3-q15": "3bf880c2cad3151e73265fe8530d75938c0301752323bd4b0f638df499d1a2f0",
+    "chem12-s6-3-q16": "da6f0b1dc3e562f8934726e59fe22a2fb8ba4404a4e789009bcb48415b519ab8",
+    "chem12-s6-3-q17": "695f5b2a13d6b2d3dfb2fd75dafedced94451488e9172110a10dc25950590ad5",
+    "chem12-s6-3-q18": "75c219e35c94bf007ea00c5166008b46f87d2a0a8f7c06519cdf71f10c99524c",
+    "chem12-s6-3-q19": "0f419695cf4f576ad93a44af90a0bf1de754a54c3f25df4a79e67c004867f55b",
+    "chem12-s6-3-q20": "124c3056ccab7d622c0cd5a1dbe3f7cc935bb692f064fcecde44f29394f58afe",
+    "chem12-s6-3-q21": "566709d11babf943376e6492c86b2fef4d8e13804b713e5293499994a60ebc0f",
+    "chem12-s6-4-q1": "ebfddaf079ac9e4a68b1ef6921ddf88de7c45f47740d113cae0cfed0174dfcc4",
+    "chem12-s6-4-q2": "8833010c4808645787759fb52cb28e63d27ac7c38f4c9a7fcb99521c73b0fee0",
+    "chem12-s6-4-q3": "6d5ecca90cd718d0669e3c5183923b356145110cabc404f33398e386078b7cc0",
+    "chem12-s6-4-q4": "0f4e3e71d40848919db0fe7826073eecfb13845fa1b208468bc0405a42696b08",
+    "chem12-s6-4-q5": "c346e7e29826c208019d1323913d221a888a0dee1c01a081f21829e7ab36bf0e",
+    "chem12-s6-4-q6": "69784931a6f306be178171d453d5cb0b2e698658a10c9b2cc4d0daa58ba3f42f",
+    "chem12-s6-4-q7": "a58d1ba35796aabc06c3fc37246946809a95342c3cbe103fccfbbf0d64961b8f",
+    "chem12-s6-4-q8": "3e4904867de198bc35d08414b021e109a3551c0a71bc956017afd1d8821152e6",
+    "chem12-s6-4-q9": "960d20eaa9e7ff3597ea7016be2a54816175897bdacda6353d6bf99f62185b10",
+    "chem12-s6-4-q10": "13cd9db9ca1c857a40c45cd4a85af481642ea4d5d4076d32bdb68d68fda56bd5",
+    "chem12-s6-4-q11": "4546115bbfeb78d0dc2f48c6693a953a4bb21fb627e64560496112a6bcfb74d7",
+    "chem12-s6-4-q12": "4891e7f6402cc9079a301e7e1d5257bb1220cbbbac8af6f8d9eb7e3c1c15d76d",
+    "chem12-s6-4-q13": "f6ce052d355316ee3b30182a521e12ebe0240e60ef28fdaf0a37753568cadeea",
+    "chem12-s6-4-q14": "ddab350bd65f7f3ec3afce1ebd59cb4cc35e7aa2aa14e931a5c986a61aad18d5",
+    "chem12-s6-4-q15": "c095ded0e8d208737fc98bee0b89e2f4f52fe8dee73e9e43b83763c6675ddb54",
+    "chem12-s6-4-q16": "2f815d7821f8422ef073fa3c7b09e53f313a2606fa97e5c6820b11a6fb135e9b",
+    "chem12-s6-4-q17": "1b2491cdf9e98a264f1c2ed0b3c04bacb1d91b36f2a17b66fba86d7349f02db9",
+    "chem12-s6-5-q1": "80e0b8e7decc0dd3c8858f7286fbfac31239531c7bf0c3d45d34efcf26061a04",
+    "chem12-s6-5-q2": "726ecb15bbd536e78a7a3c8d0504ada6f4410d99a28edcb69b9108145b09bfb3",
+    "chem12-s6-5-q3": "ecbbf3f65b1c8b3990275dbbc9f607ab912cfbd6610e9970c4fdedb7f8bcff77",
+    "chem12-s6-5-q4": "e6d9ad255d343c5f63b2653495d60ccbb47259259aec40ade9dfc4f7394b7b54",
+    "chem12-s6-5-q5": "f7d32c7ab7142b8015f7c0a567ec6e803475643307d8178923fb524d984ab0ef",
+    "chem12-s6-5-q6": "da6675ac251336ecdbf15374e9c99a15dfcb6a107a598be696b2870554adf309",
+    "chem12-s6-5-q7": "994664859c04c1a0ffcf37aebe185da7fa0ce0c860ee831d963e891eae1f93c7",
+    "chem12-s6-5-q8": "2dd0f3c7a5a1d5d8e588b8998fbb1b9855b19843114dcd948f560d78f8997035",
+    "chem12-s6-5-q9": "be0ff01f18183fe671c9ff9df3935c1fc640ff5eba5a613c3d7b3697c3201766",
+    "chem12-s6-5-q10": "420253582b8e1f8974ce5dedb28dcf9bc94c6df66f3ec30774fdfe90da1b7fb9",
+    "chem12-s6-5-q11": "8d2054a615480e45b7fb171ab3dc4cc16a503f1b9c4fec03b32975bd3d9ee3f6",
+    "chem12-s6-5-q12": "82d18a7579143d714b8ec84e3f42d5dad44af9e699ba9614927321e515742e21"
+  },
+  "sections": [
+    {
+      "section": "1.1",
+      "skills": [
+        {
+          "id": "practice-1-1-1",
+          "title": "Measure a reaction, then convert the rate",
+          "questions": [
+            "chem12-s1-1-q1",
+            "chem12-s1-1-q2",
+            "chem12-s1-1-q4"
+          ],
+          "explanation": "Choose a property tied to a reacting amount: solid mass loss, gas volume or pressure, solution colour, or timed titration. Convert the measured change to moles, use the balanced coefficient ratio, and divide by time or solution volume as required. Gas collection must account for gases consumed as well as gases formed.",
+          "formula": "n = m/M; n(gas) = Vgas/Vm; c = n/Vsolution; at the exercise’s STP, Vm = 22.4 L mol⁻¹"
+        },
+        {
+          "id": "practice-1-1-2",
+          "title": "Read slopes and cumulative graphs",
+          "questions": [
+            "chem12-s1-1-q1",
+            "chem12-s1-1-q3",
+            "chem12-s1-1-q4"
+          ],
+          "explanation": "Average rate uses two readings over an interval. Instantaneous rate uses a tangent at the specified time; V/t from the origin usually gives a different value. A cumulative gas volume can keep increasing while each successive increment gets smaller. A horizontal product plateau means no further net formation.",
+          "formula": "Average gas rate = (V₂ − V₁)/(t₂ − t₁); instantaneous gas rate = tangent slope"
+        },
+        {
+          "id": "practice-1-1-3",
+          "title": "Use the calibration graph before stoichiometry",
+          "questions": [
+            "chem12-s1-1-q5"
+          ],
+          "explanation": "Absorbance increases with concentration for the calibrated optical setup. Read concentration from the supplied calibration line, rather than assuming absorbance equals molarity. Convert product concentration changes to the requested reactant loss using the balanced equation. Record observations such as colour, bubbles and dissolving metal separately from their chemical explanation.",
+          "formula": "If the calibration is A = kc, then c = A/k. Use the graph’s slope k and units."
+        },
+        {
+          "id": "practice-1-1-4",
+          "title": "Check the limiting reagent and the printed formula",
+          "questions": [
+            "chem12-s1-1-q2",
+            "chem12-s1-1-q4"
+          ],
+          "explanation": "A constant-rate extrapolation cannot consume more reagent than is available. If the question explicitly asks for an impossible extrapolation, distinguish that arithmetic result from the physically possible total. In Q2 the printed CuNO₃ equation must not silently be replaced with Cu(NO₃)₂; verify atom balance and state the assumption.",
+          "formula": "Maximum product moles = initial limiting-reactant moles × product/reactant coefficient ratio"
+        }
+      ]
+    },
+    {
+      "section": "1.2",
+      "skills": [
+        {
+          "id": "practice-1-2-1",
+          "title": "Classify the rate factors by phase",
+          "questions": [
+            "chem12-s1-2-q1",
+            "chem12-s1-2-q2",
+            "chem12-s1-2-q4",
+            "chem12-s1-2-q6"
+          ],
+          "explanation": "Nature of reactants, concentration, temperature and catalysts are general factors; exposed surface area is an additional factor for heterogeneous reactions at an interface. Powdering a solid creates accessible sites, whereas a homogeneous mixture already reacts throughout one phase. Fast ionic precipitation and slower bond-rearrangement reactions illustrate reactant identity.",
+          "formula": "Homogeneous: one phase. Heterogeneous: more than one phase; reaction at accessible interfaces."
+        },
+        {
+          "id": "practice-1-2-2",
+          "title": "Explain temperature and catalyst effects separately",
+          "questions": [
+            "chem12-s1-2-q3",
+            "chem12-s1-2-q4",
+            "chem12-s1-2-q5"
+          ],
+          "explanation": "Heating normally increases the fraction of collisions with enough energy. A catalyst supplies a different pathway and is regenerated. Examples include iron in ammonia synthesis, catalytic metals in exhaust converters, platinum or catalase for peroxide decomposition, and enzymes in photosynthetic reactions. Identify the catalytic species rather than treating any light-absorbing pigment as a universal catalyst.",
+          "formula": "Higher temperature changes particle energies; a catalyst changes the pathway."
+        },
+        {
+          "id": "practice-1-2-3",
+          "title": "Convert gas production into decomposition rate",
+          "questions": [
+            "chem12-s1-2-q5"
+          ],
+          "explanation": "Balance the decomposition first. For HCOOH → CO + H₂O, one mole of gas CO represents one mole of acid decomposed. Convert gas volume at the stated conditions to moles before dividing by time. Half the volume takes half the time only if a constant rate is assumed. A 10 °C rate-doubling estimate is a classroom approximation.",
+          "formula": "r(HCOOH) = V(CO)/(Vm Δt), for this 1:1 equation"
+        },
+        {
+          "id": "practice-1-2-4",
+          "title": "Rank particle pictures using both concentrations",
+          "questions": [
+            "chem12-s1-2-q7"
+          ],
+          "explanation": "Compare numbers of each reactant per unit volume, with temperature held fixed. Compressing the same particle inventory increases concentration; adding particles can do the same. In a simple bimolecular collision model, both reactant concentrations matter. A drawing can support a qualitative ranking without providing an exact measured rate law.",
+          "formula": "Simple encounter model: rate per volume ∝ [G][B]"
+        },
+        {
+          "id": "practice-1-2-5",
+          "title": "Separate a forward rate from a net change",
+          "questions": [
+            "chem12-s1-2-q4"
+          ],
+          "explanation": "Increasing the pressure of product CO₂ is not the same as increasing the concentration of an acid reactant attacking marble. It need not increase that forward reaction rate. In a reversible carbonate system it can also change the reverse reaction or equilibrium and therefore alter the net dissolution.",
+          "formula": "Net rate = forward rate − reverse rate"
+        }
+      ]
+    },
+    {
+      "section": "1.3",
+      "skills": [
+        {
+          "id": "practice-1-3-1",
+          "title": "Count effective collisions, not just encounters",
+          "questions": [
+            "chem12-s1-3-q1",
+            "chem12-s1-3-q2",
+            "chem12-s1-3-q7",
+            "chem12-s1-3-q8"
+          ],
+          "explanation": "A useful collision model combines encounter frequency with success probability. The same encounter must have sufficient energy and suitable orientation. In Cl + ClNO₂ → Cl₂ + NO₂, the incoming Cl atom must approach the bound chlorine end so that Cl–Cl can form as N–Cl breaks. Chlorine atoms are not chloride ions.",
+          "formula": "Effective-collision rate ≈ collision frequency × fraction energetically and geometrically suitable"
+        },
+        {
+          "id": "practice-1-3-2",
+          "title": "Connect cutting, concentration and rate rankings",
+          "questions": [
+            "chem12-s1-3-q3",
+            "chem12-s1-3-q6",
+            "chem12-s1-3-q8"
+          ],
+          "explanation": "For eight cubes of half the original side, total volume and mass stay fixed but total surface doubles. Twice the rate follows only if all faces are exposed and rate is proportional to surface. Compare powder with a cube at equal acid concentration, then compare acid concentrations at equal geometry.",
+          "formula": "Area/volume of a cube = 6/ℓ; eight half-side cubes have twice the original exposed area"
+        },
+        {
+          "id": "practice-1-3-3",
+          "title": "Apply concentration and volume multipliers",
+          "questions": [
+            "chem12-s1-3-q4"
+          ],
+          "explanation": "For a supplied rate law, multiply each concentration-change factor raised to its order. For r = k[A][B], tripling A and halving B multiplies rate by 1.5. Doubling solution volume at fixed amounts halves both concentrations, giving one-quarter the rate. If concentrations are unchanged, a rate increase points to k or another condition changing.",
+          "formula": "r₂/r₁ = (k₂/k₁)([A]₂/[A]₁)ᵐ([B]₂/[B]₁)ⁿ"
+        },
+        {
+          "id": "practice-1-3-4",
+          "title": "Predict the shape of a gas-production curve",
+          "questions": [
+            "chem12-s1-3-q5"
+          ],
+          "explanation": "Draw cumulative gas volume rising steeply at first, then more slowly, then reaching a plateau as a limiting reactant is exhausted. The slope is the rate. Explain the flattening through reduced acid availability and/or loss of solid surface, rather than claiming that the gas already collected disappears.",
+          "formula": "dVgas/dt decreases toward zero while Vgas approaches its final value"
+        }
+      ]
+    },
+    {
+      "section": "1.4",
+      "skills": [
+        {
+          "id": "practice-1-4-1",
+          "title": "Write and scale thermochemical equations",
+          "questions": [
+            "chem12-s1-4-q1",
+            "chem12-s1-4-q5",
+            "chem12-s1-4-q7"
+          ],
+          "explanation": "Balance atoms before attaching the heat term. Exothermic heat belongs on the product side and ΔH is negative; endothermic heat belongs on the reactant side and ΔH is positive. Multiplying the written equation multiplies ΔH; reversing it changes the sign. Two moles of water decomposed require twice the per-mole energy.",
+          "formula": "Reverse: ΔHnew = −ΔH. Multiply coefficients by n: ΔHnew = nΔH."
+        },
+        {
+          "id": "practice-1-4-2",
+          "title": "Read the energy reference for every arrow",
+          "questions": [
+            "chem12-s1-4-q2",
+            "chem12-s1-4-q3",
+            "chem12-s1-4-q4",
+            "chem12-s1-4-q5",
+            "chem12-s1-4-q10"
+          ],
+          "explanation": "Identify reactant, product and transition-state levels. Forward and reverse activation energies start from different plateaus. The absolute potential energy of an activated complex is measured from the chosen zero, whereas activation energy is a difference. A catalyst changes the pathway peaks but neither endpoint.",
+          "formula": "Eₐ,f = H‡ − HR; Eₐ,r = H‡ − HP; ΔH = HP − HR = Eₐ,f − Eₐ,r"
+        },
+        {
+          "id": "practice-1-4-3",
+          "title": "Interpret an energy-distribution graph",
+          "questions": [
+            "chem12-s1-4-q2",
+            "chem12-s1-4-q4",
+            "chem12-s1-4-q8",
+            "chem12-s1-4-q10"
+          ],
+          "explanation": "On a kinetic-energy distribution, the fraction beyond Eₐ is the area to the right of the threshold, not the curve’s height at that energy. Heating changes the distribution; it does not lower the potential-energy barrier in this model. A catalyst lowers the required threshold. Compare speed using the barrier and conditions, not ΔH alone.",
+          "formula": "Energetically eligible fraction = area with collision energy ≥ Eₐ / total distribution area"
+        },
+        {
+          "id": "practice-1-4-4",
+          "title": "Track kinetic and potential energy during approach",
+          "questions": [
+            "chem12-s1-4-q9"
+          ],
+          "explanation": "During an isolated encounter climbing the repulsive barrier, kinetic energy is converted into potential energy. Their sum remains constant. After passing the activated configuration, falling potential energy can become kinetic energy again. Draw complementary KE and PE changes under a constant total-energy line.",
+          "formula": "Etotal = KE + PE, for the isolated encounter"
+        },
+        {
+          "id": "practice-1-4-5",
+          "title": "Explain self-sustaining combustion",
+          "questions": [
+            "chem12-s1-4-q6",
+            "chem12-s1-4-q7"
+          ],
+          "explanation": "After ignition, an exothermic fire can heat neighbouring fuel enough to overcome its activation barrier. Continued burning still requires fuel, oxidant and enough retained heat. Bond breaking absorbs energy; bond formation releases energy. For an exothermic reaction, the latter release exceeds the former cost.",
+          "formula": "ΔH ≈ energy absorbed in bond breaking − energy released in bond formation"
+        }
+      ]
+    },
+    {
+      "section": "1.5",
+      "skills": [
+        {
+          "id": "practice-1-5-1",
+          "title": "Construct and test a mechanism",
+          "questions": [
+            "chem12-s1-5-q1",
+            "chem12-s1-5-q3",
+            "chem12-s1-5-q5",
+            "chem12-s1-5-q6",
+            "chem12-s1-5-q8",
+            "chem12-s1-5-q9"
+          ],
+          "explanation": "Add elementary steps, multiply a repeated step when needed, and cancel species appearing on both sides. The remaining equation must match the overall reaction in both atoms and charge. A proposed mechanism must also agree with measured kinetics; a balanced net equation alone cannot identify the steps.",
+          "formula": "Overall reaction = algebraic sum of the elementary steps"
+        },
+        {
+          "id": "practice-1-5-2",
+          "title": "Distinguish catalyst, intermediate and phase",
+          "questions": [
+            "chem12-s1-5-q4",
+            "chem12-s1-5-q5",
+            "chem12-s1-5-q6",
+            "chem12-s1-5-q9"
+          ],
+          "explanation": "An intermediate is made and later consumed; a catalyst is used and later regenerated. Neither remains in the net equation. Compare catalyst and reactant phases to classify homogeneous or heterogeneous catalysis. In the iodide/peroxide mechanism, IO⁻ is intermediate and I⁻ is catalyst.",
+          "formula": "Intermediate: absent initially, produced then consumed. Catalyst: present initially, consumed then regenerated."
+        },
+        {
+          "id": "practice-1-5-3",
+          "title": "Read a multistep energy profile",
+          "questions": [
+            "chem12-s1-5-q2",
+            "chem12-s1-5-q6",
+            "chem12-s1-5-q7",
+            "chem12-s1-5-q9",
+            "chem12-s1-5-q10"
+          ],
+          "explanation": "Each peak represents an activated configuration and each intervening valley an intermediate configuration. Compare a step’s rise from its own preceding minimum when using the textbook rate-determining-step model. A high absolute peak is not automatically the largest local barrier. Specify the starting level when an exercise asks for “the” forward activation energy.",
+          "formula": "Local Eₐ for step i = energy of peak i − energy of its preceding minimum"
+        },
+        {
+          "id": "practice-1-5-4",
+          "title": "Use a slow elementary step to test rate dependence",
+          "questions": [
+            "chem12-s1-5-q2",
+            "chem12-s1-5-q3",
+            "chem12-s1-5-q8",
+            "chem12-s1-5-q9"
+          ],
+          "explanation": "For a simple limiting elementary step, its reactant molecularity predicts the step rate law. A slow step containing no CO can explain independence from [CO], even if CO is consumed overall. For more complicated mechanisms, intermediates require a justified elimination relation; do not assign overall orders from the net coefficients.",
+          "formula": "If slow elementary step is A + B → I: r ≈ k[A][B]"
+        },
+        {
+          "id": "practice-1-5-5",
+          "title": "Sketch a complete reversible profile",
+          "questions": [
+            "chem12-s1-5-q7",
+            "chem12-s1-5-q9",
+            "chem12-s1-5-q10"
+          ],
+          "explanation": "Label potential energy and reaction progress, both endpoint levels, all peaks and valleys, forward/reverse barriers, and the sign of ΔH. An endothermic forward reaction ends higher. Show a catalyzed alternative with lower barriers and unchanged endpoints. Simultaneous encounters of many reactants are improbable, supporting multistep descriptions.",
+          "formula": "The horizontal reaction coordinate is progress, not elapsed time."
+        }
+      ]
+    },
+    {
+      "section": "2.1",
+      "skills": [
+        {
+          "id": "practice-2-1-1",
+          "title": "Distinguish equilibrium from an open steady state",
+          "questions": [
+            "chem12-s2-1-q1",
+            "chem12-s2-1-q5",
+            "chem12-s2-1-q6",
+            "chem12-s2-1-q7"
+          ],
+          "explanation": "Constant appearance alone is insufficient. Chemical equilibrium requires reversible opposing processes in a closed material inventory under fixed conditions. A candle or a fed reaction cycle can maintain steady amounts through continuing supply and removal without equal forward and exact reverse reactions. A temperature-induced change alone does not prove prior equilibrium.",
+          "formula": "Equilibrium: equal opposing fluxes of the same reversible process. Steady state: constant amounts can be maintained by throughput."
+        },
+        {
+          "id": "practice-2-1-2",
+          "title": "Use stoichiometry for nonzero opposing fluxes",
+          "questions": [
+            "chem12-s2-1-q2",
+            "chem12-s2-1-q3"
+          ],
+          "explanation": "At equilibrium a given species is consumed and produced equally quickly, but different species have fluxes set by the balanced coefficients. Convert molar to mass flux using each species’ own molar mass. Equal mole fluxes of two substances need not be equal gram fluxes.",
+          "formula": "For N₂ + 3H₂ ⇌ 2NH₃: |dn(N₂)/dt| : |dn(H₂)/dt| : |dn(NH₃)/dt| = 1 : 3 : 2"
+        },
+        {
+          "id": "practice-2-1-3",
+          "title": "Apply dynamic balance to phase changes and steps",
+          "questions": [
+            "chem12-s2-1-q4",
+            "chem12-s2-1-q7",
+            "chem12-s2-1-q8"
+          ],
+          "explanation": "In a sealed liquid–vapour system, vapour accumulates until condensation equals evaporation. Molecular exchange continues at a constant liquid level. In true equilibrium, every reversible elementary step is balanced by its own reverse; equal rates in two different reactions of a consuming cycle do not establish equilibrium.",
+          "formula": "Closed liquid ⇌ vapour: evaporation rate = condensation rate at phase equilibrium"
+        },
+        {
+          "id": "practice-2-1-4",
+          "title": "Draw rate and concentration graphs separately",
+          "questions": [
+            "chem12-s2-1-q9",
+            "chem12-s2-1-q10",
+            "chem12-s2-1-q11"
+          ],
+          "explanation": "Starting with reactants only, the reverse rate begins at zero while products build up. The two rates become equal and nonzero; each concentration becomes constant but concentrations need not be equal. If all reactants are removed, the forward rate initially falls to zero, then reverse reaction restores some reactants until a new equilibrium is reached.",
+          "formula": "Constant concentration means zero net change; it does not mean zero forward or reverse rate."
+        }
+      ]
+    },
+    {
+      "section": "2.2",
+      "skills": [
+        {
+          "id": "practice-2-2-1",
+          "title": "Predict a shift and compare with the old equilibrium",
+          "questions": [
+            "chem12-s2-2-q1",
+            "chem12-s2-2-q2",
+            "chem12-s2-2-q3",
+            "chem12-s2-2-q4",
+            "chem12-s2-2-q5",
+            "chem12-s2-2-q6",
+            "chem12-s2-2-q7",
+            "chem12-s2-2-q8"
+          ],
+          "explanation": "Adding a variable-concentration reactant or removing a product usually favours the forward direction; the opposite stresses favour reverse. Include both the imposed jump and later reaction when comparing a final concentration with its original value. Colour and pH can reveal the changing form, but the system only partly offsets the imposed change.",
+          "formula": "At fixed temperature, restore Q = K; do not assume every old concentration is restored."
+        },
+        {
+          "id": "practice-2-2-2",
+          "title": "Draw the immediate jump and the relaxation",
+          "questions": [
+            "chem12-s2-2-q2",
+            "chem12-s2-2-q11",
+            "chem12-s2-2-q12"
+          ],
+          "explanation": "At fixed volume, only the directly added or removed species has an immediate concentration jump; other species change as reaction proceeds. The immediately affected reaction rate follows the relevant concentration dependence, then the two rates converge. The chemical changes have coefficient ratios; a catalyst changes approach speed without shifting equilibrium.",
+          "formula": "For Ni(s) + 4CO ⇌ Ni(CO)₄: relaxation Δ[CO] = −4Δ[Ni(CO)₄]"
+        },
+        {
+          "id": "practice-2-2-3",
+          "title": "Recognize unchanged pure-solid activity",
+          "questions": [
+            "chem12-s2-2-q9"
+          ],
+          "explanation": "Adding a catalyst or exposing more of an existing pure solid changes kinetics rather than K or equilibrium position. A pure solid is omitted from the mass-action expression while that phase remains. Do not confuse increasing its surface with increasing a dissolved reactant concentration.",
+          "formula": "Pure-solid activity is constant while the phase exists."
+        },
+        {
+          "id": "practice-2-2-4",
+          "title": "Follow coupled equilibria through a shared species",
+          "questions": [
+            "chem12-s2-2-q10",
+            "chem12-s2-2-q13",
+            "chem12-s2-2-q14"
+          ],
+          "explanation": "Treat the first removal or conversion, then pass its effect to the linked equilibrium. Ag⁺ can remove chloride as AgCl and change a copper-complex colour; acid can remove free NH₃ as NH₄⁺ and dissociate an ammonia complex; protonating acetate can encourage a sparingly soluble acetate salt to dissolve.",
+          "formula": "A side reaction lowers a free-ion concentration even when the total amount of that element is unchanged."
+        },
+        {
+          "id": "practice-2-2-5",
+          "title": "Interpret product-favoured and persistent throughput",
+          "questions": [
+            "chem12-s2-2-q15",
+            "chem12-s2-2-q16"
+          ],
+          "explanation": "A large K describes a powered concentration ratio, not a rule that each product concentration exceeds every reactant concentration. An excess reactant can remain abundant. Continuous feed or product removal can keep an open system displaced from equilibrium; a catalyst alone cannot sustain a net conversion indefinitely in a closed system.",
+          "formula": "For 2NO + O₂ ⇌ 2NO₂: K = [NO₂]²/([NO]²[O₂])"
+        }
+      ]
+    },
+    {
+      "section": "2.3",
+      "skills": [
+        {
+          "id": "practice-2-3-1",
+          "title": "Handle volume changes before a chemical shift",
+          "questions": [
+            "chem12-s2-3-q1",
+            "chem12-s2-3-q2",
+            "chem12-s2-3-q3",
+            "chem12-s2-3-q4",
+            "chem12-s2-3-q5",
+            "chem12-s2-3-q6",
+            "chem12-s2-3-q17",
+            "chem12-s2-3-q19",
+            "chem12-s2-3-q20",
+            "chem12-s2-3-q21"
+          ],
+          "explanation": "Immediately multiply every variable gas concentration by Vold/Vnew, then evaluate Q and determine the shift. Count only gas coefficients for gas compression; exclude pure solids and liquids. In the dilute aqueous model, dilution favours more dissolved particles. Equal total powers mean the common concentration scaling leaves Q unchanged.",
+          "formula": "Qimmediate = K(Vold/Vnew)^Δν, where Δν = sum of included product coefficients − sum of included reactant coefficients"
+        },
+        {
+          "id": "practice-2-3-2",
+          "title": "Distinguish amount from concentration",
+          "questions": [
+            "chem12-s2-3-q1",
+            "chem12-s2-3-q5",
+            "chem12-s2-3-q17",
+            "chem12-s2-3-q20"
+          ],
+          "explanation": "A shift can increase the number of free ions while their concentration remains below its original value after dilution. Compression changes both amount through reaction and volume directly. Determine each final concentration from n/V rather than deciding from shift direction alone; arbitrary initial compositions can make simple sign tables insufficient.",
+          "formula": "Concentration ratio final/initial = (nfinal/ninitial)(Vinitial/Vfinal)"
+        },
+        {
+          "id": "practice-2-3-3",
+          "title": "Use thermal response to infer enthalpy and K",
+          "questions": [
+            "chem12-s2-3-q7",
+            "chem12-s2-3-q8",
+            "chem12-s2-3-q9",
+            "chem12-s2-3-q11",
+            "chem12-s2-3-q12",
+            "chem12-s2-3-q13",
+            "chem12-s2-3-q15",
+            "chem12-s2-3-q19",
+            "chem12-s2-3-q21"
+          ],
+          "explanation": "Heating favours the endothermic direction and cooling favours the exothermic direction. Infer the heat side from an observed colour or composition shift. At fixed volume a temperature change causes no direct material-addition concentration jump, but subsequent reaction changes concentrations. The forward endothermic K increases on heating; an exothermic K decreases.",
+          "formula": "Heat on reactant side ↔ endothermic forward; heat on product side ↔ exothermic forward"
+        },
+        {
+          "id": "practice-2-3-4",
+          "title": "Explain unequal changes in opposing rates",
+          "questions": [
+            "chem12-s2-3-q2",
+            "chem12-s2-3-q3",
+            "chem12-s2-3-q6",
+            "chem12-s2-3-q8",
+            "chem12-s2-3-q10",
+            "chem12-s2-3-q13",
+            "chem12-s2-3-q14",
+            "chem12-s2-3-q18",
+            "chem12-s2-3-q21"
+          ],
+          "explanation": "Both opposing rate constants usually increase on heating, but the higher-barrier endothermic direction has a larger fractional sensitivity in the Arrhenius model. Volume changes instead change concentration factors. Exact jump factors require supplied or justified rate laws; do not infer them universally from overall coefficients.",
+          "formula": "For approximately constant A and Eₐ: d(ln k)/dT = Eₐ/(RT²)"
+        },
+        {
+          "id": "practice-2-3-5",
+          "title": "Separate equilibrium yield, speed and apparatus",
+          "questions": [
+            "chem12-s2-3-q15",
+            "chem12-s2-3-q16",
+            "chem12-s2-3-q18",
+            "chem12-s2-3-q20",
+            "chem12-s2-3-q22"
+          ],
+          "explanation": "For exothermic ammonia formation, cooling improves equilibrium yield but slows approach; a catalyst improves speed and pressure can favour fewer gas moles. With an unregulated apparatus, addition, compression and heating may occur together and have competing effects. State fixed-temperature, fixed-volume or fixed-pressure assumptions before combining tendencies.",
+          "formula": "A favourable K and a fast production rate are separate design goals."
+        }
+      ]
+    },
+    {
+      "section": "2.4",
+      "skills": [
+        {
+          "id": "practice-2-4-1",
+          "title": "Predict entropy using several trends",
+          "questions": [
+            "chem12-s2-4-q1",
+            "chem12-s2-4-q2"
+          ],
+          "explanation": "For a comparable substance, gas generally has greater entropy than liquid or solid. More gas particles often increases reaction entropy. At equal gas coefficients, molecular complexity, mass and actual molar-entropy data matter; equal counts do not force ΔS = 0. These trends need comparable conditions and are not universal ordering proofs.",
+          "formula": "ΔS° = ΣνS°(products) − ΣνS°(reactants), when tabulated values are supplied"
+        },
+        {
+          "id": "practice-2-4-2",
+          "title": "Combine the two thermodynamic tendencies",
+          "questions": [
+            "chem12-s2-4-q3",
+            "chem12-s2-4-q4",
+            "chem12-s2-4-q5",
+            "chem12-s2-4-q6",
+            "chem12-s2-4-q7"
+          ],
+          "explanation": "Lower enthalpy and higher entropy both favour products in the textbook model. If the drives oppose, their magnitudes and temperature matter. Use a stated opposing-drive condition to infer a missing sign, then use the heat side to predict a cooling shift. Preserve phase labels because liquid versus gaseous water can change the entropy argument.",
+          "formula": "ΔG = ΔH − TΔS; compare TΔS and ΔH in consistent energy units"
+        },
+        {
+          "id": "practice-2-4-3",
+          "title": "Keep qualitative predictions within their limits",
+          "questions": [
+            "chem12-s2-4-q3",
+            "chem12-s2-4-q5",
+            "chem12-s2-4-q8"
+          ],
+          "explanation": "“Almost complete” means strongly product-favoured at the stated conditions, not exactly zero reactants or an automatically fast reaction. A very small K can arise from one dominant unfavourable contribution; both sign tendencies need not oppose products. Finite K and composition-dependent chemical potentials allow a residual amount of reactants.",
+          "formula": "ΔG = ΔG° + RT ln Q; ΔG° = −RT ln K"
+        }
+      ]
+    },
+    {
+      "section": "2.5",
+      "skills": [
+        {
+          "id": "practice-2-5-1",
+          "title": "Build K with coefficients and phase labels",
+          "questions": [
+            "chem12-s2-5-q2",
+            "chem12-s2-5-q3",
+            "chem12-s2-5-q4",
+            "chem12-s2-5-q8",
+            "chem12-s2-5-q9"
+          ],
+          "explanation": "Balance the equation, use molar concentrations rather than mole amounts, raise each included species to its coefficient, and omit pure solids and liquids. Keep gas and aqueous versions of the same chemical distinct. Coefficients describe changes in amounts, not the equilibrium amounts themselves.",
+          "formula": "Kc = product of included product concentrations^coefficients / product of included reactant concentrations^coefficients"
+        },
+        {
+          "id": "practice-2-5-2",
+          "title": "Relate supplied kinetic laws and equilibrium",
+          "questions": [
+            "chem12-s2-5-q1"
+          ],
+          "explanation": "Equate the supplied forward and reverse rates and rearrange. The resulting ratio of constants gives K only for the compatible rate-law pair provided; an arbitrary experimental rate law cannot be derived from overall stoichiometry.",
+          "formula": "If rf = kf[A]ᵃ and rr = kr[B]ᵇ as supplied: K = [B]ᵇ/[A]ᵃ = kf/kr"
+        },
+        {
+          "id": "practice-2-5-3",
+          "title": "Calculate Q, missing concentrations and post-stress values",
+          "questions": [
+            "chem12-s2-5-q4",
+            "chem12-s2-5-q5",
+            "chem12-s2-5-q6",
+            "chem12-s2-5-q7"
+          ],
+          "explanation": "Use c = n/V first. Solve the equilibrium expression for a missing equilibrium concentration, retaining the physical root. For a volume change, first compute all immediate diluted concentrations and Q, then apply stoichiometric changes to reach K again.",
+          "formula": "Q < K → net forward; Q > K → net reverse; Q = K → equilibrium"
+        },
+        {
+          "id": "practice-2-5-4",
+          "title": "Transform a reaction and transform its K",
+          "questions": [
+            "chem12-s2-5-q9",
+            "chem12-s2-5-q10"
+          ],
+          "explanation": "Reversing an equation inverts its constant. Multiplying all coefficients by a factor raises K to that power; halving takes a square root. Adding compatible reactions multiplies their constants. Always associate the numerical constant with the exact written equation and temperature.",
+          "formula": "Reverse: 1/K. Scale by n: Kⁿ. Sum reactions: Koverall = K₁K₂."
+        },
+        {
+          "id": "practice-2-5-5",
+          "title": "Separate K, composition and yield comparisons",
+          "questions": [
+            "chem12-s2-5-q11",
+            "chem12-s2-5-q12",
+            "chem12-s2-5-q13"
+          ],
+          "explanation": "At fixed temperature, adding material, changing volume or adding a catalyst does not change K. K alone does not rank percent yields of differently written reactions or establish a simple total-amount comparison, especially when solids are omitted or total concentration powers differ. Use ICE tables for actual conversion.",
+          "formula": "Only a temperature change among the usual listed stresses changes K."
+        },
+        {
+          "id": "practice-2-5-6",
+          "title": "Check whether every pure phase remains",
+          "questions": [
+            "chem12-s2-5-q14"
+          ],
+          "explanation": "For 2KClO₃(s) ⇌ 2KCl(s) + 3O₂(g), K = [O₂]³ while both solids remain. Removing O₂ can therefore be followed by restoration of its original concentration at the same temperature. This special phase-buffering case differs from the usual partial restoration of a directly disturbed dissolved species.",
+          "formula": "Pure-phase equilibrium expressions apply only while the required solid phases are present."
+        }
+      ]
+    },
+    {
+      "section": "2.6",
+      "skills": [
+        {
+          "id": "practice-2-6-1",
+          "title": "Prepare an ICE table in the final volume",
+          "questions": [
+            "chem12-s2-6-q1",
+            "chem12-s2-6-q2",
+            "chem12-s2-6-q3",
+            "chem12-s2-6-q4",
+            "chem12-s2-6-q7",
+            "chem12-s2-6-q8"
+          ],
+          "explanation": "Convert starting moles or stock solutions into concentrations after mixing, before reaction. Set changes in balanced coefficient ratios and use I + C = E. Joined gas flasks use their total accessible volume; equal-volume solution mixing halves each separate stock concentration before reaction.",
+          "formula": "cinitial = ninitial/Vfinal; E = I + C"
+        },
+        {
+          "id": "practice-2-6-2",
+          "title": "Solve from K and retain the physical root",
+          "questions": [
+            "chem12-s2-6-q5",
+            "chem12-s2-6-q6",
+            "chem12-s2-6-q7",
+            "chem12-s2-6-q8",
+            "chem12-s2-6-q10"
+          ],
+          "explanation": "Use conservation for isomers, a common extent variable for reaction, and square or cube roots when they simplify positive concentration ratios. Numerical or trial solutions must stay inside bounds that keep every species nonnegative. Back-substitute into K and check mass balance.",
+          "formula": "For H₂ + I₂ ⇌ 2HI with equal initial reactants C: K = (2x)²/(C − x)²"
+        },
+        {
+          "id": "practice-2-6-3",
+          "title": "Reset the initial row after a disturbance",
+          "questions": [
+            "chem12-s2-6-q11",
+            "chem12-s2-6-q12",
+            "chem12-s2-6-q13"
+          ],
+          "explanation": "Compute K from the old equilibrium if needed, then apply the imposed addition, removal or dilution to form a new I row. Only after that should the new chemical change x be applied. Graphs show direct jumps at the disturbance and continuous relaxation changes in coefficient ratios.",
+          "formula": "New I = immediately disturbed composition; new E = new I + reaction change"
+        },
+        {
+          "id": "practice-2-6-4",
+          "title": "Work backwards to the starting or added amount",
+          "questions": [
+            "chem12-s2-6-q2",
+            "chem12-s2-6-q4",
+            "chem12-s2-6-q14",
+            "chem12-s2-6-q15",
+            "chem12-s2-6-q16",
+            "chem12-s2-6-q17"
+          ],
+          "explanation": "Use measured equilibrium products and coefficient ratios to recover how much reactant was consumed, then add it back to what remains. For a desired new equilibrium, solve K for the required final concentration and include both the amount remaining and the amount consumed in the adjustment.",
+          "formula": "Required addition = final amount − old amount − net amount generated by reaction"
+        },
+        {
+          "id": "practice-2-6-5",
+          "title": "Test the excess-solid assumption",
+          "questions": [
+            "chem12-s2-6-q9"
+          ],
+          "explanation": "A heterogeneous-equilibrium calculation may require more solid than was supplied. Compute the amount consumed by the candidate equilibrium and compare with the initial mass. If a phase is exhausted first, the phase-constrained K equation is no longer the correct final-state condition. Q9 deliberately exposes this conflict for the stated BN mass.",
+          "formula": "Required solid mass = stoichiometric moles consumed × molar mass"
+        }
+      ]
+    },
+    {
+      "section": "3.1",
+      "skills": [
+        {
+          "id": "practice-3-1-1",
+          "title": "Connect ion production and conductivity",
+          "questions": [
+            "chem12-s3-1-q1",
+            "chem12-s3-1-q2"
+          ],
+          "explanation": "Strong electrolytes such as soluble salts, strong acids and strong bases provide mobile ions essentially completely; weak acids ionize partly. Dissolved sugars and ethanol are non-electrolytes. Compare actual ion concentrations and mobilities, not just solubility or the number of hydrogens in a formula.",
+          "formula": "Dissociation separates existing ions; ionization of a molecular acid creates ions through reaction with water."
+        },
+        {
+          "id": "practice-3-1-2",
+          "title": "Write ionic formulas and dissociation equations",
+          "questions": [
+            "chem12-s3-1-q3",
+            "chem12-s3-1-q9"
+          ],
+          "explanation": "Use charges to construct a neutral formula, keep polyatomic ions intact, and balance atoms and charge when separating it into aqueous ions. Use a reversible dissolution equation for saturation in contact with solid. A hydrate releases its waters of crystallization as neutral water.",
+          "formula": "Ba(OH)₂·8H₂O(s) → Ba²⁺(aq) + 2OH⁻(aq) + 8H₂O(l)"
+        },
+        {
+          "id": "practice-3-1-3",
+          "title": "Convert solubility, mass and ion concentration",
+          "questions": [
+            "chem12-s3-1-q4",
+            "chem12-s3-1-q5",
+            "chem12-s3-1-q6"
+          ],
+          "explanation": "Convert mass to formula-unit moles, divide by final solution volume, then multiply by each ion coefficient. Reverse the route to find the mass needed for a target ion concentration. Distinguish g/L, molar solubility and the concentration of an individual ion.",
+          "formula": "s = mass solubility/molar mass; [ion] = ion coefficient × dissolved formula-unit concentration"
+        },
+        {
+          "id": "practice-3-1-4",
+          "title": "Add every source of a common ion when mixing",
+          "questions": [
+            "chem12-s3-1-q7"
+          ],
+          "explanation": "Count ion moles contributed by each solution before dividing by total volume. Chloride from NaCl and MgCl₂ must both be included. Check electrical neutrality with charge-weighted concentrations, not simply equal total cation and anion molarities.",
+          "formula": "[Cl⁻] = (n(NaCl) + 2n(MgCl₂))/Vtotal; Σpositive charge concentrations = Σnegative charge magnitudes"
+        },
+        {
+          "id": "practice-3-1-5",
+          "title": "Prepare a saturated solution correctly",
+          "questions": [
+            "chem12-s3-1-q8",
+            "chem12-s3-1-q9"
+          ],
+          "explanation": "At fixed temperature, add excess solid, stir and allow equilibrium until some remains undissolved. Filter or decant the clear liquid at that temperature. Measure the required final solution volume; one litre of starting water is not necessarily one litre of solution. Low solubility still permits finite dissolved ions.",
+          "formula": "Saturation is the maximum equilibrium dissolved concentration at the specified conditions."
+        }
+      ]
+    },
+    {
+      "section": "3.2",
+      "skills": [
+        {
+          "id": "practice-3-2-1",
+          "title": "Use the solubility table and its exceptions",
+          "questions": [
+            "chem12-s3-2-q1",
+            "chem12-s3-2-q2",
+            "chem12-s3-2-q3",
+            "chem12-s3-2-q7",
+            "chem12-s3-2-q10"
+          ],
+          "explanation": "Group 1, ammonium and nitrate salts are generally soluble under the table rules; consult the listed exceptions for other ions. Low solubility is not zero solubility. Convert g/L to mol/L before using the book’s approximately 0.10 M classification boundary. Soluble nitrate reagents deliver test cations without a competing precipitating anion.",
+          "formula": "Molar solubility = (g solute per litre)/(g per mole)"
+        },
+        {
+          "id": "practice-3-2-2",
+          "title": "Write formula, complete ionic and net ionic equations",
+          "questions": [
+            "chem12-s3-2-q4",
+            "chem12-s3-2-q5",
+            "chem12-s3-2-q6",
+            "chem12-s3-2-q12",
+            "chem12-s3-2-q13"
+          ],
+          "explanation": "Predict products and states; split aqueous strong electrolytes, retain solids, pure liquids and weak electrolytes, then cancel identical spectator ions. Some mixtures form two solids and have no spectators. Check both atoms and total charge; a table prediction presumes concentrations sufficient for precipitation.",
+          "formula": "Ag⁺(aq) + Cl⁻(aq) → AgCl(s); Na⁺ and NO₃⁻ cancel for AgNO₃/NaCl mixing."
+        },
+        {
+          "id": "practice-3-2-3",
+          "title": "Plan selective precipitation and filtration",
+          "questions": [
+            "chem12-s3-2-q7",
+            "chem12-s3-2-q8",
+            "chem12-s3-2-q9"
+          ],
+          "explanation": "Choose a reagent that removes one candidate while leaving the others dissolved, then filter before adding the next reagent. A controlled pH can separate hydroxides; indiscriminate excess base can precipitate several ions or redissolve an amphoteric hydroxide. Group 1 ions are difficult to separate with the simple precipitation table.",
+          "formula": "Selectivity needs separated precipitation thresholds under the actual concentrations."
+        },
+        {
+          "id": "practice-3-2-4",
+          "title": "Redissolve a solid through a linked equilibrium",
+          "questions": [
+            "chem12-s3-2-q11",
+            "chem12-s3-2-q12"
+          ],
+          "explanation": "Acid can remove a basic anion; a ligand can bind the metal cation. Either lowers a free-ion concentration and promotes dissolution. Examples are acid dissolving carbonate, selective acid dissolution of some sulfides, and NH₃ dissolving AgCl by silver-complex formation more readily than AgI under suitable conditions.",
+          "formula": "Ag₂CO₃(s) + 2H⁺ → 2Ag⁺ + CO₂ + H₂O; Ag⁺ + 2NH₃ ⇌ Ag(NH₃)₂⁺"
+        },
+        {
+          "id": "practice-3-2-5",
+          "title": "Explain hard water, scale and softening",
+          "questions": [
+            "chem12-s3-2-q13"
+          ],
+          "explanation": "Hard water contains appreciable Ca²⁺ and Mg²⁺. Scale is deposited low-solubility mineral such as CaCO₃. Acid removes existing carbonate deposits; added carbonate can precipitate dissolved hardness ions before they form scale or insoluble soap salts. Treat the resulting solid as a separate phase to remove.",
+          "formula": "CaCO₃(s) + 2H⁺ → Ca²⁺ + CO₂(g) + H₂O(l)"
+        }
+      ]
+    },
+    {
+      "section": "3.3",
+      "skills": [
+        {
+          "id": "practice-3-3-1",
+          "title": "Derive Ksp from the exact dissolution stoichiometry",
+          "questions": [
+            "chem12-s3-3-q1",
+            "chem12-s3-3-q2",
+            "chem12-s3-3-q3",
+            "chem12-s3-3-q4",
+            "chem12-s3-3-q7",
+            "chem12-s3-3-q10"
+          ],
+          "explanation": "Omit the pure solid; each dissolved-ion coefficient becomes an exponent. If MₐXᵦ is the only source in pure water, [M] = as and [X] = bs. Coefficients are not extra factors in Ksp until concentrations have been expressed through s.",
+          "formula": "Ksp = (as)ᵃ(bs)ᵇ; MX: s²; MX₂ or M₂X: 4s³; M₃X: 27s⁴; M₃X₂: 108s⁵"
+        },
+        {
+          "id": "practice-3-3-2",
+          "title": "Convert residue, hydrate mass and saturated volume",
+          "questions": [
+            "chem12-s3-3-q4",
+            "chem12-s3-3-q5",
+            "chem12-s3-3-q6",
+            "chem12-s3-3-q7",
+            "chem12-s3-3-q10"
+          ],
+          "explanation": "An evaporated residue gives the dissolved formula-unit amount. Convert using the correct weighed compound’s molar mass and the original solution volume to get s, then Ksp. Include hydrate water in a hydrate’s molar mass, although water is omitted from the solubility-product expression. Reverse this route to find the mass dissolved in a specified volume.",
+          "formula": "m(dissolved) = sVsolution M(weighed compound)"
+        },
+        {
+          "id": "practice-3-3-3",
+          "title": "Compare solubilities rather than bare constants",
+          "questions": [
+            "chem12-s3-3-q2",
+            "chem12-s3-3-q6",
+            "chem12-s3-3-q8"
+          ],
+          "explanation": "A higher Ksp ranks molar solubility directly only for comparable stoichiometry and conditions. Solve each salt’s s relation before comparing salts with different ion ratios. Polymorphs with the same formula can be compared through their Ksp values using the same relationship. A common ion changes s while temperature-fixed Ksp remains constant.",
+          "formula": "For CdCO₃: s = √Ksp. For Cd(OH)₂: s = (Ksp/4)^(1/3)."
+        },
+        {
+          "id": "practice-3-3-4",
+          "title": "Explain a precipitation-titration indicator",
+          "questions": [
+            "chem12-s3-3-q9"
+          ],
+          "explanation": "A chloride titration with Ag⁺ forms AgCl first when its silver threshold is lower than the chromate threshold. As chloride is depleted, free Ag⁺ rises enough for red Ag₂CrO₄ to appear. Compare threshold concentrations using both stoichiometry and indicator concentration, not just the two Ksp numbers.",
+          "formula": "AgCl: [Ag⁺]crit = Ksp/[Cl⁻]. Ag₂CrO₄: [Ag⁺]crit = √(Ksp/[CrO₄²⁻])."
+        }
+      ]
+    },
+    {
+      "section": "3.4",
+      "skills": [
+        {
+          "id": "practice-3-4-1",
+          "title": "Identify the precipitate and use mixed concentrations",
+          "questions": [
+            "chem12-s3-4-q1",
+            "chem12-s3-4-q2",
+            "chem12-s3-4-q7",
+            "chem12-s3-4-q8"
+          ],
+          "explanation": "Write the dissolution equation for the candidate solid and its Ksp expression. Calculate each free-ion concentration after mixing, before precipitation; include all sources and correct ion coefficients. Equality of initial ion amounts persists through precipitation only if their consumption ratio supports it and side reactions are neglected.",
+          "formula": "Qsp = product of mixed free-ion concentrations^dissolution coefficients; Qsp > Ksp favours precipitation"
+        },
+        {
+          "id": "practice-3-4-2",
+          "title": "Calculate onset, maximum concentration and visibility",
+          "questions": [
+            "chem12-s3-4-q3",
+            "chem12-s3-4-q4",
+            "chem12-s3-4-q5",
+            "chem12-s3-4-q6"
+          ],
+          "explanation": "Set Qsp = Ksp to find the saturation threshold for an unknown ion. Convert that concentration into mass using the total mixed volume and the source salt’s molar mass when asked. The mathematical onset need not be a visibly detectable precipitate, and extremely large calculated thresholds can exceed the model’s physical validity.",
+          "formula": "For PbSO₄: [Pb²⁺]crit = Ksp/[SO₄²⁻]. For Ag₂CO₃: [CO₃²⁻]crit = Ksp/[Ag⁺]²."
+        },
+        {
+          "id": "practice-3-4-3",
+          "title": "Find a selective window and the fraction remaining",
+          "questions": [
+            "chem12-s3-4-q9"
+          ],
+          "explanation": "Calculate the added-ion concentration at which each candidate first saturates. The smaller threshold precipitates first. Keep the added ion between the thresholds for selective removal; at the second onset, use the first salt’s Ksp to find its residual ion concentration. Account for dilution before interpreting the fraction removed.",
+          "formula": "% removed = 100(1 − nremaining/ninitial); at unchanged volume, nremaining/ninitial = cremaining/cinitial"
+        },
+        {
+          "id": "practice-3-4-4",
+          "title": "Separate a removal dose from equilibrium residue",
+          "questions": [
+            "chem12-s3-4-q10"
+          ],
+          "explanation": "For a carbonate softening dose, convert hardness-ion mass to moles and use the precipitation stoichiometry. Include all waters of crystallization in washing soda’s molar mass. The stoichiometric minimum does not imply exactly zero residual ions; practical near-complete removal can need excess reagent.",
+          "formula": "Mg²⁺ + CO₃²⁻ → MgCO₃(s); M(Na₂CO₃·10H₂O) ≈ 286.14 g mol⁻¹"
+        },
+        {
+          "id": "practice-3-4-5",
+          "title": "Treat common ions and acid dissolution differently",
+          "questions": [
+            "chem12-s3-4-q11",
+            "chem12-s3-4-q12",
+            "chem12-s3-4-q13",
+            "chem12-s3-4-q14"
+          ],
+          "explanation": "Adding a common ion generally suppresses solubility without changing Ksp at fixed temperature. Consuming an ion through a side reaction can increase solubility: acid removes OH⁻ from Fe(OH)₃ dissolution, for example. For a 1:1 salt with a large initial common-ion concentration c₀, s ≈ Ksp/c₀; check s ≪ c₀.",
+          "formula": "BaSO₄: Ksp = s(c₀ + s) ≈ sc₀. Fe(OH)₃ + 3H⁺ → Fe³⁺ + 3H₂O."
+        }
+      ]
+    },
+    {
+      "section": "4.1",
+      "skills": [
+        {
+          "id": "practice-4-1-1",
+          "title": "Compare Arrhenius and Brønsted–Lowry models",
+          "questions": [
+            "chem12-s4-1-q1",
+            "chem12-s4-1-q2",
+            "chem12-s4-1-q5",
+            "chem12-s4-1-q6"
+          ],
+          "explanation": "Arrhenius focuses on H₃O⁺ or OH⁻ production in water. Brønsted–Lowry tracks proton donation and acceptance and includes bases without an OH group, such as ammonia and pyridine, as well as proton transfer outside water. H⁺ from ordinary hydrogen is a proton; in aqueous equations it is solvated and commonly written H₃O⁺.",
+          "formula": "Acid: H⁺ donor. Base: H⁺ acceptor. HA + H₂O ⇌ A⁻ + H₃O⁺."
+        },
+        {
+          "id": "practice-4-1-2",
+          "title": "Draw water and hydronium Lewis structures",
+          "questions": [
+            "chem12-s4-1-q3"
+          ],
+          "explanation": "Water has two O–H bonds and two oxygen lone pairs. One lone pair can bond to a proton, giving hydronium with three O–H bonds, one lone pair and total charge +1. Count electrons and check the oxygen octet instead of adding an electron with H⁺.",
+          "formula": "H₂O: 2 bonding pairs + 2 lone pairs around O. H₃O⁺: 3 bonding pairs + 1 lone pair."
+        },
+        {
+          "id": "practice-4-1-3",
+          "title": "Assign roles in both directions and write conjugates",
+          "questions": [
+            "chem12-s4-1-q4",
+            "chem12-s4-1-q5",
+            "chem12-s4-1-q6",
+            "chem12-s4-1-q7",
+            "chem12-s4-1-q8",
+            "chem12-s4-1-q9"
+          ],
+          "explanation": "Follow the actual proton. Its donor becomes the conjugate base; its acceptor becomes the conjugate acid. On reversal, the roles reverse. Construct a conjugate by adding or removing exactly one H⁺ and changing charge by one. Preserve the rest of the formula and verify total atoms and charge.",
+          "formula": "Conjugate acid: add H, charge +1. Conjugate base: remove H, charge −1."
+        },
+        {
+          "id": "practice-4-1-4",
+          "title": "Show both reactions of an amphiprotic species",
+          "questions": [
+            "chem12-s4-1-q10",
+            "chem12-s4-1-q11",
+            "chem12-s4-1-q12"
+          ],
+          "explanation": "Write one reaction in which the species donates a proton to water and another in which it accepts one. Examples include water, bicarbonate and hydrogen phosphates. A pH measurement shows the dominant role under the stated conditions; acid reacting with bicarbonate can form carbonic acid that releases CO₂.",
+          "formula": "HCO₃⁻ + H₂O ⇌ CO₃²⁻ + H₃O⁺; HCO₃⁻ + H₂O ⇌ H₂CO₃ + OH⁻"
+        },
+        {
+          "id": "practice-4-1-5",
+          "title": "Infer acid strength from an equilibrium direction",
+          "questions": [
+            "chem12-s4-1-q7"
+          ],
+          "explanation": "A proton-transfer equilibrium favours the weaker acid–base pair. If the written reaction is left-favoured, the acid on the right is stronger than its partner on the left. Compare the two acids themselves rather than inferring strength from the sign of their charge.",
+          "formula": "For HA + B ⇌ A⁻ + HB⁺: K = Ka(HA)/Ka(HB⁺), in the compatible activity model"
+        }
+      ]
+    },
+    {
+      "section": "4.2",
+      "skills": [
+        {
+          "id": "practice-4-2-1",
+          "title": "Separate ionization strength, concentration and conductivity",
+          "questions": [
+            "chem12-s4-2-q1",
+            "chem12-s4-2-q3",
+            "chem12-s4-2-q4",
+            "chem12-s4-2-q5",
+            "chem12-s4-2-q6"
+          ],
+          "explanation": "Strong and weak describe extent of ionization or reaction with water, not formal concentration. At comparable concentrations, a strong acid usually supplies more mobile ions than a weak acid; a polyprotic formula does not imply complete release of every proton. Total ion concentration is a sum of actual ion molarities, not ionic strength.",
+          "formula": "2.0 M HNO₃ gives approximately 2.0 M H₃O⁺ + 2.0 M NO₃⁻ = 4.0 M total ions in the classroom model."
+        },
+        {
+          "id": "practice-4-2-2",
+          "title": "Write Ka and Kb for the reacting form",
+          "questions": [
+            "chem12-s4-2-q2",
+            "chem12-s4-2-q7",
+            "chem12-s4-2-q8"
+          ],
+          "explanation": "For an acid, remove one proton and form hydronium; for a base, add one proton and form hydroxide. Omit liquid water from the expression. For hydrated metal ions, a coordinated water loses the proton. Use the textbook’s stated boric-acid convention when matching its table, while recognizing that precise aqueous boron chemistry is different.",
+          "formula": "Ka = [conjugate base][H₃O⁺]/[acid]; Kb = [conjugate acid][OH⁻]/[base]"
+        },
+        {
+          "id": "practice-4-2-3",
+          "title": "Rank bases through their conjugate acids",
+          "questions": [
+            "chem12-s4-2-q6",
+            "chem12-s4-2-q8"
+          ],
+          "explanation": "Identify the correct one-proton conjugate acid first. A weaker conjugate acid has a stronger base, so acid-strength order reverses when ranking the corresponding bases. Amphiprotic ions can appear in two adjacent acid–base pairs; choose the pair for the process actually being considered.",
+          "formula": "Kb(base) = Kw/Ka(its conjugate acid)"
+        },
+        {
+          "id": "practice-4-2-4",
+          "title": "Calculate and interpret a proton-transfer constant",
+          "questions": [
+            "chem12-s4-2-q9",
+            "chem12-s4-2-q10",
+            "chem12-s4-2-q11"
+          ],
+          "explanation": "Write the proton transfer with charge balance. Divide the Ka of the acid on the left by the Ka of the acid on the right. K > 1 favours the weaker acid–base pair on the right; K < 1 favours the left. Several observed directions can be combined into a consistent relative-strength ranking.",
+          "formula": "For HA + B⁻ ⇌ A⁻ + HB: K = Ka(HA)/Ka(HB)"
+        },
+        {
+          "id": "practice-4-2-5",
+          "title": "Explain the levelling effect of water",
+          "questions": [
+            "chem12-s4-2-q12"
+          ],
+          "explanation": "HCl, HBr and HI transfer protons essentially completely to water, so equal dilute formal concentrations give essentially the same hydronium concentration. Water levels their observable aqueous acidity to H₃O⁺. This does not establish identical intrinsic strength in another solvent or in the gas phase.",
+          "formula": "HX + H₂O → H₃O⁺ + X⁻, for these strong acids in water"
+        }
+      ]
+    },
+    {
+      "section": "4.3",
+      "skills": [
+        {
+          "id": "practice-4-3-1",
+          "title": "Generalize autoionization and use the correct temperature",
+          "questions": [
+            "chem12-s4-3-q1",
+            "chem12-s4-3-q2",
+            "chem12-s4-3-q3",
+            "chem12-s4-3-q4",
+            "chem12-s4-3-q5",
+            "chem12-s4-3-q6",
+            "chem12-s4-3-q7"
+          ],
+          "explanation": "Autoionization transfers a proton between two solvent molecules. For pure water or heavy water, the conjugate ion concentrations are equal; in an added acid or base they need not be. Use the supplied temperature-specific Kw, and recognize endothermic water ionization: heating increases both neutral-water ion concentrations while preserving neutrality.",
+          "formula": "2NH₃ ⇌ NH₄⁺ + NH₂⁻; 2D₂O ⇌ D₃O⁺ + OD⁻; neutral water: [H₃O⁺] = [OH⁻] = √Kw"
+        },
+        {
+          "id": "practice-4-3-2",
+          "title": "Combine solubility equilibrium with water equilibrium",
+          "questions": [
+            "chem12-s4-3-q8"
+          ],
+          "explanation": "For a saturated hydroxide, use Ksp and ion coefficients to obtain [OH⁻] first, then use Kw for hydronium. Do not assume all of an arbitrary mass of a low-solubility hydroxide dissolves or equate its molar solubility directly with hydroxide concentration.",
+          "formula": "Ca(OH)₂: Ksp = s(2s)² = 4s³; [OH⁻] = 2s; [H₃O⁺] = Kw/[OH⁻]"
+        },
+        {
+          "id": "practice-4-3-3",
+          "title": "Neutralize mixed strong acids and bases in moles",
+          "questions": [
+            "chem12-s4-3-q9"
+          ],
+          "explanation": "Convert each solution to acid or base equivalents, add all sources, and subtract consumed equivalents before dividing by total final volume. Do not average the initial ion concentrations. If cylinder volumes come from a diagram, report sensible precision rather than treating approximate readings as exact.",
+          "formula": "Excess acid equivalents = Σn(H⁺ supplied) − Σn(OH⁻ supplied); [excess] = nexcess/Vtotal"
+        },
+        {
+          "id": "practice-4-3-4",
+          "title": "Find a mass needed for a target excess",
+          "questions": [
+            "chem12-s4-3-q10"
+          ],
+          "explanation": "The reagent must first neutralize the original acid, then provide the specified leftover hydroxide. Convert the total hydroxide requirement to formula-unit moles using the hydroxide coefficient and then to mass. State any negligible-volume-change and hydrate assumptions.",
+          "formula": "n(Sr(OH)₂) = [n(initial H⁺) + [OH⁻]target Vfinal]/2"
+        }
+      ]
+    },
+    {
+      "section": "4.4",
+      "skills": [
+        {
+          "id": "practice-4-4-1",
+          "title": "Move between concentration, pH, pOH and Kw",
+          "questions": [
+            "chem12-s4-4-q1",
+            "chem12-s4-4-q2",
+            "chem12-s4-4-q3",
+            "chem12-s4-4-q4",
+            "chem12-s4-4-q5",
+            "chem12-s4-4-q6",
+            "chem12-s4-4-q7",
+            "chem12-s4-4-q11"
+          ],
+          "explanation": "Use base-10 logarithms and powers consistently. At the stated temperature pH + pOH = pKw, and neutral pH is pKw/2. Lower pH means more hydronium; lower pOH means more hydroxide. With a supplied Kw, use its temperature rather than automatically substituting 14.",
+          "formula": "[H₃O⁺] ≈ 10^(−pH) M; [OH⁻] ≈ 10^(−pOH) M; pKw = −log₁₀Kw"
+        },
+        {
+          "id": "practice-4-4-2",
+          "title": "Report logarithmic precision correctly",
+          "questions": [
+            "chem12-s4-4-q3",
+            "chem12-s4-4-q4",
+            "chem12-s4-4-q6",
+            "chem12-s4-4-q11"
+          ],
+          "explanation": "The decimal places in pH or pOH correspond to the significant figures in the underlying concentration. Keep guard digits in intermediate calculations and round only at the end. The integer part of pH locates the order of magnitude; it is not counted as a concentration significant figure.",
+          "formula": "3.50 × 10⁻⁶ M → pH 5.456; pH 2.50 → [H₃O⁺] ≈ 3.2 × 10⁻³ M"
+        },
+        {
+          "id": "practice-4-4-3",
+          "title": "Include formula coefficients and mass or gas conversions",
+          "questions": [
+            "chem12-s4-4-q8",
+            "chem12-s4-4-q9",
+            "chem12-s4-4-q10"
+          ],
+          "explanation": "For a dissolved strong hydroxide, multiply its formula concentration by the number of OH⁻ ions supplied. For a strong monoprotic acid, formal concentration approximates hydronium when water’s contribution is negligible. Use n = m/M, n = cV and the appropriate formula before taking a logarithm.",
+          "formula": "Sr(OH)₂: [OH⁻] ≈ 2c. For strong HI: m(HI) ≈ 10^(−pH) V M(HI)."
+        },
+        {
+          "id": "practice-4-4-4",
+          "title": "Mix acid and base through equivalents, never mean pH",
+          "questions": [
+            "chem12-s4-4-q12",
+            "chem12-s4-4-q13",
+            "chem12-s4-4-q14",
+            "chem12-s4-4-q15"
+          ],
+          "explanation": "Convert each pH or pOH to concentration, then to moles; include all acid and base sources. Neutralize and divide the remaining equivalents by total volume. Convert the surviving acid or base concentration back to pH. If the excess is extremely small, include water equilibrium rather than treating the excess alone as the free-ion concentration.",
+          "formula": "For a clear strong-base excess: pH = pKw + log₁₀(nexcess OH⁻/Vtotal), with concentration in M"
+        },
+        {
+          "id": "practice-4-4-5",
+          "title": "Work backwards from a target pH to reagent mass",
+          "questions": [
+            "chem12-s4-4-q16",
+            "chem12-s4-4-q17"
+          ],
+          "explanation": "Determine whether the target remains acidic or basic, calculate the desired leftover equivalents, and subtract from the initial equivalents to find what must be neutralized. Multiply reagent moles by the correct molar mass. Check that the proposed dose does not cross equivalence unexpectedly.",
+          "formula": "n(neutralizing reagent equivalents) = initial excess equivalents − target remaining equivalents"
+        }
+      ]
+    },
+    {
+      "section": "4.5",
+      "skills": [
+        {
+          "id": "practice-4-5-1",
+          "title": "Set up a weak-acid or weak-base model",
+          "questions": [
+            "chem12-s4-5-q1",
+            "chem12-s4-5-q2",
+            "chem12-s4-5-q11",
+            "chem12-s4-5-q12"
+          ],
+          "explanation": "Convert mass or gas volume to formal concentration first. For a weak monoprotic acid alone, hydronium and conjugate base each increase by x, leaving C − x acid; a weak base similarly produces x hydroxide. For polyprotic acids, dominance of the first ionization must be justified by separated constants and suppression of later stages.",
+          "formula": "K = x²/(C − x); x = (√(K² + 4KC) − K)/2, where K is the appropriate Ka or Kb"
+        },
+        {
+          "id": "practice-4-5-2",
+          "title": "Use percent ionization to recover pH and Ka",
+          "questions": [
+            "chem12-s4-5-q2",
+            "chem12-s4-5-q3"
+          ],
+          "explanation": "Percent ionization measures the fraction of original acid units ionized. Turn the percentage into a fraction before multiplying by C. Use the resulting x in the full equilibrium expression to recover Ka and compare with the table for identification. A weak acid does not necessarily have a negligible percentage at every concentration.",
+          "formula": "x = C(% ionization/100); Ka = x²/(C − x); pH = −log₁₀x"
+        },
+        {
+          "id": "practice-4-5-3",
+          "title": "Recover concentration, mass or gas volume from pH",
+          "questions": [
+            "chem12-s4-5-q4",
+            "chem12-s4-5-q5",
+            "chem12-s4-5-q6",
+            "chem12-s4-5-q13",
+            "chem12-s4-5-q14"
+          ],
+          "explanation": "A target pH gives x = [H₃O⁺] for an acid; a target pOH gives x = [OH⁻] for a base. Rearrange the full expression to recover the original formal concentration, including the ionized x term. Then convert C to the requested mass or gas volume; distinguish anhydrous and hydrated solids.",
+          "formula": "C = x + x²/K; n = CVsolution; mass = nM; Vgas at the exercise’s STP = n × 22.4 L mol⁻¹"
+        },
+        {
+          "id": "practice-4-5-4",
+          "title": "Infer Ka or Kb from a measured solution",
+          "questions": [
+            "chem12-s4-5-q7",
+            "chem12-s4-5-q8",
+            "chem12-s4-5-q15"
+          ],
+          "explanation": "Convert the measured pH or pOH into the ion produced by the relevant equilibrium, not automatically hydronium for a base. Under the single-solute model the conjugate species also has concentration x and the original weak species has C − x. Compare x/C with the approximation criterion.",
+          "formula": "Ka(acid) = x²/(C − x), x = [H₃O⁺]; Kb(base) = x²/(C − x), x = [OH⁻]"
+        },
+        {
+          "id": "practice-4-5-5",
+          "title": "Match the correct conjugate pair and constant",
+          "questions": [
+            "chem12-s4-5-q9",
+            "chem12-s4-5-q10",
+            "chem12-s4-5-q11",
+            "chem12-s4-5-q13"
+          ],
+          "explanation": "Adjacent protonation states differ by exactly one H⁺. Use the Ka for that particular acid to find the Kb of its paired conjugate base; an amphiprotic ion’s own Ka is a different process from its base reaction. Convert to pKa or pKb only after choosing the correct pair.",
+          "formula": "Ka(HA)Kb(A⁻) = Kw; pKa(HA) + pKb(A⁻) = pKw"
+        },
+        {
+          "id": "practice-4-5-6",
+          "title": "Check when the shortcut and water neglect fail",
+          "questions": [
+            "chem12-s4-5-q1",
+            "chem12-s4-5-q2",
+            "chem12-s4-5-q3",
+            "chem12-s4-5-q4",
+            "chem12-s4-5-q5",
+            "chem12-s4-5-q6",
+            "chem12-s4-5-q7",
+            "chem12-s4-5-q8",
+            "chem12-s4-5-q11",
+            "chem12-s4-5-q12",
+            "chem12-s4-5-q13",
+            "chem12-s4-5-q14",
+            "chem12-s4-5-q15"
+          ],
+          "explanation": "The square-root approximation x ≈ √(KC) requires small depletion, commonly checked with x/C ≤ 5%. It also assumes negligible water contribution, no substantial initial conjugate ion, and a suitable single equilibrium. If those conditions fail, use the full equation or the necessary coupled equilibria.",
+          "formula": "Check: nonnegative concentrations, small-depletion assumption, appropriate medium and back-substitution into K."
+        }
+      ]
+    },
+    {
+      "section": "5.1",
+      "skills": [
+        {
+          "id": "practice-5-1-1",
+          "title": "Classify every ion of a salt",
+          "questions": [
+            "chem12-s5-1-q1",
+            "chem12-s5-1-q2",
+            "chem12-s5-1-q8"
+          ],
+          "explanation": "Dissociate the formula, identify spectators and assess each reactive ion. A weak acid’s conjugate base produces OH⁻; a weak base’s conjugate acid produces H₃O⁺. Hydrated small highly charged metal ions can be acidic. For amphiprotic ions or two reactive salt ions, compare the appropriate constants and account for stoichiometric concentrations.",
+          "formula": "A⁻ + H₂O ⇌ HA + OH⁻; BH⁺ + H₂O ⇌ B + H₃O⁺"
+        },
+        {
+          "id": "practice-5-1-2",
+          "title": "Calculate a salt solution’s pH",
+          "questions": [
+            "chem12-s5-1-q3",
+            "chem12-s5-1-q4",
+            "chem12-s5-1-q7",
+            "chem12-s5-1-q10"
+          ],
+          "explanation": "Determine the concentration of the hydrolyzing ion, including formula coefficients, total volume and any preceding neutralization. Select Ka or Kb for that ion, solve its equilibrium and convert to pH. A neutralization can leave an acidic or basic salt even when the starting acid and base equivalents were equal.",
+          "formula": "Acetate: Kb = Kw/Ka(CH₃COOH). Hydrazinium: Ka = Kw/Kb(N₂H₄)."
+        },
+        {
+          "id": "practice-5-1-3",
+          "title": "Work backwards to the required salt mass",
+          "questions": [
+            "chem12-s5-1-q5",
+            "chem12-s5-1-q6",
+            "chem12-s5-1-q9"
+          ],
+          "explanation": "From target pH obtain the ion x produced by hydrolysis; recover the original reactive-ion concentration with C = x + x²/K. Convert to salt moles and use the correct hydrate molar mass. The full expression matters when hydrolysis consumes a substantial fraction, as in the dilute NaCN calculation.",
+          "formula": "m(salt) = CV M(salt)/(reactive-ion coefficient)"
+        },
+        {
+          "id": "practice-5-1-4",
+          "title": "Rank equal-concentration salts and explain evaporation",
+          "questions": [
+            "chem12-s5-1-q8",
+            "chem12-s5-1-q9"
+          ],
+          "explanation": "First separate acidic, approximately neutral and basic salts, then compare the constants of their active ions. At equal relevant concentrations, stronger acidic hydrolysis lowers pH and stronger basic hydrolysis raises it. Evaporation of a weak-base salt can raise [OH⁻] while reducing the fraction hydrolyzed, until other effects become important.",
+          "formula": "Weak-base approximation: [OH⁻] ≈ √(KbC); fractional hydrolysis ≈ √(Kb/C)"
+        },
+        {
+          "id": "practice-5-1-5",
+          "title": "Represent hydrated metal acidity correctly",
+          "questions": [
+            "chem12-s5-1-q1",
+            "chem12-s5-1-q2",
+            "chem12-s5-1-q5"
+          ],
+          "explanation": "The proton released by Al³⁺, Fe³⁺ or Cu²⁺ aquo ions comes from a coordinated water molecule. The positive metal ion polarizes its O–H bonds; it does not donate a proton from the metal nucleus. Use the Ka provided for the specified hydrated ion and keep atoms and charge balanced.",
+          "formula": "[M(H₂O)ₙ]ᶻ⁺ + H₂O ⇌ [M(H₂O)ₙ₋₁OH]⁽ᶻ⁻¹⁾⁺ + H₃O⁺"
+        }
+      ]
+    },
+    {
+      "section": "5.2",
+      "skills": [
+        {
+          "id": "practice-5-2-1",
+          "title": "Identify a usable conjugate buffer pair",
+          "questions": [
+            "chem12-s5-2-q1",
+            "chem12-s5-2-q2",
+            "chem12-s5-2-q3",
+            "chem12-s5-2-q4"
+          ],
+          "explanation": "Remove spectator ions and find a weak acid and its one-proton conjugate base, both present in appreciable amounts. A strong acid and its effectively nonbasic anion, such as HNO₃/NO₃⁻, do not provide a conventional buffer. Match the pair to the desired pH rather than assuming every conjugate pair is useful near neutral.",
+          "formula": "HA/A⁻ or BH⁺/B; both components must remain after any initial reaction."
+        },
+        {
+          "id": "practice-5-2-2",
+          "title": "Neutralize an addition before calculating pH",
+          "questions": [
+            "chem12-s5-2-q5",
+            "chem12-s5-2-q6",
+            "chem12-s5-2-q16"
+          ],
+          "explanation": "Added strong acid consumes the buffer base and increases its acid form; added strong base does the reverse. Update the moles first, then apply the equilibrium ratio if both components remain. If a component is exhausted, switch to the resulting excess-reagent or weak-species model instead of forcing the buffer equation.",
+          "formula": "pH ≈ pKa + log₁₀[n(A⁻)/n(HA)] after stoichiometry; same solution volume cancels in the ratio"
+        },
+        {
+          "id": "practice-5-2-3",
+          "title": "Distinguish pH, range and capacity",
+          "questions": [
+            "chem12-s5-2-q7",
+            "chem12-s5-2-q8",
+            "chem12-s5-2-q9",
+            "chem12-s5-2-q10",
+            "chem12-s5-2-q15"
+          ],
+          "explanation": "Equal conjugate concentrations give pH ≈ pKa, regardless of their shared concentration within the buffer approximation. Capacity depends on the available amounts, with a more concentrated equal-volume pair tolerating more reagent. The conventional useful range pKa ± 1 corresponds to base:acid ratios about 0.1–10.",
+          "formula": "Ratio sets pH; total concentration sets capacity per unit volume; total moles set the reserve in the whole sample."
+        },
+        {
+          "id": "practice-5-2-4",
+          "title": "Make a buffer by partial neutralization or salt addition",
+          "questions": [
+            "chem12-s5-2-q14",
+            "chem12-s5-2-q16"
+          ],
+          "explanation": "Partly neutralize a weak acid with a strong base to leave both weak acid and conjugate base, or add a soluble conjugate salt to a weak-acid solution. Use the target ratio to calculate salt moles and mass. In Q14 the intended acid is HNO₂, not strong HNO₃; half-neutralization produces equal HNO₂ and NO₂⁻.",
+          "formula": "n(A⁻)/n(HA) ≈ 10^(target pH − pKa)"
+        },
+        {
+          "id": "practice-5-2-5",
+          "title": "Follow the carbon dioxide and hemoglobin equilibria",
+          "questions": [
+            "chem12-s5-2-q11",
+            "chem12-s5-2-q12",
+            "chem12-s5-2-q13"
+          ],
+          "explanation": "Removing CO₂ from the carbonic-acid/bicarbonate system tends to consume H⁺ and raise pH. In the simplified Bohr-effect model, alkalosis increases hemoglobin’s oxygen affinity and can hinder tissue unloading; acidosis reduces affinity and favours unloading while making loading less favourable at the same oxygen pressure. These are linked-equilibrium tendencies.",
+          "formula": "CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻; lower [H⁺] favours more tightly bound oxygen in this model."
+        }
+      ]
+    },
+    {
+      "section": "5.3",
+      "skills": [
+        {
+          "id": "practice-5-3-1",
+          "title": "Use equivalents, not the initial free-ion concentration",
+          "questions": [
+            "chem12-s5-3-q1",
+            "chem12-s5-3-q7",
+            "chem12-s5-3-q8",
+            "chem12-s5-3-q14"
+          ],
+          "explanation": "A weak monoprotic acid and a strong monoprotic acid with equal formal moles require equal hydroxide equivalents at complete neutralization. Weak acid continually ionizes as OH⁻ removes H₃O⁺. Count all titratable protons and all OH⁻ per formula unit; the molecular mole ratio need not be 1:1.",
+          "formula": "At complete neutralization: acid equivalents = base equivalents."
+        },
+        {
+          "id": "practice-5-3-2",
+          "title": "Read burette delivery and plan enough titrant",
+          "questions": [
+            "chem12-s5-3-q2",
+            "chem12-s5-3-q3"
+          ],
+          "explanation": "Delivered volume is final minus initial reading; add deliveries if the burette is refilled. Estimate required titrant volume from expected analyte moles before starting. Pure water washing the flask walls changes concentration but not analyte moles if no sample is lost, so the equivalence volume is unchanged.",
+          "formula": "Vtitrant = required titrant moles/ctitrant"
+        },
+        {
+          "id": "practice-5-3-3",
+          "title": "Standardize with the correct primary-standard formula",
+          "questions": [
+            "chem12-s5-3-q4",
+            "chem12-s5-3-q5",
+            "chem12-s5-3-q6"
+          ],
+          "explanation": "A carefully weighed mass is insufficient if reagent purity is uncertain: NaOH absorbs moisture and CO₂ and should be standardized. KHP provides one titratable proton; oxalic acid provides two. Include hydration water in a weighed oxalic-acid dihydrate molar mass.",
+          "formula": "c(NaOH) = n(KHP)/V(NaOH); n(NaOH) = 2n(H₂C₂O₄)"
+        },
+        {
+          "id": "practice-5-3-4",
+          "title": "Recover an unknown molar mass with aliquot scaling",
+          "questions": [
+            "chem12-s5-3-q9",
+            "chem12-s5-3-q10"
+          ],
+          "explanation": "Use the titration to determine analyte moles in the aliquot, then multiply by Vstock/Valiquot for the full weighed sample. Divide sample mass by total analyte moles. Diprotic acid and a dihydroxide base can have a 1:1 molecular ratio because their two equivalent factors cancel.",
+          "formula": "Munknown = msample/[nanalyte in aliquot × (Vstock/Valiquot)]"
+        },
+        {
+          "id": "practice-5-3-5",
+          "title": "Calculate percentage purity",
+          "questions": [
+            "chem12-s5-3-q11",
+            "chem12-s5-3-q12",
+            "chem12-s5-3-q13"
+          ],
+          "explanation": "Convert titrant volume and concentration to equivalents, use the reaction ratio for pure analyte, scale to the complete sample if only an aliquot was titrated, and multiply by analyte molar mass. Divide pure mass by impure sample mass. State the assumption that impurities do not also consume titrant.",
+          "formula": "% purity = 100 mpure analyte/msample"
+        },
+        {
+          "id": "practice-5-3-6",
+          "title": "Join gas, pH and titration conversions",
+          "questions": [
+            "chem12-s5-3-q7",
+            "chem12-s5-3-q8"
+          ],
+          "explanation": "A strong-base pH can give the titrant hydroxide concentration; a measured STP gas volume can give the stock acid amount. Carry the result through stock concentration, aliquot moles, balanced equivalents and titrant volume, keeping gas volume distinct from final solution volume.",
+          "formula": "n(gas) = Vgas/Vm → cstock = n/Vsolution → naliquot = cstockValiquot → equivalence ratio"
+        }
+      ]
+    },
+    {
+      "section": "5.4",
+      "skills": [
+        {
+          "id": "practice-5-4-1",
+          "title": "Predict indicator form, ratio and mixed colour",
+          "questions": [
+            "chem12-s5-4-q1",
+            "chem12-s5-4-q2",
+            "chem12-s5-4-q5",
+            "chem12-s5-4-q6",
+            "chem12-s5-4-q7"
+          ],
+          "explanation": "An indicator is a weak acid with differently coloured conjugate forms. Use its Ka or approximate transition midpoint to predict which form dominates. Within the transition range report a mixture rather than an abrupt switch. A colour establishes a pH range, not a unique chemical identity; inconsistent printed results cannot justify an inconsistent pH model.",
+          "formula": "[In⁻]/[HIn] = Ka/[H₃O⁺] ≈ 10^(pH − pKa); transition midpoint gives approximate pKa"
+        },
+        {
+          "id": "practice-5-4-2",
+          "title": "Identify solutions with several indicator ranges",
+          "questions": [
+            "chem12-s5-4-q3",
+            "chem12-s5-4-q6",
+            "chem12-s5-4-q7"
+          ],
+          "explanation": "Estimate each candidate’s pH from strong acid/base concentration or salt hydrolysis, then select indicators giving distinct result patterns. Include the given solution concentrations and the indicator table’s actual ranges. Q6’s printed acetic-acid/methyl-orange entry conflicts with the stated 0.10 M solution, so distinguish intended identification from a fully consistent data set.",
+          "formula": "Compare each candidate pH with every selected indicator’s lower and upper transition limits."
+        },
+        {
+          "id": "practice-5-4-3",
+          "title": "Choose an endpoint from the equivalence chemistry",
+          "questions": [
+            "chem12-s5-4-q4",
+            "chem12-s5-4-q5",
+            "chem12-s5-4-q8",
+            "chem12-s5-4-q14"
+          ],
+          "explanation": "Strong/strong equivalence is neutral at 25 °C. A weak-acid/strong-base salt is basic; a weak-base/strong-acid salt is acidic. Choose an indicator whose range lies in the steep part of that actual titration curve. An indicator useful for showing acidity is not automatically suitable for detecting equivalence.",
+          "formula": "Weaker acid → stronger conjugate base → higher equivalence pH, for comparable conditions."
+        },
+        {
+          "id": "practice-5-4-4",
+          "title": "Use half-equivalence to find Ka or Kb",
+          "questions": [
+            "chem12-s5-4-q9",
+            "chem12-s5-4-q11",
+            "chem12-s5-4-q12",
+            "chem12-s5-4-q13"
+          ],
+          "explanation": "Halfway through a weak-acid titration, equal HA and A⁻ give pH ≈ pKa. For a weak base titrated with strong acid, halfway pOH ≈ pKb, equivalently pH ≈ pKa of BH⁺. Use this midpoint to identify an unknown weak acid or recover its base constant.",
+          "formula": "Ka ≈ 10^(−pH at half-equivalence); Kb ≈ 10^(−pOH at half-equivalence)"
+        },
+        {
+          "id": "practice-5-4-5",
+          "title": "Calculate pH by the titration region",
+          "questions": [
+            "chem12-s5-4-q9",
+            "chem12-s5-4-q10",
+            "chem12-s5-4-q11",
+            "chem12-s5-4-q14"
+          ],
+          "explanation": "First perform neutralization stoichiometry. Initially use the original weak or strong model; before equivalence use the remaining conjugate pair; at equivalence calculate salt concentration in the combined volume and solve hydrolysis; after equivalence use excess strong reagent when it dominates. Doubling analyte moles doubles equivalence volume at fixed titrant concentration.",
+          "formula": "At weak-acid equivalence: C(A⁻) = initial acid moles/Vtotal; Kb(A⁻) = Kw/Ka(HA)"
+        },
+        {
+          "id": "practice-5-4-6",
+          "title": "Recognize successive endpoints of polyprotic acids",
+          "questions": [
+            "chem12-s5-4-q15"
+          ],
+          "explanation": "A well-resolved diprotic acid can show two buffer regions and two equivalence steps. The second equivalence volume is twice the first for a single sample and fixed titrant. Distinct steps require sufficiently separated dissociation constants; choose the indicator for the endpoint actually being measured.",
+          "formula": "H₂A → HA⁻ at the first equivalent; HA⁻ → A²⁻ at the second. Midpoints can give pKa₁ and pKa₂."
+        }
+      ]
+    },
+    {
+      "section": "5.5",
+      "skills": [
+        {
+          "id": "practice-5-5-1",
+          "title": "Balance oxide hydration and predict acid/base products",
+          "questions": [
+            "chem12-s5-5-q1",
+            "chem12-s5-5-q2",
+            "chem12-s5-5-q3"
+          ],
+          "explanation": "Reactive ionic metal oxides can form hydroxides; many covalent non-metal oxides form oxyacids. Determine the product formula, balance atoms and then consider dissociation or ionization. “Sweetening” acidic soil means neutralizing acidity and raising pH. These oxide trends have exceptions.",
+          "formula": "SrO + H₂O → Sr(OH)₂; N₂O₅ + H₂O → 2HNO₃; P₄O₁₀ + 6H₂O → 4H₃PO₄"
+        },
+        {
+          "id": "practice-5-5-2",
+          "title": "Connect high-temperature kinetics to acid precursors",
+          "questions": [
+            "chem12-s5-5-q4",
+            "chem12-s5-5-q6"
+          ],
+          "explanation": "Ordinary atmospheric N₂ and O₂ react extremely slowly because of their activation barrier, despite being abundant. Combustion temperatures or lightning enable NO formation, followed by oxidation and aqueous chemistry. Sulfur trioxide hydrates to sulfuric acid; NO₂ reactions can generate nitrous and nitric acids.",
+          "formula": "SO₃ + H₂O → H₂SO₄; 2NO₂ + H₂O → HNO₂ + HNO₃"
+        },
+        {
+          "id": "practice-5-5-3",
+          "title": "Explain transport, damage and carbonate protection",
+          "questions": [
+            "chem12-s5-5-q5",
+            "chem12-s5-5-q7",
+            "chem12-s5-5-q8"
+          ],
+          "explanation": "Atmospheric transport can carry SOₓ and NOₓ far downwind before acid deposition. Acidity can harm aquatic systems, leach soil nutrients and mobilize aluminum, damage vegetation, and corrode materials. Carbonate geology supplies acid-neutralizing capacity; adding lime or limestone replenishes a finite reserve without stopping continuing emissions.",
+          "formula": "CaCO₃ + 2H⁺ → Ca²⁺ + CO₂ + H₂O"
+        },
+        {
+          "id": "practice-5-5-4",
+          "title": "Distinguish gas capture from catalytic reduction",
+          "questions": [
+            "chem12-s5-5-q9",
+            "chem12-s5-5-q10",
+            "chem12-s5-5-q11"
+          ],
+          "explanation": "Alkaline scrubbers capture acidic gases in sulfite/sulfate products, with reagent, energy and waste-management costs. Exhaust catalysts reduce NOₓ toward N₂. Selective catalytic reduction uses NH₃ as a consumed reducing reagent, with a separate regenerated catalyst; ammonia itself is not the catalyst in the overall equation.",
+          "formula": "2NO + 2CO → N₂ + 2CO₂; 4NH₃ + 4NO + O₂ → 4N₂ + 6H₂O"
+        }
+      ]
+    },
+    {
+      "section": "6.1",
+      "skills": [
+        {
+          "id": "practice-6-1-1",
+          "title": "Assign oxidation numbers, including exceptions",
+          "questions": [
+            "chem12-s6-1-q2",
+            "chem12-s6-1-q7"
+          ],
+          "explanation": "Use elemental zero, monatomic ionic charge and the sum-to-overall-charge rule. Oxygen is −1 in peroxides and +2 in OF₂; hydrogen is −1 in metal hydrides. Polyatomic-ion charge helps recover a metal’s oxidation state. An average for several carbon or sulfur atoms need not describe each individual atom.",
+          "formula": "Σ(atom count × oxidation number) = overall species charge"
+        },
+        {
+          "id": "practice-6-1-2",
+          "title": "Identify agents and count electrons per specified unit",
+          "questions": [
+            "chem12-s6-1-q3",
+            "chem12-s6-1-q4",
+            "chem12-s6-1-q5",
+            "chem12-s6-1-q6",
+            "chem12-s6-1-q8",
+            "chem12-s6-1-q10"
+          ],
+          "explanation": "An oxidation-number increase marks oxidation; its reactant is the reducing agent. A decrease marks reduction; its reactant is the oxidizing agent. Multiply the change per atom by the number of affected atoms before balancing electrons. Distinguish electrons per atom, per molecule and per balanced reaction.",
+          "formula": "Electrons transferred = number of atoms changed × magnitude of oxidation-number change"
+        },
+        {
+          "id": "practice-6-1-3",
+          "title": "Explain periodic trends without replacing table data",
+          "questions": [
+            "chem12-s6-1-q1",
+            "chem12-s6-1-q3",
+            "chem12-s6-1-q9"
+          ],
+          "explanation": "Alkali metals are strong elemental reducing agents and halogens strong elemental oxidizing agents. Anions can also donate electrons. Electronegativity offers a qualitative elemental trend, but aqueous redox strength also depends on oxidation state, solvation and conditions; reduction potentials are the appropriate quantitative comparison.",
+          "formula": "Reducing agent donates e⁻ and is oxidized; oxidizing agent accepts e⁻ and is reduced."
+        },
+        {
+          "id": "practice-6-1-4",
+          "title": "Translate redox observations and check unusual formulas",
+          "questions": [
+            "chem12-s6-1-q4",
+            "chem12-s6-1-q6",
+            "chem12-s6-1-q8",
+            "chem12-s6-1-q10"
+          ],
+          "explanation": "A dissolving metal, a metal coating and a fading ionic colour can identify complementary half-reactions. Cancel spectators in a net ionic equation. Read the actual printed species: CuNO₃ contains Cu(I), while Cu(NO₃)₂ contains Cu(II). A proposed higher or lower oxidation-state product describes oxidation or reduction but does not alone prove spontaneous formation.",
+          "formula": "Fe + Cu²⁺ → Fe²⁺ + Cu; Cu + 2Ag⁺ → Cu²⁺ + 2Ag"
+        }
+      ]
+    },
+    {
+      "section": "6.2",
+      "skills": [
+        {
+          "id": "practice-6-2-1",
+          "title": "Balance half-reaction charge with electrons",
+          "questions": [
+            "chem12-s6-2-q1",
+            "chem12-s6-2-q2"
+          ],
+          "explanation": "After balancing atoms, total the charge on each side and add electrons to the more positive side, including the less-negative side. The number equals the charge difference. Electrons among reactants indicate reduction; electrons among products indicate oxidation.",
+          "formula": "Each added e⁻ lowers that side’s total charge by one."
+        },
+        {
+          "id": "practice-6-2-2",
+          "title": "Balance in acidic or basic medium",
+          "questions": [
+            "chem12-s6-2-q3",
+            "chem12-s6-2-q4",
+            "chem12-s6-2-q5"
+          ],
+          "explanation": "Balance non-O/H atoms, oxygen with H₂O, hydrogen with H⁺ and charge with electrons. For basic medium, add enough OH⁻ to both sides to remove H⁺ as water, then cancel common water. In the final basic equation no H⁺ should remain. Verify species from the actual problem rather than substituting a more familiar product.",
+          "formula": "Acid: O with H₂O, H with H⁺, charge with e⁻. Basic conversion: H⁺ + OH⁻ → H₂O."
+        },
+        {
+          "id": "practice-6-2-3",
+          "title": "Use oxidation-number changes to equalize transfer",
+          "questions": [
+            "chem12-s6-2-q5",
+            "chem12-s6-2-q6"
+          ],
+          "explanation": "Calculate the oxidation and reduction changes, including all affected atoms. Multiply half-reactions to equal electron loss and gain, add them, cancel and reduce coefficients. Complex ions retain their ligand inventory. Disproportionation can send one element into several products; if product ratios are unspecified, more than one balanced solution can be possible.",
+          "formula": "Total electrons lost = total electrons gained; no free e⁻ remain in the summed reaction."
+        },
+        {
+          "id": "practice-6-2-4",
+          "title": "Restore a formula equation and verify conservation",
+          "questions": [
+            "chem12-s6-2-q7"
+          ],
+          "explanation": "If the question starts with molecular reagents, first isolate and balance the net ionic redox reaction, then restore spectator ions to reconstruct the requested formula equation. Use the requested oxidation endpoint: ethanol converted to acetic acid has different electron transfer from ethanol completely oxidized to CO₂. Formal balancing is not proof of spontaneity.",
+          "formula": "Final check: every element, net charge, medium, stated products, and smallest appropriate whole-number coefficients."
+        }
+      ]
+    },
+    {
+      "section": "6.3",
+      "skills": [
+        {
+          "id": "practice-6-3-1",
+          "title": "Select available oxidants and reductants",
+          "questions": [
+            "chem12-s6-3-q1",
+            "chem12-s6-3-q2",
+            "chem12-s6-3-q3",
+            "chem12-s6-3-q4",
+            "chem12-s6-3-q5",
+            "chem12-s6-3-q6",
+            "chem12-s6-3-q7",
+            "chem12-s6-3-q13",
+            "chem12-s6-3-q16",
+            "chem12-s6-3-q17"
+          ],
+          "explanation": "Separate dissolved strong electrolytes into available species and include the specified medium. Choose the strongest available oxidant and reductant in the table model, not a species absent from the mixture. Acidic nitrate can be an oxidant rather than a spectator. Later reactions may follow as the strongest reactant is depleted.",
+          "formula": "E°cell = E°red(selected reduction) − E°red(pair being oxidized)"
+        },
+        {
+          "id": "practice-6-3-2",
+          "title": "Predict direction, then balance the actual reaction",
+          "questions": [
+            "chem12-s6-3-q1",
+            "chem12-s6-3-q3",
+            "chem12-s6-3-q5",
+            "chem12-s6-3-q6",
+            "chem12-s6-3-q7",
+            "chem12-s6-3-q9",
+            "chem12-s6-3-q10",
+            "chem12-s6-3-q11",
+            "chem12-s6-3-q12",
+            "chem12-s6-3-q15"
+          ],
+          "explanation": "Keep the reduction half-reaction, reverse the oxidation half-reaction and equalize electrons without multiplying E°. Positive E° predicts a favourable standard direction; negative E° favours the reverse. Include H⁺, water or OH⁻ when the selected table reaction requires it, and write a balanced net ionic equation.",
+          "formula": "E°ox = −E°red; E° does not scale when the half-reaction is multiplied."
+        },
+        {
+          "id": "practice-6-3-3",
+          "title": "Infer a potential ordering from experiments",
+          "questions": [
+            "chem12-s6-3-q2",
+            "chem12-s6-3-q8",
+            "chem12-s6-3-q14",
+            "chem12-s6-3-q18"
+          ],
+          "explanation": "A spontaneous metal displacement places the oxidant’s reduction pair above the dissolving metal’s pair. Several observations can form an ordered chain without giving exact numerical potentials. For storage compatibility, test whether the solution can oxidize the container; an oxide film can delay an otherwise favourable corrosion reaction.",
+          "formula": "Observed spontaneous OA + RA → products implies Ered(OA pair) > Ered(RA pair), under the stated model."
+        },
+        {
+          "id": "practice-6-3-4",
+          "title": "Compare water, nonoxidizing acid and oxidizing acid",
+          "questions": [
+            "chem12-s6-3-q10",
+            "chem12-s6-3-q11",
+            "chem12-s6-3-q12"
+          ],
+          "explanation": "An active metal can reduce H⁺ to H₂, or reduce water to H₂ and OH⁻. Silver does not dissolve through H⁺ reduction under the simple standard model, but acidic nitrate can oxidize it. When water produces OH⁻, an indicator can reveal the local basic region. Read the appropriate table row for the actual medium.",
+          "formula": "Mg + 2H⁺ → Mg²⁺ + H₂; 2Na + 2H₂O → 2Na⁺ + 2OH⁻ + H₂"
+        },
+        {
+          "id": "practice-6-3-5",
+          "title": "Solve redox titration, standardization and purity",
+          "questions": [
+            "chem12-s6-3-q19",
+            "chem12-s6-3-q20",
+            "chem12-s6-3-q21"
+          ],
+          "explanation": "Balance the complete redox equation before applying n = cV and the titrant:analyte coefficient ratio. Include hydrate water in a weighed standard’s molar mass. For a mass percentage, convert analyte moles to mass and divide by sample mass. Use the exercise’s stated comparison threshold without treating a historical scenario as current law.",
+          "formula": "n(analyte) = n(titrant)νanalyte/νtitrant; mass % = 100nanalyte Manalyte/msample"
+        }
+      ]
+    },
+    {
+      "section": "6.4",
+      "skills": [
+        {
+          "id": "practice-6-4-1",
+          "title": "Label electrodes and both current paths",
+          "questions": [
+            "chem12-s6-4-q1",
+            "chem12-s6-4-q2",
+            "chem12-s6-4-q3",
+            "chem12-s6-4-q4",
+            "chem12-s6-4-q5",
+            "chem12-s6-4-q6",
+            "chem12-s6-4-q7",
+            "chem12-s6-4-q17"
+          ],
+          "explanation": "Oxidation is at the anode and reduction at the cathode. In a galvanic cell the anode is negative and electrons flow through the wire to the positive cathode. Ions carry charge in the solutions and bridge. Separate electrode interfaces allow bulk oxidant and reductant to exchange electrons without directly colliding.",
+          "formula": "Salt-bridge anions migrate toward the anode; cations toward the cathode."
+        },
+        {
+          "id": "practice-6-4-2",
+          "title": "Choose electrode materials and predict mass changes",
+          "questions": [
+            "chem12-s6-4-q1",
+            "chem12-s6-4-q2",
+            "chem12-s6-4-q3",
+            "chem12-s6-4-q4",
+            "chem12-s6-4-q5",
+            "chem12-s6-4-q6"
+          ],
+          "explanation": "A dissolving metal anode loses mass; metal-ion deposition can increase cathode mass. An inert Pt contact is needed for couples without a conducting metal phase, such as H⁺/H₂ or Br₂/Br⁻. Its mass need not increase when gas evolves. Include the specified phases and an ionic connection; the aqueous F₂ example is an idealized table model.",
+          "formula": "Oxidation: M → Mᶻ⁺ + ze⁻. Deposition: Mᶻ⁺ + ze⁻ → M."
+        },
+        {
+          "id": "practice-6-4-3",
+          "title": "Calculate, recover and re-reference potentials",
+          "questions": [
+            "chem12-s6-4-q2",
+            "chem12-s6-4-q5",
+            "chem12-s6-4-q6",
+            "chem12-s6-4-q8",
+            "chem12-s6-4-q9",
+            "chem12-s6-4-q10",
+            "chem12-s6-4-q11",
+            "chem12-s6-4-q12"
+          ],
+          "explanation": "Subtract the tabulated anode reduction potential from the cathode reduction potential. Rearrange to find an unknown half-cell potential or combine voltage differences. If a new reference electrode is set to zero, subtract its old potential from every half-cell value; physical cell voltages remain unchanged.",
+          "formula": "Enew(pair) = Eold(pair) − Eold(new reference); E°cell = E°cathode − E°anode"
+        },
+        {
+          "id": "practice-6-4-4",
+          "title": "Predict concentration effects and equilibrium voltage",
+          "questions": [
+            "chem12-s6-4-q13"
+          ],
+          "explanation": "Write the cell reaction and its Q. Increasing oxidant concentration or removing a dissolved oxidation product can lower Q and increase the cell voltage. At cell-reaction equilibrium the open-circuit emf is zero. Changing the area of an existing pure metal does not change its activity or ideal equilibrium emf, although it can affect useful current and losses.",
+          "formula": "E = E° − (RT/nF)ln Q; for Fe + Pb²⁺ → Fe²⁺ + Pb, Q = [Fe²⁺]/[Pb²⁺]"
+        },
+        {
+          "id": "practice-6-4-5",
+          "title": "Explain cathodic protection and galvanizing",
+          "questions": [
+            "chem12-s6-4-q15",
+            "chem12-s6-4-q16"
+          ],
+          "explanation": "Connect a more easily oxidized sacrificial metal such as Zn or Mg to the steel through a conducting path and electrolyte. The sacrificial anode supplies electrons and keeps steel cathodic. Zinc also provides a barrier and can protect at scratches while connected zinc remains; the sacrificial material is consumed and needs replacement.",
+          "formula": "Zn → Zn²⁺ + 2e⁻ supplies electrons that suppress Fe → Fe²⁺ + 2e⁻."
+        },
+        {
+          "id": "practice-6-4-6",
+          "title": "Assess a biological fuel-cell claim",
+          "questions": [
+            "chem12-s6-4-q14"
+          ],
+          "explanation": "Enzymes can hydrolyze cellulose to glucose, which supplies electrons on oxidation. Renewable or waste feedstocks, mild catalytic conditions and reduced reliance on some hazardous materials are potential advantages. Compare the whole device and material lifecycle rather than assuming any “bio” label proves a lower environmental impact.",
+          "formula": "Fuel oxidation supplies electrons; the electrode reactions must still conserve atoms, charge and total electron transfer."
+        }
+      ]
+    },
+    {
+      "section": "6.5",
+      "skills": [
+        {
+          "id": "practice-6-5-1",
+          "title": "Classify electrolyte and electrolytic cell type",
+          "questions": [
+            "chem12-s6-5-q1",
+            "chem12-s6-5-q2",
+            "chem12-s6-5-q4",
+            "chem12-s6-5-q11"
+          ],
+          "explanation": "Soluble salts and ionizing acids provide mobile ions; neutral sugars do not. In the textbook’s types, type 1 is molten salt, type 2 aqueous solution with inert electrodes, and type 3 includes an active electrode supplying reacting ions. The DC positive terminal connects to the electrolytic anode and negative terminal to the cathode.",
+          "formula": "Oxidation at anode (+); reduction at cathode (−); cations migrate to cathode and anions to anode."
+        },
+        {
+          "id": "practice-6-5-2",
+          "title": "Choose products from all available electrode reactants",
+          "questions": [
+            "chem12-s6-5-q2",
+            "chem12-s6-5-q3",
+            "chem12-s6-5-q4",
+            "chem12-s6-5-q5",
+            "chem12-s6-5-q6",
+            "chem12-s6-5-q8",
+            "chem12-s6-5-q11",
+            "chem12-s6-5-q12"
+          ],
+          "explanation": "In a melt, no water competes; molten NaCl can give Na and Cl₂. In water compare solute species, water or H⁺/OH⁻, and any reactive electrode. Water reduction normally prevents aqueous Na or Al deposition. Halide/oxygen anode selectivity also depends on concentration and overpotential; follow the supplied table notes rather than relying on a bare standard ranking.",
+          "formula": "Cathodic water reduction: 2H₂O + 2e⁻ → H₂ + 2OH⁻; water electrolysis overall: 2H₂O → 2H₂ + O₂"
+        },
+        {
+          "id": "practice-6-5-3",
+          "title": "Separate reversible voltage from operating voltage",
+          "questions": [
+            "chem12-s6-5-q2",
+            "chem12-s6-5-q5",
+            "chem12-s6-5-q10",
+            "chem12-s6-5-q12"
+          ],
+          "explanation": "Calculate the chosen decomposition Ecell from reduction potentials. If negative, its magnitude is the ideal opposing emf under those stated conditions. An applied source must exceed it to sustain current, accounting for overpotential and resistance. Equal-activity active-metal transfer can have a zero ideal reversible difference while still needing a finite operating voltage.",
+          "formula": "Vapplied for operation > reversible opposing emf + required kinetic and ohmic losses; standard values are a stated-condition estimate."
+        },
+        {
+          "id": "practice-6-5-4",
+          "title": "Explain plating, refining and product separation",
+          "questions": [
+            "chem12-s6-5-q3",
+            "chem12-s6-5-q7",
+            "chem12-s6-5-q8",
+            "chem12-s6-5-q10"
+          ],
+          "explanation": "The object to plate is the cathode. A suitable active metal anode can replenish the ions deposited at the cathode, allowing plating or purification from an impure anode. Keep molten sodium and chlorine separated to prevent recombination. Dissolving alumina in a molten electrolyte lowers the energy demand relative to melting pure alumina.",
+          "formula": "Silver transfer: anode Ag → Ag⁺ + e⁻; cathode Ag⁺ + e⁻ → Ag."
+        },
+        {
+          "id": "practice-6-5-5",
+          "title": "Compare impressed-current and sacrificial protection",
+          "questions": [
+            "chem12-s6-5-q9"
+          ],
+          "explanation": "Both methods make the protected structure cathodic. Galvanic protection uses spontaneous oxidation of a more reactive attached metal; impressed-current protection uses an external DC supply, with steel connected to the negative terminal and a separate positive anode.",
+          "formula": "Protection suppresses metal oxidation by supplying electrons to the structure."
+        },
+        {
+          "id": "practice-6-5-6",
+          "title": "Relate current to electron and product amounts",
+          "questions": [
+            "chem12-s6-5-q2",
+            "chem12-s6-5-q4",
+            "chem12-s6-5-q5",
+            "chem12-s6-5-q10",
+            "chem12-s6-5-q11",
+            "chem12-s6-5-q12"
+          ],
+          "explanation": "For an amount calculation, integrate current over time or use It at constant current, divide by Faraday’s constant, and apply the electron coefficient of the selected half-reaction. This extends the electrode-reaction reasoning; the current-to-mass worked check above provides a numerical example. Specify current efficiency if less than all charge forms the desired product.",
+          "formula": "Qcharge = It; n(e⁻) = Qcharge/F; n(product) = n(e⁻)νproduct/νelectrons; m = nM"
+        }
+      ]
+    }
+  ]
+}
