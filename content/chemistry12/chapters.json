@@ -1,0 +1,218 @@
+[
+  {
+    "id": "kinetics",
+    "title": "1 Reaction Kinetics",
+    "sections": [
+      {
+        "id": "section-1-1",
+        "title": "1.1 Measuring the Rate of Chemical Reactions",
+        "page": 2,
+        "pdfPage": 12
+      },
+      {
+        "id": "section-1-2",
+        "title": "1.2 Factors Affecting Rates of Reaction",
+        "page": 15,
+        "pdfPage": 25
+      },
+      {
+        "id": "section-1-3",
+        "title": "1.3 Collision Theory",
+        "page": 24,
+        "pdfPage": 34
+      },
+      {
+        "id": "section-1-4",
+        "title": "1.4 Potential Energy Diagrams",
+        "page": 36,
+        "pdfPage": 46
+      },
+      {
+        "id": "section-1-5",
+        "title": "1.5 Reaction Mechanisms, Catalysis, and Rate Laws",
+        "page": 50,
+        "pdfPage": 60
+      }
+    ]
+  },
+  {
+    "id": "equilibrium",
+    "title": "2 Chemical Equilibrium",
+    "sections": [
+      {
+        "id": "section-2-1",
+        "title": "2.1 Introduction to Dynamic Equilibrium",
+        "page": 64,
+        "pdfPage": 74
+      },
+      {
+        "id": "section-2-2",
+        "title": "2.2 Le Chatelier’s Principle",
+        "page": 74,
+        "pdfPage": 84
+      },
+      {
+        "id": "section-2-3",
+        "title": "2.3 How Equilibria Respond to Volume and Temperature Changes",
+        "page": 86,
+        "pdfPage": 96
+      },
+      {
+        "id": "section-2-4",
+        "title": "2.4 Entropy Change versus Enthalpy Change",
+        "page": 104,
+        "pdfPage": 114
+      },
+      {
+        "id": "section-2-5",
+        "title": "2.5 The Equilibrium Constant",
+        "page": 115,
+        "pdfPage": 125
+      },
+      {
+        "id": "section-2-6",
+        "title": "2.6 Equilibrium Problems",
+        "page": 129,
+        "pdfPage": 139
+      }
+    ]
+  },
+  {
+    "id": "solubility",
+    "title": "3 Solubility Equilibrium",
+    "sections": [
+      {
+        "id": "section-3-1",
+        "title": "3.1 The Concept of Solubility",
+        "page": 144,
+        "pdfPage": 154
+      },
+      {
+        "id": "section-3-2",
+        "title": "3.2 Qualitative Analysis — Identifying Unknown Ions",
+        "page": 154,
+        "pdfPage": 164
+      },
+      {
+        "id": "section-3-3",
+        "title": "3.3 The Solubility Product Constant Ksp",
+        "page": 167,
+        "pdfPage": 177
+      },
+      {
+        "id": "section-3-4",
+        "title": "3.4 Precipitation Formation and the Solubility Product Ksp",
+        "page": 177,
+        "pdfPage": 187
+      }
+    ]
+  },
+  {
+    "id": "acid-base-1",
+    "title": "4 Acid-Base Equilibrium",
+    "sections": [
+      {
+        "id": "section-4-1",
+        "title": "4.1 Identifying Acids and Bases",
+        "page": 190,
+        "pdfPage": 200
+      },
+      {
+        "id": "section-4-2",
+        "title": "4.2 The Strengths of Acids and Bases",
+        "page": 199,
+        "pdfPage": 209
+      },
+      {
+        "id": "section-4-3",
+        "title": "4.3 The Ionization of Water",
+        "page": 212,
+        "pdfPage": 222
+      },
+      {
+        "id": "section-4-4",
+        "title": "4.4 pH and pOH",
+        "page": 219,
+        "pdfPage": 229
+      },
+      {
+        "id": "section-4-5",
+        "title": "4.5 Calculations Involving Ka and Kb",
+        "page": 234,
+        "pdfPage": 244
+      }
+    ]
+  },
+  {
+    "id": "acid-base-2",
+    "title": "5 Applications of Acid-Base Reactions",
+    "sections": [
+      {
+        "id": "section-5-1",
+        "title": "5.1 Hydrolysis of Salts — The Reactions of Ions with Water",
+        "page": 256,
+        "pdfPage": 266
+      },
+      {
+        "id": "section-5-2",
+        "title": "5.2 The Chemistry of Buffers",
+        "page": 272,
+        "pdfPage": 282
+      },
+      {
+        "id": "section-5-3",
+        "title": "5.3 Acid-Base Titrations — Analyzing with Volume",
+        "page": 290,
+        "pdfPage": 300
+      },
+      {
+        "id": "section-5-4",
+        "title": "5.4 A Closer Look at Titrations",
+        "page": 307,
+        "pdfPage": 317
+      },
+      {
+        "id": "section-5-5",
+        "title": "5.5 Non-metal and Metal Oxides in Water",
+        "page": 337,
+        "pdfPage": 347
+      }
+    ]
+  },
+  {
+    "id": "electrochemistry",
+    "title": "6 Oxidation-Reduction and Its Applications",
+    "sections": [
+      {
+        "id": "section-6-1",
+        "title": "6.1 Oxidation-Reduction",
+        "page": 352,
+        "pdfPage": 362
+      },
+      {
+        "id": "section-6-2",
+        "title": "6.2 Balancing Oxidation-Reduction Equations",
+        "page": 363,
+        "pdfPage": 373
+      },
+      {
+        "id": "section-6-3",
+        "title": "6.3 Using the Standard Reduction Potential (SRP) Table to Predict Redox Reactions",
+        "page": 379,
+        "pdfPage": 389
+      },
+      {
+        "id": "section-6-4",
+        "title": "6.4 The Electrochemical Cell",
+        "page": 392,
+        "pdfPage": 402
+      },
+      {
+        "id": "section-6-5",
+        "title": "6.5 The Electrolytic Cell",
+        "page": 408,
+        "pdfPage": 418
+      }
+    ]
+  }
+]

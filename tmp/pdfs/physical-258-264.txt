@@ -1,0 +1,351 @@
+=== PDF 258 / printed 226 ===
+226   7 CHEMICAL EQUILIBRIUM
+
+
+
+
+                               Glycolysis
+                               Glycolysis occurs in the cytosol, the aqueous material encapsulated by the cell mem-
+                               brane, and consists of ten enzyme-catalysed reactions. At blood temperature, ∆rG ⊕ =
+                               −147 kJ mol−1 for the oxidation of glucose by NAD+ to pyruvate ions. The oxidation
+                               of one glucose molecule is coupled to the conversion of two ADP molecules to two
+                               ATP molecules, so the net reaction of glycolysis is:
+                                    C6H12O6(aq) + 2 NAD+(aq) + 2 ADP(aq) + 2 P−i (aq) + 2 H2O(l)
+                                        → 2 CH3COCO2−(aq) + 2 NADH(aq) + 2 ATP(aq) + 2 H3O+(aq)
+                               The standard reaction Gibbs energy is (−147) − 2(−31) kJ mol−1 = −85 kJ mol−1. The
+                               reaction is exergonic, and therefore spontaneous: the oxidation of glucose is used to
+                               ‘recharge’ the ATP. In cells that are deprived of O2, pyruvate ion is reduced to lactate
+                               ion, CH3C(OH)CO2−, by NADH.2 Very strenuous exercise, such as bicycle racing, can
+                               decrease sharply the concentration of O2 in muscle cells and the condition known as
+                               muscle fatigue results from increased concentrations of lactate ion.
+
+                               The citric acid cycle
+                               The standard Gibbs energy of combustion of glucose is −2880 kJ mol−1, so terminat-
+                               ing its oxidation at pyruvate is a poor use of resources. In the presence of O2, pyruvate
+                               is oxidized further during the citric acid cycle and oxidative phosphorylation, which
+                               occur in a special compartment of the cell called the mitochondrion. The citric acid
+                               cycle requires eight enzymes that couple the synthesis of ATP to the oxidation of
+                               pyruvate by NAD+ and ﬂavin adenine dinucleotide (FAD, 3):
+                                    2 CH3COCO2−(aq) + 8 NAD+(aq) + 2 FAD(aq) + 2 ADP(aq) + 2 Pi (aq) + 8 H2O(l)
+                                        → 6 CO2(g) + 8 NADH(aq) + 4 H3O+(aq) + 2 FADH2(aq) + 2 ATP(aq)
+                               The NADH and FADH2 go on to reduce O2 during oxidative phosphorylation, which
+                               also produces ATP. The citric acid cycle and oxidative phosphorylation generate
+                               as many as 38 ATP molecules for each glucose molecule consumed. Each mole of
+                               ATP molecules extracts 31 kJ from the 2880 kJ supplied by 1 mol C6H12O6 (180 g of
+                               2
+                                   In yeast, the terminal products are ethanol and CO2.
+
+=== PDF 259 / printed 227 ===
+                                                                       7.9 APPLICATIONS OF STANDARD POTENTIALS   227
+
+
+
+
+glucose), so 1178 kJ is stored for later use. Therefore, aerobic oxidation of glucose is
+much more eﬃcient than glycolysis.
+   In the cell, each ATP molecule can be used to drive an endergonic reaction for
+which ∆rG ⊕ does not exceed +31 kJ mol−1. For example, the biosynthesis of sucrose
+from glucose and fructose can be driven by plant enzymes because the reaction is
+endergonic to the extent ∆rG ⊕ = +23 kJ mol−1. The biosynthesis of proteins is strongly
+endergonic, not only on account of the enthalpy change but also on account of the
+large decrease in entropy that occurs when many amino acids are assembled into
+a precisely determined sequence. For instance, the formation of a peptide link is
+endergonic, with ∆rG ⊕ = +17 kJ mol−1, but the biosynthesis occurs indirectly and is
+equivalent to the consumption of three ATP molecules for each link. In a moderately
+small protein like myoglobin, with about 150 peptide links, the construction alone
+requires 450 ATP molecules, and therefore about 12 mol of glucose molecules for
+1 mol of protein molecules.
+
+The respiratory chain
+In the exergonic oxidation of glucose 24 electrons are transferred from each C6H12O6
+molecule to six O2 molecules. The half-reactions for the oxidation of glucose and the
+reduction of O2 are
+   C6H12O6(s) + 6 H2O(l) → 6 CO2(g) + 24 H+(aq) + 24 e−
+   6 O2(g) + 24 H+(aq) + 24 e− → 12 H2O(l)
+The electrons do not ﬂow directly from glucose to O2. We have already seen that, in
+biological cells, glucose is oxidized to CO2 by NAD+ and FAD during glycolysis and
+the citric acid cycle:
+   C6H12O6(s) + 10 NAD+ + 2 FAD + 4 ADP + 4 P −i + 2 H2O
+        → 6 CO2 + 10 NADH + 2 FADH2 + 4 ATP + 6 H+
+
+=== PDF 260 / printed 228 ===
+228       7 CHEMICAL EQUILIBRIUM
+
+
+
+
+                                              In the respiratory chain, electrons from the powerful reducing agents NADH and
+                                              FADH2 pass through four membrane-bound protein complexes and two mobile elec-
+                                              tron carriers before reducing O2 to H2O. We shall see that the electron transfer reac-
+                                              tions drive the synthesis of ATP at three of the membrane protein complexes.
+                                                 The respiratory chain begins in complex I (NADH-Q oxidoreductase), where
+                                              NADH is oxidized by coenzyme Q (Q, 4) in a two-electron reaction:
+                                                 H+ + NADH + Q ––––––→ NAD+ + QH2                  E ⊕ = +0.42 V, ∆rG ⊕ = −81 kJ mol−1
+                                                                    complex I
+
+
+                                              Additional Q molecules are reduced by FADH2 in complex II (succinate-Q reductase):
+                                                                                               E ⊕ = +0.015 V,   ∆rG ⊕ = −2.9 kJ mol−1
+                                                              complex II
+                                                 FADH2 + Q –––––––→ FAD + QH2
+                                              Reduced Q migrates to complex III (Q-cytochrome c oxidoreductase), which cata-
+                                              lyses the reduction of the protein cytochrome c (Cyt c). Cytochrome c contains the
+                                              haem c group (5), the central iron ion of which can exist in oxidation states +3 and +2.
+                                              The net reaction catalysed by complex III is
+                                                 QH2 + 2 Fe3+(Cyt c) ––––––––→ Q + 2 Fe2+(Cyt c) + 2 H+
+                                                                           complex III
+
+                                                     E ⊕ = +0.15 V,      ∆rG ⊕ = −30 kJ mol−1
+                                              Reduced cytochrome c carries electrons from complex III to complex IV (cytochrome
+                                              c oxidase), where O2 is reduced to H2O:
+                                                 2 Fe2+(Cyt c) + 2 H+ + –12 O2complex IV → 2 Fe3+(Cyt c) + H2O
+                                                      E ⊕ = +0.815 V,        ∆rG ⊕ = −109 kJ mol−1
+                              Inner
+                              membrane        Oxidative phosphorylation
+                                              The reactions that occur in complexes I, III, and IV are suﬃciently exergonic to drive
+                                              the synthesis of ATP in the process called oxidative phosphorylation:
+                                  Matrix
+                                                 ADP + P −i + H + → ATP              ∆rG ⊕ = +31 kJ mol−1
+   Outer                                      We saw above that the phosphorylation of ADP to ATP can be coupled to the exer-
+   membrane                                   gonic dephosphorylation of other molecules. Indeed, this is the mechanism by which
+   Intermembrane                              ATP is synthesized during glycolysis and the citric acid cycle. However, oxidative
+   space                                      phosphorylation operates by a diﬀerent mechanism.
+                                                 The structure of a mitochondrion is shown in Fig. 7.17. The protein complexes
+Fig. 7.17 The general features of a typical   associated with the electron transport chain span the inner membrane and phosphor-
+mitochondrion.                                ylation takes place in the intermembrane space. The Gibbs energy of the reactions
+
+=== PDF 261 / printed 229 ===
+                                                                        7.9 APPLICATIONS OF STANDARD POTENTIALS   229
+
+in complexes I, III, and IV is ﬁrst used to do the work of moving protons across the
+mitochondrial membrane. The complexes are oriented asymmetrically in the inner
+membrane so that the protons abstracted from one side of the membrane can be
+deposited on the other side. For example, the oxidation of NADH by Q in complex
+I is coupled to the transfer of four protons across the membrane. The coupling of
+electron transfer and proton pumping in complexes III and IV contribute further to a
+gradient of proton concentration across the membrane. Then the enzyme H+-ATPase
+uses the energy stored in the proton gradient to phosphorylate ADP to ATP. Experi-
+ments show that 11 molecules of ATP are made for every three molecules of NADH
+and one molecule of FADH2 that are oxidized by the respiratory chain. The ATP is
+then hydrolysed on demand to perform useful biochemical work throughout the cell.
+   The chemiosmotic theory proposed by Peter Mitchell explains how H+-ATPases syn-
+thesize ATP from ADP. The energy stored in a transmembrane proton gradient come
+from two contributions. First, the diﬀerence in activity of H+ ion results in a diﬀerence
+in molar Gibbs energy across the mitochrondrial membrane
+                                        a H+,in
+   ∆Gm,1 = Gm,in − Gm,out = RT ln
+                                        a H+,out
+Second, there is a membrane potential diﬀerence ∆φ = φin − φout that arises from
+diﬀerences in Coulombic interactions on each side of the membrane. The charge
+diﬀerence across a membrane per mole of H+ ions is NAe, or F, where F = eNA. It fol-
+lows from Justiﬁcation 7.3, that the molar Gibbs energy diﬀerence is then ∆Gm,2 = F∆φ.
+Adding this contribution to ∆Gm,1 gives the total Gibbs energy stored by the combi-
+nation of an an activity gradient and a membrane potential gradient:
+                       [H+]in
+   ∆Gm = RT ln                  + F∆φ
+                   [H+]out
+where we have replaced activities by molar concentrations. This equation also pro-
+vides an estimate of the Gibbs energy available for phosphorylation of ADP. After
+using ln [H+] ≈ ln 10 × log [H+] and substituting ∆pH = pHin − pHout = −log [H+]in +
+log [H+]out, it follows that
+   ∆Gm = F∆φ − (RT ln 10)∆pH
+In the mitochondrion, ∆pH ≈ −1.4 and ∆φ ≈ 0.14 V, so ∆Gm ≈ +21.5 kJ mol−1. Because
+31 kJ mol−1 is needed for phosphorylation, we conclude that at least 2 mol H+ (and
+probably more) must ﬂow through the membrane for the phosphorylation of 1 mol
+ADP.
+
+(b) The determination of activity coefﬁcients
+Once the standard potential of an electrode in a cell is known, we can use it to
+determine mean activity coeﬃcients by measuring the cell emf with the ions at the
+concentration of interest. For example, the mean activity coeﬃcient of the ions in
+hydrochloric acid of molality b is obtained from eqn 7.32 in the form
+              E7 − E
+   ln γ ± =            − ln b                                                     {7.36}
+              2RT/F
+once E has been measured.
+
+(c) The determination of equilibrium constants
+The principal use for standard potentials is to calculate the standard emf of a cell
+formed from any two electrodes. To do so, we subtract the standard potential of the
+left-hand electrode from the standard potential of the right-hand electrode:
+
+=== PDF 262 / printed 230 ===
+230      7 CHEMICAL EQUILIBRIUM
+
+                                                   E 7 = E 7(right) − E 7(left)                                                    (7.37)
+                                                Because ∆G 7 = −νFE 7, it then follows that, if the result gives E 7 > 0, then the cor-
+                                                responding cell reaction has K > 1.
+
+
+                                                 Illustration 7.14 Calculating an equilibrium constant from standard potentials
+
+                    Silver/                      A disproportionation is a reaction in which a species is both oxidized and reduced.
+                    silver chloride              To study the disproportionation 2 Cu+(aq) → Cu(s) + Cu2+(aq) we combine the
+                    electrode
+                                                 following electrodes:
+                                                    Right-hand electrode:
+                    Phosphate                       Cu(s) | Cu+(aq)                      Cu+(aq) + e− → Cu(aq)     E 7 = +0.52 V
+                    buffer
+                    solution                        Left-hand electrode:
+                                                    Pt(s) | Cu2+(aq),Cu+(aq)             Cu2+(aq) + e− → Cu+(s)    E 7 = +0.16 V
+                    Glass
+                    membrane                     where the standard potentials are measured at 298 K. The standard emf of the cell
+                                                 is therefore
+                                                    E 7 = +0.52 V − 0.16 V = +0.36 V
+Fig. 7.18 The glass electrode. It is commonly
+used in conjunction with a calomel               We can now calculate the equilibrium constant of the cell reaction. Because ν = 1,
+electrode that makes contact with the test       from eqn 7.30
+solution through a salt bridge.
+                                                               0.36 V             0.36
+                                                    ln K =                =
+                                                             0.025693 V       0.025693
+                                                 Hence, K = 1.2 × 106.
+
+                                                 Self-test 7.11 Calculate the solubility constant (the equilibrium constant for the
+                                                                                       −
+                                                 reaction Hg2Cl2(s) 5 Hg2+2 (aq) + 2 Cl (aq)) and the solubility of mercury(I) chlor-
+                                                 ide at 298.15 K. Hint. The mercury(I) ion is the diatomic species Hg2+2 .
+                                                                                                   [2.6 × 10−18, 8.7 × 10−7 mol kg−1]
+         Hydrated
+         silica
+
+                                                (d) Species-selective electrodes
+                                                An ion-selective electrode is an electrode that generates a potential in response to the
+                                                presence of a solution of speciﬁc ions. An example is the glass electrode (Fig. 7.18),
+                                                which is sensitive to hydrogen ion activity, and has a potential proportional to pH. It
+                                                is ﬁlled with a phosphate buﬀer containing Cl− ions, and conveniently has E = 0 when
+                                  Outside
+
+
+
+
+                     50 m                       the external medium is at pH = 7. It is necessary to calibrate the glass electrode before
+           Inside
+
+
+
+
+                                                use with solutions of known pH.
+                                                   The responsiveness of a glass electrode to the hydrogen ion activity is a result of
+                                                complex processes at the interface between the glass membrane and the solutions on
+                                                either side of it. The membrane itself is permeable to Na+ and Li+ ions but not to H+
+                                                ions. Therefore, the potential diﬀerence across the glass membrane must arise by a
+                                                mechanism diﬀerent from that responsible for biological transmembrane potentials
+                                                (Impact on biochemistry 7.2). A clue to the mechanism comes from a detailed inspec-
+           Glass  permeable
+                                                tion of the glass membrane, for each face is coated with a thin layer of hydrated silica
+                +      +                        (Fig. 7.19). The hydrogen ions in the test solution modify this layer to an extent that
+           to Li and Na ions
+                                                depends on their activity in the solution, and the charge modiﬁcation of the outside
+Fig. 7.19 A section through the wall of a       layer is transmitted to the inner layer by the Na+ and Li+ ions in the glass. The hydro-
+glass electrode.                                gen ion activity gives rise to a membrane potential by this indirect mechanism.
+
+=== PDF 263 / printed 231 ===
+                                                                         7.9 APPLICATIONS OF STANDARD POTENTIALS                      231
+
+   Electrodes sensitive to hydrogen ions, and hence to pH, are typically glasses based                            Silver/
+on lithium silicate doped with heavy-metal oxides. The glass can also be made re-                                 silver chloride
+                                                                                                                  electrode
+sponsive to Na+, K+, and NH 4+ ions by being doped with Al2O3 and B2O3.
+   A suitably adapted glass electrode can be used to detect the presence of certain
+gases. A simple form of a gas-sensing electrode consists of a glass electrode contained
+in an outer sleeve ﬁlled with an aqueous solution and separated from the test solution
+by a membrane that is permeable to gas. When a gas such as sulfur dioxide or ammo-                                      Reservoir of
+nia diﬀuses into the aqueous solution, it modiﬁes its pH, which in turn aﬀects the                                      hydrophobic
+potential of the glass electrode. The presence of an enzyme that converts a compound,                                   liquid +
+                                                                                                                        chelating
+such as urea or an amino acid, into ammonia, which then aﬀects the pH, can be used                 Porous               agent
+to detect these organic compounds.                                                                 lipophilic
+                                                                                                   membrane
+   Somewhat more sophisticated devices are used as ion-selective electrodes that give
+potentials according to the presence of speciﬁc ions present in a test solution. In one
+                                                                                              Fig. 7.20 The structure of an ion-selective
+arrangement, a porous lipophilic (hydrocarbon-attracting) membrane is attached to             electrode. Chelated ions are able to migrate
+a small reservoir of a hydrophobic (water-repelling) liquid, such as dioctylphenylphos-       through the lipophilic membrane.
+phonate, that saturates it (Fig. 7.20). The liquid contains an agent, such as (RO)2PO−2
+with R a C8 to C18 chain, that acts as a kind of solubilizing agent for the ions with
+which it can form a complex. The complex’s ions are able to migrate through the
+lipophilic membrane, and hence give rise to a transmembrane potential, which is
+detected by a silver/silver chloride electrode in the interior of the assembly. Electrodes
+of this construction can be designed to be sensitive to a variety of ionic species,
+including calcium, zinc, iron, lead, and copper ions.
+   In theory, the transmembrane potential should be determined entirely by diﬀer-
+ences in the activity of the species that the electrode was designed to detect. In prac-
+tice, a small potential diﬀerence, called the asymmetry potential, is observed even
+when the activity of the test species is the same on both sides of the membrane. The
+asymmetry potential is due to the fact that it is not possible to manufacture a mem-
+brane material that has the same structure and the same chemical properties through-
+out. Furthermore, all species-selective electrodes are sensitive to more than one
+species. For example, a Na+ selective electrode also responds, albeit less eﬀectively, to
+the activity of K+ ions in the test solution. As a result of these eﬀects, the potential of
+an electrode sensitive to species X+ that is also susceptible to interference by species
+Y+ is given by a modiﬁed form of the Nernst equation:
+                 RT
+   E = Eap + β        ln(aX+ + kX,Y aY+)                                            (7.38)
+                 F
+where Eap is the asymmetry potential, β is an experimental parameter that captures
+deviations from the Nernst equation, and kX,Y is the selectivity coeﬃcient of the elec-
+trode and is related to the response of the electrode to the interfering species Y+. A
+value of β = 1 indicates that the electrode responds to the activity of ions in solution
+in a way that is consistent with the Nernst equation and, in practice, most species-
+selective electrodes of high quality have β ≈ 1. The selectivity coeﬃcient, and hence
+interference eﬀects, can be minimized when designing and manufacturing a species-
+selective electrode. For precise work, it is necessary to calibrate the response of the
+electrode by measuring Eap, β, and kX,Y before performing experiments on solutions of
+unknown concentration of X+.
+
+(e) The determination of thermodynamic functions
+The standard emf of a cell is related to the standard reaction Gibbs energy through
+eqn 7.28 (∆rG 7 = −νFE 7). Therefore, by measuring E 7 we can obtain this important
+thermodynamic quantity. Its value can then be used to calculate the Gibbs energy of
+formation of ions by using the convention explained in Section 3.6.
+
+=== PDF 264 / printed 232 ===
+232   7 CHEMICAL EQUILIBRIUM
+
+
+                                Illustration 7.15 Determining the Gibbs energy of formation of an ion electrochemically
+
+                                The cell reaction taking place in
+                                      Pt(s) | H2 | H+(aq) || Ag+(aq) | Ag(s)      E 7 = +0.7996 V
+                                is
+                                      Ag+(aq) + –12 H2(g) → H+(aq) + Ag(s)          ∆rG 7 = −∆f G 7(Ag+, aq)
+                                Therefore, with ν = 1, we ﬁnd
+                                      ∆f G 7(Ag+, aq) = −(−FE 7) = +77.15 kJ mol−1
+                                which is in close agreement with the value in Table 2.6 of the Data section.
+
+
+                                  The temperature coeﬃcient of the standard cell emf, dE 7/dT, gives the standard en-
+                               tropy of the cell reaction. This conclusion follows from the thermodynamic relation
+                               (∂G/∂T)p = −S and eqn 7.27, which combine to give
+                                     dE 7       ∆rS 7
+                                            =                                                                       (7.39)
+                                     dT          νF
+                               The derivative is complete because E 7, like ∆rG 7, is independent of the pressure. Hence
+                               we have an electrochemical technique for obtaining standard reaction entropies and
+                               through them the entropies of ions in solution.
+                                 Finally, we can combine the results obtained so far and use them to obtain the stand-
+                               ard reaction enthalpy:
+                                                                    A          dE 7 D
+                                  ∆ r H 7 = ∆rG 7 + T∆rS 7 = −νF E 7 − T                                           (7.40)
+                                                                    C          dT F
+                               This expression provides a non-calorimetric method for measuring ∆ r H 7 and,
+                               through the convention ∆ f H 7(H+, aq) = 0, the standard enthalpies of formation of
+                               ions in solution (Section 2.8). Thus, electrical measurements can be used to calculate
+                               all the thermodynamic properties with which this chapter began.
+
+                                Example 7.5 Using the temperature coefﬁcient of the cell potential
+
+                                The standard emf of the cell Pt(s) | H2(g) | HBr(aq) | AgBr(s) | Ag(s) was measured
+                                over a range of temperatures, and the data were ﬁtted to the following polynomial:
+                                      E 7/V = 0.07131 − 4.99 × 10−4(T/K − 298) − 3.45 × 10−6(T/K − 298)2
+                                Evaluate the standard reaction Gibbs energy, enthalpy, and entropy at 298 K.
+                                Method The standard Gibbs energy of reaction is obtained by using eqn 7.28 after
+                                evaluating E 7 at 298 K and by using 1 V C = 1 J. The standard entropy of reaction
+                                is obtained by using eqn 7.39, which involves diﬀerentiating the polynomial with
+                                respect to T and then setting T = 298 K. The reaction enthalpy is obtained by com-
+                                bining the values of the standard Gibbs energy and entropy.
+                                Answer At T = 298 K, E 7 = +0.07131 V, so
+
+                                      ∆rG 7 = −νFE 7 = −(1) × (9.6485 × 104 C mol−1) × (+0.07131 V)
+                                                = −6.880 × 103 V C mol−1 = −6.880 kJ mol−1

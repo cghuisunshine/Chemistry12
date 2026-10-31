@@ -1,0 +1,349 @@
+=== PDF 902 / printed 870 ===
+870         24 MOLECULAR REACTION DYNAMICS
+
+                                                   products are formed only if the collision is suﬃciently energetic; otherwise the collid-
+                                                   ing reactant molecules separate again. In solution, the reactant molecules may simply
+                                                   diﬀuse together and then acquire energy from their immediate surroundings while
+                                                   they are in contact.
+
+
+                                                   24.1 Collision theory
+                                                   We shall consider the bimolecular elementary reaction
+                                                      A+B→P             v = k2[A][B]                                                 (24.1)
+                                                   where P denotes products, and aim to calculate the second-order rate constant k2.
+                                                      We can anticipate the general form of the expression for k2 by considering the
+                                                   physical requirements for reaction. We expect the rate v to be proportional to the rate
+                                                   of collisions, and therefore to the mean speed of the molecules, K ∝ (T/M)1/2 where M
+                                                   is the molar mass of the molecules, their collision cross-section, σ, and the number
+                                                   densities N A and N B of A and B:
+                                                      v ∝ σ (T/M)1/2N AN B ∝ σ (T/M)1/2[A][B]
+                                                   However, a collision will be successful only if the kinetic energy exceeds a minimum
+                                                   value, the activation energy, Ea, of the reaction. This requirement suggests that the
+                                                   rate constant should also be proportional to a Boltzmann factor of the form e−Ea /RT. So
+                                                   we can anticipate, by writing the reaction rate in the form given in eqn 24.1, that
+                                                      k2 ∝ σ (T/M)1/2e−Ea /RT
+                                                   Not every collision will lead to reaction even if the energy requirement is satisﬁed,
+                                                   because the reactants may need to collide in a certain relative orientation. This ‘steric
+                                                   requirement’ suggests that a further factor, P, should be introduced, and that
+                                                      k2 ∝ Pσ (T/M)1/2e−Ea /RT                                                       (24.2)
+                                                   As we shall see in detail below, this expression has the form predicted by collision the-
+                                                   ory. It reﬂects three aspects of a successful collision:
+                               A                      k2 ∝ steric requirement × encounter rate × minimum energy requirement
+                       dA
+                                                   (a) Collision rates in gases
+                                                   We have anticipated that the reaction rate, and hence k2, depends on the frequency
+        d                                          with which molecules collide. The collision density, ZAB, is the number of (A,B)
+                       dB                          collisions in a region of the sample in an interval of time divided by the volume of
+                                                   the region and the duration of the interval. The frequency of collisions of a single
+                               B
+                                                   molecule in a gas was calculated in Section 21.1. As shown in the Justiﬁcation below,
+                                                   that result can be adapted to deduce that
+                                                                        1/2
+                              Area s                          A 8kT D
+                                                      ZAB = σ                 N A2 [A][B]                                           (24.3a)
+                                                              C πµ F
+Fig. 24.1 The collision cross-section for two      where σ is the collision cross-section (Fig. 24.1)
+molecules can be regarded to be the area
+within which the projectile molecule                  σ = πd 2     d = –12 (dA + dB)                                                (24.3b)
+(A) must enter around the target molecule
+(B) in order for a collision to occur. If the      and µ is the reduced mass,
+diameters of the two molecules are dA
+                                                           mAmB
+and dB, the radius of the target area is              µ=                                                                            (24.3c)
+d = –12 (dA + dB) and the cross-section is πd 2.           mA + mB
+
+=== PDF 903 / printed 871 ===
+                                                                                                     24.1 COLLISION THEORY              871
+
+Similarly, the collision density for like molecules at a molar concentration [A] is
+                         1/2
+             A 4kT D
+   ZAA = σ                     N A2 [A]2                                                (24.4)
+             C πmA F
+Collision densities may be very large. For example, in nitrogen at room temperature
+and pressure, with d = 280 pm, Z = 5 × 1034 m−3 s−1.
+
+      Justiﬁcation 24.1 The collision density
+
+      It follows from eqn 21.11 that the collision frequency, z, for a single A molecule of
+      mass mA in a gas of other A molecules is
+          z = σ KrelN A                                                                 (24.5)
+      where N A is the number density of A molecules and Krel is their relative mean speed.
+      As indicated in Section 21.1a,
+                                             1/2
+                                   A 8kT D
+          Krel = 21/2K           K=B     E                                              (24.6)
+                                   C πm F
+      For future convenience, it is sensible to introduce µ = –12 m (for like molecules of mass
+      m), and then to write
+                               1/2
+                 A 8kT D
+          Krel = B     E                                                                (24.7)
+                 C πµ F
+      This expression also applies to the mean relative speed of dissimilar molecules, pro-
+      vided that µ is interpreted as the reduced mass in eqn 24.5.
+         The total collision density is the collision frequency multiplied by the number
+      density of A molecules:
+          ZAA = –12 zN A = –12 σKrelN A2                                                (24.8)
+      The factor of –12 has been introduced to avoid double counting of the collisions
+      (so one A molecule colliding with another A molecule is counted as one collision
+      regardless of their actual identities). For collisions of A and B molecules present at
+      number densities N A and N B, the collision density is
+          ZAB = σ KrelN AN B                                                            (24.9)
+      Note that we have discarded the factor of –12 because now we are considering an A
+      molecule colliding with any of the B molecules as a collision.
+         The number density of a species J is N J = NA[J], where [J] is their molar concen-
+      tration and NA is Avogadro’s constant. Equations 24.3 and 24.4 then follow.
+
+
+(b) The energy requirement
+According to collision theory, the rate of change in the molar concentration of A
+molecules is the product of the collision density and the probability that a collision
+occurs with suﬃcient energy. The latter condition can be incorporated by writing the
+collision cross-section as a function of the kinetic energy of approach of the two col-
+liding species, and setting the cross-section, σ (ε), equal to zero if the kinetic energy of      Comment 24.1
+approach is below a certain threshold value, εa. Later, we shall identify NAεa as Ea, the         See Further information 10.1. The
+(molar) activation energy of the reaction. Then, for a collision with a speciﬁc relative          kinetic energy associated with the
+speed of approach vrel (not, at this stage, a mean value),                                        relative motion of two particles takes the
+                                                                                                  form ε = –12 µvrel
+                                                                                                                 2
+                                                                                                                     when the centre-of-mass
+   d[A]                                                                                           coordinates are separated from the
+          = −σ (ε)vrel NA[A][B]                                                       (24.10)
+     dt                                                                                           internal coordinates of each particle.
+
+=== PDF 904 / printed 872 ===
+872              24 MOLECULAR REACTION DYNAMICS
+
+Comment 24.2                                                    The relative kinetic energy, ε, and the relative speed are related by ε = –12 µvrel
+                                                                                                                                                2
+                                                                                                                                                   , so vrel =
+To go from eqn 24.10 to eqn 24.11, we                           (2εµ) . At this point we recognize that a wide range of approach energies is present
+                                                                       1/2
+
+need to review concepts of probability                          in a sample, so we should average the expression just derived over a Boltzmann distri-
+theory summarized in Appendix 2.                                bution of energies f(ε), and write (see Comment 24.2)
+Namely, the mean value of a continuous                                            ∞
+                                                                           1                          5
+                                                                                 
+variable X is given by                                             d[A]
+                                                                        = −2         σ (ε)vrel f (ε)dε6 NA[A][B]                                       (24.11)
+     X = ∫xf(x)dx                                                  dt    3      0                   7
+where the integral is over all values x                         and hence recognize the rate constant as
+that X can assume and the probability of                                     ∞
+ﬁnding a value of X between x and x + dx
+is f(x)dx, with f(x) a measure of the
+                                                                   k2 = NA  σ (ε)v f(ε)dε
+                                                                             0
+                                                                                       rel                                                             (24.12)
+distribution of the probability values
+                                                                  Now suppose that the reactive collision cross-section is zero below εa. We show in
+over x. The mean value of a function
+g(X) is given by                                                the Justiﬁcation below that, above εa, σ (ε) varies as
+     g(X) = ∫g(x)f(x)dx                                                A    εa D
+                                                                   σ(ε) = 1 −      σ                                                                   (24.13)
+                                                                         C    εF
+             1.2
+                           1.7 ´ 104 pm2
+                           1.95 eV                              This form of the energy dependence is broadly consistent with experimental deter-
+                 1                                              minations of the reaction between H and D2 as determined by molecular beam meas-
+                                                                urements of the kind described later (Fig. 24.2). Then, in the Justiﬁcation below, we
+             0.8                                                show that
+                                                                   k2 = NAσ Krele−Ea /RT
+  ss(E )/s
+
+
+
+
+                                                                                                                                                       (24.14)
+             0.6
+                          1.0 ´ 10 pm
+                                  4         2
+
+
+                          0.90 eV
+             0.4
+                                                                      Justiﬁcation 24.2 The rate constant
+
+             0.2                                                      Consider two colliding molecules A and B with relative speed vrel and relative kinetic
+                                                                      energy ε = –12 µ v rel
+                                                                                         2
+                                                                                             (Fig. 24.3). Intuitively we expect that a head-on collision between
+                 0                                                    A and B will be most eﬀective in bringing about a chemical reaction. Therefore,
+                  0        5            10                 15         vrel,A–B, the magnitude of the relative velocity component parallel to an axis that con-
+                                E /Ea
+                                                                      tains the vector connecting the centres of A and B, must be large. From trigonome-
+                                                                      try and the deﬁnitions of the distances a and d, and the angle θ given in Fig. 24.3, it
+Fig. 24.2 The variation of the reactive cross-                        follows that
+section with energy as expressed by
+                                                                                                                      1/2
+eqn 24.13. The data points are from                                                                    A d 2 − a2 D
+experiments on the reaction H + D2 →                                      vrel,A–B = vrel cos θ = vrel B          E                                     (24.15)
+                                                                                                       C d2 F
+HD + D (K. Tsukiyama, B. Katz, and R.
+Bersohn, J. Chem. Phys. 84, 1934 (1986)).                             We assume that only the kinetic energy associated with the head-on component of
+                                                                      the collision, εA–B, can lead to a chemical reaction. After squaring both sides of the
+                                                                      equation above and multiplying by –12 µ, it follows that
+                                   vrel,AB
+                      d                                                               d 2 − a2
+                                                                          εA–B = ε                                                                      (24.16)
+                                                                                        d2
+                                                       B
+                                                                      The existence of an energy threshold, εa, for the formation of products implies that
+                                       a                             there is a maximum value of a, amax, above which reactions do not occur. Setting
+                                                vrel                  a = amax and εA–B = εa in the equation above gives
+
+             A                                                                    A    εa D
+                                                                            2
+                                                                          a max = B 1 − E d2                                                            (24.17)
+                                                                                  C    εF
+
+Fig. 24.3 The parameters used in the                                  Substitution of σ (ε) for πa max
+                                                                                                   2
+                                                                                                       and σ for πd 2 in the equation above gives eqn 24.13.
+calculation of the dependence of the                                  Note that the equation can be used only when ε > εa.
+collision cross-section on the relative                                 We proceed with the calculation of the rate constant by considering the Maxwell–
+kinetic energy of two molecules A and B.                              Boltzmann distribution of molecular speeds given in Section 21.1. It may be expressed
+
+=== PDF 905 / printed 873 ===
+                                                                                                                          24.1 COLLISION THEORY   873
+
+       in terms of the kinetic energy, ε, by writing ε = –12 µv2, then dv = dε /(2µε)1/2 and
+       eqn 21.4 becomes
+                                       3/2
+                       A µ D                     A 2ε D         dε
+           f(v)dv = 4π B      E                  B E e− ε /kT
+                       C 2πkT F                  C µF         (2µε)1/2
+                                      3/2
+                          A 1 D
+                     = 2π B     E        ε1/2e−ε /kTdε = f(ε)dε                                                 (24.18)
+                          C πkT F
+       The integral we need to evaluate is therefore
+             ∞                                          3/2 ∞                     1/2
+                                    A 1 D                             A 2ε D
+            0
+              σ (ε)vrel f(ε)dε = 2π B     E
+                                    C πkT F                   0
+                                                                σ (ε) B E
+                                                                      C µF
+                                                                                    ε1/2e−ε /kTdε
+
+                                                       1/2             ∞
+                                   A 8 D                     A 1 D
+                                  =B       E
+                                   C πµ kT F
+                                                             B    E
+                                                             C kT F    εσ (ε)e
+                                                                       0
+                                                                                    −ε /kT
+                                                                                             dε
+
+       To proceed, we introduce the approximation for σ (ε) in eqn 24.13, and evaluate
+             ∞                              ∞
+                                                  A          εa D −ε /kT
+            0
+                 εσ (ε)e−ε /kTdε = σ    ε BC1 − ε EF e
+                                            εa
+                                                                           dε = (kT)2σ e−εa /kT
+
+       We have made use of the fact that σ = 0 for ε < εa. It follows that
+             ∞                                         1/2
+                                    A 8kT D
+            0
+               σ (ε)vrel f(ε)dε = σ B
+                                    C π µ
+                                          E e−εa /kT
+                                          F
+       as in eqn 24.14 (with εa /kT = Ea /RT).
+
+
+   Equation 24.14 has the Arrhenius form k2 = Ae−Ea /RT provided the exponential tem-
+perature dependence dominates the weak square-root temperature dependence of the
+pre-exponential factor. It follows that we can identify the activation energy, Ea, with
+the minimum kinetic energy along the line of approach that is needed for reaction,
+and that the pre-exponential factor is a measure of the rate at which collisions occur
+in the gas.
+
+(c) The steric requirement
+The simplest procedure for calculating k2 is to use for σ the values obtained for non-
+reactive collisions (for example, typically those obtained from viscosity measure-
+ments) or from tables of molecular radii. Table 24.1 compares some values of the
+pre-exponential factor calculated in this way with values obtained from Arrhenius
+plots (Section 22.5a). One of the reactions shows fair agreement between theory and
+
+
+ Synoptic table 24.1* Arrhenius parameters for gas-phase reactions
+
+                                    A/(dm3 mol−1 s−1)
+
+                                    Experiment                    Theory                 Ea /(kJ mol−1)   P
+
+ 2 NOCl → 2 NO + 2 Cl               9.4 × 109                     5.9 × 1010             102              0.16
+ 2 ClO → Cl2 + O2                   6.3 × 107                     2.5 × 1010                  0           2.5 × 10−3
+ H2 + C2H4 → C2H6                   1.24 × 106                    7.4 × 1011             180              1.7 × 10−6
+ K + Br2 → KBr + Br                 1.0 × 10      12
+                                                                  2.1 × 10   11
+                                                                                              0           4.8
+
+ * More values are given in the Data section.
+
+=== PDF 906 / printed 874 ===
+874      24 MOLECULAR REACTION DYNAMICS
+
+                      Deflected                experiment, but for others there are major discrepancies. In some cases the experi-
+                      reactant                 mental values are orders of magnitude smaller than those calculated, which suggests
+                      molecule
+                                               that the collision energy is not the only criterion for reaction and that some other fea-
+                                               ture, such as the relative orientation of the colliding species, is important. Moreover,
+                                               one reaction in the table has a pre-exponential factor larger than theory, which seems
+                                               to indicate that the reaction occurs more quickly than the particles collide!
+                                                  We can accommodate the disagreement between experiment and theory by intro-
+                                               ducing a steric factor, P, and expressing the reactive cross-section, σ *, as a multiple
+      Area $ *               Products
+                                               of the collision cross-section, σ * = Pσ (Fig. 24.4). Then the rate constant becomes
+        Area $                                                         1/2
+                                                          A 8kT D
+                                                  k2 = Pσ         NAe−Ea /RT                                                    (24.19)
+                                                          C πµ F
+Fig. 24.4 The collision cross-section is the
+                                               This expression has the form we anticipated in eqn 24.2. The steric factor is normally
+target area that results in simple deﬂection
+of the projectile molecule; the reaction       found to be several orders of magnitude smaller than 1.
+cross-section is the corresponding area for
+chemical change to occur on collision.          Example 24.1 Estimating a steric factor (1)
+
+                                                Estimate the steric factor for the reaction H2 + C2H4 → C2H6 at 628 K given that the
+                                                pre-exponential factor is 1.24 × 106 dm3 mol−1 s−1.
+                                                Method To calculate P, we need to calculate the pre-exponential factor, A, by using
+                                                eqn 24.19 and then compare the answer with experiment: the ratio is P. Table 21.1
+                                                lists collision cross-sections for non-reactive encounters. The best way to estim-
+                                                ate the collision cross-section for dissimilar spherical species is to calculate the
+                                                collision diameter for each one (from σ = πd 2 ), to calculate the mean of the two
+                                                diameters, and then to calculate the cross-section for that mean diameter. How-
+                                                ever, as neither species is spherical, a simpler but more approximate procedure is
+                                                just to take the average of the two collision cross-sections.
+                                                Answer The reduced mass of the colliding pair is
+
+                                                         m1m2
+                                                   µ=                  = 3.12 × 10−27 kg
+                                                        m1 + m2
+                                                because m1 = 2.016 u for H2 and m2 = 28.05 u for C2H4 (the atomic mass unit, 1 u,
+                                                is deﬁned inside the front cover). Hence
+                                                              1/2
+                                                    A 8kT D
+                                                                    = 2.66 × 103 m s−1
+                                                    C πµ F
+                                                From Table 21.1, σ (H2) = 0.27 nm2 and σ (C2H4) = 0.64 nm2, giving a mean colli-
+                                                sion cross-section of σ = 0.46 nm2. Therefore,
+                                                                       1/2
+                                                       A 8kT D
+                                                   A=σ         NA = 7.37 × 1011 dm3 mol−1 s−1
+                                                       C πµ F
+                                                Experimentally A = 1.24 × 106 dm3 mol−1 s−1, so it follows that P = 1.7 × 10−6. The
+                                                very small value of P is one reason why catalysts are needed to bring this reaction
+                                                about at a reasonable rate. As a general guide, the more complex the molecules, the
+                                                smaller the value of P.
+
+                                                Self-test 24.1 It is found for the reaction NO + Cl2 → NOCl + Cl that A = 4.0 × 109
+                                                dm3 mol−1 s−1 at 298 K. Use σ (NO) = 0.42 nm2 and σ (Cl2) = 0.93 nm2 to estimate
+                                                the P factor for the reaction.                                           [0.018]

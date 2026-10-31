@@ -1,0 +1,504 @@
+{
+  "output": "output/pdf/Chemistry12-navigable.pdf",
+  "pages": 448,
+  "bookmarks": 50,
+  "internal_links": 45,
+  "all_pages_visually_unchanged": true,
+  "links": [
+    {
+      "source": 7,
+      "title": "Welcome to BC Science Chemistry 12",
+      "destination": 8,
+      "rect": [
+        27.0,
+        88.5,
+        518.0,
+        105.5
+      ]
+    },
+    {
+      "source": 7,
+      "title": "1 Reaction Kinetics",
+      "destination": 11,
+      "rect": [
+        27.0,
+        117.5,
+        518.0,
+        132.5
+      ]
+    },
+    {
+      "source": 7,
+      "title": "1.1 Measuring the Rate of Chemical Reactions",
+      "destination": 12,
+      "rect": [
+        27.0,
+        132.5,
+        518.0,
+        145.25
+      ]
+    },
+    {
+      "source": 7,
+      "title": "1.2 Factors Affecting Rates of Reaction",
+      "destination": 25,
+      "rect": [
+        27.0,
+        145.25,
+        518.0,
+        157.75
+      ]
+    },
+    {
+      "source": 7,
+      "title": "1.3 Collision Theory",
+      "destination": 34,
+      "rect": [
+        27.0,
+        157.75,
+        518.0,
+        170.25
+      ]
+    },
+    {
+      "source": 7,
+      "title": "1.4 Potential Energy Diagrams",
+      "destination": 46,
+      "rect": [
+        27.0,
+        170.25,
+        518.0,
+        182.75
+      ]
+    },
+    {
+      "source": 7,
+      "title": "1.5 Reaction Mechanisms, Catalysis, and Rate Laws",
+      "destination": 60,
+      "rect": [
+        27.0,
+        182.75,
+        518.0,
+        197.5
+      ]
+    },
+    {
+      "source": 7,
+      "title": "2 Chemical Equilibrium",
+      "destination": 73,
+      "rect": [
+        27.0,
+        206.5,
+        518.0,
+        221.5
+      ]
+    },
+    {
+      "source": 7,
+      "title": "2.1 Introduction to Dynamic Equilibrium",
+      "destination": 74,
+      "rect": [
+        27.0,
+        221.5,
+        518.0,
+        234.25
+      ]
+    },
+    {
+      "source": 7,
+      "title": "2.2 Le Chatelier\u2019s Principle",
+      "destination": 84,
+      "rect": [
+        27.0,
+        234.25,
+        518.0,
+        246.75
+      ]
+    },
+    {
+      "source": 7,
+      "title": "2.3 How Equilibria Respond to Volume and Temperature Changes",
+      "destination": 96,
+      "rect": [
+        27.0,
+        246.75,
+        518.0,
+        259.25
+      ]
+    },
+    {
+      "source": 7,
+      "title": "2.4 Entropy Change versus Enthalpy Change",
+      "destination": 114,
+      "rect": [
+        27.0,
+        259.25,
+        518.0,
+        271.75
+      ]
+    },
+    {
+      "source": 7,
+      "title": "2.5 The Equilibrium Constant",
+      "destination": 125,
+      "rect": [
+        27.0,
+        271.75,
+        518.0,
+        284.25
+      ]
+    },
+    {
+      "source": 7,
+      "title": "2.6 Equilibrium Problems",
+      "destination": 139,
+      "rect": [
+        27.0,
+        284.25,
+        518.0,
+        299.0
+      ]
+    },
+    {
+      "source": 7,
+      "title": "3 Solubility Equilibrium",
+      "destination": 153,
+      "rect": [
+        27.0,
+        308.0,
+        518.0,
+        322.75
+      ]
+    },
+    {
+      "source": 7,
+      "title": "3.1 The Concept of Solubility",
+      "destination": 154,
+      "rect": [
+        27.0,
+        322.75,
+        518.0,
+        335.25
+      ]
+    },
+    {
+      "source": 7,
+      "title": "3.2 Qualitative Analysis \u2014 Identifying Unknown Ions",
+      "destination": 164,
+      "rect": [
+        27.0,
+        335.25,
+        518.0,
+        347.75
+      ]
+    },
+    {
+      "source": 7,
+      "title": "3.3 The Solubility Product Constant Ksp",
+      "destination": 177,
+      "rect": [
+        27.0,
+        347.75,
+        518.0,
+        360.25
+      ]
+    },
+    {
+      "source": 7,
+      "title": "3.4 Precipitation Formation and the Solubility Product Ksp",
+      "destination": 187,
+      "rect": [
+        27.0,
+        360.25,
+        518.0,
+        375.0
+      ]
+    },
+    {
+      "source": 7,
+      "title": "4 Acid-Base Equilibrium",
+      "destination": 199,
+      "rect": [
+        27.0,
+        384.5,
+        518.0,
+        399.25
+      ]
+    },
+    {
+      "source": 7,
+      "title": "4.1 Identifying Acids and Bases",
+      "destination": 200,
+      "rect": [
+        27.0,
+        399.25,
+        518.0,
+        411.75
+      ]
+    },
+    {
+      "source": 7,
+      "title": "4.2 The Strengths of Acids and Bases",
+      "destination": 209,
+      "rect": [
+        27.0,
+        411.75,
+        518.0,
+        424.25
+      ]
+    },
+    {
+      "source": 7,
+      "title": "4.3 The Ionization of Water",
+      "destination": 222,
+      "rect": [
+        27.0,
+        424.25,
+        518.0,
+        436.75
+      ]
+    },
+    {
+      "source": 7,
+      "title": "4.4 pH and pOH",
+      "destination": 229,
+      "rect": [
+        27.0,
+        436.75,
+        518.0,
+        449.25
+      ]
+    },
+    {
+      "source": 7,
+      "title": "4.5 Calculations Involving Ka and Kb",
+      "destination": 244,
+      "rect": [
+        27.0,
+        449.25,
+        518.0,
+        464.0
+      ]
+    },
+    {
+      "source": 7,
+      "title": "5 Applications of Acid-Base Reactions",
+      "destination": 265,
+      "rect": [
+        27.0,
+        473.5,
+        518.0,
+        488.25
+      ]
+    },
+    {
+      "source": 7,
+      "title": "5.1 Hydrolysis of Salts \u2014 The Reactions of Ions with Water",
+      "destination": 266,
+      "rect": [
+        27.0,
+        488.25,
+        518.0,
+        500.75
+      ]
+    },
+    {
+      "source": 7,
+      "title": "5.2 The Chemistry of Buffers",
+      "destination": 282,
+      "rect": [
+        27.0,
+        500.75,
+        518.0,
+        513.25
+      ]
+    },
+    {
+      "source": 7,
+      "title": "5.3 Acid-Base Titrations \u2014 Analyzing with Volume",
+      "destination": 300,
+      "rect": [
+        27.0,
+        513.25,
+        518.0,
+        525.75
+      ]
+    },
+    {
+      "source": 7,
+      "title": "5.4 A Closer Look at Titrations",
+      "destination": 317,
+      "rect": [
+        27.0,
+        525.75,
+        518.0,
+        538.25
+      ]
+    },
+    {
+      "source": 7,
+      "title": "5.5 Non-metal and Metal Oxides in Water",
+      "destination": 347,
+      "rect": [
+        27.0,
+        538.25,
+        518.0,
+        553.0
+      ]
+    },
+    {
+      "source": 7,
+      "title": "6 Oxidation-Reduction and Its Applications",
+      "destination": 361,
+      "rect": [
+        27.0,
+        563.5,
+        518.0,
+        578.25
+      ]
+    },
+    {
+      "source": 7,
+      "title": "6.1 Oxidation-Reduction",
+      "destination": 362,
+      "rect": [
+        27.0,
+        578.25,
+        518.0,
+        590.75
+      ]
+    },
+    {
+      "source": 7,
+      "title": "6.2 Balancing Oxidation-Reduction Equations",
+      "destination": 373,
+      "rect": [
+        27.0,
+        590.75,
+        518.0,
+        603.25
+      ]
+    },
+    {
+      "source": 7,
+      "title": "6.3 Using the Standard Reduction Potential (SRP) Table to Predict Redox Reactions",
+      "destination": 389,
+      "rect": [
+        27.0,
+        603.25,
+        518.0,
+        615.75
+      ]
+    },
+    {
+      "source": 7,
+      "title": "6.4 The Electrochemical Cell",
+      "destination": 402,
+      "rect": [
+        27.0,
+        615.75,
+        518.0,
+        628.25
+      ]
+    },
+    {
+      "source": 7,
+      "title": "6.5 The Electrolytic Cell",
+      "destination": 418,
+      "rect": [
+        27.0,
+        628.25,
+        518.0,
+        643.0
+      ]
+    },
+    {
+      "source": 7,
+      "title": "Appendix \u2014 Reference Tables",
+      "destination": 431,
+      "rect": [
+        27.0,
+        653.5,
+        518.0,
+        670.5
+      ]
+    },
+    {
+      "source": 431,
+      "title": "Table A1 Atomic Masses of the Elements",
+      "destination": 432,
+      "rect": [
+        16.0,
+        78.5,
+        400.0,
+        100.5
+      ]
+    },
+    {
+      "source": 431,
+      "title": "Table A2 Names, Formulas, and Charges of Some Common Ions",
+      "destination": 433,
+      "rect": [
+        16.0,
+        103.8,
+        400.0,
+        125.8
+      ]
+    },
+    {
+      "source": 431,
+      "title": "Table A3 Solubility of Common Compounds in Water",
+      "destination": 434,
+      "rect": [
+        16.0,
+        129.1,
+        400.0,
+        151.1
+      ]
+    },
+    {
+      "source": 431,
+      "title": "Table A4 Solubility Product Constants at 25\u00b0C",
+      "destination": 435,
+      "rect": [
+        16.0,
+        154.4,
+        400.0,
+        176.4
+      ]
+    },
+    {
+      "source": 431,
+      "title": "Table A5 Relative Strengths of Br\u00f8nsted-Lowry Acids and Bases",
+      "destination": 436,
+      "rect": [
+        16.0,
+        179.7,
+        400.0,
+        201.7
+      ]
+    },
+    {
+      "source": 431,
+      "title": "Table A6 Acid-Base Indicators",
+      "destination": 437,
+      "rect": [
+        16.0,
+        205.0,
+        400.0,
+        227.0
+      ]
+    },
+    {
+      "source": 431,
+      "title": "Table A7 Standard Reduction Potentials of Half-Cells",
+      "destination": 438,
+      "rect": [
+        16.0,
+        230.3,
+        400.0,
+        252.3
+      ]
+    }
+  ]
+}

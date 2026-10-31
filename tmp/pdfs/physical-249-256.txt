@@ -1,0 +1,508 @@
+=== PDF 249 / printed 217 ===
+                                                                                                     7.6 VARIETIES OF CELLS                217
+
+
+ Illustration 7.7 Expressing a reaction in terms of half-reactions
+
+ The dissolution of silver chloride in water AgCl(s) → Ag+(aq) + Cl−(aq), which is
+ not a redox reaction, can be expressed as the diﬀerence of the following two reduc-
+ tion half-reactions:
+    AgCl(s) + e− → Ag(s) + Cl−(aq)
+    Ag+(aq) + e− → Ag(s)
+ The redox couples are AgCl/Ag,Cl− and Ag+/Ag, respectively.
+
+ Self-test 7.7 Express the formation of H2O from H2 and O2 in acidic solution (a
+ redox reaction) as the diﬀerence of two reduction half-reactions.
+                  [4 H+(aq) + 4 e− → 2 H2(g), O2(g) + 4 H+(aq) + 4 e− → 2 H2O(l)]
+
+
+  We shall often ﬁnd it useful to express the composition of an electrode compart-
+ment in terms of the reaction quotient, Q, for the half-reaction. This quotient is
+deﬁned like the reaction quotient for the overall reaction, but the electrons are ignored.
+
+
+ Illustration 7.8 Writing the reaction quotient of a half-reaction
+
+ The reaction quotient for the reduction of O2 to H2O in acid solution, O2(g) +
+ 4 H+(aq) + 4 e− → 2 H2O(l), is
+            2
+           aH 2O
+                         p7                                                                             Electrons
+    Q=    4
+                   ≈    4
+         aH +a
+              O2       aH +p
+                            O2
+                                                                                                           Anode       Cathode
+                                                                                                                         
+ The approximations used in the second step are that the activity of water is 1 (be-
+ cause the solution is dilute) and the oxygen behaves as a perfect gas, so aO2 ≈ pO2/p7.
+
+ Self-test 7.8 Write the half-reaction and the reaction quotient for a chlorine gas
+ electrode.                                  [Cl2(g) + 2 e− → 2 Cl−(aq), Q = a Cl
+                                                                               2 7
+                                                                                 −p /p
+                                                                                      Cl2]
+
+
+
+   The reduction and oxidation processes responsible for the overall reaction in a cell
+are separated in space: oxidation takes place at one electrode and reduction takes place
+at the other. As the reaction proceeds, the electrons released in the oxidation Red1 →
+Ox1 + ν e− at one electrode travel through the external circuit and re-enter the cell                    Oxidation       Reduction
+through the other electrode. There they bring about reduction Ox2 + ν e− → Red2.
+The electrode at which oxidation occurs is called the anode; the electrode at which
+reduction occurs is called the cathode. In a galvanic cell, the cathode has a higher            Fig. 7.11 When a spontaneous reaction
+potential than the anode: the species undergoing reduction, Ox2, withdraws electrons            takes place in a galvanic cell, electrons are
+from its electrode (the cathode, Fig. 7.11), so leaving a relative positive charge on it        deposited in one electrode (the site of
+(corresponding to a high potential). At the anode, oxidation results in the transfer of         oxidation, the anode) and collected from
+electrons to the electrode, so giving it a relative negative charge (corresponding to a         another (the site of reduction, the
+low potential).                                                                                 cathode), and so there is a net ﬂow of
+                                                                                                current which can be used to do work.
+                                                                                                Note that the + sign of the cathode can be
+7.6 Varieties of cells                                                                          interpreted as indicating the electrode at
+                                                                                                which electrons enter the cell, and the −
+The simplest type of cell has a single electrolyte common to both electrodes (as in             sign of the anode is where the electrons
+Fig. 7.11). In some cases it is necessary to immerse the electrodes in diﬀerent electrolytes,   leave the cell.
+
+=== PDF 250 / printed 218 ===
+218      7 CHEMICAL EQUILIBRIUM
+
+                                                 as in the ‘Daniell cell’ in which the redox couple at one electrode is Cu2+/Cu and at the
+          -            +                         other is Zn2+/Zn (Fig. 7.12). In an electrolyte concentration cell, the electrode com-
+                                                 partments are identical except for the concentrations of the electrolytes. In an elec-
+                              Zinc
+                                                 trode concentration cell the electrodes themselves have diﬀerent concentrations,
+                                                 either because they are gas electrodes operating at diﬀerent pressures or because they
+                              Zinc
+                              sulfate            are amalgams (solutions in mercury) with diﬀerent concentrations.
+                              solution
+                              Porous             (a) Liquid junction potentials
+                              pot
+                              Copper             In a cell with two diﬀerent electrolyte solutions in contact, as in the Daniell cell, there
+                                                 is an additional source of potential diﬀerence across the interface of the two elec-
+                              Copper(II)
+                              sulfate            trolytes. This potential is called the liquid junction potential, E lj. Another example
+                              solution           of a junction potential is that between diﬀerent concentrations of hydrochloric acid.
+                                                 At the junction, the mobile H+ ions diﬀuse into the more dilute solution. The bulkier
+Fig. 7.12 One version of the Daniell cell. The   Cl − ions follow, but initially do so more slowly, which results in a potential diﬀerence
+copper electrode is the cathode and the zinc     at the junction. The potential then settles down to a value such that, after that brief
+electrode is the anode. Electrons leave the
+                                                 initial period, the ions diﬀuse at the same rates. Electrolyte concentration cells always
+cell from the zinc electrode and enter it
+                                                 have a liquid junction; electrode concentration cells do not.
+again through the copper electrode.
+                                                    The contribution of the liquid junction to the potential can be reduced (to about 1
+                                                 to 2 mV) by joining the electrolyte compartments through a salt bridge (Fig. 7.13).
+                                                 The reason for the success of the salt bridge is that the liquid junction potentials at
+                                                 either end are largely independent of the concentrations of the two dilute solutions,
+                                                 and so nearly cancel.
+
+                                                 (b) Notation
+                                                 In the notation for cells, phase boundaries are denoted by a vertical bar. For example,
+                                                 the cell in Fig. 7.11 is denoted
+                                                    Pt(s) | H2(g) | HCl(aq) | AgCl(s) | Ag(s)
+                                                 A liquid junction is denoted by , so the cell in Fig. 7.12, is denoted
+
+   Electrode                  Electrode             Zn(s) | ZnSO4(aq)CuSO4(aq) | Cu(s)
+               Salt bridge                       A double vertical line, ||, denotes an interface for which it is assumed that the junction
+                                                 potential has been eliminated. Thus the cell in Fig. 7.13 is denoted
+          Zn                    Cu                  Zn(s) | ZnSO4(aq) || CuSO4(aq) | Cu(s)
+                                                 An example of an electrolyte concentration cell in which the liquid junction potential
+                                                 is assumed to be eliminated is
+                                                    Pt(s) | H2(g) | HCl(aq, b1) || HCl(aq, b2) | H2(g) | Pt(s).
+
+
+                                                 7.7 The electromotive force
+                                                 The current produced by a galvanic cell arises from the spontaneous chemical reac-
+      ZnSO4(aq)            CuSO4(aq)             tion taking place inside it. The cell reaction is the reaction in the cell written on the
+                                                 assumption that the right-hand electrode is the cathode, and hence that the spontan-
+                                                 eous reaction is one in which reduction is taking place in the right-hand compartment.
+    Electrode
+    compartments                                 Later we see how to predict if the right-hand electrode is in fact the cathode; if it is,
+                                                 then the cell reaction is spontaneous as written. If the left-hand electrode turns out to
+Fig. 7.13 The salt bridge, essentially an
+                                                 be the cathode, then the reverse of the corresponding cell reaction is spontaneous.
+inverted U-tube full of concentrated salt           To write the cell reaction corresponding to a cell diagram, we ﬁrst write the right-
+solution in a jelly, has two opposing liquid     hand half-reaction as a reduction (because we have assumed that to be spontaneous).
+junction potentials that almost cancel.          Then we subtract from it the left-hand reduction half-reaction (for, by implication, that
+
+=== PDF 251 / printed 219 ===
+                                                                                           7.7 THE ELECTROMOTIVE FORCE   219
+
+electrode is the site of oxidation). Thus, in the cell Zn(s) | ZnSO4(aq) || CuSO4(aq) | Cu(s)
+the two electrodes and their reduction half-reactions are
+   Right-hand electrode: Cu2+(aq) + 2 e− → Cu(s)
+   Left-hand electrode: Zn2+(aq) + 2 e− → Zn(s)
+Hence, the overall cell reaction is the diﬀerence:
+   Cu2+(aq) + Zn(s) → Cu(s) + Zn2+(aq)
+
+(a) The Nernst equation
+A cell in which the overall cell reaction has not reached chemical equilibrium can do
+electrical work as the reaction drives electrons through an external circuit. The work
+that a given transfer of electrons can accomplish depends on the potential diﬀerence
+between the two electrodes. This potential diﬀerence is called the cell potential and is
+measured in volts, V (1 V = 1 J C −1 s). When the cell potential is large, a given number
+of electrons travelling between the electrodes can do a large amount of electrical work.
+When the cell potential is small, the same number of electrons can do only a small
+amount of work. A cell in which the overall reaction is at equilibrium can do no work,
+and then the cell potential is zero.
+   According to the discussion in Section 3.5e, we know that the maximum non-
+expansion work, which in the current context is electrical work, that a system (the cell)
+can do is given by eqn 3.38 (we,max = ∆G), with ∆G identiﬁed (as we shall show) with
+the Gibbs energy of the cell reaction, ∆rG. It follows that, to draw thermodynamic
+conclusions from measurements of the work a cell can do, we must ensure that the cell
+is operating reversibly, for only then is it producing maximum work. Moreover, we
+saw in Section 7.1a that the reaction Gibbs energy is actually a property relating to a
+speciﬁed composition of the reaction mixture. Therefore, to make use of ∆rG we must
+ensure that the cell is operating reversibly at a speciﬁc, constant composition. Both
+these conditions are achieved by measuring the cell potential when it is balanced by an
+exactly opposing source of potential so that the cell reaction occurs reversibly, the
+composition is constant, and no current ﬂows: in eﬀect, the cell reaction is poised for
+change, but not actually changing. The resulting potential diﬀerence is called the elec-
+tromotive force (emf), E, of the cell.
+   As we show in the Justiﬁcation below, the relation between the reaction Gibbs
+energy and the emf of the cell is
+   −νFE = ∆rG                                                                         (7.27)
+where F is Faraday’s constant, F = eNA, and ν is the stoichiometric coeﬃcient of
+the electrons in the half-reactions into which the cell reaction can be divided. This
+equation is the key connection between electrical measurements on the one hand and
+thermodynamic properties on the other. It will be the basis of all that follows.
+
+      Justiﬁcation 7.3 The relation between the electromotive force and the reaction
+      Gibbs energy
+      We consider the change in G when the cell reaction advances by an inﬁnitesimal
+      amount dξ at some composition. From eqn 7.15 we can write (at constant temper-
+      ature and pressure)
+         dG = ∆rGdξ
+      The maximum non-expansion (electrical) work that the reaction can do as it
+      advances by dξ at constant temperature and pressure is therefore
+         dwe = ∆rGdξ
+
+=== PDF 252 / printed 220 ===
+220                  7 CHEMICAL EQUILIBRIUM
+
+                                                           This work is inﬁnitesimal, and the composition of the system is virtually constant
+                                                           when it occurs.
+                                                              Suppose that the reaction advances by dξ, then νdξ electrons must travel from
+   Gibbs energy, G
+
+
+
+
+                                                           the anode to the cathode. The total charge transported between the electrodes when
+                       rG < 0,                             this change occurs is −νeNAdξ (because νdξ is the amount of electrons and the
+                      E>0                                  charge per mole of electrons is −eNA). Hence, the total charge transported is −νFdξ
+                                           rG > 0,
+                                            E<0            because eNA = F. The work done when an inﬁnitesimal charge −νFdξ travels from
+                                                           the anode to the cathode is equal to the product of the charge and the potential
+                                                           diﬀerence E (see Table 2.1 and Appendix 3):
+
+                                 rG = 0,                      dwe = −νFEdξ
+                                 E=0
+                                                           When we equate this relation to the one above (dwe = ∆rGdξ ), the advancement dξ
+                       Extent of reaction, 
+                                                           cancels, and we obtain eqn 7.27.
+Fig. 7.14 A spontaneous reaction occurs in
+the direction of decreasing Gibbs energy.
+                                                        It follows from eqn 7.27 that, by knowing the reaction Gibbs energy at a speciﬁed
+When expressed in terms of a cell potential,
+the spontaneous direction of change can be
+                                                     composition, we can state the cell emf at that composition. Note that a negative reac-
+expressed in terms of the cell emf, E. The           tion Gibbs energy, corresponding to a spontaneous cell reaction, corresponds to a
+reaction is spontaneous as written (from             positive cell emf. Another way of looking at the content of eqn 7.27 is that it shows that
+left to right on the illustration) when E > 0.       the driving power of a cell (that is, its emf) is proportional to the slope of the Gibbs
+The reverse reaction is spontaneous when             energy with respect to the extent of reaction. It is plausible that a reaction that is far
+E < 0. When the cell reaction is at                  from equilibrium (when the slope is steep) has a strong tendency to drive electrons
+equilibrium, the cell potential is zero.             through an external circuit (Fig. 7.14). When the slope is close to zero (when the cell
+                                                     reaction is close to equilibrium), the emf is small.
+
+                                                      Illustration 7.9 Converting between the cell emf and the reaction Gibbs energy
+
+                                                      Equation 7.27 provides an electrical method for measuring a reaction Gibbs energy
+                                                      at any composition of the reaction mixture: we simply measure the cell’s emf
+                                                      and convert it to ∆ rG. Conversely, if we know the value of ∆ rG at a particular com-
+                                                      position, then we can predict the emf. For example, if ∆ rG = −1 × 102 kJ mol−1 and
+                                                      ν = 1, then
+                                                                 ∆rG             (−1 × 105 J mol−1)
+                                                         E=−           =−                                =1V
+                                                                 νF         1 × (9.6485 × 104 C mol−1)
+                                                      where we have used 1 J = 1 C V.
+
+
+                                                        We can go on to relate the emf to the activities of the participants in the cell reac-
+                                                     tion. We know that the reaction Gibbs energy is related to the composition of the
+                                                     reaction mixture by eqn 7.11 (∆rG = ∆rG 7 + RT ln Q); it follows, on division of both
+                                                     sides by −νF, that
+                                                              ∆rG 7        RT
+                                                        E=−            −        ln Q
+                                                                 νF        νF
+                                                     The ﬁrst term on the right is written
+                                                                 ∆rG 7
+                                                        E7 = −                                                                          [7.28]
+                                                                  νF
+                                                     and called the standard emf of the cell. That is, the standard emf is the standard reac-
+                                                     tion Gibbs energy expressed as a potential (in volts). It follows that
+
+=== PDF 253 / printed 221 ===
+                                                                                             7.7 THE ELECTROMOTIVE FORCE                               221
+
+              RT                                                                                                       8
+   E = E7 −         ln Q                                                                (7.29)
+              νF
+                                                                                                                       6
+This equation for the emf in terms of the composition is called the Nernst equation;
+the dependence of cell potential on composition that it predicts is summarized in                                      4
+Fig. 7.15. One important application of the Nernst equation is to the determination of
+the pH of a solution and, with a suitable choice of electrodes, of the concentration of
+
+
+
+
+                                                                                                    (E  E )/(RT/F )
+                                                                                                                       2
+other ions (Section 7.9c).
+   We see from eqn 7.29 that the standard emf (which will shortly move to centre stage                                 0
+
+
+
+
+                                                                                                   
+of the exposition) can be interpreted as the emf when all the reactants and products in                                                            
+                                                                                                                                                   3
+the cell reaction are in their standard states, for then all activities are 1, so Q = 1 and                            2                          2
+ln Q = 0. However, the fact that the standard emf is merely a disguised form of the
+standard reaction Gibbs energy (eqn 7.28) should always be kept in mind and under-                                     4
+lies all its applications.                                                                                                                         1
+                                                                                                                       6
+
+ Illustration 7.10 Using the Nernst equation                                                                           8
+                                                                                                                        3   2 1     0   1   2       3
+                                                                                                                                     log Q
+ Because RT/F = 25.7 mV at 25°C, a practical form of the Nernst equation is
+
+               25.7 mV                                                                           Fig. 7.15 The variation of cell emf with the
+    E = E7 −               ln Q                                                                  value of the reaction quotient for the cell
+                    ν                                                                            reaction for diﬀerent values of ν (the
+                                                                                                 number of electrons transferred). At 298 K,
+ It then follows that, for a reaction in which ν = 1, if Q is increased by a factor of 10,
+                                                                                                 RT/F = 25.69 mV, so the vertical scale refers
+ then the emf decreases by 59.2 mV.                                                              to multiples of this value.
+                                                                                                        Exploration Plot the variation of cell
+                                                                                                        emf with the value of the reaction
+(b) Cells at equilibrium                                                                         quotient for the cell reaction for diﬀerent
+                                                                                                 values of the temperature. Does the cell
+A special case of the Nernst equation has great importance in electrochemistry and
+                                                                                                 emf become more or less sensitive to
+provides a link to the earlier part of the chapter. Suppose the reaction has reached             composition as the temperature increases?
+equilibrium; then Q = K, where K is the equilibrium constant of the cell reaction.
+However, a chemical reaction at equilibrium cannot do work, and hence it generates
+zero potential diﬀerence between the electrodes of a galvanic cell. Therefore, setting
+E = 0 and Q = K in the Nernst equation gives
+
+            νFE 7
+   ln K =                                                                               (7.30)
+             RT
+This very important equation (which could also have been obtained more directly
+by substituting eqn 7.29 into eqn 7.17) lets us predict equilibrium constants from
+measured standard cell potentials. However, before we use it extensively, we need to
+establish a further result.
+
+
+ Illustration 7.11 Calculating an equilibrium constant from a standard cell potential
+
+ Because the standard emf of the Daniell cell is +1.10 V, the equilibrium constant
+ for the cell reaction Cu2+(aq) + Zn(s) → Cu(s) + Zn2+(aq), for which ν = 2, is
+ K = 1.5 × 1037 at 298 K. We conclude that the displacement of copper by zinc goes
+ virtually to completion. Note that an emf of about 1 V is easily measurable but cor-
+ responds to an equilibrium constant that would be impossible to measure by direct
+ chemical analysis.
+
+=== PDF 254 / printed 222 ===
+222   7 CHEMICAL EQUILIBRIUM
+
+                               7.8 Standard potentials
+                               A galvanic cell is a combination of two electrodes, and each one can be considered as
+                               making a characteristic contribution to the overall cell potential. Although it is not
+                               possible to measure the contribution of a single electrode, we can deﬁne the potential
+                               of one of the electrodes as zero and then assign values to others on that basis. The spe-
+                               cially selected electrode is the standard hydrogen electrode (SHE):
+                                  Pt(s) | H2(g) | H+(aq)          E7 = 0                                               [7.31]
+                               at all temperatures. To achieve the standard conditions, the activity of the hydrogen
+                               ions must be 1 (that is, pH = 0) and the pressure (more precisely, the fugacity) of the
+                               hydrogen gas must be 1 bar. The standard potential, E 7, of another couple is then
+                               assigned by constructing a cell in which it is the right-hand electrode and the standard
+                               hydrogen electrode is the left-hand electrode.
+                                  The procedure for measuring a standard potential can be illustrated by considering
+                               a speciﬁc case, the silver chloride electrode. The measurement is made on the ‘Harned
+                               cell’:
+                                  Pt(s) | H2(g) | HCl(aq) | AgCl(s) | Ag(s)            –12 H2(g) + AgCl(s) → HCl(aq) + Ag(s)
+                               for which the Nernst equation is
+                                                                 RT        aH+a Cl −
+                                  E = E 7(AgCl/Ag, Cl −) −            ln
+                                                                  F          a1/2
+                                                                              H2
+
+                               We shall set aH2 = 1 from now on, and for simplicity write the standard potential as E 7;
+                               then
+                                             RT
+                                  E = E7 −        ln aH+a Cl −
+                                              F
+                               The activities can be expressed in terms of the molality b of HCl(aq) through aH+ =
+                               γ±b/b 7 and aCl− = γ±b/b 7 as we saw in Section 5.9), so
+                                             RT             RT
+                                  E = E7 −        ln b2 −        ln γ ±2
+                                              F             F
+                               where for simplicity we have replaced b/b 7 by b. This expression rearranges to
+                                       2RT                  2RT
+                                  E+         ln b = E 7 −         ln γ ±                                               {7.32}
+                                        F                    F
+                               From the Debye–Hückel limiting law for a 1,1-electrolyte (Section 5.9; a 1,1-
+                               electrolyte is a solution of singly charged M+ and X− ions), we know that ln γ ± ∝ −b1/2.
+                               The natural logarithm used here is proportional to the common logarithm that
+                               appears in eqn 5.69 (because ln x = ln 10 log x = 2.303 log x). Therefore, with the con-
+                               stant of proportionality in this relation written as (F/2RT)C, eqn 7.32 becomes
+                                       2RT
+                                  E+         ln b = E 7 + Cb1/2                                                        {7.33}
+                                        F
+                               The expression on the left is evaluated at a range of molalities, plotted against b1/2,
+                               and extrapolated to b = 0. The intercept at b1/2 = 0 is the value of E 7 for the silver/
+                               silver-chloride electrode. In precise work, the b1/2 term is brought to the left, and a
+                               higher-order correction term from the extended Debye–Hückel law is used on the
+                               right.
+
+=== PDF 255 / printed 223 ===
+                                                                                              7.8 STANDARD POTENTIALS                                           223
+
+                                                                                                                        0.2300
+ Illustration 7.12 Determining the standard emf of a cell
+
+ The emf of the cell Pt(s) | H2(g, p7) | HCl(aq, b) | AgCl(s) | Ag(s) at 25°C has the fol-                              0.2290
+ lowing values:
+    b/(10−3 b 7)                3.215          5.619         9.138      25.63                                           0.2280
+
+
+
+
+                                                                                                  E /V + 0.05139 ln b
+    E/V                         0.52053        0.49257       0.46860    0.41824
+                                                                                                                        0.2270
+ To determine the standard emf of the cell we draw up the following table, using
+ 2RT/F = 0.051 39 V:
+                                                                                                                        0.2260
+    b/(10 −3 b 7)               3.215          5.619         9.138      25.63
+    {b/(10 −3 b 7)}1/2          1.793          2.370         3.023      5.063                                           0.2250
+    E/V                         0.52053        0.49257       0.46860    0.41824
+    E/V + 0.051 39 ln b         0.2256         0.2263        0.2273     0.2299                                          0.2240
+                                                                            7
+ The data are plotted in Fig. 7.16; as can be seen, they extrapolate to E = 0.2232 V.
+                                                                                                                         0.2230
+                                                                        7                                               0 1.0 2.0       3.0           4.0 5.0
+ Self-test 7.9 The data below are for the cell Pt(s) | H2(g, p ) | HBr(aq, b) |                                                                 1/2
+                                                                                                                                 (b /10  b )
+                                                                                                                                        3
+
+
+
+
+                                                                                                                                            
+ AgBr(s) | Ag(s) at 25°C. Determine the standard emf of the cell.
+    b/(10−4 b 7)      4.042         8.444          37.19                                      Fig. 7.16 The plot and the extrapolation
+    E/V               0.47381       0.43636        0.36173                      [0.071 V]     used for the experimental measurement of
+                                                                                              a standard cell emf. The intercept at b1/2 = 0
+                                                                                              is E 7.
+   Table 7.2 lists standard potentials at 298 K. An important feature of standard emf                 Exploration Suppose that the
+of cells and standard potentials of electrodes is that they are unchanged if the chem-                procedure in Illustration 7.12 results
+ical equation for the cell reaction or a half-reaction is multiplied by a numerical factor.   in a plot that deviates from linearity. What
+A numerical factor increases the value of the standard Gibbs energy for the reaction.         might be the cause of this behaviour? How
+                                                                                              might you modify the procedure to obtain
+However, it also increases the number of electrons transferred by the same factor, and
+                                                                                              a reliable value of the standard potential?
+by eqn 7.27 the value of E 7 remains unchanged. A practical consequence is that a cell
+emf is independent of the physical size of the cell. In other words, cell emf is an inten-
+sive property.
+   The standard potentials in Table 7.2 may be combined to give values for couples
+that are not listed there. However, to do so, we must take into account the fact that
+diﬀerent couples may correspond to the transfer of diﬀerent numbers of electrons.
+The procedure is illustrated in the following Example.
+
+ Example 7.4 Evaluating a standard potential from two others
+
+ Given that the standard potentials of the Cu2+/Cu and Cu+/Cu couples are                      Synoptic Table 7.2* Standard
+ +0.340 V and +0.522 V, respectively, evaluate E 7(Cu2+,Cu+).                                  potentials at 298 K
+ Method First, we note that reaction Gibbs energies may be added (as in a Hess’s
+                                                                                               Couple                                                     E 7/V
+ law analysis of reaction enthalpies). Therefore, we should convert the E 7 values to
+ ∆G 7 values by using eqn 7.27, add them appropriately, and then convert the over-             Ce4+(aq) + e− → Ce3+(aq)                                    +1.61
+ all ∆G 7 to the required E 7 by using eqn 7.27 again. This roundabout procedure is            Cu2+(aq) + 2 e− → Cu(s)                                    +0.34
+ necessary because, as we shall see, although the factor F cancels, the factor ν in gen-       H+(aq) + e− → –12 H2(g)                                      0
+ eral does not.
+                                                                                               AgCl(s) + e− → Ag(s) + Cl −(aq)                            +0.22
+ Answer The electrode reactions are as follows:                                                Zn2+(aq) + 2 e− → Zn(s)                                    −0.76
+                       −
+    (a) Cu (aq) + 2 e → Cu(s)
+           2+                              7
+                                          E = +0.340 V,                7
+                                                               so ∆rG = −2(0.340 V)F           Na+(aq) + e− → Na(s)                                       −2.71
+
+    (b) Cu+(aq) + e− → Cu(s)              E 7 = +0.522 V,      so ∆rG 7 = −(0.522 V)F
+                                                                                               * More values are given in the Data section.
+
+=== PDF 256 / printed 224 ===
+224        7 CHEMICAL EQUILIBRIUM
+
+
+                                               The required reaction is
+                                                  (c) Cu2+(aq) + e− → Cu+(aq)             E 7 = −∆rG 7/F
+                                               Because (c) = (a) − (b), the standard Gibbs energy of reaction (c) is
+                                                  ∆rG 7 = ∆rG 7(a) − ∆rG 7(b) = −(−0.158 V) × F
+                                               Therefore, E 7 = +0.158 V. Note that the generalization of the calculation we just
+                                               performed is
+                                                  νc E 7(c) = νaE 7(a) + νbE 7(b)                                                 (7.34)
+
+                                               A note on good practice Whenever combining standard potentials to obtain the
+                                               standard potential of a third couple, always work via the Gibbs energies because
+                                               they are additive, whereas, in general, standard potentials are not.
+
+                                               Self-test 7.10 Calculate the standard potential of the Fe3+/Fe couple from the
+                                               values for the Fe3+/Fe2+ and Fe2+/Fe couples.                                 [−0.037 V]
+
+
+
+                                              7.9 Applications of standard potentials
+                                              Cell emfs are a convenient source of data on equilibrium constants and the Gibbs
+                                              energies, enthalpies, and entropies of reactions. In practice the standard values of
+                                              these quantities are the ones normally determined.
+
+                                              (a) The electrochemical series
+ Table 7.3 The electrochemical series of      We have seen that for two redox couples, Ox1/Red1 and Ox2/Red2, and the cell
+ the metals*
+                                                 Red1,Ox1 || Red2,Ox2        E 7 = E 27 − E 17                                     (7.35a)
+ Least strongly reducing
+ Gold                                         that the cell reaction
+ Platinum                                        Red1 + Ox2 → Ox1 + Red2                                                          (7.35b)
+ Silver
+                                              is spontaneous as written if E 7 > 0, and therefore if E 27 > E 17. Because in the cell reac-
+ Mercury
+                                              tion Red1 reduces Ox2, we can conclude that
+ Copper
+ (Hydrogen)                                      Red1 has a thermodynamic tendency to reduce Ox2 if E 17 < E 27
+ Lead
+                                              More brieﬂy: low reduces high.
+ Tin
+ Nickel
+ Iron                                          Illustration 7.13 Using the electrochemical series
+ Zinc
+                                               Because E 7(Zn2+,Zn) = −0.76 V < E 7(Cu2+,Cu) = +0.34 V, zinc has a thermody-
+ Chromium
+                                               namic tendency to reduce Cu2+ ions in aqueous solution.
+ Aluminium
+ Magnesium
+ Sodium                                          Table 7.3 shows a part of the electrochemical series, the metallic elements (and
+ Calcium                                      hydrogen) arranged in the order of their reducing power as measured by their stand-
+ Potassium                                    ard potentials in aqueous solution. A metal low in the series (with a lower standard
+ Most strongly reducing                       potential) can reduce the ions of metals with higher standard potentials. This conclu-
+                                              sion is qualitative. The quantitative value of K is obtained by doing the calculations
+ * The complete series can be inferred from   we have described previously. For example, to determine whether zinc can displace
+ Table 7.2.
+                                              magnesium from aqueous solutions at 298 K, we note that zinc lies above magnesium

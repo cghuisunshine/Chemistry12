@@ -1,0 +1,241 @@
+=== PDF 268 / printed 236 ===
+236        7 CHEMICAL EQUILIBRIUM
+
+7.15(a) Devise cells in which the following are the reactions and calculate the    equation for the cell reaction. (b) Calculate ∆rG for the cell reaction.
+standard emf in each case:                                                         (c) Assuming that the Debye–Hückel limiting law holds at this concentration,
+  (a) Zn(s) + CuSO4(aq) → ZnSO4(aq) + Cu(s)                                        calculate E 7(AgCl, Ag).
+  (b) 2 AgCl(s) + H2(g) → 2 HCl(aq) + 2 Ag(s)                                      7.17(a) Calculate the equilibrium constants of the following reactions at 25°C
+  (c) 2 H2(g) + O2(g) → 2 H2O(l)                                                   from standard potential data:
+                                                                                     (a) Sn(s) + Sn4+(aq) 5 2 Sn2+(aq)
+7.15(b) Devise cells in which the following are the reactions and calculate the
+standard emf in each case:                                                           (b) Sn(s) + 2 AgCl(s) 5 SnCl2(aq) + 2 Ag(s)
+  (a) 2 Na(s) + 2 H2O(l) → 2 NaOH(aq) + H2(g)                                      7.17(b) Calculate the equilibrium constants of the following reactions at 25°C
+  (b) H2(g) + I2(g) → 2 HI(aq)                                                     from standard potential data:
+  (c) H3O+(aq) + OH−(aq) → 2 H2O(l)                                                  (a) Sn(s) + CuSO4(aq) 5 Cu(s) + SnSO4(aq)
+                                                                                     (b) Cu2+(aq) + Cu(s) 5 2 Cu+(aq)
+7.16(a) Use the Debye–Hückel limiting law and the Nernst equation to
+estimate the potential of the cell Ag |AgBr(s) | KBr(aq, 0.050 mol kg−1)           7.18(a) The emf of the cell Ag|AgI(s) |AgI(aq)|Ag is +0.9509 V at 25°C.
+|| Cd(NO3)2(aq, 0.010 mol kg−1) | Cd at 25°C.                                      Calculate (a) the solubility product of AgI and (b) its solubility.
+7.16(b) Consider the cell Pt | H2(g,p7) | HCl(aq) | AgCl(s) | Ag, for which the    7.18(b) The emf of the cell Bi|Bi2S3(s)|Bi2S3(aq)|Bi is −0.96 V at 25°C.
+cell reaction is 2 AgCl(s) + H2(g) → 2 Ag(s) + 2 HCl(aq). At 25°C and a            Calculate (a) the solubility product of Bi2S3 and (b) its solubility.
+molality of HCl of 0.010 mol kg−1, E = +0.4658 V. (a) Write the Nernst
+
+
+
+
+Problems*
+
+Numerical problems                                                                 1.71 kPa at 400 K. Find an expression for the temperature dependence of ∆rG 7
+                                                                                   in the same range.
+7.1 The equilibrium constant for the reaction, I2(s) + Br2(g) 5 2 IBr(g)
+is 0.164 at 25°C. (a) Calculate ∆rG 7 for this reaction. (b) Bromine gas is        7.6 Calculate the equilibrium constant of the reaction CO(g) + H2(g) 5
+introduced into a container with excess solid iodine. The pressure and             H2CO(g) given that, for the production of liquid formaldehyde, ∆rG 7 =
+temperature are held at 0.164 atm and 25°C, respectively. Find the partial         +28.95 kJ mol−1 at 298 K and that the vapour pressure of formaldehyde is
+pressure of IBr(g) at equilibrium. Assume that all the bromine is in the liquid    1500 Torr at that temperature.
+form and that the vapour pressure of iodine is negligible. (c) In fact, solid      7.7 Acetic acid was evaporated in container of volume 21.45 cm3 at 437 K and
+iodine has a measurable vapour pressure at 25°C. In this case, how would the       at an external pressure of 101.9 kPa, and the container was then sealed. The
+calculation have to be modiﬁed?                                                    mass of acid present in the sealed container was 0.0519 g. The experiment was
+7.2 Consider the dissociation of methane, CH4(g), into the elements H2(g)          repeated with the same container but at 471 K, and it was found that 0.0380 g
+and C(s, graphite). (a) Given that ∆ f H 7(CH4, g) = −74.85 kJ mol−1 and that      of acetic acid was present. Calculate the equilibrium constant for the
+∆ f S 7(CH4, g) = −80.67 J K−1 mol−1 at 298 K, calculate the value of the          dimerization of the acid in the vapour and the enthalpy of vaporization.
+equilibrium constant at 298 K. (b) Assuming that ∆ f H 7 is independent of         7.8 A sealed container was ﬁlled with 0.300 mol H2(g), 0.400 mol I2(g), and
+temperature, calculate K at 50°C. (c) Calculate the degree of dissociation, αe,    0.200 mol HI(g) at 870 K and total pressure 1.00 bar. Calculate the amounts of
+of methane at 25°C and a total pressure of 0.010 bar. (d) Without doing any        the components in the mixture at equilibrium given that K = 870 for the
+numerical calculations, explain how the degree of dissociation for this            reaction H2(g) + I2(g) 5 2 HI(g).
+reaction will change as the pressure and temperature are varied.
+                                                                                   7.9 The dissociation of I2 can be monitored by measuring the total pressure,
+7.3 The equilibrium pressure of H2 over U(s) and UH3(s) between 450 K and          and three sets of results are as follows:
+715 K ﬁts the expression ln(p/Pa) = A + B/T + C ln(T/K), with A = 69.32, B =       T/K           973         1073        1173
+−1.464 × 104 K, and C = −5.65. Find an expression for the standard enthalpy of
+                                                                                   100p/atm      6.244       7.500       9.181
+formation of UH3(s) and from it calculate ∆rC 7p.
+                                                                                   104nI         2.4709      2.4555      2.4366
+7.4 The degree of dissociation, αe, of CO2(g) into CO(g) and O2(g) at high
+temperatures was found to vary with temperature as follows:                        where nI is the amount of I atoms per mole of I2 molecules in the mixture,
+                                                                                   which occupied 342.68 cm3. Calculate the equilibrium constants of the
+T/K         1395      1443     1498
+                                                                                   dissociation and the standard enthalpy of dissociation at the mean
+αe/10−4     1.44      2.50     4.71                                                temperature.
+Assuming ∆ r H 7 to be constant over this temperature range, calculate K, ∆rG 7,   7.10‡ Thorn et al. carried out a study of Cl2O(g) by photoelectron ionization
+∆r H 7, and ∆rS 7. Make any justiﬁable approximations.                             (R.P. Thorn, L.J. Stief, S.-C. Kuo, and R.B. Klemm, J. Phys. Chem. 100, 14178
+7.5 The standard reaction enthalpy for the decomposition of CaCl2·NH3(s)           (1996)). From their measurements, they report ∆ f H 7(Cl2O) = +77.2 kJ mol−1.
+into CaCl2(s) and NH3(g) is nearly constant at +78 kJ mol−1 between 350 K          They combined this measurement with literature data on the reaction
+and 470 K. The equilibrium pressure of NH3 in the presence of CaCl2·NH3 is         Cl2O (g) + H2O(g)→ 2 HOCl(g), for which K = 8.2 × 10−2 and ∆ r S 7 =
+
+
+
+* Problems denoted with the symbol ‡ were supplied by Charles Trapp, Carmen Giunta, and Marshall Cady.
+
+=== PDF 269 / printed 237 ===
+                                                                                                                                                         PROBLEMS                237
+
++16.38 J K−1 mol−1, and with readily available thermodynamic data on water         Determine the standard emf of the cell and the mean activity coeﬃcient of
+vapour to report a value for ∆f H 7(HOCl). Calculate that value. All quantities    HCl at these molalities. (Make a least-squares ﬁt of the data to the best straight
+refer to 298 K.                                                                    line.)
+
+7.11‡ The 1980s saw reports of ∆f H 7(SiH2) ranging from 243 to 289 kJ mol−1.      7.18 Careful measurements of the emf of the cell Pt | H2(g, p7) | NaOH(aq,
+For example, the lower value was cited in the review article by R. Walsh (Acc.     0.0100 mol kg−1), NaCl(aq, 0.01125 mol kg−1) | AgCl(s) | Ag have been
+Chem. Res. 14, 246 (1981)); Walsh later leant towards the upper end of the         reported (C.P. Bezboruah, M.F.G.F.C. Camoes, A.K. Covington, and J.V.
+range (H.M. Frey, R. Walsh, and I.M. Watts, J. Chem. Soc., Chem. Commun.           Dobson, J. Chem. Soc. Faraday Trans. I 69, 949 (1973)). Among the data is the
+1189 (1986)). The higher value was reported in S.-K. Shin and J.L.                 following information:
+Beauchamp, J. Phys. Chem. 90, 1507 (1986). If the standard enthalpy of             θ/°C       20.0             25.0              30.0
+formation is uncertain by this amount, by what factor is the equilibrium
+                                                                                   E/V        1.04774          1.04864           1.04942
+constant for the formation of SiH2 from its elements uncertain at (a) 298 K,
+(b) 700 K?                                                                         Calculate pKw at these temperatures and the standard enthalpy and entropy of
+                                                                                   the autoprotolysis of water at 25.0°C.
+7.12 Fuel cells provide electrical power for spacecraft (as in the NASA
+space shuttles) and also show promise as power sources for automobiles.            7.19 Measurements of the emf of cells of the type Ag | AgX(s)MX(b1) | Mx
+Hydrogen and carbon monoxide have been investigated for use in fuel cells,         Hg | MX(b2) | AgX(s) | Ag, where Mx Hg denotes an amalgam and the
+so their solubilities in molten salts are of interest. Their solubilities in       electrolyte is an alkali metal halide dissolved in ethylene glycol, have been
+a molten NaNO3/KNO3 mixture were examined (E. Desimoni and                         reported (U. Sen, J. Chem. Soc. Faraday Trans. I 69, 2006 (1973)) and some
+P.G. Zambonin, J. Chem. Soc. Faraday Trans. 1, 2014 (1973)) with the               values for LiCl are given below. Estimate the activity coeﬃcient at the
+following results:                                                                 concentration marked * and then use this value to calculate activity
+                                                                                   coeﬃcients from the measured cell potential at the other concentrations. Base
+                       980                         980                             your answer on the following version of the extended Debye–Hückel law:
+   log sH2 = −5.39 −           log sCO = −5.98 −
+                       T/K                         T/K                                                AI1/2
+                                                                                         log γ = −               + kI
+                                   −3     −1                                                         1 − BI1/2
+where s is the solubility in mol cm bar . Calculate the standard molar
+enthalpies of solution of the two gases at 570 K.
+                                                                                   with A = 1.461, B = 1.70, k = 0.20, and I = b/b 7. For b2 = 0.09141 mol kg−1:
+7.13 Given that ∆rG 7 = −212.7 kJ mol−1 for the reaction in the Daniell cell at    b1/(mol kg−1)       0.0555           0.09141*        0.1652     0.2171     1.040      1.350
+25°C, and b(CuSO4) = 1.0 × 10−3 mol kg−1 and b(ZnSO4) = 3.0 × 10−3 mol kg−1,
+                                                                                   E/V                 −0.0220          0.0000          0.0263     0.0379     0.1156     0.1336
+calculate (a) the ionic strengths of the solutions, (b) the mean ionic activity
+coeﬃcients in the compartments, (c) the reaction quotient, (d) the standard        7.20 The standard potential of the AgCl/Ag,Cl− couple has been measured
+cell potential, and (e) the cell potential. (Take γ+ = γ− = γ± in the respective   very carefully over a range of temperature (R.G. Bates and V.E. Bowers, J. Res.
+compartments.)                                                                     Nat. Bur. Stand. 53, 283 (1954)) and the results were found to ﬁt the expression
+
+7.14 A fuel cell develops an electric potential from the chemical reaction               E 7/V = 0.23659 − 4.8564 × 10−4(θ/°C) − 3.4205 × 10−6 (θ/°C)2
+between reagents supplied from an outside source. What is the emf of a cell                      + 5.869 × 10−9(θ/°C)3
+fuelled by (a) hydrogen and oxygen, (b) the combustion of butane at 1.0 bar
+                                                                                   Calculate the standard Gibbs energy and enthalpy of formation of Cl−(aq) and
+and 298 K?
+                                                                                   its entropy at 298 K.
+7.15 Although the hydrogen electrode may be conceptually the simplest
+                                                                                   7.21‡ (a) Derive a general relation for (∂E/∂p)T,n for electrochemical cells
+electrode and is the basis for our reference state of electrical potential in      employing reactants in any state of matter. (b) E. Cohen and K. Piepenbroek
+electrochemical systems, it is cumbersome to use. Therefore, several               (Z. Physik. Chem. 167A, 365 (1933)) calculated the change in volume for the
+substitutes for it have been devised. One of these alternatives is the             reaction TlCl(s) + CNS−(aq) → TlCNS(s) + Cl−(aq) at 30°C from density data
+quinhydrone electrode (quinhydrone, Q · QH2, is a complex of quinone,              and obtained ∆rV = −2.666 ± 0.080 cm3 mol−1. They also measured the emf of
+C6H4O2 = Q, and hydroquinone, C6H4O2H2 = QH2). The electrode                       the cell Tl(Hg) | TlCNS(s) | KCNSKCl | TlCl | Tl(Hg) at pressures up to 1500
+half–reaction is Q(aq) + 2 H+(aq) + 2 e− → QH2(aq), E 7 = +0.6994 V. If the        atm. Their results are given in the following table:
+cell Hg | Hg2Cl2(s) | HCl(aq) | Q · QH2 | Au is prepared, and the measured cell
+                                                                                   p/atm       1.00        250           500        750          1000       1250       1500
+potential is +0.190 V, what is the pH of the HCl solution? Assume that the
+Debye–Hückel limiting law is applicable.                                           E/mV        8.56        9.27          9.98       10.69        11.39      12.11      12.82
+                                                                                   From this information, obtain (∂E/∂p)T,n at 30°C and compare to the value
+7.16 Consider the cell, Zn(s)| ZnCl2 (0.0050 mol kg−1) | Hg2Cl2(s) Hg(l), for
+                                                                                   obtained from ∆ rV. (c) Fit the data to a polynomial for E against p. How
+which the cell reaction is Hg2Cl2(s) + Zn(s) → 2 Hg(l) + 2 Cl−(aq) + Zn2+(aq).
+                                                                                   constant is (∂E/∂p)T,n? (d) From the polynomial, estimate an eﬀective
+Given that E 7 (Zn2+,Zn) = −0.7628 V, E 7 (Hg2Cl2, Hg) = +0.2676 V, and that
+                                                                                   isothermal compressibility for the cell as a whole.
+the emf is +1.2272 V, (a) write the Nernst equation for the cell. Determine
+(b) the standard emf, (c) ∆rG, ∆rG 7, and K for the cell reaction, (d) the mean    7.22‡ The table below summarizes the emf observed for the cell
+ionic activity and activity coeﬃcient of ZnCl2 from the measured cell              Pd | H2(g, 1 bar) | BH(aq, b), B(aq, b) | AgCl(s) | Ag. Each measurement is made
+potential, and (e) the mean ionic activity coeﬃcient of ZnCl2 from the             at equimolar concentrations of 2-aminopyridinium chloride (BH) and
+Debye–Hückel limiting law. (f) Given that (∂E/∂T)p = −4.52 × 10−4 V K−1.           2-aminopyridine (B). The data are for 25°C and it is found that E 7 = 0.22251 V.
+Calculate ∆S and ∆H.                                                               Use the data to determine pKa for the acid at 25°C and the mean activity
+                                                                                   coeﬃcient (γ±) of BH as a function of molality (b) and ionic strength (I). Use
+7.17 The emf of the cell Pt | H2(g, p7) | HCl(aq,b) | Hg2Cl2(s) | Hg(l) has been
+                                                                                   the extended Debye–Hückel equation for the mean activity coeﬃcient in the
+measured with high precision (G.J. Hills and D.J.G. Ives, J. Chem. Soc., 311
+                                                                                   form
+(1951)) with the following results at 25°C:
+b/(mmol kg−1)      1.6077       3.0769         5.0403    7.6938       10.9474                          AI1/2
+                                                                                         −log γ± =                − kb
+E/V                0.60080      0.56825        0.54366   0.52267      0.50532                        1 + BI1/2
+
+=== PDF 270 / printed 238 ===
+238          7 CHEMICAL EQUILIBRIUM
+
+where A = 0.5091 and B and k are parameters that depend upon the ions.               Applications: to biology, environmental science, and
+Draw a graph of the mean activity coeﬃcient with b = 0.04 mol kg−1 and               chemical engineering
+0 ≤ I ≤ 0.1.
+                                                                                     7.28 Here we investigate the molecular basis for the observation that the
+b/(mol kg−1)        0.01      0.02          0.03         0.04         0.05           hydrolysis of ATP is exergonic at pH = 7.0 and 310 K. (a) It is thought that the
+E(25°C)/V           0.74452   0.72853       0.71928      0.71314      0.70809        exergonicity of ATP hydrolysis is due in part to the fact that the standard
+b/(mol kg )−1
+                    0.06      0.07          0.08         0.09         0.10           entropies of hydrolysis of polyphosphates are positive. Why would an increase
+                                                                                     in entropy accompany the hydrolysis of a triphosphate group into a
+E(25°C)/V           0.70380   0.70059       0.69790      0.69571      0.69338
+                                                                                     diphosphate and a phosphate group? (b) Under identical conditions, the
+Hint. Use mathematical software or a spreadsheet.                                    Gibbs energies of hydrolysis of H4ATP and MgATP2−, a complex between the
+                                                                                     Mg2+ ion and ATP4−, are less negative than the Gibbs energy of hydrolysis of
+7.23 Superheavy elements are now of considerable interest, particularly
+                                                                                     ATP4−. This observation has been used to support the hypothesis that
+because signs of stability are starting to emerge with element 114, which has
+                                                                                     electrostatic repulsion between adjacent phosphate groups is a factor that
+recently been made. Shortly before it was (falsely) believed that the ﬁrst
+                                                                                     controls the exergonicity of ATP hydrolysis. Provide a rationale for the
+superheavy element had been discovered, an attempt was made to predict the
+                                                                                     hypothesis and discuss how the experimental evidence supports it. Do these
+chemical properties of ununpentium (Uup, element 115, O.L. Keller, C.W.
+                                                                                     electrostatic eﬀects contribute to the ∆r H or ∆rS terms that determine the
+Nestor, and B. Fricke, J. Phys. Chem. 78, 1945 (1974)). In one part of the paper
+                                                                                     exergonicity of the reaction? Hint. In the MgATP2−complex, the Mg2+ ion and
+the standard enthalpy and entropy of the reaction Uup+(aq) + –12 H2(g) →
+                                                                                     ATP4− anion form two bonds: one that involves a negatively charged oxygen
+Uup(s) + H+(aq) were estimated from the following data: ∆subH 7(Uup) =
+                                                                                     belonging to the terminal phosphate group of ATP4− and another that
+ +1.5 eV, I(Uup) = 5.52 eV, ∆hydH 7(Uup+, aq) = −3.22 eV, S 7(Uup+, aq) =
+                                                                                     involves a negatively charged oxygen belonging to the phosphate group
++1.34 meV K−1, S 7(Uup, s) = 0.69 meV K−1. Estimate the expected
+                                                                                     adjacent to the terminal phosphate group of ATP4−.
+standard potential of the Uup+/Uup couple.
+                                                                                     7.29 To get a sense of the eﬀect of cellular conditions on the ability of ATP
+7.24 Sodium ﬂuoride is routinely added to public water supplies because it is
+                                                                                     to drive biochemical processes, compare the standard Gibbs energy of
+known that ﬂuoride ion can prevent tooth decay. In a ﬂuoride-selective
+                                                                                     hydrolysis of ATP to ADP with the reaction Gibbs energy in an environment
+electrode used in the analysis of water samples a crystal of LaF3 doped with
+                                                                                     at 37°C in which pH = 7.0 and the ATP, ADP, and P −i concentrations are all
+Eu2+, denoted as Eu2+:LaF3, provides a semipermeable barrier between the test
+                                                                                     1.0 µmol dm−3.
+solution and the solution inside the electrode (the ﬁlling solution), which
+contains 0.1 mol kg−1 NaF(aq) and 0.1 mol kg−1 NaCl(aq). A silver–silver             7.30 Under biochemical standard conditions, aerobic respiration
+chloride electrode immersed in the ﬁlling solution is connected to a                 produces approximately 38 molecules of ATP per molecule of glucose that
+potentiometer and the emf of the cell can be measured against an appropriate         is completely oxidized. (a) What is the percentage eﬃciency of aerobic
+reference electrode. It follows that the half-cell for a ﬂuoride-selective           respiration under biochemical standard conditions? (b) The following
+electrode is represented by                                                          conditions are more likely to be observed in a living cell: pCO2 = 5.3 × 10−2 atm,
+                                                                                     pO2 = 0.132 atm, [glucose] = 5.6 ×10−2 mol dm−3, [ATP] = [ADP] = [Pi] =
+    Ag(s) | AgCl(s) | NaCl(aq, b1), NaF (aq, b1) | Eu2+:LaF3 (s) | F−(aq, b2)        1.0 × 10−4 mol dm−3, pH = 7.4, T = 310 K. Assuming that activities can be
+where b1 and b2 are the molalities of ﬂuoride ion in the ﬁlling and test             replaced by the numerical values of molar concentrations, calculate the
+solutions, respectively. (a) Derive an expression for the emf of this half-cell.     eﬃciency of aerobic respiration under these physiological conditions.
+(b) The ﬂuoride-selective electrode just described is not sensitive to HF(aq).       (c) A typical diesel engine operates between Tc = 873 K and Th = 1923 K with
+Hydroxide ion is the only interfering species, with kF ,OH = 0.1. Use this
+                                                         −   −
+                                                                                     an eﬃciency that is approximately 75 per cent of the theoretical limit of
+information and the fact that Ka of HF is 3.5 × 10−4 at 298 K to specify a range     (1 − Tc /Th) (see Section 3.2). Compare the eﬃciency of a typical diesel engine
+of pH values in which the electrode responds accurately to the activity of F− in     with that of aerobic respiration under typical physiological conditions (see
+the test solution at 298 K.                                                          part b). Why is biological energy conversion more or less eﬃcient than energy
+                                                                                     conversion in a diesel engine?
+
+Theoretical problems                                                                 7.31 In anaerobic bacteria, the source of carbon may be a molecule other than
+                                                                                     glucose and the ﬁnal electron acceptor is some molecule other than O2. Could
+7.25 Express the equilibrium constant of a gas-phase reaction A + 3 B 5 2 C          a bacterium evolve to use the ethanol/nitrate pair instead of the glucose/O2
+in terms of the equilibrium value of the extent of reaction, ξ, given that           pair as a source of metabolic energy?
+initially A and B were present in stoichiometric proportions. Find an
+expression for ξ as a function of the total pressure, p, of the reaction mixture     7.32 If the mitochondrial electric potential between matrix and the
+and sketch a graph of the expression obtained.                                       intermembrane space were 70 mV, as is common for other membranes, how
+                                                                                     much ATP could be synthesized from the transport of 4 mol H+, assuming the
+7.26 Find an expression for the standard reaction Gibbs energy at a                  pH diﬀerence remains the same?
+temperature T′ in terms of its value at another temperature T and the
+coeﬃcients a, b, and c in the expression for the molar heat capacity listed in       7.33 The standard potentials of proteins are not commonly measured by
+Table 2.2. Evaluate the standard Gibbs energy of formation of H2O(l) at 372 K        the methods described in this chapter because proteins often lose their native
+from its value at 298 K.                                                             structure and function when they react on the surfaces of electrodes. In an
+                                                                                     alternative method, the oxidized protein is allowed to react with an
+7.27 Show that, if the ionic strength of a solution of the sparingly soluble salt    appropriate electron donor in solution. The standard potential of the
+MX and the freely soluble salt NX is dominated by the concentration C of the         protein is then determined from the Nernst equation, the equilibrium
+latter, and if it is valid to use the Debye–Hückel limiting law, the solubility S′   concentrations of all species in solution, and the known standard potential
+in the mixed solution is given by                                                    of the electron donor. We shall illustrate this method with the protein
+           Kse4.606AC
+                        1/2
+                                                                                     cytochrome c. The one-electron reaction between cytochrome c, cyt, and
+    S′ =                                                                             2,6-dichloroindophenol, D, can be followed spectrophotometrically because
+                C
+                                                                                     each of the four species in solution has a distinct colour, or absorption
+when Ks is small (in a sense to be speciﬁed).                                        spectrum. We write the reaction as cytox + Dred 5 cytred + Dox, where the

@@ -1,0 +1,461 @@
+BC Science
+
+Chemistry 12
+Brookswood Secondary
+       Digitized by the Internet Archive
+                    in 2024
+
+
+
+
+https://archive.org/details/ison_ 9781772499780
+           EDVANTAGE
+           @ 006 INTERACTIVE
+
+
+
+
+               Development Team
+eansamae                             RIS SE
+
+
+
+                    Authors
+
+
+                Cheri Smith
+                Yale Secondary
+       School District 34 Abbotsford
+
+                Gary Davidson
+           School District 22 Vernon
+
+                  Megan Ryan
+            Walnut Grove Secondary
+           School District 35 Langley
+
+                    Chris Toth
+           St. Thomas More Collegiate
+            Burnaby, British Columbia
+
+             Program Consultant
+                Lionel Sandner
+             Edvantage Interactive
+                                          EDVANTAGE
+                                           @ @@ INTERACTIVE
+
+COPIES OF THIS BOOK MAY BE                BC Science Chemistry 12: Brookswood Secondary
+OBTAINED BY CONTACTING:                   Copyright © 2019, Edvantage Interactive
+                                                                                                   reproduced or
+Edvantage Interactive                     All rights reserved. No part of this publication may be
+                                                                                               in a database or
+                                          transmitted in any form or by any means, or stored
+                                                                                                           tage
+E-MAIL:                                   retrieval system, without the prior written permission of Edvan
+info@edvantageinteractive.com             Interactive.
+
+TOLL-FREE FAX:                            ISBN 978-1-77249-978-0
+866.275.0564
+
+TOLL-FREE CALL:                           Care has been taken to trace ownership of copyright material contained
+866.422.7310
+                                          in this text. The publishers will gladly accept any information that will
+                                          enable them to rectify any reference or credit in subsequent printings.
+
+                                          Vice-President of Marketing: Don Franklin
+                                          Director of Publishing: Yvonne Van Ruskenveld
+                                          Design and Production: Donna Lindenberg, Paula Gaube
+                                          Editorial Assistance: Rhys Sandner
+                                          Proofreading: Eva van Emden
+                                          Photo Credits: p. 64 © Can Stock Photo /jpldesigns
+
+
+
+
+        ACKNOWLEDGEMENT
+                                         QR Code — What Is This?
+    The Edvantage Interactive author     The image to the right is called a QR code. It’s similar to bar
+     and editorial team would like to    codes on various products and contains information that
+  thank Asma-na-hi Antoine, Toquaht      can be useful to you. Each QR code in this book provides
+    Nation, Nuu-chah-nulth, Manager      you with online support to help you learn the course
+   of Indigenous Education & Student     material. For example, find a question with a QR code
+  Services, Royal Roads University and   beside it. If you scan that code, you'll see the answer to the question explained
+the Heron People Circle at Royal Roads   in a video created by an author of this book.
+    University for their guidance and    You can scan a QR code using an Internet-enabled mobile device. The program
+ support in the ongoing development      to scan QR codes is free and available at your phone's app store. Scanning the
+        of resources to align to the     QR code above will give you a short overview of how to use the codes in the
+         Chemistry 12 curriculum.        book to help you study.
+                                         Note: We recommend that you scan QR codes only when your phone is
+                                         connected to a WiFi network. Depending on your mobile data plan, charges
+                                         may apply if you access the information over the cellular network. If you are
+                                         not sure how to do this, please contact your phone provider or us
+                                                                                                            at
+                                         info@edvantageinteractive.com
+Welcome to the                          traditional lands.
+
+
+
+
+ We would like to acknowledge the traditional territory
+  of the                        people and extend our
+ appreciation for the opportunity to learn on this land.
+
+
+
+
+                                       Welcome and Land Acknowledgement _ iii
+     Understanding the Welcome and the Land Acknowledgments
+
+     At the beginning of each day, students and teachers are encouraged to start with
+                                                                                         a welcome or land acknowledgem ent. The
+                                                                                         as well as the history of indigenous people
+     traditional teachings for this practice are to understand the history ofthese lands
+     to the present day. A welcome to the traditional land can only be done by members
+                                                                                            from the Nation(s) and are approved by a
+                                                                                                the traditional lands conduct a Land
+     Elder and/or Chief and Council. Guests and visitors who live, work, learn and play within
+                                                                                               lassroom. Your teacher will provide
+     Acknowledgement. On the previous page both examples are included for use in your ¢
+     guidance on the practice to be used in your class.
+
+
+
+       Reflection on Terminology
+       The Ministry of Education in British Columbia defines the follows terms:
+
+          Aboriginal
+               Aboriginal is a term defined in the Constitution Act of 1982 that refers to all indigenous people in Canada (status
+               and non-status), Métis, and Inuit people. More than one million people in Canada identified themselves as
+               Aboriginal on the 2006 Census, and are the fastest growing population in Canada.
+          First Nations
+                A First Nation is the self-determined political and organizational unit of the Aboriginal community that has the
+                power to negotiate, on a government-to government basis, with BC and Canada. Currently, there are 615 First
+                Nation communities in Canada, which represent more than 50 nations or cultural groups and about 60 Aboriginal
+                languages.
+          First Peoples
+                First Peoples refers to First Nations, Métis, and Inuit peoples in Canada, as well as indigenous peoples around the
+               world.
+          Indigenous
+                Indigenous has become more used recently provincially, federally, and internationally to replace “Ab original,”
+                                                                                                                              but
+                the terms are frequently used interchangeably.
+          Inuit
+                Inuit are Aboriginal peoples whose origins are different from people known as “North American Indi ans.’ The Inuit
+                generally live in northern Canada and Alaska.
+          Métis
+                Métis is a person of French and Aboriginal ancestry belonging to or descended from the people who established
+                themselves in the Red, Assiniboine, and Saskatchewan River valleys during the 19th century, forming a cultural
+                group distinct from both European and Aboriginal peoples. The Métis were originally based around fur trade
+                culture, when French and Scottish traders married First Nations women in the communities they traded with. The
+                Métis created their own communities and cultural ways distinct from those of the First Nations. This term has also
+                come to mean anyone of First Nations mixed ancestry who self-identifies as Métis.
+
+       In respect to traditional teachings from Elders, it is best to ask what terminology or title, individual or families would
+       prefer when being acknowledged.
+
+
+
+
+Written by Indigenous Consultants:
+Asma-na-hi Antoine, Toquaht Nation, Nuu-chah-nulth, Manager of Indigenous Education & Student
+                                                                                                   Services, Ro yal Roads University
+Shirley Alphonse, Cowichan Tribes, resides in T’Sou-ke Nation, member of the Heron People Circle at Royal Road
+                                                                                                                Ss University
+
+Reference
+BC Ministry of Education (2019) Retrieved from https://curriculum.gov.bc.ca/sites/curriculum.gov.bc.ca/files/pdf/
+                                                                                                                 glossary pdf
+
+                                                         For more information:
+                                                       edvantagescience.com
+
+
+
+iv    Welcome and Land Acknowledgement Background Information
+                                                                                                  BC Science Chemistry 12
+
+
+
+Welcome to BC Science Chemistry 12                                                   COCO     PRPC   oe   ereereercreereererecrereooececocoseseoeocccsoe                    WE
+                                                                                                                                                                              .
+
+
+
+
+1 RECCRIOND ICITIGRICS Pree                                      Sots          RE      CTT      EON a o's hee ocd oa vbacceedbeeucccncndecunwuceus                            1
+                           ie preasuring the Rate.of Chénitcali Reactiomsiay.    lieu. rach. <.<<'s Sans dS                     wt       ca      ween be                            2
+                           ie Tectors Altecting Rates of Reaction: .2..<...                    ae Me        sch.
+                                                                                                              :.pM Be ee ek        ae-e         es                                 15
+                           Se oO NSN     te ty iro 8 oth       MI             Ds      cog pune ae vO          Goores bod sdb U¥e voce Candchueraday@ule                            24
+                           eet HL
+                               ROLCILAL EINCLCIVACROSS                         ip v5 o.svningid's ota ives iduevenaviecevdlt by JEL MT              Mee:                           36
+                           To peaction Mechanisms; Cataiysisand: nate LAWS. . . ....... «<7 sustwaadussin avdeasieda' vk dmiitlew ows apthoercn ob teal                            50
+
+PRCSOUCALECUINDEIUIN,                                       «com ecole                   oe «60s» + 6 © a s.sodioc ce en acevaverdenedasdsasenvcest
+                                                                                                                                                 KOR
+                           Perea) COMETH    EOU Vaan OE CHUIMOT Uy           ss 53°45 «s/s-« cgsgun’ ciesdips ka de wih actemcuebs te cas Aeees dede ae cae woe                    64
+                           7 TONEY)      Ca BT SGT9)Pte elSC ar ae                   a         en              aT nee er PP TVET HT Ae ats le                                      74
+                           2.3 How Equilibria Respond to Volume and Temperature Changes ............:ccccceceeeeeeveceuvevevveveeees                                               86
+                           Ber te VR OHOE VERSUS EN talDY.CHANGE ci: cacKas ss sscer tit ir esate coder ccseesbels tenet i tadantai teeters                                       104
+                           eae EIU MEOTINUINC OUISCAIEee          ee ee aycon cha siaihoie ees Ree Oo TU Ree Oe                    ee oe        ee          eee                   115
+                           Zao ECU ORIS IMRTORNCUIS ciate eh aae ealane 4 n.he feat      AN dees ioe s'acu'elb-osly-al Diels«ol SR OR     a eM ee ae deser ahae                   129
+
+
+Pa SEDIRIDOANEL YY -CLUTMIESNULNINN 15 85s50.5 a5.                                  sre'v.s. 0'y)04.0so 00.0.6 ob 00 0b Se oc'evascaceses eres apctenes                   LAS
+                           IPR ENS) COL RCE DUOR SONUDIEY. 5-0 faseoykhon oes f «v's 8 vyaiewia’e0 5)5:h:p GMD Rade OE RL te ltrs oe                    Ti                        144
+                           3-2, Qualitative Analysis — Identifying UNKNOwn IONS. ........ «<0 -siue easier vac            odfareisi tiered iecle cine nt dlawisied ofecnume       154
+                           3.3 The Solubility Product Constant 1 Oe                                                            eee                               Eee              167
+                           3.4 Precipitation Formation and the Solubility Product K,, 1.2... 6. sce e cence nee                    eee treet teeta teen e eens                    177
+
+4                       Bee eR    ASOD    CR THNDOTAUIINN   76   cic 56   <s   o.0.0.5 sscsin5 64:5 wA.a 016 G8   sovelan'e's a alitivisigie.s 6/s6 6 66e-0 :4'9/ya oh/a's EAT
+
+                          Be IOGTICN YING ACIGS: ANG BASCS. cies ac Gee sed ois cine sels o ane ose SESED OP Rb S ODIs aa nee ede eR beagles te                                   190
+                          SEEN EeSUG MGT a OMAGIGSIANG BASES eanased 25 pe okt pete ee ete te aoe shies coglins ups ra tindecneeac eu apgtinuen iis                               199
+                          SURE TIONOMMUZALIOUNORVVALGN soe rie esis sc 0s wigaieHiegM tc kore otedivAnis Waaia EUe mua SIR s veces aieWaid hTelnals Seen Manatee                  212
+                          BP MOUUAINCIO en Aaa gttetivccae oye ire siecoo x so die els cabin ea RUN arte GMM ee Mele Re ae eee eae Oc aia ae erase                                219
+                          45- CalculationsInVolVing K, and Ky ocd. sasic sce ciewtetien sige one eiediatet nie& Laiewiaiale ot oppisieininig « 918'644 ewe 619oelnielelanslae ®   234
+
+5 Applications of Acid-Base Reactions ..........cceeccccercerccrceseeseseresesssssesses
+                                                                                     LOD
+                          5.1 Hydrolysis of Salts — The Reactions of lons with Water. ............ceee                          seen eeeeeeeecece eeeeeeee eeenenneees            256
+                          Bee aT EC ICIUSIEY, OF BULLETS Sco cna. olesgoa cc's cores       5.0% Calo pRedie    Bon  seis  be  Nea  ee eGR ag EVES Rea as Sete 5 eve               272
+                          5.3 Acid-Base Titrations — Analyzing with Volume...........              00... e eee e cee c cece eteet eg eee cedeerscceneneeeeenes                    290
+                          MEP ATCIOSEL LOOK At TIRTALIONS <<ci. sie sic» dice wieao edia + winloa Wiecossiase, o:a.0 Feaiegeipnleseualtbae ek Fa ekctele etch tee iy ane          307
+                          5.5 Non-metal and Metal Oxides in Water ..............0.:e               ees si Sa's Fe 4,0eRe hy,Oe                   eRe as Se aera                   337
+
+
+                                                                                       s
+6 Oxidation-Reduction and Its Applications. ...........seccecccecereccsecescveseessseesol
+                          CREDO NG aLIOnIEREGUCEION: cece tet + sve sos ewan C4 owed Shu cain d Golan weiats oles ce nee Sie eating ninsn elem ammenmedaiotn.s                    352
+                          6.2 Balancing Oxidation-Reduction Equations.......             0.0.1.0 eee eee ence e reer n teen e eee n eee e eee nes                                 363
+                          6.3 Using the Standard Reduction Potential (SRP) Table to Predict Redox Reactions...........+1+s.eee                               eeeeees              379
+                          BIA       EIGCHTOCICIINIGA LC Cll oe ets isos  eh  nies o>  he  oe   relay naw Oe he niehe oa een  oe ola aves visek ws tae ep ainon meet               392
+                          6.5 The Electrolytic Cell..              ......            etre    rece
+                                                                                         ...00c   ence          ceccen
+                                                                                                      eeceresenseenecte                sseetc
+                                                                                                                            tteastanetaeersre                  e
+                                                                                                                                                   esereceereens                  408
+
+
+Appendix — Reference Tables .........00ssseesereceseteccetsnccereeecessescssesecs ees 42]
+
+
+
+
+                                                                                                                                                                           Introduction   v
+© Edvantage Interactive 2019
+        Welcome to BC Science Chemistry 12
+                                                                                               study, aligned
+        BC Science Chemistry 12 is a print and digital resource for classroom and independent
+                                                                                          textbook   or Work-
+                          m. You, the student, have two core components — this write-in
+        with the BC curriculu
+        Text and, to provide mobile functionality, an interactive Online Study Guide.
+
+
+        BC Science Chemistry                             12 WorkText
+        What is a WorkText?
+           A WorkText is a write-in textbook. Not just a workbook,
+           a write-in textbook.
+           Like the vast majority of students, you will read for content,
+           underline, highlight, take notes, answer the questions — all in
+           this book. Your book.
+           Use it as a textbook, workbook, notebook, AND study guide. It’s
+           also a great reference book for post secondary studies.
+           Make it your own personal WorkText.
+
+        Why a write-in textbook?
+            Reading is an extremely active and personal process.
+           Research has shown that physically interacting with your
+           text by writing margin notes and highlighting key passages
+           results in better comprehension and retention.
+            Use your own experiences and prior knowledge to make meaning, not take meaning, from text.
+
+         How to make this book work for you:
+            1.   Scan each section and check out the shaded areas and bolded terms.
+           2     Do the Warm Ups to activate prior knowledge.
+           3     Take notes as required by highlights and adding teacher comments and notes.
+           4.    Use Quick Check sections to find out where you are in your learning.
+           5     Do the Review Questions and write down the answers. Scan the QR codes or go to the Online Study Guide
+                 to see YouTube-like video worked solutions by BC Science Chemistry 12 authors.
+           a. Try the Online Study Guide for online quizzes, PowerPoints, and more videos.
+                 Follow the six steps above to be successful.
+
+
+
+
+                              For more information on how to purchase your own personal copy
+                                               info@edvantageinteractive.com
+
+
+
+                                                                                                                    a
+vi_   Introduction
+                                                                                                     © Edvantage Interactive 2019
+            BC Science Chemistry 12 Online Study Guide (OSG)
+            What is an Online Study Guide?
+               It’s an interactive, personalized, digital, mobile study
+               guide to support the WorkText.
+               The Online Study Guide or OSG, provides access to
+               online quizzes, PowerPoint notes, and video worked
+               solutions.
+               Need extra questions, sample tests, a summary of
+               your notes, worked solutions to some of the review
+               questions? It’s all here!
+               Access it where you want, when you want.
+               Make it your own personal mobile study guide.
+
+            What's in the Online Study Guide?
+                  Online quizzes, multiple choice questions,
+                  exam-like tests with instant feedback
+                  PowerPoint notes: Key idea summary and student study
+                  notes from the textbook
+                  Video worked solutions: Select video worked solutions                       Scan this code for a quick
+                                                                                                overview of the OSG
+                  from the WorkText
+               If you have a smart phone or tablet, scan the QR code to the right to find out more.
+               Color e-reader WorkText version available.
+
+            Where is the Online Study Guide located?
+              www.edvantagescience.com
+            Should | use the Online Study Guide?
+               YES... ifyou want to do your best in this course.
+               The OSG is directly LINKED to the activities and content
+               in the WorkText.
+               The OSG helps you learn what is taught in class.
+
+
+
+
+                           If your school does not have access to the Online Study Guide and you'd like
+                                        more information — info@edvantageinteractive.com
+
+
+
+
+i                 wae              np
+
+© Edvantage Interactive 2019                                                                                         Introduction
+viii   Introduction
+                      © Edvantage Interactive 2019
+1 Reaction Kinetics
+By the end of this chapter, you should be able to do the following:
+
+    Demonstrate awareness that reactions occur at differing rates
+    Experimentally determine rate of a reaction
+    Demonstrate knowledge of collision theory
+    Describe the energies associated with reactants becoming products
+    Apply collision theory to explain how reaction rates can be changed
+    Analyze the reaction mechanism for a reacting system
+    Represent graphically the energy changes associated with catalyzed and uncatalyzed reactions
+    Describe the uses of specific catalysts in a variety of situations
+
+
+By the end of this chapter, you should know the meaning of these key terms:
+
+    activated complex
+    activation energy
+    bimolecular
+    catalyst
+    catalytic converter
+    collision theory
+    AH notation
+    elementary processes
+    endothermic
+    enthalpy
+    enzymes
+    exothermic
+    heterogeneous catalysts
+    homogeneous catalysts
+    initial rate
+    integrated rate law
+    KE distribution curve
+    kinetic energy (KE),
+    metalloenzymes
+    molecularity
+    overall order
+    potential energy (PE)
+    product
+    rate-determining step
+    reactant
+    reaction intermediate
+    reaction mechanism
+    reaction rate
+    successful collision
+    termolecular
+    thermochemical equation
+
+
+
+
+                                                                External tanks of liquid oxygen and hydrogen fuel react to create the energy
+                                                                needed to launch a rocket carrying the space shuttle.
+
+
+
+                                                                                                           Chapter 1 Reaction Kinetics         1
+© Edvantage Interactive 2019
+1.1 Measuring the Rate of Chemical Reactions
+
+    Warm Up
+                                                                                             in the poe of an object as it moves.
+    In previous Science courses, you were introduced to the concept of rate of change
+                                                                                                     mighe use ule more general Bee
+    You learned that this is the object's velocity. If we don’t consider the object's direction, we
+                        ” is a vector quantity while speed is
+               “rate” Velocity
+              eed                                                   a scalar quantity. When  dealing  with chemical reactions, we nee
+    “spor
+    not concern ourselves with vectors.                                                                           an
+                                                                                                            Anaheim into Los Angeles:
+    Assume a vehicle moves the following distances over the stated periods of time as it travels from
+    What is the average velocity (rate) of the car (over the entire time
+    period)?
+    (a) in km/min
+    (b) in km/h
+    (c) Why do we refer to this as an average rate?
+
+
+
+
+    (d) Aunit of                 is always placed in the denominator when calculating rate.
+
+
+
+
+           ae                     Chemical reactions involve the conversion of reactants with a particular set of properties into
+Measuring Reaction                products with a whole new set of properties.
+Rate
+                                        Chemical kinetics is the investigation of the rate at which these reactions occur and the
+                                        factors that affect them.
+
+
+                                         If you consider familiar reactions like the explosion of a firecracker, the metabolism of the lunch
+                                  you ate today and the rusting of your bicycle, it is evident that chemical reactions occur at a wide
+                                  variety of rates (Figure 1.1.1).
+
+
+
+
+                                          oo
+
+
+
+
+                                      Time for reaction: < 1s              several hours                      weeks to many months
+                                  Figure 1.1.1 An explosion, food digestion, and rusting metal all involve chemical reactions but
+                                                                                                                                  at very different
+                                  rates,
+
+                                         Reaction rates may be determined by observing either the disappearance of a reactant
+                                                                                                                                or the
+                                  appearance of a product. Deciding exactly what to measure can be a tricky
+                                                                                                             business. There are several
+                                  things the chemist needs to consider:
+                                  + Is there a measurable property associated with the chan ge in
+                                                                                                  quantity of a reactant or product you
+                                     might use to determine the rate?
+a                                                                                                                   eee
+
+2   Chapter1      Reaction Kinetics                                                                               © Edvantage Interactive 2019
+

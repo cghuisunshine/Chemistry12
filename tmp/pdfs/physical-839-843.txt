@@ -1,0 +1,324 @@
+=== PDF 839 / printed 807 ===
+                                                                  22.5 THE TEMPERATURE DEPENDENCE OF REACTION RATES                          807
+
+
+ Hence,
+                     1
+     k2 =                 7
+            τ (K + 2K1/2
+                     w )c
+                                         1
+        =                                                        = 1.4 × 1011 dm3 mol−1 s−1
+            (3.7 × 10−5 s) × (2.0 × 10 −7) × (1 mol dm−3)
+ It follows that
+     k1 = k2Kc 7 = 2.4 × 10−5 s−1
+ The reaction is faster in ice, where k2 = 8.6 × 1012 dm3 mol−1 s−1.
+
+ A note on good practice Notice how we keep track of units through the use of c 7:
+ K and Kw are dimensionless; k2 is expressed in dm3 mol−1 s−1 and k1 is expressed in s−1.
+
+ Self-test 22.5 Derive an expression for the relaxation time of a concentration
+ when the reaction A + B 5 C + D is second-order in both directions.
+                                          [1/τ = k([A] + [B])eq + k′([C] + [D])eq]
+
+
+
+22.5 The temperature dependence of reaction rates
+The rate constants of most reactions increase as the temperature is raised. Many reac-
+tions in solution fall somewhere in the range spanned by the hydrolysis of methyl
+ethanoate (where the rate constant at 35°C is 1.82 times that at 25°C) and the hydrolysis
+of sucrose (where the factor is 4.13).
+
+(a) The Arrhenius parameters
+It is found experimentally for many reactions that a plot of ln k against 1/T gives a
+straight line. This behaviour is normally expressed mathematically by introducing
+two parameters, one representing the intercept and the other the slope of the straight
+line, and writing the Arrhenius equation
+                     Ea
+   ln k = ln A −                                                                            (22.29)
+                     RT
+                                                                                                                         ln A
+The parameter A, which corresponds to the intercept of the line at 1/T = 0 (at inﬁnite
+temperature, Fig. 22.10), is called the pre-exponential factor or the ‘frequency factor’.
+The parameter Ea, which is obtained from the slope of the line (−Ea /R), is called the
+activation energy. Collectively the two quantities are called the Arrhenius para-                                         Slope  Ea /R
+                                                                                                            ln k
+
+
+
+
+meters (Table 22.4).
+
+ Synoptic table 22.4* Arrhenius parameters
+
+ (1) First-order reactions                      A/s−1                               Ea /(kJ mol−1)
+
+ CH3NC → CH3CN                                  3.98 × 1013                         160
+ 2 N2O5 → 4 NO2 + O2                            4.94 × 1013                         103.4                                 1/T
+ (2) Second-order reactions                     A/(dm3 mol−1 s−1)                   Ea /(kJ mol−1)
+ OH + H2 → H2O + H                              8.0 ×1010                           42                Fig. 22.10 A plot of ln k against 1/T is a
+
+ NaC2H5O + CH3I in ethanol                      2.42 × 10   11
+                                                                                    81.6
+                                                                                                      straight line when the reaction follows the
+                                                                                                      behaviour described by the Arrhenius
+                                                                                                      equation (eqn 22.29). The slope gives −Ea/R
+ * More values are given in the Data section.
+                                                                                                      and the intercept at 1/T = 0 gives ln A.
+
+=== PDF 840 / printed 808 ===
+808                              22 THE RATES OF CHEMICAL REACTIONS
+
+
+                                                               Example 22.5 Determining the Arrhenius parameters
+
+                                                               The rate of the second-order decomposition of acetaldehyde (ethanal, CH3CHO)
+                                                               was measured over the temperature range 700–1000 K, and the rate constants are
+                                                               reported below. Find Ea and A.
+                                                               T/K                         700     730        760      790         810      840     910       1000
+                                                                      3         −1 −1
+                                                               k/(dm mol          s ) 0.011        0.035      0.105    0.343       0.789    2.17    20.0      145
+                                                               Method According to eqn 22.29, the data can be analysed by plotting ln(k/dm3
+                                                               mol−1 s−1) against 1/(T/K), or more conveniently (103 K)/T, and getting a straight
+                                                               line. As explained in Example 22.3, we obtain the activation energy from the
+                                                               dimensionless slope by writing −Ea /R = slope/units, where in this case ‘units’ =
+                                                               1/(103 K), so Ea = −slope × R × 103 K. The intercept at T = 0 is ln(A/dm3 mol−1 s−1).
+                                5                              Answer We draw up the following table:
+
+                                                               (103 K)/T                    1.43       1.37     1.32        1.27     1.23        1.19    1.10 1.00
+                                                                                  −1 −1
+                                                               ln(k/dm mol s ) −4.51 −3.35 −2.25 −1.07 −0.24
+                                                                          3
+      ln {k /(dm3 mol1 s1)}
+
+
+
+
+                                                                                                                                                 0.77    3.00    4.98
+                                                               Now plot ln k against 1/T (Fig. 22.11). The least-squares ﬁt is to a line with slope
+                                                               −22.7 and intercept 27.7. Therefore,
+                                0
+                                                                  Ea = 22.7 × (8.3145 J K −1 mol−1) × 103 K = 189 kJ mol−1
+                                                                  A = e27.7 dm3 mol−1 s−1 = 1.1 × 1012 dm3 mol−1 s−1
+
+                                                               A note on good practice Note that A has the same units as k. In practice, A is
+                                                               obtained from one of the mid-range data values rather than using a lengthy
+                                5                             extrapolation.
+                                 1.0   1.1    1.2 1.3   1.4
+                                                3
+                                             10 K /T
+                                                               Self-test 22.6 Determine A and Ea from the following data:
+Fig. 22.11 The Arrhenius plot using the data                   T/K                         300         350            400           450            500
+in Example 22.5.                                                               −1 −1
+                                                                      3
+                                                               k/(dm mol          s ) 7.9 × 10     6
+                                                                                                       3.0 × 10   7
+                                                                                                                      7.9 × 10 7
+                                                                                                                                    1.7 × 10 8
+                                                                                                                                                   3.2 ×108
+                                                                                                                        [8 ×1010 dm3 mol−1 s−1, 23 kJ mol−1]
+
+
+                                                                 The fact that Ea is given by the slope of the plot of ln k against 1/T means that, the
+                                                              higher the activation energy, the stronger the temperature dependence of the rate
+                                                              constant (that is, the steeper the slope). A high activation energy signiﬁes that the rate
+                                                              constant depends strongly on temperature. If a reaction has zero activation energy, its
+                                                              rate is independent of temperature. In some cases the activation energy is negative,
+                                                              which indicates that the rate decreases as the temperature is raised. We shall see that
+                                                              such behaviour is a signal that the reaction has a complex mechanism.
+                                                                 The temperature dependence of some reactions is non-Arrhenius, in the sense that
+                                                              a straight line is not obtained when ln k is plotted against 1/T. However, it is still pos-
+                                                              sible to deﬁne an activation energy at any temperature as
+                                                                              A d ln k D
+                                                                 Ea = RT 2                                                                                      [22.30]
+                                                                              C dT F
+                                                              This deﬁnition reduces to the earlier one (as the slope of a straight line) for a
+                                                              temperature-independent activation energy. However, the deﬁnition in eqn 22.30 is
+                                                              more general than eqn 22.29, because it allows Ea to be obtained from the slope (at the
+
+=== PDF 841 / printed 809 ===
+                                                                                              22.6 ELEMENTARY REACTIONS                            809
+
+temperature of interest) of a plot of ln k against 1/T even if the Arrhenius plot is not a
+straight line. Non-Arrhenius behaviour is sometimes a sign that quantum mechanical
+tunnelling is playing a signiﬁcant role in the reaction (Section 22.7f).                                                      Ea
+
+
+
+
+                                                                                                   Potential energy
+(b) The interpretation of the parameters                                                                              Reactants
+For the present chapter we shall regard the Arrhenius parameters as purely empirical
+quantities that enable us to discuss the variation of rate constants with temperature;
+however, it is useful to have an interpretation in mind and write eqn 22.29 as
+   k = Ae−Ea /RT                                                                   (22.31)                                              Products
+To interpret Ea we consider how the molecular potential energy changes in the
+                                                                                                                         Progress of reaction
+course of a chemical reaction that begins with a collision between molecules of A and
+molecules of B (Fig. 22.12).
+                                                                                                Fig. 22.12 A potential energy proﬁle for an
+   As the reaction event proceeds, A and B come into contact, distort, and begin to
+                                                                                                exothermic reaction. The height of the
+exchange or discard atoms. The reaction coordinate is the collection of motions, such           barrier between the reactants and products
+as changes in interatomic distances and bond angles, that are directly involved in the          is the activation energy of the reaction.
+formation of products from reactants. (The reaction coordinate is essentially a geo-
+metrical concept and quite distinct from the extent of reaction.) The potential energy
+rises to a maximum and the cluster of atoms that corresponds to the region close
+to the maximum is called the activated complex. After the maximum, the potential
+energy falls as the atoms rearrange in the cluster and reaches a value characteristic of
+the products. The climax of the reaction is at the peak of the potential energy, which
+corresponds to the activation energy Ea. Here two reactant molecules have come to
+such a degree of closeness and distortion that a small further distortion will send them        Comment 22.3
+in the direction of products. This crucial conﬁguration is called the transition state of       The terms actiVated complex and
+the reaction. Although some molecules entering the transition state might revert to             transition state are often used as
+reactants, if they pass through this conﬁguration then it is inevitable that products will      synonyms; however, we shall preserve a
+emerge from the encounter.                                                                      distinction.
+   We also conclude from the preceding discussion that, for a reaction involving the
+collision of two molecules, the activation energy is the minimum kinetic energy that re-
+actants must have in order to form products. For example, in a gas-phase reaction there
+are numerous collisions each second, but only a tiny proportion are suﬃciently ener-
+getic to lead to reaction. The fraction of collisions with a kinetic energy in excess of an
+energy Ea is given by the Boltzmann distribution as e−Ea /RT. Hence, we can interpret the
+exponential factor in eqn 22.31 as the fraction of collisions that have enough kinetic
+energy to lead to reaction.
+   The pre-exponential factor is a measure of the rate at which collisions occur irre-
+spective of their energy. Hence, the product of A and the exponential factor, e−Ea /RT,
+gives the rate of successful collisions. We shall develop these remarks in Chapter 24 and
+see that they have their analogues for reactions that take place in liquids.
+
+
+
+Accounting for the rate laws
+We now move on to the second stage of the analysis of kinetic data, their explanation
+in terms of a postulated reaction mechanism.
+
+22.6 Elementary reactions
+Most reactions occur in a sequence of steps called elementary reactions, each of
+which involves only a small number of molecules or ions. A typical elementary reac-
+tion is
+
+=== PDF 842 / printed 810 ===
+810   22 THE RATES OF CHEMICAL REACTIONS
+
+                                   H + Br2 → HBr + Br
+                                Note that the phase of the species is not speciﬁed in the chemical equation for an
+                                elementary reaction, and the equation represents the speciﬁc process occurring to
+                                individual molecules. This equation, for instance, signiﬁes that an H atom attacks
+                                a Br2 molecule to produce an HBr molecule and a Br atom. The molecularity of an
+                                elementary reaction is the number of molecules coming together to react in an ele-
+                                mentary reaction. In a unimolecular reaction, a single molecule shakes itself apart or
+                                its atoms into a new arrangement, as in the isomerization of cyclopropane to propene.
+                                In a bimolecular reaction, a pair of molecules collide and exchange energy, atoms,
+                                or groups of atoms, or undergo some other kind of change. It is most important
+                                to distinguish molecularity from order: reaction order is an empirical quantity, and
+                                obtained from the experimental rate law; molecularity refers to an elementary reac-
+                                tion proposed as an individual step in a mechanism.
+                                   The rate law of a unimolecular elementary reaction is ﬁrst-order in the reactant:
+                                                d[A]
+                                   A→P                  = −k[A]                                                      (22.32)
+                                                  dt
+                                where P denotes products (several diﬀerent species may be formed). A unimolecular
+                                reaction is ﬁrst-order because the number of A molecules that decay in a short inter-
+                                val is proportional to the number available to decay. (Ten times as many decay in
+                                the same interval when there are initially 1000 A molecules as when there are only
+                                100 present.) Therefore, the rate of decomposition of A is proportional to its molar
+                                concentration.
+                                  An elementary bimolecular reaction has a second-order rate law:
+                                                       d[A]
+                                   A+B→P                      = −k[A][B]                                             (22.33)
+                                                        dt
+                                A bimolecular reaction is second-order because its rate is proportional to the rate at
+                                which the reactant species meet, which in turn is proportional to their concentrations.
+                                Therefore, if we have evidence that a reaction is a single-step, bimolecular process, we
+                                can write down the rate law (and then go on to test it). Bimolecular elementary reac-
+                                tions are believed to account for many homogeneous reactions, such as the dimeriza-
+                                tions of alkenes and dienes and reactions such as
+                                   CH3I(alc) + CH3CH2O−(alc) → CH3OCH2CH3(alc) + I−(alc)
+                                (where ‘alc’ signiﬁes alcohol solution). There is evidence that the mechanism of this
+                                reaction is a single elementary step
+                                   CH3I + CH3CH2O− → CH3OCH2CH3 + I−
+                                This mechanism is consistent with the observed rate law
+                                   v = k[CH3I][CH3CH2O−]                                                             (22.34)
+                                  We shall see below how to combine a series of simple steps together into a mechan-
+                                ism and how to arrive at the corresponding rate law. For the present we emphasize
+                                that, if the reaction is an elementary bimolecular process, then it has second-order kinetics,
+                                but if the kinetics are second-order, then the reaction might be complex. The postulated
+                                mechanism can be explored only by detailed detective work on the system, and by
+                                investigating whether side products or intermediates appear during the course of the
+                                reaction. Detailed analysis of this kind was one of the ways, for example, in which the
+                                reaction H2(g) + I2(g) → 2 HI(g) was shown to proceed by a complex mechanism. For
+
+=== PDF 843 / printed 811 ===
+                                                                        22.7 CONSECUTIVE ELEMENTARY REACTIONS                                 811
+
+many years the reaction had been accepted on good, but insuﬃciently meticulous
+evidence as a ﬁne example of a simple bimolecular reaction, H2 + I2 → HI + HI, in
+which atoms exchanged partners during a collision.
+
+
+22.7 Consecutive elementary reactions
+Some reactions proceed through the formation of an intermediate (I), as in the con-
+                                                                                           Comment 22.4
+secutive unimolecular reactions
+         k       k
+                                                                                           The solution of a ﬁrst-order diﬀerential
+   A −→
+      a
+        I −→
+           b
+             P                                                                             equation with the form
+An example is the decay of a radioactive family, such as                                          dy
+             23.5 min 239      2.35 day 239
+                                                                                                            + yf(x) = g(x)
+   239
+      U −−−−→             Np −−−−→           Pu                                                  dx
+
+(The times are half-lives.) We can discover the characteristics of this type of reaction   is
+
+                                                                                                                     
+by setting up the rate laws for the net rate of change of the concentration of each
+substance.                                                                                      e ∫ f (x) dxy = e ∫ f (x)dxg(x)dx + constant
+
+(a) The variation of concentrations with time                                              Equation 22.39 is a special case of this
+                                                                                           standard form, with f(x) = constant.
+The rate of unimolecular decomposition of A is
+   d[A]                                                                                                      1
+              = −ka[A]                                                          (22.35)
+     dt                                                                                                          [A]/[A]0
+
+and A is not replenished. The intermediate I is formed from A (at a rate ka[A]) but                    0.8          [I]/[A]0
+decays to P (at a rate kb[I]). The net rate of formation of I is therefore
+   d[I]                                                                                                                        [P]/[A]0
+             = k a[A] − k b[I]                                                  (22.36)                0.6
+    dt
+The product P is formed by the unimolecular decay of I:                                         [J]/[J]0
+                                                                                                       0.4
+   d[P]
+             = kb[I]                                                            (22.37)
+    dt
+                                                                                                           0.2
+We suppose that initially only A is present, and that its concentration is [A]0.
+ The ﬁrst of the rate laws, eqn 22.35, is an ordinary ﬁrst-order decay, so we can write
+                                                                                                            0
+   [A] = [A]0e−kat                                                              (22.38)                      0     0.5      1 1.5    2    2.5 3
+                                                                                                                              kat
+When this equation is substituted into eqn 22.36, we obtain after rearrangement
+   d[I]                                                                                    Fig. 22.13 The concentrations of A, I, and P
+             + kb[I] = ka[A]0e−kat                                              (22.39)    in the consecutive reaction scheme A → I
+    dt                                                                                     → P. The curves are plots of eqns 22.38,
+This diﬀerential equation has a standard form and, after setting [I]0 = 0, the solu-       22.40, and 21.41 with ka = 10kb. If the
+                                                                                           intermediate I is in fact the desired
+tion is
+                                                                                           product, it is important to be able to
+                 ka                                                                        predict when its concentration is greatest;
+   [I] =               (e−kat − e−kbt)[A]0                                      (22.40)    see Example 22.6.
+             kb − ka
+                                                                                                  Exploration Use mathematical
+At all times [A] + [I] + [P] = [A]0, so it follows that                                           software, an electronic spreadsheet,
+                                                                                           or the applets found in the Living graphs
+             1        kae−kbt − kbe−kat 5                                                  section of the text’s web site to investigate
+   [P] = 2 1 +                         6 [A]0                                   (22.41)
+             3            k b − ka     7                                                   the eﬀects on [A], [I], [P], and tmax of
+                                                                                           changing the ratio ka/kb from 10 (as in
+The concentration of the intermediate I rises to a maximum and then falls to zero          Fig. 22.13) to 0.01. Compare your results
+(Fig. 22.13). The concentration of the product P rises from zero towards [A]0.             with those shown in Fig. 22.15.

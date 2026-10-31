@@ -1,0 +1,494 @@
+=== PDF 232 / printed 200 ===
+                         7             Chemical equilibrium
+
+Spontaneous chemical                   This chapter develops the concept of chemical potential and shows how it is used to
+reactions                              account for the equilibrium composition of chemical reactions. The equilibrium composition
+                                       corresponds to a minimum in the Gibbs energy plotted against the extent of reaction, and
+7.1 The Gibbs energy minimum
+                                       by locating this minimum we establish the relation between the equilibrium constant
+7.2 The description of equilibrium     and the standard Gibbs energy of reaction. The thermodynamic formulation of equilibrium
+                                       enables us to establish the quantitative effects of changes in the conditions. The principles
+The response of equilibria to          of thermodynamics established in the preceding chapters can be applied to the descrip-
+the conditions                         tion of the thermodynamic properties of reactions that take place in electrochemical
+7.3 How equilibria respond to          cells, in which, as the reaction proceeds, it drives electrons through an external circuit.
+     pressure                          Thermodynamic arguments can be used to derive an expression for the electric potential of
+                                       such cells and the potential can be related to their composition. There are two major topics
+7.4 The response of equilibria to
+                                       developed in this connection. One is the deﬁnition and tabulation of standard potentials; the
+     temperature
+                                       second is the use of these standard potentials to predict the equilibrium constants and
+I7.1 Impact on engineering: The        other thermodynamic properties of chemical reactions.
+     extraction of metals from their
+     oxides
+                                       Chemical reactions tend to move towards a dynamic equilibrium in which both reac-
+Equilibrium electrochemistry           tants and products are present but have no further tendency to undergo net change.
+                                       In some cases, the concentration of products in the equilibrium mixture is so much
+7.5 Half-reactions and electrodes      greater than that of the unchanged reactants that for all practical purposes the reac-
+7.6 Varieties of cells                 tion is ‘complete’. However, in many important cases the equilibrium mixture has
+                                       signiﬁcant concentrations of both reactants and products. In this chapter we see how
+7.7 The electromotive force
+                                       to use thermodynamics to predict the equilibrium composition under any reaction
+7.8 Standard potentials                conditions. Because many reactions of ions involve the transfer of electrons, they can
+7.9 Applications of standard           be studied (and utilized) by allowing them to take place in an electrochemical cell.
+     potentials                        Measurements like those described in this chapter provide data that are very useful for
+                                       discussing the characteristics of electrolyte solutions and of ionic equilibria in solution.
+I7.2 Impact on biochemistry:
+     Energy conversion in biological
+     cells
+                                       Spontaneous chemical reactions
+Checklist of key ideas
+Further reading                        We have seen that the direction of spontaneous change at constant temperature and
+Discussion questions                   pressure is towards lower values of the Gibbs energy, G. The idea is entirely general,
+                                       and in this chapter we apply it to the discussion of chemical reactions.
+Exercises
+Problems
+                                       7.1 The Gibbs energy minimum
+                                       We locate the equilibrium composition of a reaction mixture by calculating the Gibbs
+                                       energy of the reaction mixture and identifying the composition that corresponds to
+                                       minimum G.
+
+=== PDF 233 / printed 201 ===
+                                                                                       7.1 THE GIBBS ENERGY MINIMUM                  201
+
+(a) The reaction Gibbs energy
+Consider the equilibrium A 5 B. Even though this reaction looks trivial, there are
+many examples of it, such as the isomerization of pentane to 2-methylbutane and the
+conversion of l-alanine to d-alanine. Suppose an inﬁnitesimal amount dξ of A turns
+into B, then the change in the amount of A present is dnA = −dξ and the change in the
+amount of B present is dnB = +dξ. The quantity ξ (xi) is called the extent of reaction;
+it has the dimensions of amount of substance and is reported in moles. When the
+extent of reaction changes by a ﬁnite amount ∆ξ, the amount of A present changes
+from nA,0 to nA,0 − ∆ξ and the amount of B changes from nB,0 to nB,0 + ∆ξ. So, if
+initially 2.0 mol A is present and we wait until ∆ξ = +1.5 mol, then the amount of A
+remaining will be 0.5 mol.
+   The reaction Gibbs energy, ∆ rG, is deﬁned as the slope of the graph of the Gibbs
+energy plotted against the extent of reaction:
+
+           A ∂G D
+   ∆rG =                                                                           [7.1]
+           C ∂ξ F p,T
+
+Although ∆ normally signiﬁes a diﬀerence in values, here ∆r signiﬁes a derivative, the
+slope of G with respect to ξ. However, to see that there is a close relationship with the
+normal usage, suppose the reaction advances by dξ. The corresponding change in
+Gibbs energy is
+   dG = µAdnA + µBdnB = −µAdξ + µBdξ = (µB − µA)dξ
+This equation can be reorganized into
+   A ∂G D
+             =µ −µ
+   C ∂ξ F p,T B A
+
+That is,
+   ∆rG = µB − µA                                                                   (7.2)
+We see that ∆rG can also be interpreted as the diﬀerence between the chemical
+potentials (the partial molar Gibbs energies) of the reactants and products at the com-
+position of the reaction mixture.
+  Because chemical potential varies with composition, the slope of the plot of Gibbs
+energy against extent of reaction changes as the reaction proceeds. Moreover, because
+the reaction runs in the direction of decreasing G (that is, down the slope of G plotted
+against ξ), we see from eqn 7.2 that the reaction A → B is spontaneous when µA > µB,
+whereas the reverse reaction is spontaneous when µB > µA. The slope is zero, and the
+reaction is spontaneous in neither direction, when
+   ∆rG = 0                                                                         (7.3)
+This condition occurs when µB = µA (Fig. 7.1). It follows that, if we can ﬁnd the
+composition of the reaction mixture that ensures µB = µA, then we can identify the
+composition of the reaction mixture at equilibrium.
+
+(b) Exergonic and endergonic reactions
+We can express the spontaneity of a reaction at constant temperature and pressure in
+                                                                                            Fig. 7.1 As the reaction advances
+terms of the reaction Gibbs energy:
+                                                                                            (represented by motion from left to right
+  If ∆rG < 0, the forward reaction is spontaneous.                                          along the horizontal axis) the slope of the
+                                                                                            Gibbs energy changes. Equilibrium
+  If ∆rG > 0, the reverse reaction is spontaneous.                                          corresponds to zero slope, at the foot of the
+  If ∆rG = 0, the reaction is at equilibrium.                                               valley.
+
+=== PDF 234 / printed 202 ===
+202      7 CHEMICAL EQUILIBRIUM
+
+                                                A reaction for which ∆rG < 0 is called exergonic (from the Greek words for work pro-
+                                                ducing). The name signiﬁes that, because the process is spontaneous, it can be used to
+                                                drive another process, such as another reaction, or used to do non-expansion work. A
+                                                simple mechanical analogy is a pair of weights joined by a string (Fig. 7.2): the lighter
+                                                of the pair of weights will be pulled up as the heavier weight falls down. Although the
+                                                lighter weight has a natural tendency to move downward, its coupling to the heavier
+                                                weight results in it being raised. In biological cells, the oxidation of carbohydrates act
+                                                as the heavy weight that drives other reactions forward and results in the formation of
+                                                proteins from amino acids, muscle contraction, and brain activity. A reaction for
+                                                which ∆rG > 0 is called endergonic (signifying work consuming). The reaction can
+                                                be made to occur only by doing work on it, such as electrolysing water to reverse its
+                                                spontaneous formation reaction. Reactions at equilibrium are spontaneous in neither
+                                                direction: they are neither exergonic nor endergonic.
+Fig. 7.2 If two weights are coupled as shown
+here, then the heavier weight will move the
+lighter weight in its non-spontaneous           7.2 The description of equilibrium
+direction: overall, the process is still
+spontaneous. The weights are the                With the background established, we are now ready to see how to apply thermody-
+analogues of two chemical reactions: a          namics to the description of chemical equilibrium.
+reaction with a large negative ∆G can force
+another reaction with a less ∆G to run in its   (a) Perfect gas equilibria
+non-spontaneous direction.
+                                                When A and B are perfect gases we can use eqn 5.14 (µ = µ 7 + RT ln p, with p inter-
+                                                preted as p/p7) to write
+                                                   ∆rG = µB − µA = (µB7 + RT ln pB) − (µA7 + RT ln pA)
+                                                                          pB
+                                                        = ∆rG 7 + RT ln                                                            (7.4)°
+                                                                          pA
+                                                If we denote the ratio of partial pressures by Q, we obtain
+                                                                                        pB
+                                                   ∆rG = ∆rG 7 + RT ln Q         Q=                                                (7.5)°
+                                                                                        pA
+
+Comment 7.1                                     The ratio Q is an example of a reaction quotient. It ranges from 0 when pB = 0 (cor-
+                                     7
+Note that in the deﬁnition of ∆rG , the         responding to pure A) to inﬁnity when pA = 0 (corresponding to pure B). The standard
+∆r has its normal meaning as a diﬀerence        reaction Gibbs energy, ∆rG 7, is deﬁned (like the standard reaction enthalpy) as the
+whereas in the deﬁnition of ∆rG the ∆r          diﬀerence in the standard molar Gibbs energies of the reactants and products. For our
+signiﬁes a derivative.                          reaction
+                                                   ∆rG 7 = G B,m
+                                                             7       7
+                                                                 − G A,m = µ B7 − µA7                                               (7.6)
+                                                In Section 3.6 we saw that the diﬀerence in standard molar Gibbs energies of the prod-
+                                                ucts and reactants is equal to the diﬀerence in their standard Gibbs energies of forma-
+                                                tion, so in practice we calculate ∆rG 7 from
+                                                   ∆rG 7 = ∆f G 7(B) − ∆f G 7(A)                                                    (7.7)
+                                                  At equilibrium ∆rG = 0. The ratio of partial pressures at equilibrium is denoted K,
+                                                and eqn 7.5 becomes
+                                                   0 = ∆rG 7 + RT ln K
+                                                This expression rearranges to
+                                                                                 A pB D
+                                                   RT ln K = −∆rG 7         K=                                                     (7.8)°
+                                                                                 C pA F equilibrium
+
+=== PDF 235 / printed 203 ===
+                                                                               7.2 THE DESCRIPTION OF EQUILIBRIUM                                  203
+
+This relation is a special case of one of the most important equations in chemical
+thermodynamics: it is the link between tables of thermodynamic data, such as those in
+the Data section at the end of this volume, and the chemically important equilibrium                                            Without
+constant, K.                                                                                                                    mixing
+
+
+
+
+                                                                                              Gibbs energy, G
+ Molecular interpretation 7.1 The approach to equilibrium
+
+ In molecular terms, the minimum in the Gibbs energy, which corresponds to ∆rG                                      Including
+ = 0, stems from the Gibbs energy of mixing of the two gases. Hence, an important                                   mixing
+ contribution to the position of chemical equilibrium is the mixing of the products
+ with the reactants as the products are formed.                                                                 0
+    Consider a hypothetical reaction in which A molecules change into B molecules                                      Extent of reaction, 
+ without mingling together. The Gibbs energy of the system changes from G 7(A) to
+ G 7(B) in proportion to the amount of B that had been formed, and the slope of
+ the plot of G against the extent of reaction is a constant and equal to ∆rG 7 at all                                                     Mixing
+ stages of the reaction (Fig. 7.3). There is no intermediate minimum in the graph.
+ However, in fact, the newly produced B molecules do mix with the surviving A               Fig. 7.3 If the mixing of reactants and
+ molecules. We have seen that the contribution of a mixing process to the change in         products is ignored, then the Gibbs energy
+ Gibbs energy is given by eqn 5.27 (∆mixG = nRT(xA ln xA + xB ln xB)). This expres-         changes linearly from its initial value (pure
+ sion makes a U-shaped contribution to the total change in Gibbs energy. As can be          reactants) to its ﬁnal value (pure products)
+                                                                                            and the slope of the line is ∆rG 7. However,
+ seen from Fig. 7.3, there is now an intermediate minimum in the Gibbs energy, and
+                                                                                            as products are produced, there is a further
+ its position corresponds to the equilibrium composition of the reaction mixture.           contribution to the Gibbs energy arising
+                                                                                            from their mixing (lowest curve). The sum
+   We see from eqn 7.8 that, when ∆rG 7 > 0, the equilibrium constant K < 1.                of the two contributions has a minimum.
+                                                                                            That minimum corresponds to the
+Therefore, at equilibrium the partial pressure of A exceeds that of B, which means that
+                                                                                            equilibrium composition of the system.
+the reactant A is favoured in the equilibrium. When ∆rG 7 < 0, the equilibrium con-
+stant K > 1, so at equilibrium the partial pressure of B exceeds that of A. Now the prod-
+uct B is favoured in the equilibrium.
+
+(b) The general case of a reaction
+We can easily extend the argument that led to eqn 7.8 to a general reaction. First, we
+need to generalize the concept of extent of reaction.
+  Consider the reaction 2 A + B → 3 C + D. A more sophisticated way of expressing
+the chemical equation is to write it in the symbolic form
+   0=3C+D−2A−B
+by subtracting the reactants from both sides (and replacing the arrow by an equals
+sign). This equation has the form
+   0=   ∑ νJJ                                                                      (7.9)
+         J
+where J denotes the substances and the νJ are the corresponding stoichiometric
+numbers in the chemical equation. In our example, these numbers have the values
+νA = −2, νB = −1, νC = +3, and νD = +1. A stoichiometric number is positive for prod-
+ucts and negative for reactants. Then we deﬁne ξ so that, if it changes by ∆ξ, then the
+change in the amount of any species J is νJ∆ξ.
+
+ Illustration 7.1 Identifying stoichiometric numbers
+
+ To express the equation
+    N2(g) + 3 H2(g) → 2 NH3(g)                                                  (7.10)
+
+=== PDF 236 / printed 204 ===
+204   7 CHEMICAL EQUILIBRIUM
+
+
+                                in the notation of eqn 7.9, we rearrange it to
+                                   0 = 2 NH3(g) − N2(g) + 3 H2(g)
+                                and then identify the stoichiometric numbers as νN2 = −1, νH2 = −3, and νNH3 = +2.
+                                Therefore, if initially there is 10 mol N2 present, then when the extent of reaction
+                                changes from ξ = 0 to ξ = 1 mol, implying that ∆ξ = +1 mol, the amount of N2
+                                changes from 10 mol to 9 mol. All the N2 has been consumed when ξ = 10 mol.
+                                When ∆ξ = +1 mol, the amount of H2 changes by −3 × (1 mol) = −3 mol and the
+                                amount of NH3 changes by +2 × (1 mol) = +2 mol.
+
+                                A note on good practice Stoichiometric numbers may be positive or negative;
+                                stoichiometric coeﬃcients are always positive. Few, however, make the distinction
+                                between the two types of quantity.
+
+
+                                 The reaction Gibbs energy, ∆rG, is deﬁned in the same way as before, eqn 7.1. In the
+                               Justiﬁcation below, we show that the Gibbs energy of reaction can always be written
+                                  ∆rG = ∆rG 7 + RT ln Q                                                         (7.11)
+                               with the standard reaction Gibbs energy calculated from
+
+                                  ∆rG 7 =        ∑ ν∆ f G 7 − ∑ ν∆ f G 7                                       (7.12a)
+                                            Products         Reactants
+
+                               or, more formally,
+
+                                  ∆rG 7 =   ∑ νJ∆ f G 7(J)                                                     (7.12b)
+                                             J
+
+                               The reaction quotient, Q, has the form
+                                       activities of products
+                                  Q=                                                                           (7.13a)
+                                       activities of reactants
+                               with each species raised to the power given by its stoichiometric coeﬃcient. More for-
+                               mally, to write the general expression for Q we introduce the symbol Π to denote the
+                               product of what follows it (just as ∑ denotes the sum), and deﬁne Q as
+                                  Q=   ΠJ aνJ    J
+                                                                                                               [7.13b]
+
+                               Because reactants have negative stoichiometric numbers, they automatically appear
+                               as the denominator when the product is written out explicitly. Recall from Table 5.3
+                               that, for pure solids and liquids, the activity is 1, so such substances make no contri-
+                               bution to Q even though they may appear in the chemical equation.
+
+                                Illustration 7.2 Writing a reaction quotient
+
+                                Consider the reaction 2 A + 3 B → C + 2 D, in which case νA = −2, νB = −3, νC = +1,
+                                and νD = +2. The reaction quotient is then
+                                                           aCaD2
+                                   Q = a A−2a B−3aCaD2 =
+                                                           a2AaB3
+
+=== PDF 237 / printed 205 ===
+                                                                                   7.2 THE DESCRIPTION OF EQUILIBRIUM                            205
+
+
+      Justiﬁcation 7.1 The dependence of the reaction Gibbs energy on the reaction
+      quotient
+
+      Consider the reaction with stoichiometric numbers νJ. When the reaction advances
+      by dξ, the amounts of reactants and products change by dnJ = νJdξ. The resulting
+      inﬁnitesimal change in the Gibbs energy at constant temperature and pressure is
+                                     A        D
+          dG = ∑ µJdnJ = ∑ µJνJ dξ = B ∑ νJ µJE dξ                                    (7.14)
+               J         J           C J      F
+
+      It follows that
+
+                A ∂G D
+          ∆rG = B    E = ∑ νJ µJ                                                      (7.15)
+                C ∂ξ F p,T J
+
+      To make further progress, we note that the chemical potential of a species J is related
+      to its activity by eqn 5.25 (µJ = µ J7 + RT ln aJ). When this expression is substituted
+      into eqn 7.15 we obtain
+
+                       ∆rG 7
+                 5
+                 6
+                 7
+
+
+
+
+          ∆rG = ∑ νJ µ J7 + RT ∑ νJ ln aJ
+                   J                 J
+                                                                  Q
+                                                                @
+                                                                $
+
+
+
+
+               = ∆rG + RT ∑
+                         7
+                                     ln aνJ J = ∆rG 7 + RT ln   ΠJ aνJJ
+
+                                 J                                                              Comment 7.2
+
+               = ∆rG 7 + RT ln Q                                                                Recall that a ln x = ln x a and ln x + ln y
+                                                                                                                                        A         D
+      with Q given by eqn 7.13b.                                                                + · · · = ln xy · · · , so ∑ ln xi = ln B
+                                                                                                                           i            C
+                                                                                                                                            Πi xiEF .
+
+   Now we conclude the argument based on eqn 7.11. At equilibrium, the slope
+of G is zero: ∆rG = 0. The activities then have their equilibrium values and we can
+write
+
+        A        D
+   K=    Π
+        C J
+            aνJ J
+                 F equilibrium
+                                                                                      [7.16]
+
+
+This expression has the same form as Q, eqn 7.13, but is evaluated using equilibrium
+activities. From now on, we shall not write the ‘equilibrium’ subscript explicitly, and
+will rely on the context to make it clear that for K we use equilibrium values and for Q
+we use the values at the speciﬁed stage of the reaction.
+   An equilibrium constant K expressed in terms of activities (or fugacities) is called a
+thermodynamic equilibrium constant. Note that, because activities are dimension-
+less numbers, the thermodynamic equilibrium constant is also dimensionless. In ele-
+mentary applications, the activities that occur in eqn 7.16 are often replaced by the
+numerical values of molalities (that is, by replacing aJ by bJ/b7, where b7 = 1 mol kg−1),
+molar concentrations (that is, as [J]/c 7, where c 7 = 1 mol dm−3), or the numerical
+values of partial pressures (that is, by pJ/p7, where p7 = 1 bar). In such cases, the result-
+ing expressions are only approximations. The approximation is particularly severe for
+electrolyte solutions, for in them activity coeﬃcients diﬀer from 1 even in very dilute
+solutions (Section 5.9).
+
+=== PDF 238 / printed 206 ===
+206      7 CHEMICAL EQUILIBRIUM
+
+
+                                              Illustration 7.3 Writing an equilibrium constant.
+
+                                              The equilibrium constant for the heterogeneous equilibrium CaCO3(s) 5 CaO(s)
+                                              + CO2(g) is
+                                                                                     1
+
+
+
+
+                                                                                 5
+                                                                                 6
+                                                                                 7
+                                                                                 aCaO(s)aCO2(g)
+                                                 K = a−1
+                                                      CaCO3(s)aCaO(s)aCO2(g) =                      = aCO2
+                                                                                    aCaCO3(s)
+
+
+
+
+                                                                                   1
+                                                                                   2
+                                                                                   3
+                                                                                         1
+
+                                              (Table 5.3). Provided the carbon dioxide can be treated as a perfect gas, we can go
+                                              on to write
+                                                 K ≈ pCO2/p7
+
+                                              and conclude that in this case the equilibrium constant is the numerical value of
+                                              the decomposition vapour pressure of calcium carbonate.
+Comment 7.3
+In Chapter 17 we shall see that the right-
+hand side of eqn 7.17 may be expressed         At this point we set ∆rG = 0 in eqn 7.11 and replace Q by K. We immediately obtain
+in terms of spectroscopic data for gas-        RT ln K = −∆rG 7                                                                (7.17)
+phase species; so this expression also
+provides a link between spectroscopy         This is an exact and highly important thermodynamic relation, for it enables us to
+and equilibrium composition.                 predict the equilibrium constant of any reaction from tables of thermodynamic data,
+                                             and hence to predict the equilibrium composition of the reaction mixture.
+
+                                              Example 7.1 Calculating an equilibrium constant
+
+                                              Calculate the equilibrium constant for the ammonia synthesis reaction, eqn 7.10,
+                                              at 298 K and show how K is related to the partial pressures of the species at equi-
+                                              librium when the overall pressure is low enough for the gases to be treated as
+                                              perfect.
+                                              Method Calculate the standard reaction Gibbs energy from eqn 7.12 and convert
+                                              it to the value of the equilibrium constant by using eqn 7.17. The expression for the
+                                              equilibrium constant is obtained from eqn 7.16, and because the gases are taken to
+                                              be perfect, we replace each activity by the ratio p/p7, where p is a partial pressure.
+                                              Answer The standard Gibbs energy of the reaction is
+
+                                                 ∆rG 7 = 2∆f G 7(NH3, g) − {∆f G 7(N2, g) + 3∆f G 7(H2, g)}
+                                                       = 2∆f G 7(NH3, g) = 2 × (−16.5 kJ mol−1)
+                                              Then,
+
+                                                                 2 × (−16.5 × 103 J mol−1)          2 × 16.5 × 103
+                                                 ln K = −                                       =
+                                                            (8.3145 J K−1 mol−1) × (298 K)          8.3145 × 298
+
+                                              Hence, K = 6.1 × 105. This result is thermodynamically exact. The thermodynamic
+                                              equilibrium constant for the reaction is
+                                                        2
+                                                       aNH
+                                                 K=       3
+                                                           3
+                                                      aN2a H 2
+
+=== PDF 239 / printed 207 ===
+                                                                                     7.2 THE DESCRIPTION OF EQUILIBRIUM   207
+
+
+and this ratio has exactly the value we have just calculated. At low overall pressures,
+the activities can be replaced by the ratios p/p7, where p is a partial pressure, and an
+approximate form of the equilibrium constant is
+              (pNH3/p7)2     2
+                            pNH  p72
+    K=                    =    3
+
+         (pN2/p7)(pH2/p7)3 pN2 pH3
+                                   2
+
+
+
+Self-test 7.1 Evaluate the equilibrium constant for N2O4(g) 5 2 NO2(g) at 298 K.
+                                                                                [K = 0.15]
+
+
+Example 7.2 Estimating the degree of dissociation at equilibrium
+
+The degree of dissociation, α, is deﬁned as the fraction of reactant that has decom-
+posed; if the initial amount of reactant is n and the amount at equilibrium is neq,
+then α = (n − neq)/n. The standard Gibbs energy of reaction for the decomposition
+H2O(g) → H2(g) + –12 O2(g) is +118.08 kJ mol−1 at 2300 K. What is the degree of dis-
+sociation of H2O at 2300 K and 1.00 bar?
+Method The equilibrium constant is obtained from the standard Gibbs energy of
+reaction by using eqn 7.17, so the task is to relate the degree of dissociation, α, to K
+and then to ﬁnd its numerical value. Proceed by expressing the equilibrium com-
+positions in terms of α, and solve for α in terms of K. Because the standard Gibbs
+energy of reaction is large and positive, we can anticipate that K will be small, and
+hence that α << 1, which opens the way to making approximations to obtain its
+numerical value.
+Answer The equilibrium constant is obtained from eqn 7.17 in the form
+
+                 ∆rG 7              (+118.08 × 103 J mol−1)
+    ln K = −               =−
+                 RT       (8.3145 J K−1 mol−1) × (2300 K)
+                 118.08 × 103
+          =−
+               8.3145 × 2300
+It follows that K = 2.08 × 10−3. The equilibrium composition can be expressed in
+terms of α by drawing up the following table:
+
+                                       H2O          H2          O2
+
+Initial amount                         n            0           0
+Change to reach equilibrium            −αn          +αn         + –12 αn
+Amount at equilibrium                  (1 − α)n     αn          –12 αn      Total: (1 + –12 α)n
+                                        1−α              α         –12 α
+Mole fraction, xJ
+                                       1 + –12 α    1 + –12 α   1 + –12 α
+                                       (1 − α)p         αp       –12 αp
+Partial pressure, pJ
+                                        1 + –12 α   1 + –12 α   1 + –12 α
+
+
+where, for the entries in the last row, we have used pJ = xJ p (eqn 1.13). The equilib-
+rium constant is therefore
+          pH2 p1/2
+               O2               α 3/2p1/2
+    K=                 =
+           pH2O            (1 − α)(2 + α)1/2

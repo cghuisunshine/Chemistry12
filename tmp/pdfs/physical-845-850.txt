@@ -1,0 +1,385 @@
+=== PDF 845 / printed 813 ===
+                                                                          22.7 CONSECUTIVE ELEMENTARY REACTIONS                                  813
+
+For this expression to be consistent with eqn 22.42, we require ka /k b << 1 (so that, even                1
+though [A] does depend on the time, the dependence of [I] on the time is negligible).
+                                                                                                                [A]/[A]0
+On substituting this value of [I] into eqn 22.37, that equation becomes
+                                                                                                      0.8
+   d[P]                                                                                                                               [P]/[P]0
+          = k b[I] ≈ ka[A]
+
+
+
+
+                                                                                                [J]/[J]0
+                                                                                   (22.44)
+    dt
+and we see that P is formed by a ﬁrst-order decay of A, with a rate constant ka, the rate-            0.6
+constant of the slower, rate-determining, step. We can write down the solution of this
+equation at once by substituting the solution for [A], eqn 22.38, and integrating:
+                   t
+
+                  
+                                                                                                      0.4
+   [P] = ka[A]0           e−katdt = (1 − e−kat )[A]0                               (22.45)
+                      0
+
+This is the same (approximate) result as before, eqn 22.41, but much more quickly                     0.2
+obtained. Figure 22.15 compares the approximate solutions found here with the exact
+solutions found earlier: k b does not have to be very much bigger than ka for the approach                           [I]/[I]0
+to be reasonably accurate.
+                                                                                                           00              1             2       3
+                                                                                                                                kat
+ Example 22.7 Using the steady-state approximation
+                                                                                              Fig. 22.15 A comparison of the exact result
+
+ Devise the rate law for the decomposition of N2O5,                                           for the concentrations of a consecutive
+                                                                                              reaction and the concentrations obtained
+    2 N2O5(g) → 4 NO2(g) + O2(g)                                                              by using the steady-state approximation
+                                                                                              (red lines) for kb = 20ka. (The curve for [A]
+ on the basis of the following mechanism:                                                     is unchanged.)
+    N2O5 → NO2 + NO3                                   ka
+    NO2 + NO3 → N2O5                                   ka′
+    NO2 + NO3 → NO2 + O2 + NO                          kb
+    NO + N2O5 → NO2 + NO2 + NO2                        kc
+
+
+ A note on good practice Note that when writing the equation for an elementary
+ reaction all the species are displayed individually; so we write A → B + B, for
+ instance, not A → 2 B.
+
+
+ Method First identify the intermediates (species that occur in the reaction steps
+ but do not appear in the overall reaction) and write expressions for their net rates
+ of formation. Then, all net rates of change of the concentrations of intermediates
+ are set equal to zero and the resulting equations are solved algebraically.
+ Answer The intermediates are NO and NO3; the net rates of change of their con-
+ centrations are
+     d[NO]
+               = k b[NO2][NO3] − kc[NO][N2O5] ≈ 0
+         dt
+     d[NO3]
+               = ka[N2O5] − k a′[NO2][NO3] − k b[NO2][NO3] ≈ 0
+         dt
+ The net rate of change of concentration of N2O5 is
+     d[N2O5]
+                = −ka[N2O5] + k′a[NO2][NO3] − kc[NO][N2O5]
+          dt
+
+=== PDF 846 / printed 814 ===
+814                   22 THE RATES OF CHEMICAL REACTIONS
+
+
+                                                           and replacing the concentrations of the intermediates by using the equations above
+                                                           gives
+                                                               d[N2O5]         2kak b[N2O5]
+                                                                          =−
+                                                                  dt             k′a + k b
+
+                                                           Self-test 22.8 Derive the rate law for the decomposition of ozone in the reaction
+                                                           2 O3(g) → 3 O2(g) on the basis of the (incomplete) mechanism
+                                                              O3 → O2 + O               ka
+                                                              O2 + O → O3               k′a
+  Reactants                                    Products       O + O3 → O2 + O2          kb
+                      Slow             Fast
+                                                                                                     [d[O3]/dt = −kak b[O3]2/(k′a[O2] + k b[O3])]
+  (a)
+
+                      Fast             Slow
+                                                          (c) The rate-determining step
+  (b)
+                                                          Equation 22.45 shows that, when k b >> ka, then the formation of the ﬁnal product P
+                      Fast             Slow               depends on only the smaller of the two rate constants. That is, the rate of formation of
+                                                          P depends on the rate at which I is formed, not on the rate at which I changes into
+                                Fast
+                                                          P. For this reason, the step A → I is called the ‘rate-determining step’ of the reaction.
+  (c)                                                     Its existence has been likened to building a six-lane highway up to a single-lane bridge:
+                                                          the traﬃc ﬂow is governed by the rate of crossing the bridge. Similar remarks apply
+Fig. 22.16 In these diagrams of reaction                  to more complicated reaction mechanisms, and in general the rate-determining step
+schemes, heavy arrows represent fast steps
+                                                          is the slowest step in a mechanism and controls the overall rate of the reaction.
+and light arrows represent slow steps.
+                                                          However, the rate-determining step is not just the slowest step: it must be slow and be
+(a) The ﬁrst step is rate-determining;
+(b) the second step is rate-determining;                  a crucial gateway for the formation of products. If a faster reaction can also lead to
+(c) although one step is slow, it is not                  products, then the slowest step is irrelevant because the slow reaction can then be side-
+rate-determining because there is a fast                  stepped (Fig. 22.16).
+route that circumvents it.                                   The rate law of a reaction that has a rate-determining step can often be written
+                                                          down almost by inspection. If the ﬁrst step in a mechanism is rate-determining, then
+                                                          the rate of the overall reaction is equal to the rate of the ﬁrst step because all sub-
+                                                          sequent steps are so fast that once the ﬁrst intermediate is formed it results immedi-
+                                                          ately in the formation of products. Figure 22.17 shows the reaction proﬁle for a
+                                                          mechanism of this kind in which the slowest step is the one with the highest activation
+                                                          energy. Once over the initial barrier, the intermediates cascade into products. How-
+                                                          ever, a rate-determining step may also stem from the low concentration of a crucial
+                                                          reactant and need not correspond to the step with highest activation barrier.
+   Potential energy
+
+
+
+
+                                                          (d) Kinetic and thermodynamic control of reactions
+                                                          In some cases reactants can give rise to a variety of products, as in nitrations of
+                                                          mono-substituted benzene, when various proportions of the ortho-, meta-, and para-
+                                                          substituted products are obtained, depending on the directing power of the original
+                                                          substituent. Suppose two products, P1 and P2, are produced by the following compet-
+                                        Fast    Fast      ing reactions:
+                             RDS
+                             Slow                            A + B → P1        Rate of formation of P1 = k1[A][B]
+                       Progress of reaction                  A + B → P2        Rate of formation of P2 = k2[A][B]
+
+Fig. 22.17 The reaction proﬁle for a                      The relative proportion in which the two products have been produced at a given
+mechanism in which the ﬁrst step (RDS) is                 stage of the reaction (before it has reached equilibrium) is given by the ratio of the two
+rate-determining.                                         rates, and therefore of the two rate constants:
+
+=== PDF 847 / printed 815 ===
+                                                                        22.7 CONSECUTIVE ELEMENTARY REACTIONS   815
+
+   [P2]       k2
+          =                                                                     (22.46)
+   [P1]       k1
+This ratio represents the kinetic control over the proportions of products, and is a
+common feature of the reactions encountered in organic chemistry where reactants
+are chosen that facilitate pathways favouring the formation of a desired product. If a
+reaction is allowed to reach equilibrium, then the proportion of products is deter-
+mined by thermodynamic rather than kinetic considerations, and the ratio of con-
+centrations is controlled by considerations of the standard Gibbs energies of all the
+reactants and products.
+
+(e) Pre-equilibria
+From a simple sequence of consecutive reactions we now turn to a slightly more com-
+plicated mechanism in which an intermediate I reaches an equilibrium with the react-
+ants A and B:
+   A+B5I→P                                                                      (22.47)
+The rate constants are ka and k′a for the forward and reverse reactions of the equilib-
+rium and k b for the ﬁnal step. This scheme involves a pre-equilibrium, in which an
+intermediate is in equilibrium with the reactants. A pre-equilibrium can arise when
+the rate of decay of the intermediate back into reactants is much faster than the rate
+at which it forms products; thus, the condition is possible when k′a >> k b but not when
+k b >> k′a. Because we assume that A, B, and I are in equilibrium, we can write
+              [I]              ka
+   K=                    K=                                                     (22.48)
+          [A][B]              k a′
+In writing these equations, we are presuming that the rate of reaction of I to form P is
+too slow to aﬀect the maintenance of the pre-equilibrium (see the example below).
+The rate of formation of P may now be written:
+   d[P]
+           = k b[I] = k bK[A][B]                                                (22.49)
+    dt
+This rate law has the form of a second-order rate law with a composite rate constant:
+   d[P]                                   kak b
+           = k[A][B]          k = kbK =                                         (22.50)
+    dt                                     k a′
+
+ Example 22.8 Analysing a pre-equilibrium
+
+ Repeat the pre-equilibrium calculation but without ignoring the fact that I is
+ slowly leaking away as it forms P.
+ Method Begin by writing the net rates of change of the concentrations of the sub-
+ stances and then invoke the steady-state approximation for the intermediate I. Use
+ the resulting expression to obtain the rate of change of the concentration of P.
+ Answer The net rates of change of P and I are
+
+    d[P]
+              = k b[I]
+      dt
+    d[I]
+              = ka[A][B] − k′a[I] − k b[I] ≈ 0
+     dt
+
+=== PDF 848 / printed 816 ===
+816                   22 THE RATES OF CHEMICAL REACTIONS
+
+
+                                                 The second equation solves to
+                                                            ka[A][B]
+                                                    [I] ≈
+                                                            k′a + k b
+                                                 When we substitute this result into the expression for the rate of formation of P,
+                                                 we obtain
+                                                    d[P]                       kak b
+                                                            ≈ k[A][B]    k=
+                                                      dt                      k′a + k b
+                                                 This expression reduces to that in eqn 22.50 when the rate constant for the
+                                                 decay of I into products is much smaller than that for its decay into reactants,
+                                                 kb << ka′.
+
+                                                 Self-test 22.9 Show that the pre-equilibrium mechanism in which 2 A 5 I (K)
+                                                 followed by I + B → P (k b) results in an overall third-order reaction.
+                                                                                                              [d[P]/dt = k bK[A]2[B]]
+
+
+                                                (f) The kinetic isotope effect
+                                                The postulation of a plausible mechanism requires careful analysis of many experi-
+                                                ments designed to determine the fate of atoms during the formation of products.
+                                                Observation of the kinetic isotope eﬀect, a decrease in the rate of a chemical reaction
+                                                upon replacement of one atom in a reactant by a heavier isotope, facilitates the iden-
+                                                tiﬁcation of bond-breaking events in the rate-determining step. A primary kinetic
+                                                isotope eﬀect is observed when the rate-determining step requires the scission of a
+                                                bond involving the isotope. A secondary kinetic isotope eﬀect is the reduction in
+                                                reaction rate even though the bond involving the isotope is not broken to form prod-
+                                                uct. In both cases, the eﬀect arises from the change in activation energy that accom-
+                                                panies the replacement of an atom by a heavier isotope on account of changes in the
+                                                zero-point vibrational energies (Section 13.9).
+                                                   First, we consider the origin of the primary kinetic isotope eﬀect in a reaction in
+                              Ea(CH)           which the rate-determining step is the scission of a C-H bond. The reaction coordin-
+   Potential energy
+
+
+
+
+                      CH                       ate corresponds to the stretching of the C-H bond and the potential energy proﬁle is
+                      CD   Ea(CD)             shown in Fig. 22.18. On deuteration, the dominant change is the reduction of the
+                                                zero-point energy of the bond (because the deuterium atom is heavier). The whole
+                                                reaction proﬁle is not lowered, however, because the relevant vibration in the activ-
+                                                ated complex has a very low force constant, so there is little zero-point energy asso-
+                                                ciated with the reaction coordinate in either isotopomeric form of the activated
+                                                complex.
+                        Reaction coordinate
+                                                   We assume that, to a good approximation, a change in the activation energy arises
+                                                only from the change in zero-point energy of the stretching vibration, so
+Fig. 22.18 Changes in the reaction proﬁle          Ea(C-D) − Ea(C-H) = NA{–12 hc#(C-H) − –12 hc#(C-D)}                         (22.51)
+when a C-H bond undergoing cleavage is
+deuterated. In this illustration, the C-H       where # is the relevant vibrational wavenumber. From Section 13.9, we know that
+and C-D bonds are modelled as simple            #(C-D) = ( µCH / µCD)1/2#(C-H), where µ is the relevant eﬀective mass. It follows that
+harmonic oscillators. The only signiﬁcant                                                1     A µ CH D 5
+                                                                                                       1/2
+change is in the zero-point energy of the
+                                                  Ea(C-D) − Ea(C-H) = –12 NAhc#(C-H) 2 1 −                 6                   (22.52)
+reactants, which is lower for C-D than for                                               3     C µ CD F 7
+C-H. As a result, the activation energy is
+greater for C-D cleavage than for C-H           If we assume further that the pre-exponential factor does not change upon deutera-
+cleavage.                                       tion, then the rate constants for the two species should be in the ratio
+
+=== PDF 849 / printed 817 ===
+                                                                             22.7 CONSECUTIVE ELEMENTARY REACTIONS                           817
+
+
+                                  hc#(C-H) 1
+                                                                  1/2 5
+   k(C-D)                                       A µ CH D
+             =e  −λ
+                         with λ =          21 −                      6            (22.53)
+   k(C-H)                            2kT   3    C µ CD F             7
+Note that λ > 0 because µ CD > µ CH and that k(C-D)/k(C-H) decreases with decreas-
+ing temperature.
+
+ Illustration 22.2 Assessing the primary kinetic isotope effect
+
+ From infrared spectra, the fundamental vibrational wavenumber for stretching of
+ a C-H bond is about 3000 cm−1. From µ CH /µ CD = 0.538 and eqn 22.53, it follows
+ that k(C-D)/k(C-H) = 0.145 at 298 K. We predict that at room temperature
+ C-H cleavage should be about seven times faster than C-D cleavage, other con-
+ ditions being equal. However, experimental values of k(C-D)/k(C-H) can diﬀer
+
+
+
+
+                                                                                                  Potential energy
+ signiﬁcantly from those predicted by eqn 22.53 on account of the severity of the
+ assumptions in the model.
+
+
+   In some cases, substitution of deuterium for hydrogen results in values of k(C-D)/                                 Wavefunction
+k(C-H) that are too low to be accounted for by eqn 22.53, even when more complete
+models are used to predict ratios of rate constants. Such abnormal kinetic isotope
+eﬀects are evidence for a path in which quantum mechanical tunnelling of hydrogen
+atoms takes place through the activation barrier (Fig. 22.19). We saw in Section 9.3                                   Reaction coordinate
+that the probability of tunnelling through a barrier decreases as the mass of the par-
+ticle increases, so deuterium tunnels less eﬃciently through a barrier than hydrogen        Fig. 22.19 A proton can tunnel through the
+                                                                                            activation energy barrier that separates
+and its reactions are correspondingly slower. Quantum mechanical tunnelling can be
+                                                                                            reactants from products, so the eﬀective
+the dominant process in reactions involving hydrogen atom or proton transfer when
+                                                                                            height of the barrier is reduced and the rate
+the temperature is so low that very few reactant molecules can overcome the activa-         of the proton transfer reaction increases.
+tion energy barrier. We shall see in Chapter 23 that, because me is so small, tunnelling    The eﬀect is represented by drawing the
+is also a very important contributor to the rates of electron transfer reactions.           wavefunction of the proton near the
+   Now consider the secondary isotope eﬀect, which arises from diﬀerences in the            barrier. Proton tunnelling is important
+zero-point energies between reactants and an activated complex with a signiﬁcantly          only at low temperatures, when most of the
+diﬀerent structure. The activation energy of the undeuterated compound is                   reactants are trapped on the left of the
+                                                                                            barrier.
+   Ea(H) = Ea + E ‡vib,0(H) − E vib,0(H)
+where Ea is the diﬀerence between the minima of the molecular potential energy
+curves of the activated complex and the ground state of the reactant and E ‡vib,0(H) and
+Evib,0(H) are the zero-point vibrational energies of the two states (Fig. 22.20). For the                                              CH
+deuterated compound                                                                                                                    CD
+                                                                                                                             Ea(CH)
+   Ea(D) = Ea + E ‡vib,0(D) − E vib,0(D)
+                                                                                               Potential energy
+
+
+
+
+The diﬀerence in activation energies is therefore                                                                    CH
+                                                                                                                           Ea(CD)
+   Ea(D) − Ea(H) = {E ‡vib,0(D) − E vib,0(D)} − {E ‡vib,0(H) − E vib,0(H)}
+                                                                                                                     CD
+We now suppose that the diﬀerence in zero-point energies is due solely to the vibra-
+tion of a single C-H (or C-D) bond, and so write
+   Ea(D) − Ea(H) = –12 NAhc{#‡(C-D) − #(C-D)}
+                      − –12 NAhc{#‡(C-H) − #(C-H)}                                (22.54)                              Reaction coordinate
+
+where #‡ and # denote vibrational wavenumbers in the activated complex and reactant,        Fig. 22.20 The diﬀerence in zero-point
+respectively. With #‡(C-D) = ( µ CH/ µ CD)1/2#‡(C-H) and #(C-D) = (µ CH / µ CD)1/2#         vibrational energies used to explain the
+(C-H), it follows that                                                                      secondary isotope eﬀect.
+
+=== PDF 850 / printed 818 ===
+818   22 THE RATES OF CHEMICAL REACTIONS
+
+                                                                                     1A µ          1/2      5
+                                                                                            CH D
+                                   Ea(D) − Ea(H) = –12 NAhc{#‡(C-H) − #(C-H)} 2                          − 16                (22.55)
+                                                                                     3 C µ CD F             7
+                                and
+
+                                                             hc{#‡(C-H) − #(C-H)} 1 A µ CH D                             5
+                                                                                                                1/2
+                                   k(D)
+                                          =e −λ
+                                                    with λ =                      2                                   − 16   (22.56)
+                                   k(H)                              2kT          3 C µ CD F                             7
+                                Because µ CH /µ CD < 1, provided the vibrational wavenumber of the activated complex
+                                is less than that of the reactant, λ > 1 and the deuterated form reacts more slowly than
+                                the undeuterated compound.
+
+                                 Illustration 22.3 Assessing the secondary kinetic isotope effect
+
+                                 In the heterolytic dissociation CHCl3 → CHCl +2 + Cl− the activated complex
+                                 resembles the product CHCl +2 . From infrared spectra, the fundamental vibrational
+                                 wavenumber for a bending motion involving the C-H group is about 1350 cm−1
+                                 in CHCl3 and about 800 cm−1 in CHCl +2 . Assuming that #‡(C-H) = 800 cm−1 on
+                                 account of the structural similarity between CHCl +2 and the activated complex,
+                                 it follows from µ CH / µ CD = 0.538 and eqn 22.56 that k(D)/k(H) = 0.709 at 298 K.
+                                 We predict that at room temperature the dissociation of CHCl3 should be about
+                                 40 per cent faster than dissociation of CDCl3. Comparison with the result from
+                                 Illustration 22.2 shows that the secondary kinetic isotope eﬀect leads to higher
+                                 values of k(D)/k(H) than does the primary kinetic isotope eﬀect. This conclusion
+                                 is supported by a number of experimental observations.
+
+
+                                IMPACT ON BIOCHEMISTRY
+                                I22.1 Kinetics of the helix–coil transition in polypeptides
+                                We saw in Impact I16.1 that a simple statistical model accounts for the thermodynamic
+                                aspects of the helix–coil transition in polypeptides. The unfolding of a helix begins
+                                somewhere in the middle of the chain with a nucleation step, which is less favourable
+                                than the remaining helix-to-coil conversions, and continues in a cooperative fashion,
+                                in which the polymer becomes increasingly more susceptible to structural changes
+                                as more conversions occur. Here we examine the kinetics of the helix–coil transition,
+                                focusing primarily on experimental strategies and some recent results.
+                                   Earlier work on folding and unfolding of small polypeptides and large proteins relied
+                                primarily on rapid mixing and stopped-ﬂow techniques. In a typical stopped-ﬂow
+                                experiment, a sample of the protein with a high concentration of a chemical denatur-
+                                ant, such as urea or guanidinium hydrochloride, is mixed with a solution containing
+                                a much lower concentration of the same denaturant. Upon entering the mixing
+                                chamber, the denaturant is diluted and the protein re-folds. Unfolding is observed by
+                                mixing a sample of folded protein with a solution containing a high concentration of
+                                denaturant. These experiments are ideal for sorting out events in the millisecond
+                                timescale, such as the formation of contacts between helical segments in a large pro-
+                                tein. However, the available data also indicate that, in a number of proteins, a signiﬁc-
+                                ant portion of the folding process occurs in less than 1 ms, a time range not accessible
+                                by the stopped-ﬂow technique. More recent temperature-jump and ﬂash photolysis
+                                experiments have uncovered faster events. For example, at ambient temperature the
+                                formation of a loop between helical or sheet segments may be as fast as 1 µs and
+                                the formation of tightly packed cores with signiﬁcant tertiary structure occurs in the

@@ -1,0 +1,14 @@
+{
+  "chem12-s1-3-q7": {
+    "text": "7. A Cl atom approaches a ClNO₂ molecule from the oxygen side, as shown. Is this collision likely to produce Cl₂ and NO₂, assuming sufficient collision energy? If not, redraw the particles in an orientation that makes a successful collision likely.",
+    "images": [
+      {
+        "src": "assets/chemistry12-practice/s1-3-q7-redrawn.png",
+        "page": 45,
+        "rect": [0.0, 245.26, 557.0, 427.82],
+        "width": 500,
+        "provenance": "Labelled vector redraw of the source collision orientation; see tools/draw_chemistry12_collision.py. The rectangle identifies the original PDF source, not the redraw dimensions."
+      }
+    ]
+  }
+}

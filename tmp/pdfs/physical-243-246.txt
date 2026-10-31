@@ -1,0 +1,269 @@
+=== PDF 243 / printed 211 ===
+                                                                7.4 THE RESPONSE OF EQUILIBRIA TO TEMPERATURE                                       211
+
+  To treat the eﬀect of compression quantitatively, we suppose that there is an                                         1.0
+amount n of A present initially (and no B). At equilibrium the amount of A is (1 − α)n
+and the amount of B is 2αn, where α is the extent of dissociation of A into 2B. It fol-                                 0.8
+                                                                                                                                                  100
+lows that the mole fractions present at equilibrium are
+
+
+
+
+                                                                                              Extent of dissociation,
+                 (1 − α)n             1−α          2α                                                                   0.6
+   xA =                           =         xB =
+          (1 − α)n + 2αn              1+α          1+α
+                                                                                                                        0.4                       10
+The equilibrium constant for the reaction is
+           pB2   x B2 p2 4α 2(p/p7)
+   K=          =        =                                                                                               0.2
+          pA p7 xA pp7    1 − α2                                                                                                                  1.0
+
+which rearranges to                                                                                                                               0.1
+                                                                                                                         0
+                            1/2                                                                                               0   4    8     12    16
+      A      1     D                                                                                                                  p /p
+
+
+
+
+                                                                                                                                         
+   α=                                                                             (7.22)
+      C 1 + 4p/Kp F
+                 7
+                                                                                           Fig. 7.7 The pressure dependence of the
+This formula shows that, even though K is independent of pressure, the amounts of          degree of dissociation, α, at equilibrium for
+A and B do depend on pressure (Fig. 7.7). It also shows that as p is increased, α          an A(g) 5 2 B(g) reaction for diﬀerent
+decreases, in accord with Le Chatelier’s principle.                                        values of the equilibrium constant K. The
+                                                                                           value α = 0 corresponds to pure A; α = 1
+                                                                                           corresponds to pure B.
+ Illustration 7.5 Predicting the effect of compression
+                                                                                                  Exploration Plot xA and xB against the
+                                                                                                  pressure p for several values of the
+ To predict the eﬀect of an increase in pressure on the composition of the ammonia         equilibrium constant K.
+ synthesis at equilibrium, eqn 7.10, we note that the number of gas molecules de-
+ creases (from 4 to 2). So, Le Chatelier’s principle predicts that an increase in pres-
+ sure will favour the product. The equilibrium constant is
+            2
+           pNH  p72          2
+                           x NH  p2 p72 Kx p72
+    K=        3
+                 3
+                       =       3
+                                 3 4
+                                      =
+            pN2 pH 2
+                            xN2x H2
+                                    p    p2
+ where Kx is the part of the equilibrium constant expression that contains the equi-
+ librium mole fractions of reactants and products (note that, unlike K itself, Kx is
+ not an equilibrium constant). Therefore, doubling the pressure must increase Kx
+ by a factor of 4 to preserve the value of K.
+
+ Self-test 7.4 Predict the eﬀect of a tenfold pressure increase on the equilibrium
+ composition of the reaction 3 N2(g) + H2(g) → 2 N3H(g).
+                                                           [100-fold increase in Kx]
+
+
+
+7.4 The response of equilibria to temperature
+Le Chatelier’s principle predicts that a system at equilibrium will tend to shift in the
+endothermic direction if the temperature is raised, for then energy is absorbed as heat
+and the rise in temperature is opposed. Conversely, an equilibrium can be expected
+to shift in the exothermic direction if the temperature is lowered, for then energy is
+released and the reduction in temperature is opposed. These conclusions can be sum-
+marized as follows:
+  Exothermic reactions: increased temperature favours the reactants.
+  Endothermic reactions: increased temperature favours the products.
+We shall now justify these remarks and see how to express the changes quantitatively.
+
+=== PDF 244 / printed 212 ===
+212   7 CHEMICAL EQUILIBRIUM
+
+                               (a) The van ’t Hoff equation
+                               The van ’t Hoﬀ equation, which is derived in the Justiﬁcation below, is an expression
+                               for the slope of a plot of the equilibrium constant (speciﬁcally, ln K) as a function of
+                               temperature. It may be expressed in either of two ways:
+                                         d ln K         ∆r H 7                   d ln K        ∆r H 7
+                                  (a)               =                     (b)             =−                       (7.23)
+                                           dT           RT 2                     d(1/T)          R
+
+
+                                        Justiﬁcation 7.2 The van ’t Hoff equation
+
+                                        From eqn 7.17, we know that
+                                                        ∆rG 7
+                                           ln K = −
+                                                         RT
+                                        Diﬀerentiation of ln K with respect to temperature then gives
+                                           d ln K            1 d(∆rG 7/T)
+                                                        =−
+                                               dT            R          dT
+                                        The diﬀerentials are complete because K and ∆rG 7 depend only on temperature, not
+                                        on pressure. To develop this equation we use the Gibbs–Helmholtz equation (eqn
+                                        3.53) in the form
+                                           d(∆rG 7/T)                 ∆r H 7
+                                                             =−
+                                                dT                     T2
+                                        where ∆r H 7 is the standard reaction enthalpy at the temperature T. Combining the
+                                        two equations gives the van ’t Hoﬀ equation, eqn 7.23a. The second form of the
+                                        equation is obtained by noting that
+                                           d(1/T)            1
+                                                        =−        ,         so   dT = −T 2d(1/T)
+                                               dT            T2
+                                        It follows that eqn 7.23a can be rewritten as
+                                                d ln K            ∆r H 7
+                                           −    2
+                                                             =
+                                               T d(1/T)           RT 2
+                                        which simpliﬁes into eqn 7.23b.
+
+
+                                  Equation 7.23a shows that d ln K/dT < 0 (and therefore that dK/dT < 0) for a reac-
+                               tion that is exothermic under standard conditions (∆r H 7 < 0). A negative slope means
+                               that ln K, and therefore K itself, decreases as the temperature rises. Therefore, as
+                               asserted above, in the case of an exothermic reaction the equilibrium shifts away from
+                               products. The opposite occurs in the case of endothermic reactions.
+                                  Some insight into the thermodynamic basis of this behaviour comes from the
+                               expression ∆rG 7 = ∆r H 7 − T∆rS 7 written in the form −∆rG 7/T = −∆r H 7/T + ∆rS 7.
+                               When the reaction is exothermic, −∆r H 7/T corresponds to a positive change of
+                               entropy of the surroundings and favours the formation of products. When the tem-
+                               perature is raised, −∆r H 7/T decreases, and the increasing entropy of the surroundings
+                               has a less important role. As a result, the equilibrium lies less to the right. When the
+                               reaction is endothermic, the principal factor is the increasing entropy of the reaction
+                               system. The importance of the unfavourable change of entropy of the surroundings is
+                               reduced if the temperature is raised (because then ∆r H 7/T is smaller), and the reac-
+                               tion is able to shift towards products.
+
+=== PDF 245 / printed 213 ===
+                                                                              7.4 THE RESPONSE OF EQUILIBRIA TO TEMPERATURE                  213
+
+                                                           A
+                                   B
+
+
+
+
+                  A                                                            B
+         Energy
+
+
+
+
+                                                  Energy
+                                                                                                   Fig. 7.8 The eﬀect of temperature on a
+                                                                                                   chemical equilibrium can be interpreted in
+                                                                                                   terms of the change in the Boltzmann
+                              Low temperature                            Low temperature           distribution with temperature and the
+                               High temperature                           High temperature         eﬀect of that change in the population of
+                                                                                                   the species. (a) In an endothermic reaction,
+                                                                                                   the population of B increases at the expense
+                                                                                                   of A as the temperature is raised. (b) In an
+           (a)        Population                  (b)            Population
+                                                                                                   exothermic reaction, the opposite happens.
+
+
+
+Molecular interpretation 7.3 The temperature dependence of the equilibrium constant
+
+The typical arrangement of energy levels for an endothermic reaction is shown in
+Fig. 7.8a. When the temperature is increased, the Boltzmann distribution adjusts
+and the populations change as shown. The change corresponds to an increased
+population of the higher energy states at the expense of the population of the lower                          8
+energy states. We see that the states that arise from the B molecules become more
+populated at the expense of the A molecules. Therefore, the total population of B
+states increases, and B becomes more abundant in the equilibrium mixture.                                     6
+Conversely, if the reaction is exothermic (Fig. 7.8b), then an increase in tempera-
+ture increases the population of the A states (which start at higher energy) at the
+expense of the B states, so the reactants become more abundant.                                       ln K   4
+
+
+
+                                                                                                              2
+Example 7.3 Measuring a reaction enthalpy
+
+The data below show the temperature variation of the equilibrium constant of                                  0
+the reaction Ag2CO3(s) 5 Ag2O(s) + CO2(g). Calculate the standard reaction
+enthalpy of the decomposition.                                                                                2.0   2.2   2.4   2.6   2.8   2.9
+                                                                                                                            3
+                                                                                                                          (10 K)/T
+   T/K            350              400                     450                500
+   K              3.98 × 10−4      1.41 × 10−2             1.86 × 10−1        1.48                 Fig. 7.9 When −ln K is plotted against 1/T, a
+                                                                                                   straight line is expected with slope equal to
+Method It follows from eqn 7.23b that, provided the reaction enthalpy can be
+                                                                                                   ∆r H 7/R if the standard reaction enthalpy
+assumed to be independent of temperature, a plot of −ln K against 1/T should be a                  does not vary appreciably with
+straight line of slope ∆r H 7/R.                                                                   temperature. This is a non-calorimetric
+                                                                                                   method for the measurement of reaction
+Answer We draw up the following table:
+                                                                                                   enthalpies.
+   T/K                  350        400     450              500                                            Exploration The equilibrium
+       3                                                                                                   constant of a reaction is found to
+   (10 K)/T             2.86       2.50    2.22             2.00
+                                                                                                   ﬁt the expression ln K = a + b/(T/K ) +
+   −ln K                7.83       4.26    1.68             −0.39                                  c/(T/K )3 over a range of temperatures.
+These points are plotted in Fig. 7.9. The slope of the graph is +9.6 × 103, so                     (a) Write expressions for ∆r H 7 and ∆rS 7.
+                                                                                                   (b) Plot ln K against 1/T between 400 K and
+   ∆r H 7 = (+9.6 × 103 K) × R = +80 kJ mol−1                                                      600 K for a = −2.0, b = −1.0 × 103, and
+                                                                                                   c = 2.0 × 107.
+
+=== PDF 246 / printed 214 ===
+214   7 CHEMICAL EQUILIBRIUM
+
+
+                                Self-test 7.5 The equilibrium constant of the reaction 2 SO2(g) + O2(g) 5
+                                2 SO3(g) is 4.0 × 1024 at 300 K, 2.5 × 1010 at 500 K, and 3.0 × 104 at 700 K. Estimate
+                                the reaction enthalpy at 500 K.                                        [−200 kJ mol−1]
+
+
+                                  The temperature dependence of the equilibrium constant provides a non-
+                               calorimetric method of determining ∆ r H 7. A drawback is that the reaction enthalpy
+                               is actually temperature-dependent, so the plot is not expected to be perfectly linear.
+                               However, the temperature dependence is weak in many cases, so the plot is reasonably
+                               straight. In practice, the method is not very accurate, but it is often the only method
+                               available.
+
+                               (b) The value of K at different temperatures
+                               To ﬁnd the value of the equilibrium constant at a temperature T2 in terms of its value
+                               K1 at another temperature T1, we integrate eqn 7.23b between these two temperatures:
+
+
+                                                           ∆ H d(1/T)
+                                                              1/T2
+                                                      1                   7
+                                  ln K2 − ln K1 = −                   r                                                (7.24)
+                                                      R       1/T1
+
+                               If we suppose that ∆ r H 7 varies only slightly with temperature over the temperature
+                               range of interest, then we may take it outside the integral. It follows that
+                                                      ∆rH 7 A 1               1D
+                                  ln K2 − ln K1 = −                       −                                            (7.25)
+                                                          R      C T2         T1 F
+
+
+                                Illustration 7.6 Estimating an equilibrium constant at a different temperature
+
+                                To estimate the equilibrium constant for the synthesis of ammonia at 500 K from
+                                its value at 298 K (6.1 × 105 for the reaction as written in eqn 7.10) we use the stand-
+                                ard reaction enthalpy, which can be obtained from Table 2.7 in the Data section by
+                                using ∆r H 7 = 2∆f H 7(NH3, g), and assume that its value is constant over the range
+                                of temperatures. Then, with ∆r H 7 = −92.2 kJ mol−1, from eqn 7.25 we ﬁnd
+                                                                     (−92.2 × 103 J mol−1) A      1            1 D
+                                   ln K2 = ln(6.1 × 105) −                                               −
+                                                                      8.3145 J K mol −1   −1   C 500 K       298 K F
+                                         = −1.71
+                                It follows that K2 = 0.18, a lower value than at 298 K, as expected for this exother-
+                                mic reaction.
+
+                                Self-test 7.6 The equilibrium constant for N2O4(g) 5 2 NO2(g) was calculated in
+                                Self-test 7.1. Estimate its value at 100°C.                                            [15]
+
+
+                                  Knowledge of the temperature dependence of the equilibrium constant for a reac-
+                               tion can be useful in the design of laboratory and industrial processes. For example,
+                               synthetic chemists can improve the yield of a reaction by changing the temperature
+                               of the reaction mixture. Also, reduction of a metal oxide with carbon or carbon
+                               monoxide results in the extraction of the metal when the process is carried out at
+                               a temperature for which the equilibrium constant for the reaction is much greater
+                               than one.

@@ -1,0 +1,355 @@
+=== PDF 826 / printed 794 ===
+794                           22 THE RATES OF CHEMICAL REACTIONS
+
+                                                          Here HCl* denotes a vibrationally excited HCl molecule and M is a body (an unreact-
+                                                          ive molecule or the wall of the container) that removes the excess energy stored in HCl.
+                                                          A so-called ‘third body’ (M) is not always necessary for heteronuclear diatomic mole-
+                                                          cules because they can discard energy radiatively, but homonuclear diatomic molecules
+                                                          are vibrationally and rotationally inactive, and can discard energy only by collision.
+                                                              In contrast to real-time analysis, quenching methods are based on stopping, or
+                                                          quenching, the reaction after it has been allowed to proceed for a certain time. In this
+                                                          way the composition is analysed at leisure and reaction intermediates may be trapped.
+                                                          These methods are suitable only for reactions that are slow enough for there to be
+                                                          little reaction during the time it takes to quench the mixture. In the chemical quench
+                                                          ﬂow method, the reactants are mixed in much the same way as in the ﬂow method but
+                                                          the reaction is quenched by another reagent, such as solution of acid or base, after the
+                                                          mixture has travelled along a ﬁxed length of the outlet tube. Diﬀerent reaction times
+                                                          can be selected by varying the ﬂow rate along the outlet tube. An advantage of the
+                                                          chemical quench ﬂow method over the stopped-ﬂow method is that spectroscopic
+                                                          ﬁngerprints are not needed in order to measure the concentration of reactants and
+                                                          products. Once the reaction has been quenched, the solution may be examined by
+                                                          ‘slow’ techniques, such as gel electrophoresis, mass spectrometry, and chromato-
+                                                          graphy. In the freeze quench method, the reaction is quenched by cooling the mixture
+                                                          within milliseconds and the concentrations of reactants, intermediates, and products
+                                                          are measured spectroscopically.
+
+
+                                                          22.2 The rates of reactions
+                                                          Reaction rates depend on the composition and the temperature of the reaction mix-
+                                                          ture. The next few sections look at these observations in more detail.
+
+                                                          (a) The deﬁnition of rate
+                                                          Consider a reaction of the form A + 2 B → 3 C + D, in which at some instant the molar
+                                                          concentration of a participant J is [J] and the volume of the system is constant. The
+                              (a)                         instantaneous rate of consumption of one of the reactants at a given time is −d[R]/dt,
+                              Tangent,                    where R is A or B. This rate is a positive quantity (Fig. 22.3). The rate of formation of
+                              rate  slope                one of the products (C or D, which we denote P) is d[P]/dt (note the diﬀerence in
+                                                          sign). This rate is also positive.
+   Molar concentration, [J]
+
+
+
+
+                                                Product
+                                                             It follows from the stoichiometry for the reaction A + 2 B → 3 C + D that
+                                                             d[D]           d[C]        d[A]             d[B]
+                                                                    = –13          =−          = − –12
+                                                              dt             dt          dt               dt
+                                                          so there are several rates connected with the reaction. The undesirability of having
+                                         Time, t
+                                                          diﬀerent rates to describe the same reaction is avoided by using the extent of reaction,
+                                                          ξ (xi, the quantity introduced in Section 7.1):
+                                (b)           Reactant            nJ − nJ,0
+                                Tangent,                      ξ=                                                                            (22.1)
+                                rate  slope                        νJ
+                                                          where νJ is the stoichiometric number of species J, and deﬁning the unique rate of
+                                      Time, t             reaction, v, as the rate of change of the extent of reaction:
+                                                                   1 dξ
+Fig. 22.3 The deﬁnition of (instantaneous)                    v=                                                                            [22.2]
+rate as the slope of the tangent drawn                             V dt
+to the curve showing the variation of                     It follows that
+concentration with time. For negative
+                                                                   1 1 dnJ
+slopes, the sign is changed when reporting                    v= ×                                                                         (22.3a)
+the rate, so all reaction rates are positive.                      νJ V dt
+
+=== PDF 827 / printed 795 ===
+                                                                                             22.2 THE RATES OF REACTIONS   795
+
+(Remember that νJ is negative for reactants and positive for products.) For a homo-
+geneous reaction in a constant-volume system the volume V can be taken inside the
+diﬀerential and we use [J] = nJ /V to write
+        1 d[J]
+   v=                                                                             (22.3b)
+        νJ dt
+For a heterogeneous reaction, we use the (constant) surface area, A, occupied by the
+species in place of V and use σJ = nJ /A to write
+        1 dσJ
+   v=                                                                             (22.3c)
+        νJ dt
+In each case there is now a single rate for the entire reaction (for the chemical equa-
+tion as written). With molar concentrations in moles per cubic decimetre and time in
+seconds, reaction rates of homogeneous reactions are reported in moles per cubic
+decimetre per second (mol dm−3 s−1) or related units. For gas-phase reactions, such as
+those taking place in the atmosphere, concentrations are often expressed in molecules
+per cubic centimetre (molecules cm−3) and rates in molecules per cubic centimetre
+per second (molecules cm−3 s−1). For heterogeneous reactions, rates are expressed in
+moles per square metre per second (mol m−2 s−1) or related units.
+
+ Illustration 22.1 Rates of formation and consumption
+
+ If the rate of formation of NO in the reaction 2 NOBr(g) → 2 NO(g) + Br2(g) is
+ reported as 0.16 mmol dm−3 s−1, we use νNO = +2 to report that v = 0.080 mmol
+ dm−3 s−1. Because νNOBr = −2 it follows that d[NOBr]/dt = −0.16 mmol dm−3 s−1.
+ The rate of consumption of NOBr is therefore 0.16 mmol dm−3 s−1, or 9.6 × 1016
+ molecules cm−3 s−1.
+
+ Self-test 22.2 The rate of change of molar concentration of CH3 radicals in the
+ reaction 2 CH3(g) → CH3CH3(g) was reported as d[CH3]/dt = −1.2 mol dm−3 s−1
+ under particular conditions. What is (a) the rate of reaction and (b) the rate of
+ formation of CH3CH3?               [(a) 0.60 mol dm−3 s−1, (b) 0.60 mol dm−3 s−1]
+
+
+(b) Rate laws and rate constants
+The rate of reaction is often found to be proportional to the concentrations of the
+reactants raised to a power. For example, the rate of a reaction may be proportional to
+the molar concentrations of two reactants A and B, so we write
+   v = k[A][B]                                                                     (22.4)
+with each concentration raised to the ﬁrst power. The coeﬃcient k is called the rate
+constant for the reaction. The rate constant is independent of the concentrations
+but depends on the temperature. An experimentally determined equation of this kind
+is called the rate law of the reaction. More formally, a rate law is an equation that
+expresses the rate of reaction as a function of the concentrations of all the species pre-
+sent in the overall chemical equation for the reaction at some time:
+   v = f([A],[B], . . . )                                                         [22.5a]
+For homogeneous gas-phase reactions, it is often more convenient to express the
+rate law in terms of partial pressures, which are related to molar concentrations by
+pJ = RT[J]. In this case, we write
+
+=== PDF 828 / printed 796 ===
+796   22 THE RATES OF CHEMICAL REACTIONS
+
+                                   v = f(pA,pB, . . . )                                                           [22.5b]
+                                   The rate law of a reaction is determined experimentally, and cannot in general be
+                                inferred from the chemical equation for the reaction. The reaction of hydrogen and
+                                bromine, for example, has a very simple stoichiometry, H2(g) + Br2(g) → 2 HBr(g),
+                                but its rate law is complicated:
+                                         k[H2][Br2]3/2
+                                   v=                                                                              (22.6)
+                                        [Br2] + k′[HBr]
+                                In certain cases the rate law does reﬂect the stoichiometry of the reaction, but that is
+                                either a coincidence or reﬂects a feature of the underlying reaction mechanism (see
+                                later).
+                                   A practical application of a rate law is that, once we know the law and the value
+                                of the rate constant, we can predict the rate of reaction from the composition of the
+                                mixture. Moreover, as we shall see later, by knowing the rate law, we can go on to pre-
+                                dict the composition of the reaction mixture at a later stage of the reaction. Moreover,
+                                a rate law is a guide to the mechanism of the reaction, for any proposed mechanism
+                                must be consistent with the observed rate law.
+
+                                (c) Reaction order
+                                Many reactions are found to have rate laws of the form
+                                   v = k[A]a[B]b · · ·                                                             (22.7)
+                                The power to which the concentration of a species (a product or a reactant) is raised
+                                in a rate law of this kind is the order of the reaction with respect to that species. A
+                                reaction with the rate law in eqn 22.4 is ﬁrst-order in A and ﬁrst-order in B. The over-
+                                all order of a reaction with a rate law like that in eqn 22.7 is the sum of the individual
+                                orders, a + b + · · · . The rate law in eqn 22.4 is therefore second-order overall.
+                                   A reaction need not have an integral order, and many gas-phase reactions do not.
+                                For example, a reaction having the rate law
+                                   v = k[A]1/2[B]                                                                  (22.8)
+                                is half-order in A, ﬁrst-order in B, and three-halves-order overall. Some reactions
+                                obey a zero-order rate law, and therefore have a rate that is independent of the con-
+                                centration of the reactant (so long as some is present). Thus, the catalytic decomposi-
+                                tion of phosphine (PH3) on hot tungsten at high pressures has the rate law
+                                   v=k                                                                             (22.9)
+                                The PH3 decomposes at a constant rate until it has almost entirely disappeared.
+                                Zero-order reactions typically occur when there is a bottle-neck of some kind in
+                                the mechanism, as in heterogeneous reactions when the surface is saturated and the
+                                subsequent reaction slow and in a number of enzyme reactions when there is a large
+                                excess of substrate relative to the enzyme.
+                                   When a rate law is not of the form in eqn 22.7, the reaction does not have an over-
+                                all order and may not even have deﬁnite orders with respect to each participant. Thus,
+                                although eqn 22.6 shows that the reaction of hydrogen and bromine is ﬁrst-order in
+                                H2, the reaction has an indeﬁnite order with respect to both Br2 and HBr and has no
+                                overall order.
+                                   These remarks point to three problems. First, we must see how to identify the rate
+                                law and obtain the rate constant from the experimental data. We concentrate on this
+                                aspect in this chapter. Second, we must see how to construct reaction mechanisms
+                                that are consistent with the rate law. We shall introduce the techniques of doing so in
+
+=== PDF 829 / printed 797 ===
+                                                                                                 22.2 THE RATES OF REACTIONS   797
+
+this chapter and develop them further in Chapter 23. Third, we must account for the
+values of the rate constants and explain their temperature dependence. We shall see a
+little of what is involved in this chapter, but leave the details until Chapter 24.
+
+(d) The determination of the rate law
+The determination of a rate law is simpliﬁed by the isolation method in which the
+concentrations of all the reactants except one are in large excess. If B is in large excess,
+for example, then to a good approximation its concentration is constant throughout
+the reaction. Although the true rate law might be v = k[A][B], we can approximate [B]
+by [B]0, its initial value, and write
+   v = k′[A]      k′ = k[B]0                                                         (22.10)
+which has the form of a ﬁrst-order rate law. Because the true rate law has been forced
+into ﬁrst-order form by assuming that the concentration of B is constant, eqn 22.10 is
+called a pseudoﬁrst-order rate law. The dependence of the rate on the concentration
+of each of the reactants may be found by isolating them in turn (by having all the other
+substances present in large excess), and so constructing a picture of the overall rate law.
+   In the method of initial rates, which is often used in conjunction with the isolation
+method, the rate is measured at the beginning of the reaction for several diﬀerent
+initial concentrations of reactants. We shall suppose that the rate law for a reaction
+with A isolated is v = k[A]a; then its initial rate, v0, is given by the initial values of the
+concentration of A, and we write v0 = k[A]a0 . Taking logarithms gives:
+   log v0 = log k + a log [A]0                                                       (22.11)
+For a series of initial concentrations, a plot of the logarithms of the initial rates against
+the logarithms of the initial concentrations of A should be a straight line with slope a.
+
+ Example 22.2 Using the method of initial rates
+
+ The recombination of iodine atoms in the gas phase in the presence of argon was
+ investigated and the order of the reaction was determined by the method of initial
+ rates. The initial rates of reaction of 2 I(g) + Ar(g) → I2(g) + Ar(g) were as follows:
+ [I]0 /(10−5 mol dm−3)           1.0           2.0             4.0            6.0
+ v0 /(mol dm−3 s −1)       (a) 8.70 × 10 − 4 3.48 × 10 −3 1.39 × 10 −2        3.13 × 10−2
+                           (b) 4.35 × 10 −3    1.74 × 10 −2 6.96 × 10 −2 1.57 × 10−1
+                           (c) 8.69 × 10 −3    3.47 × 10 −2 1.38 × 10 −1 3.13 × 10−1
+ The Ar concentrations are (a) 1.0 mmol dm−3, (b) 5.0 mmol dm−3, and (c) 10.0
+ mmol dm−3. Determine the orders of reaction with respect to the I and Ar atom
+ concentrations and the rate constant.
+ Method Plot the logarithm of the initial rate, log v0, against log [I]0 for a given
+ concentration of Ar, and, separately, against log [Ar]0 for a given concentration of
+ I. The slopes of the two lines are the orders of reaction with respect to I and Ar,
+ respectively. The intercepts with the vertical axis give log k.
+ Answer The plots are shown in Fig. 22.4. The slopes are 2 and 1, respectively, so the
+ (initial) rate law is
+     v0 = k[I]20[Ar]0
+ This rate law signiﬁes that the reaction is second-order in [I], ﬁrst-order in [Ar],
+ and third-order overall. The intercept corresponds to k = 9 × 109 mol−2 dm6 s−1.
+
+=== PDF 830 / printed 798 ===
+798       22 THE RATES OF CHEMICAL REACTIONS
+
+
+
+                                                                                   (a)                                                                 (b)
+                                                                             1                                                               1
+
+
+
+
+                                                    log (v0 /mol dm3 s1)
+
+
+
+
+                                                                                                                     log (v0 /mol dm3 s1)
+                                                                             2                                                               2
+
+
+
+
+                                                                             3                                                               3
+
+Fig. 22.4 The plot of log v0 against (a)
+log [I]0 for a given [Ar]0, and (b) log [Ar]0                                     0      0.2     0.4 0.6 0.8   1.0                                 0         0.2    0.4 0.6 0.8    1.0
+for a given [I]0.                                                                               log [I]0  5                                                       log [Ar]0  3
+
+
+                                                 A note on good practice The units of k come automatically from the calculation,
+                                                 and are always such as to convert the product of concentrations to a rate in con-
+                                                 centration/time (for example, mol dm−3 s−1).
+
+                                                 Self-test 22.3 The initial rate of a reaction depended on concentration of a sub-
+                                                 stance J as follows:
+                                                 [J]0 /(mmol dm−3)                                     5.0     8.2                   17                      30
+                                                                             −7                −3 −1
+                                                 v0 /(10                          mol dm s )           3.6     9.6                      41               130
+                                                 Determine the order of the reaction with respect to J and calculate the rate constant.
+                                                                                                         [2, 1.4 × 10−2 dm3 mol−1 s−1]
+
+
+                                                   The method of initial rates might not reveal the full rate law, for once the products
+                                                have been generated they might participate in the reaction and aﬀect its rate. For
+                                                example, products participate in the synthesis of HBr, because eqn 22.6 shows that the
+                                                full rate law depends on the concentration of HBr. To avoid this diﬃculty, the rate
+                                                law should be ﬁtted to the data throughout the reaction. The ﬁtting may be done, in
+                                                simple cases at least, by using a proposed rate law to predict the concentration of any
+                                                component at any time, and comparing it with the data. A law should also be tested by
+                                                observing whether the addition of products or, for gas-phase reactions, a change in
+                                                the surface-to-volume ratio in the reaction chamber aﬀects the rate.
+
+                                                22.3 Integrated rate laws
+                                                Because rate laws are diﬀerential equations, we must integrate them if we want to ﬁnd
+                                                the concentrations as a function of time. Even the most complex rate laws may be
+                                                integrated numerically. However, in a number of simple cases analytical solutions,
+                                                known as integrated rate laws, are easily obtained, and prove to be very useful. We
+                                                examine a few of these simple cases here.
+
+                                                (a) First-order reactions
+                                                As shown in the Justiﬁcation below, the integrated form of the ﬁrst-order rate law
+                                                   d[A]
+                                                                             = −k[A]                                                                                               (22.12a)
+                                                    dt
+
+=== PDF 831 / printed 799 ===
+                                                                                                        22.3 INTEGRATED RATE LAWS                  799
+
+                                                                                                         Comment 22.1
+ Synoptic table 22.1* Kinetic data for ﬁrst-order reactions
+                                                                                                         The web site contains links to databases
+ Reaction                               Phase        q/°C              −1
+                                                                     k/s                  t1/2           of rate constants of chemical reactions.
+
+ 2 N2O5 → 4 NO2 + O2                    g             25             3.38 × 10−5           5.70 h
+                                        Br2(l)        25             4.27 × 10−5           4.51 h
+ C2H6 → 2 CH3                           g            700             5.36 × 10−4          21.6 min
+
+ * More values are given in the Data section.
+
+
+
+is                                                                                                                      1
+          A [A] D
+     ln            = −kt        [A] = [A]0e−kt                                             (22.12b)
+          C [A]0 F
+                                                                                                                      0.8
+where [A]0 is the initial concentration of A (at t = 0).
+
+          Justiﬁcation 22.1 First-order integrated rate law                                                           0.6
+
+
+
+
+                                                                                                           [A]/[A]0
+          First, we rearrange eqn 22.12a into
+              d[A]                                                                                                    0.4
+                      = −kdt
+              [A]
+                                                                                                                                      ksmall
+          This expression can be integrated directly because k is a constant independent of t.
+          Initially (at t = 0) the concentration of A is [A]0, and at a later time t it is [A], so we                 0.2
+          make these values the limits of the integrals and write                                                           klarge
+                                  t
+
+                               
+               [A]
+                     d[A]
+                             = −k dt                                                                                   0
+                  [A]0 [A]          0                                                                                   0    1                 2   3
+                                                                                                                                     ksmallt
+          Because the integral of 1/x is ln x, eqn 22.12b is obtained immediately.
+                                                                                                         Fig. 22.5 The exponential decay of the
+          A note on good practice To set the limits of integration, identify the start time              reactant in a ﬁrst-order reaction. The larger
+          (t = 0) and the corresponding concentration of A ([A]0), and write these quantities            the rate constant, the more rapid the decay:
+          as the lower limits of their respective integrals. Then identify the time of interest (t)      here klarge = 3ksmall.
+          and the corresponding concentration ([A]), and write these quantities as the upper                    Exploration For a ﬁrst-order reaction
+          limits of their respective integrals.                                                                 of the form A → nB (with n possibly
+                                                                                                         fractional), the concentration of the
+   Equation 22.12b shows that, if ln([A]/[A]0) is plotted against t, then a ﬁrst-order                   product varies with time as [B] = n[B]0
+                                                                                                         (1 − e−kt). Plot the time dependence of [A]
+reaction will give a straight line of slope −k. Some rate constants determined in this
+                                                                                                         and [B] for the cases n = 0.5, 1, and 2.
+way are given in Table 22.1. The second expression in eqn 22.12b shows that in a ﬁrst-
+order reaction the reactant concentration decreases exponentially with time with a
+rate determined by k (Fig. 22.5).
+
+ Example 22.3 Analysing a ﬁrst-order reaction
+
+ The variation in the partial pressure of azomethane with time was followed at
+ 600 K, with the results given below. Conﬁrm that the decomposition
+      CH3N2CH3(g) → CH3CH3(g) + N2(g)
+ is ﬁrst-order in azomethane, and ﬁnd the rate constant at 600 K.
+ t/s              0           1000          2000   3000      4000
+ p/Pa             10.9        7.63          5.32   3.71      2.59
