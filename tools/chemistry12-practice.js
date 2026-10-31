@@ -6,7 +6,6 @@ const Adaptive=window.AdaptivePractice;
 const AnswerKey=window.ChemistryAnswerKey;
 const WorkedSolution=window.ChemistryWorkedSolution;
 let solutionRequest=null;
-const workedSolutions=new Map();
 let answerStorage=null;try{answerStorage=localStorage;}catch{}
 for(const problem of bank)AnswerKey.restore(problem,answerStorage);
 try{if(localStorage.getItem('chemistry12AdaptiveSource')==='ai')$('adaptive-source').value='ai';}catch{}
@@ -494,7 +493,7 @@ function buildAnswerInput(problem){
 }
 function show(p,reason,fromLive=false){
   cancelWorkedSolution();
-  $('worked-solution').hidden=true;$('worked-solution-body').replaceChildren();
+  $('worked-solution').hidden=true;$('worked-solution-body').replaceChildren();workedSolutionMessage('');
   cancelGeneration();
   if(live.role==='follower'&&!fromLive){p=followedQuestion;reason='Following live — your answers and progress are your own.';}
   if(p?.generatedData){state.generated=state.generated||{};state.generated[p.id]=p.generatedData;}
@@ -577,13 +576,52 @@ function workedSolutionMessage(message,retry=false){
   $('worked-solution-retry').hidden=!retry;
   $('worked-solution-cancel').hidden=true;
 }
-function showWorkedSolution(problem){
-  // All source solutions are embedded; revealing never generates online.
-  $('worked-solution').hidden=true;
+async function showWorkedSolution(problem){
+  if(current!==problem||!revealed)return;
+  cancelWorkedSolution();
+  if(!$('generate-ai-answer').checked){$('worked-solution').hidden=true;return;}
+  $('worked-solution').hidden=false;$('worked-solution-body').replaceChildren();
+  if(navigator.onLine===false){workedSolutionMessage('You are offline. The original prebuilt answer and solution are still available above. Reconnect and try again.',true);return;}
+  const controller=new AbortController(),request={controller,problem,timedOut:false};solutionRequest=request;
+  request.timer=setTimeout(()=>{request.timedOut=true;controller.abort();},120000);
+  workedSolutionMessage('Generating a fresh AI answer and worked solution… The original prebuilt version is available above.');
+  $('worked-solution-cancel').hidden=false;
+  try{
+    // Paint the prebuilt answer first; do not send student work or the prebuilt
+    // solution in this independent generation request.
+    await new Promise(resolve=>setTimeout(resolve,0));
+    if(solutionRequest!==request)return;
+    if(controller.signal.aborted)throw new DOMException('AI generation canceled.','AbortError');
+    const image=await questionAndWorkingImage(problem,[],controller.signal,true);
+    if(solutionRequest!==request||current!==problem)return;
+    if(controller.signal.aborted)throw new DOMException('AI generation canceled.','AbortError');
+    const response=await fetch(AI.endpoint,{method:'POST',mode:'cors',credentials:'omit',headers:{'Content-Type':'application/json'},signal:controller.signal,
+      body:JSON.stringify({message:AnswerKey.prompt(problem),image:image.image,mime_type:image.mime_type,filename:image.filename})});
+    if(!response.ok)throw Error(response.status===413?'The question images are too large for the AI service.':'The AI service could not generate a solution (HTTP '+response.status+').');
+    const entry=WorkedSolution.parse(await response.json(),problem);
+    if(solutionRequest!==request||current!==problem)return;
+    if(controller.signal.aborted)throw new DOMException('AI generation canceled.','AbortError');
+    // Render separately; never replace or cache over the canonical prebuilt key.
+    $('worked-solution-body').innerHTML=WorkedSolution.render(entry);window.ChemistrySolutionFormat.enhance($('worked-solution-body'));
+    workedSolutionMessage('Fresh AI answer ready. Compare it with the original prebuilt solution above.',true);
+  }catch(error){
+    if(solutionRequest!==request||current!==problem)return;
+    const message=request.timedOut?'AI generation timed out.':error.name==='AbortError'?'AI generation was canceled.':error instanceof TypeError?'Could not reach the AI service. Check your connection and try again.':error.message;
+    workedSolutionMessage(message+' The original prebuilt answer and solution are still available above.',true);
+  }finally{
+    clearTimeout(request.timer);if(solutionRequest===request)solutionRequest=null;
+  }
 }
-$('worked-solution-retry').onclick=()=>{if(current&&revealed)showWorkedSolution(current);};
-$('worked-solution-cancel').onclick=()=>{cancelWorkedSolution();workedSolutionMessage('Step-by-step generation canceled. The answer is still available above.',true);};
-window.addEventListener('pagehide',()=>{if(solutionRequest){cancelWorkedSolution();workedSolutionMessage('Solution generation paused. Retry to continue.',true);}});
+function changeAIAnswerOption(checked){
+  $('generate-ai-answer').checked=checked;$('dock-generate-ai-answer').checked=checked;
+  if(!checked){cancelWorkedSolution();$('worked-solution').hidden=true;}
+  else if(current&&revealed)showWorkedSolution(current);
+}
+$('generate-ai-answer').onchange=()=>changeAIAnswerOption($('generate-ai-answer').checked);
+$('dock-generate-ai-answer').onchange=()=>changeAIAnswerOption($('dock-generate-ai-answer').checked);
+$('worked-solution-retry').onclick=()=>{if(current&&revealed&&$('generate-ai-answer').checked)showWorkedSolution(current);};
+$('worked-solution-cancel').onclick=()=>{cancelWorkedSolution();workedSolutionMessage('AI generation canceled. The original prebuilt answer and solution are still available above.',true);};
+window.addEventListener('pagehide',()=>{if(solutionRequest){cancelWorkedSolution();workedSolutionMessage('AI generation paused. The original prebuilt solution is still available above.',true);}});
 function captureWorking(){
   const answerInk=drawing.snapshot();
   if(answerInk&&!P.normalizeInk(answerInk))throw Error('This drawing is too large to save. Please shorten it or upload a photo of your work.');
@@ -710,7 +748,7 @@ function updatePhotoControls(){
   document.querySelectorAll('[data-drawing-color]').forEach(button=>button.disabled=busy);
   $('drawing-undo').disabled=busy||!drawing.history.length||!!drawing.active;
   $('drawing-clear').disabled=busy||!drawing.hasInk||!!drawing.active;
-  $('drawing-status').textContent=drawing.hasInk?'Your drawing is ready. Show answer verifies your submitted work, or press ✦ for optional AI help.':'Write your steps here. Answers stay hidden until you press Show answer.';
+  $('drawing-status').textContent=drawing.hasInk?'Your drawing is ready. Show answer reveals the prebuilt solution; press ✦ for optional AI help.':'Write your steps here. Answers stay hidden until you press Show answer.';
   $('ai-cancel').hidden=!busy;
   $('ai-cancel').setAttribute('aria-label',reviewRequest?.kind==='answer'?'Cancel answer generation':reviewRequest?.kind==='verify'?'Cancel answer verification':'Cancel review');$('ai-cancel').title=$('ai-cancel').getAttribute('aria-label');
   syncAnswerTools();
@@ -968,7 +1006,9 @@ const syncButtons=()=>{for(const id of ['check','next','skip','verify-retry']){c
 // The pinned copy mirrors "Understand the solution": same content, opened when the main one opens after a check.
 (()=>{const real=$('solution'),copy=$('dock-solution');
 const sync=()=>{copy.hidden=real.hidden;if(real.hidden){copy.open=false;$('dock-solution-body').replaceChildren();return;}
-  const body=$('solution-body').cloneNode(true);body.querySelectorAll('[id]').forEach(n=>n.removeAttribute('id'));$('dock-solution-body').replaceChildren(...body.childNodes);};
+  const body=$('solution-body').cloneNode(true);
+  if(!$('worked-solution').hidden){const generated=$('worked-solution').cloneNode(true);generated.removeAttribute('id');generated.removeAttribute('aria-labelledby');generated.querySelector('.actions')?.remove();body.append(generated);}
+  body.querySelectorAll('[id]').forEach(n=>n.removeAttribute('id'));$('dock-solution-body').replaceChildren(...body.childNodes);};
 let wasHidden=real.hidden;
 new MutationObserver(()=>{sync();if(wasHidden&&!real.hidden){copy.open=real.open;if(copy.open)requestAnimationFrame(()=>copy.scrollIntoView({block:'nearest'}));}wasHidden=real.hidden;})
   .observe(real,{attributes:true,attributeFilter:['hidden','open'],childList:true,subtree:true,characterData:true});sync();})();
