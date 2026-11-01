@@ -2,7 +2,14 @@
 
 - [Course contents](content.html)
 - [Textbook tutorial](tutorial.html)
+- [Ksp from thermodynamics and mixing](ksp-thermodynamics.html)
 - [Practice Studio](chemistry12-practice.html)
+
+The standalone Ksp lesson develops the thermodynamic derivation, chemical
+potentials, activity/concentration distinction and ideal entropy of mixing.
+Equations are pre-rendered with the local KaTeX distribution and work offline.
+Rebuild it with `node tools/build_ksp_thermodynamics.cjs`; this also restores its
+link in tutorial section 3.3 if necessary.
 
 The Practice Studio follows the companion Physics 12 page. It contains the
 numbered **Review Questions** from every section of `Chemistry12.pdf`, with
