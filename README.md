@@ -27,11 +27,16 @@ The seven textbook reference tables are available below the question card.
 The builder validates each answer against its question/context/table image bytes
 and refuses to replace the practice page if required fields are missing or the
 source is stale. These are structural checks, not a teaching-quality review.
-All 373 entries now have expanded, question-specific teaching explanations,
-using the revised section 1.1 question 1 as the model. The remaining 372 were
-rebuilt in the authoring session with equation choices, intermediate calculations,
-conceptual reasoning and checks; source ambiguities and diagram corrections are
-preserved. Check coverage and rebuild with no network calls:
+All 373 entries have now been rewritten and individually reviewed directly in
+the conversation session using the current shared teaching prompt. No entries
+remain on the earlier outline-based revision. Each records its prompt/source
+receipt and a question-specific review; no external AI endpoint was used.
+Six additional solution diagrams cover the requested titration sketches,
+bromine half-cell, formal zinc/fluorine cell, molten NaCl electrolysis and
+silver plating. Their numerical plots and labelled schematics can be rebuilt
+with `python3 tools/build_chemistry12_solution_diagrams.py` (requires
+`rsvg-convert`), followed by rebuilding the practice page.
+Check coverage and rebuild with no network calls:
 
 ```sh
 python3 tools/generate_chemistry12_answers.py --status --build
@@ -52,10 +57,26 @@ When revising prebuilt solutions, use the following teaching standard:
 - Write math inside `$...$` or `$$...$$`, with complete braced exponents. Do not
   number the step strings: the page supplies their ordered list.
 
-Prebuilt solutions are edited and checked in the authoring session, then saved
-with `tools/save_chemistry12_session_answers.py`. The save and build tools do not
-call an AI endpoint. A minimum step count alone does not establish that the
-reasoning is adequate.
+Fresh answers and in-session authoring share the versioned teaching instructions
+in `content/chemistry12/solution-prompt.json` and the same prompt constructor in
+`tools/chemistry12-solution-prompt.js`. Both live prompt entry points delegate to
+that constructor. Neither path supplies an old prebuilt solution as an outline.
+Matching the prompt prevents drift; it does not itself establish content quality.
+
+For each prebuilt question, export the exact prompt and source image paths:
+
+```sh
+python3 tools/save_chemistry12_session_answers.py --question chem12-s1-1-q1
+```
+
+Read that request and its sources, author a complete solution directly in the
+conversation, and review its subparts, derivation, substitutions, units and check.
+Save one response with `save_one(entry, request, review)` or the CLI payload
+`{"entry":{...},"request":{...},"review":"question-specific review"}` before
+advancing. The saver rejects a stale prompt/source receipt, preserves corrected
+diagrams and source caveats, and records the prompt version and review. The saver
+and builder have no network calls; the discarded endpoint authoring client is
+not included. A step count or word count alone does not establish quality.
 
 Keep `assets/` beside the HTML pages. `Chemistry12.pdf` is needed for full-source
 links. All scripts and the math renderer are embedded in the generated page;

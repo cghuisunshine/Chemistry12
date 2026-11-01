@@ -159,6 +159,9 @@ def extract():
 
 def script(name):
     text = (TOOLS/name).read_text()
+    if name == 'chemistry12-solution-prompt.js':
+        spec = json.loads((CONTENT/'solution-prompt.json').read_text())
+        text = text.replace('/* SOLUTION_PROMPT_SPEC */null', json.dumps(spec, ensure_ascii=False).replace('<', '\\u003c'))
     assert '</script' not in text.lower(), name
     return '<script>\n'+text+'\n</script>\n'
 
@@ -234,7 +237,7 @@ def build(require_prebuilt=True):
     template = template.replace('<!-- CHEMISTRY12_FOOTNOTE -->', references+note)
     data = json.dumps(bank, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
     scripts = '<script id="question-bank" type="application/json">'+data+'</script>\n'
-    names = ['chemistry12-activity.js','chemistry12-adaptive.js','chemistry12-practice-core.js','chemistry12-photo-review.js','vendor/katex/katex.min.js','vendor/katex/mhchem.min.js','chemistry12-solution-format.js','chemistry12-answer-key.js','chemistry12-worked-solution.js','chemistry12-follow-up.js','chemistry12-drawing-pad.js','chemistry12-students.js','chemistry12-live-share.js','chemistry12-image-assets.js','chemistry12-practice.js']
+    names = ['chemistry12-activity.js','chemistry12-adaptive.js','chemistry12-practice-core.js','chemistry12-photo-review.js','vendor/katex/katex.min.js','vendor/katex/mhchem.min.js','chemistry12-solution-format.js','chemistry12-solution-prompt.js','chemistry12-answer-key.js','chemistry12-worked-solution.js','chemistry12-follow-up.js','chemistry12-drawing-pad.js','chemistry12-students.js','chemistry12-live-share.js','chemistry12-image-assets.js','chemistry12-practice.js']
     scripts += ''.join(script(name) for name in names)
     (ROOT/'chemistry12-practice.html').write_text(template.replace('<!-- PRACTICE_SCRIPTS -->', scripts))
     head = re.search(r'<head>(.*?)</head>', template, re.S)[1].replace('Practice Studio', 'Student Activity')
