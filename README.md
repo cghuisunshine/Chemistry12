@@ -3,6 +3,7 @@
 - [Course contents](content.html)
 - [Textbook tutorial](tutorial.html)
 - [Ksp from thermodynamics and mixing](ksp-thermodynamics.html)
+- [Entropy versus enthalpy: thermodynamic laws and university connections](entropy-enthalpy.html)
 - [Practice Studio](chemistry12-practice.html)
 
 The standalone Ksp lesson develops the thermodynamic derivation, chemical
@@ -10,6 +11,15 @@ potentials, activity/concentration distinction and ideal entropy of mixing.
 Equations are pre-rendered with the local KaTeX distribution and work offline.
 Rebuild it with `node tools/build_ksp_thermodynamics.cjs`; this also restores its
 link in tutorial section 3.3 if necessary.
+
+The entropy–enthalpy lesson expands tutorial section 2.4 from the first and
+second laws through Gibbs energy, microstates, the third law, chemical
+potentials, equilibrium, heat-capacity corrections and statistical mechanics.
+It includes worked examples and an offline temperature/composition explorer.
+Rebuild with `node tools/build_entropy_enthalpy.cjs`; this also restores the
+section 2.4 link. The builder shares the Ksp template's base visual style and
+uses the local KaTeX renderer and fonts. Edit its source in
+`tools/entropy-enthalpy-template.html` and the two explorer JavaScript modules.
 
 The Practice Studio follows the companion Physics 12 page. It contains the
 numbered **Review Questions** from every section of `Chemistry12.pdf`, with
