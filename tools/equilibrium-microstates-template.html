@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#235b47">
+<meta name="description" content="Derive the general equilibrium concentration expression from microscopic statistical weights, identical-particle factorials and the most probable composition. Includes the reasons behind every step.">
+<title>The equilibrium constant from microstates — Chemistry 12</title>
+<style>/* KATEX_CSS */</style>
+<!-- SHARED_STYLE -->
+<style>
+.math-display>.katex-display{width:max-content;min-width:100%}.toc{max-height:calc(100vh - 125px);overflow:auto}.toc a{padding:8px 0}.source-note{font-size:13px;color:var(--muted)}.hero h1{font-size:clamp(42px,5vw,64px)}.two-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0}.two-cards article{background:white;border:1px solid var(--line);border-radius:9px;padding:18px}.two-cards h3{margin-top:0}.two-cards p:last-child{margin:0}.lesson-intro{font-size:19px}.step-label{font-size:12px;color:var(--muted)}
+@media(max-width:750px){.toc{max-height:none;overflow:visible}.two-cards{grid-template-columns:1fr}.hero h1{font-size:43px}.toc a{padding:4px 0}}@media print{.toc{display:none}.two-cards{display:block}.two-cards article{margin:10px 0}.source-note{font-size:9pt}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to lesson</a>
+<header class="topbar"><a class="brand" href="tutorial.html"><span aria-hidden="true">C</span>Chemistry 12</a><div class="toplinks"><a href="tutorial.html#section-2-5">Back to §2.5</a><a class="practice" href="chemistry12-practice.html?q=chem12-s2-5-q2">Practise</a><button type="button" class="print-button" id="print-lesson">Print lesson</button></div></header>
+<div class="layout">
+<aside class="toc" aria-label="Lesson contents"><p>IN THIS LESSON</p><nav>
+<a href="#populations"><span class="number">01</span>Concentrations and microstates</a>
+<a href="#factorials"><span class="number">02</span>Why the factorials appear</a>
+<a href="#statistical-weights"><span class="number">03</span>Energy-weighted states</a>
+<a href="#maximum"><span class="number">04</span>Why the ratio approaches one</a>
+<a href="#reaction-event"><span class="number">05</span>One general reaction event</a>
+<a href="#powers"><span class="number">06</span>Where the powers come from</a>
+<a href="#concentrations"><span class="number">07</span>Derive the concentration ratio</a>
+<a href="#worked-example"><span class="number">08</span>Worked checks</a>
+<a href="#scope"><span class="number">09</span>Units, assumptions and limits</a>
+</nav><a class="back" href="#sources">Sources and related lessons ↗</a></aside>
+<main id="main" class="article">
+<header class="hero"><p class="eyebrow">SECTION 2.5 · A MICROSCOPIC DERIVATION</p><h1>Where does the<br><em>equilibrium ratio</em><br>come from?</h1>
+<p class="lead">Count the possible microscopic arrangements, compare two neighbouring compositions, and locate the most probable mixture. The factorial changes produce the concentration powers.</p>
+<blockquote class="question"><p class="label">The question behind this lesson</p><p>Can we derive the general equilibrium-constant expression using microscopic states, rather than starting with Gibbs energy or assumed reaction rate laws?</p></blockquote>
+<div class="hero-formula"><div class="math-display">\[aA+bB\rightleftharpoons cC+dD\]</div><div class="math-display">\[\boxed{K_c=\frac{[C]_{\mathrm{eq}}^c[D]_{\mathrm{eq}}^d}{[A]_{\mathrm{eq}}^a[B]_{\mathrm{eq}}^b}}\]</div><p>The derivation below uses an ideal gas mixture at fixed temperature and volume. Dilute solutions admit an analogous factorization when solvent effects are included appropriately. Dimensionless thermodynamic constants are distinguished from the classroom concentration convention in section 09.</p></div>
+<p class="reading-path">Sections 01–04 explain the counting and maximum-probability arguments. Follow sections 05–07 for the general derivation, or use the worked checks in section 08. The full lesson and all equations work offline.</p></header>
+
+<section class="lesson" id="populations"><h2><span class="number">01</span>Concentration measures population, not a state count</h2>
+<p>Let N<sub>i</sub> denote the number of molecules of species i. In the same container volume V, the molar concentration is:</p>
+<div class="formula"><div class="math-display">\[[i]=\frac{N_i}{N_{\mathrm{Av}}V}\]</div></div>
+<p>N<sub>Av</sub> denotes Avogadro’s constant, approximately 6.022 × 10²³ mol⁻¹; this notation avoids confusing it with N<sub>A</sub>, the number of A molecules. Use litres for V when concentrations are in mol L⁻¹.</p>
+<div class="two-cards"><article><h3>A composition or macrostate</h3><p>Specifies quantities such as N<sub>A</sub>, N<sub>B</sub>, N<sub>C</sub>, N<sub>D</sub>, temperature and volume. Concentrations describe this macroscopic population.</p></article><article><h3>A microstate</h3><p>Specifies microscopic possibilities consistent with the constraints: positions, momenta and internal states, or the corresponding quantum state. Many microstates can correspond to the same composition.</p></article></div>
+<p>The statistical weight W of a composition sums the microscopic possibilities that realize it, including their energy weighting at a given temperature. The equilibrium distribution favours compositions with greater W. We will compare W before and after a single reaction event.</p>
+<div class="note"><p><strong>The useful intuition.</strong> Microscopic statistical weights determine the equilibrium populations; concentrations measure those populations per volume. For a simple ideal A ⇌ B system, the concentration ratio can equal the ratio of single-molecule statistical weights. For a general reaction, the mixture’s combinatorial factors also produce the stoichiometric powers.</p></div>
+</section>
+
+<section class="lesson" id="factorials"><h2><span class="number">02</span>Why does the counting formula contain factorials?</h2>
+<h3>Begin with a fixed-number A ⇌ B model</h3>
+<p>Consider N equivalent occupied positions. Each position holds a molecule that can be A or B. If N<sub>A</sub> positions contain A and N<sub>B</sub> contain B, with N = N<sub>A</sub> + N<sub>B</sub>, the number of species assignments is:</p>
+<div class="formula"><div class="math-display">\[\binom{N}{N_A}=\frac{N!}{N_A!N_B!}\]</div></div>
+<p>For two A molecules and one B, the assignments are AAB, ABA and BAA: 3!/(2!1!) = 3. If each A has z<sub>A</sub> internal possibilities and each B has z<sub>B</sub>, independence lets those possibilities multiply:</p>
+<div class="formula"><div class="math-display">\[W(N_A,N_B)=\frac{N!}{N_A!N_B!}z_A^{N_A}z_B^{N_B}\]</div></div>
+<p>For example, z<sub>A</sub> = 2 and z<sub>B</sub> = 3 give 3 × 2² × 3 = 36 microscopic possibilities. When N stays fixed, N! is the same at every composition and can be absorbed into a proportionality constant.</p>
+<h3>For the general reaction, use mobile-particle weights</h3>
+<p>The total number of molecules need not stay fixed for aA + bB ⇌ cC + dD. We therefore use the ideal mobile-particle statistical weight, with translational possibilities already included in each single-molecule factor q<sub>i</sub>:</p>
+<div class="formula key"><div class="math-display">\[\boxed{W\propto\prod_i\frac{q_i^{N_i}}{N_i!}=\frac{q_A^{N_A}q_B^{N_B}q_C^{N_C}q_D^{N_D}}{N_A!N_B!N_C!N_D!}}\]</div></div>
+<p>Independent single-particle possibilities multiply to q<sub>i</sub><sup>Nᵢ</sup>. The factor N<sub>i</sub>! removes duplicate assignments of arbitrary labels to identical particles of that species. The formula is the classical, dilute Maxwell–Boltzmann limit; quantum exchange effects at high degeneracy require a different treatment.</p>
+<div class="note"><p><strong>Keep the two models distinct.</strong> The occupied-position model has a fixed number of sites. The mobile-particle model includes space and momentum states in q<sub>i</sub>. If a reaction changes the total molecule count, an extra N<sub>total</sub>! cannot be introduced and discarded as a constant. Conserved atomic totals constrain the allowed compositions; they do not generally fix the total molecule count.</p></div>
+</section>
+
+<section class="lesson" id="statistical-weights"><h2><span class="number">03</span>What is a single-molecule statistical weight?</h2>
+<p>At fixed temperature, microstates with different energies contribute different thermal weights. Schematically, for species i:</p>
+<div class="formula"><div class="math-display">\[q_i(T,V)=\sum_{r\in\text{single-particle states}}e^{-\varepsilon_{i,r}/(k_BT)}\]</div></div>
+<p>The sum includes position or translational states and the species’ accessible internal states. A lower-energy state has a greater individual weight; a collection of many higher-energy states can also make an important contribution. With unequal energies, q<sub>i</sub> is an energy-weighted sum rather than an integer state count.</p>
+<p>For a classical ideal gas, translational possibilities are proportional to V, while the internal-state contribution is independent of V. In the continuum ideal-gas approximation:</p>
+<div class="formula"><div class="math-display">\[q_i=\frac{V}{\Lambda_i^3}\,q_{i,\mathrm{int}}(T),\qquad\Lambda_i=\frac{h}{\sqrt{2\pi m_i k_BT}}\]</div></div>
+<p>Here Λ<sub>i</sub> is the thermal de Broglie wavelength, h is Planck’s constant, and m<sub>i</sub> is the molecule’s mass. Use compatible length units in V/Λ³. This illustrates the key property we need:</p>
+<div class="formula key"><div class="math-display">\[q_i\propto V\quad\text{at fixed }T\]</div></div>
+<p>Use a consistent microscopic energy reference across all species, including binding energies. Separately setting each species’ lowest energy to zero without restoring the relative offsets would erase the reaction’s energy difference and change the predicted equilibrium constant.</p>
+<p>Solvent molecules and solute interactions complicate an aqueous calculation. In a sufficiently dilute ideal-solution approximation, their influence can be included in effective single-solute factors. The general concentration-product form then follows similarly, but its numerical constant needs the solvent model.</p>
+<p class="source-note">University connection: <a href="https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/resources/5_60_lecture29/">MIT 5.60, lecture 29 — microscopic chemical and phase equilibria</a>. The state-weight and partition-function ingredients are developed there.</p>
+</section>
+
+<section class="lesson" id="maximum"><h2><span class="number">04</span>Why does the neighbouring-weight ratio approach one?</h2>
+<p>Let m count forward reaction events and W<sub>m</sub> be the weight of the resulting composition. The equilibrium probability is proportional to W<sub>m</sub>, with the normalization common to every allowed m.</p>
+<div class="table-wrap"><table><thead><tr><th scope="col">Ratio</th><th scope="col">What it tells us</th></tr></thead><tbody><tr><td>W<sub>m+1</sub>/W<sub>m</sub> &gt; 1</td><td>The composition one event forward has greater statistical weight.</td></tr><tr><td>W<sub>m+1</sub>/W<sub>m</sub> &lt; 1</td><td>The composition one event forward has smaller statistical weight.</td></tr><tr><td>The ratios cross one</td><td>The distribution reaches a local maximum along the allowed reaction direction.</td></tr></tbody></table></div>
+<p>For discrete molecule counts, an exact maximum m* satisfies inequalities rather than requiring exact equality:</p>
+<div class="formula"><div class="math-display">\[\frac{W_{m_*}}{W_{m_*-1}}\geq1,\qquad\frac{W_{m_*+1}}{W_{m_*}}\leq1\]</div></div>
+<p>For large populations in this ideal-mixture model, changing one reaction event changes the composition by a tiny fraction. Near the peak the neighbouring weights become almost equal, so we use:</p>
+<div class="formula key"><div class="math-display">\[\frac{W_{m+1}}{W_m}\simeq1\quad\text{near the macroscopic interior maximum}\]</div></div>
+<div class="worked"><h3>A numerical illustration</h3><p>For equal single-molecule weights in A ⇌ B with N = 2n, the peak has N<sub>A</sub> = N<sub>B</sub> = n. One event A → B changes the weight by:</p><div class="formula"><div class="math-display">\[\frac{W(n-1,n+1)}{W(n,n)}=\frac{n}{n+1}\]</div></div><p>For n = 5, this is 5/6. For n = 500,000, it is approximately 0.999998. The difference from one shrinks as the populations grow.</p><p class="check"><strong>Scope:</strong> this argument assumes the relevant species populations are large and the maximum lies inside the allowed composition range. Small populations and absent species require the exact discrete weights.</p></div>
+<p>Weight comparisons describe equilibrium probabilities. Transition barriers and the reaction mechanism still determine how quickly the system samples those compositions.</p>
+</section>
+
+<section class="lesson" id="reaction-event"><h2><span class="number">05</span>Compare one general forward reaction event</h2>
+<div class="formula"><div class="math-display">\[aA+bB\rightleftharpoons cC+dD\]</div></div>
+<p>Start at an allowed composition with enough reactant molecules. One forward event changes the populations by the balanced coefficients:</p>
+<div class="formula"><div class="math-display">\[\begin{aligned}N_A'&=N_A-a,&N_B'&=N_B-b,\\N_C'&=N_C+c,&N_D'&=N_D+d.\end{aligned}\]</div></div>
+<p>Write the old and new statistical weights using section 02’s independent-particle formula. At fixed T and V, the single-particle factors q<sub>i</sub> are unchanged; only their exponents and the factorial arguments change. Dividing the new weight by the old gives:</p>
+<div class="formula key"><div class="math-display">\[\begin{aligned}\frac{W'}{W}={}&\frac{q_C^c q_D^d}{q_A^a q_B^b}\\&\times\frac{N_A!}{(N_A-a)!}\frac{N_B!}{(N_B-b)!}\\&\times\frac{N_C!}{(N_C+c)!}\frac{N_D!}{(N_D+d)!}.\end{aligned}\]</div></div>
+<p>The q powers have a direct origin: removing a A molecules divides the weight by q<sub>A</sub><sup>a</sup>, while adding c C molecules multiplies it by q<sub>C</sub><sup>c</sup>. The factorials describe the simultaneous change in the populations of identical particles.</p>
+<p>The ratio above is exact within the stated ideal factorized weight model. We have not yet made the large-population approximation or assumed a concentration expression for equilibrium.</p>
+</section>
+
+<section class="lesson" id="powers"><h2><span class="number">06</span>The factorials produce the stoichiometric powers</h2>
+<p>Expand the factorial ratios before approximating them. For a consumed reactant:</p>
+<div class="formula"><div class="math-display">\[\frac{N_A!}{(N_A-a)!}=N_A(N_A-1)\cdots(N_A-a+1)\simeq N_A^a\]</div></div>
+<p>For an added product:</p>
+<div class="formula"><div class="math-display">\[\frac{N_C!}{(N_C+c)!}=\frac1{(N_C+1)(N_C+2)\cdots(N_C+c)}\simeq\frac1{N_C^c}\]</div></div>
+<p>These approximations require each population to be much larger than the associated stoichiometric coefficient. Do the same for B and D:</p>
+<div class="formula key"><div class="math-display">\[\boxed{\frac{W'}{W}\simeq\frac{q_C^c q_D^d}{q_A^a q_B^b}\frac{N_A^aN_B^b}{N_C^cN_D^d}}\]</div></div>
+<p><strong>Why an exponent a?</strong> Consuming a identical A molecules produces a separate factors involving their population. In the macroscopic limit those factors are almost equal, giving N<sub>A</sub><sup>a</sup>. The product exponent c similarly follows from the c added C molecules.</p>
+<div class="note"><p><strong>This argument concerns equilibrium counting.</strong> The overall stoichiometric coefficients determine the population changes used here. Experimental reaction-rate exponents depend on the mechanism and need not equal these coefficients. This derivation does not assume an elementary collision involving all the written molecules at once.</p></div>
+</section>
+
+<section class="lesson" id="concentrations"><h2><span class="number">07</span>Convert to concentrations and identify Kc</h2>
+<p>Use q<sub>i</sub> ∝ V to define a single-species microscopic factor expressed in concentration units:</p>
+<div class="formula"><div class="math-display">\[\phi_i(T)\equiv\frac{q_i(T,V)}{N_{\mathrm{Av}}V},\qquad q_i=N_{\mathrm{Av}}V\phi_i\]</div></div>
+<p>For the ideal-gas model, φ<sub>i</sub> depends on temperature and species properties, while the explicit volume has cancelled. With V in litres it has units mol L⁻¹. The actual species concentration independently satisfies:</p>
+<div class="formula"><div class="math-display">\[N_i=N_{\mathrm{Av}}V[i]\]</div></div>
+<p>Let Δν = c + d − a − b. Substituting both expressions into the neighbouring-weight ratio shows the volume cancellation explicitly:</p>
+<div class="formula"><div class="math-display">\[\begin{aligned}\frac{W'}{W}\simeq{}&(N_{\mathrm{Av}}V)^{\Delta\nu}\frac{\phi_C^c\phi_D^d}{\phi_A^a\phi_B^b}\\&\times(N_{\mathrm{Av}}V)^{-\Delta\nu}\frac{[A]^a[B]^b}{[C]^c[D]^d}\\={}&\frac{\phi_C^c\phi_D^d}{\phi_A^a\phi_B^b}\frac{[A]^a[B]^b}{[C]^c[D]^d}.\end{aligned}\]</div></div>
+<p>Near the most probable macroscopic interior composition, use W′/W ≃ 1. Rearranging gives the desired result:</p>
+<div class="formula key"><div class="math-display">\[\boxed{\frac{[C]_{\mathrm{eq}}^c[D]_{\mathrm{eq}}^d}{[A]_{\mathrm{eq}}^a[B]_{\mathrm{eq}}^b}=\frac{\phi_C^c\phi_D^d}{\phi_A^a\phi_B^b}\equiv K_c(T)}\]</div></div>
+<p>The concentration expression is constant because its value is determined by temperature-dependent microscopic factors. The factorials produced the concentration powers, and the microscopic state sums determine the constant.</p>
+<h3>The same comparison explains Q versus K</h3>
+<p>Define Q<sub>c</sub> by evaluating that concentration expression at the current composition, rather than necessarily at equilibrium. The result just derived can be written:</p>
+<div class="formula key"><div class="math-display">\[Q_c=\frac{[C]^c[D]^d}{[A]^a[B]^b},\qquad\frac{W'}{W}\simeq\frac{K_c}{Q_c}\]</div></div>
+<p>For Q<sub>c</sub> &lt; K<sub>c</sub>, a neighbouring forward composition has greater weight; for Q<sub>c</sub> &gt; K<sub>c</sub>, it has smaller weight. At equilibrium the ratio approaches one. This provides the statistical counterpart of the tutorial’s direction rule, subject to the large-population and kinetic qualifications already stated.</p>
+</section>
+
+<section class="lesson" id="worked-example"><h2><span class="number">08</span>Worked checks</h2>
+<div class="worked"><h3>A. The tutorial’s H₂ + I₂ ⇌ 2HI example</h3><p>One event removes one H₂ and one I₂ molecule and adds two HI molecules. The exact ideal-model weight ratio is:</p><div class="formula"><div class="math-display">\[\frac{W'}{W}=\frac{q_{\ce{HI}}^2}{q_{\ce{H2}}q_{\ce{I2}}}\frac{N_{\ce{H2}}N_{\ce{I2}}}{(N_{\ce{HI}}+1)(N_{\ce{HI}}+2)}\]</div></div><p>For large populations the two HI factors become a square, giving:</p><div class="formula"><div class="math-display">\[K_c=\frac{[\ce{HI}]_{\mathrm{eq}}^2}{[\ce{H2}]_{\mathrm{eq}}[\ce{I2}]_{\mathrm{eq}}}=\frac{\phi_{\ce{HI}}^2}{\phi_{\ce{H2}}\phi_{\ce{I2}}}\]</div></div><p>The tutorial supplies the illustrative equilibrium concentrations 0.20 M H₂, 0.20 M I₂ and 0.40 M HI. They give:</p><div class="formula"><div class="math-display">\[K_c=\frac{(0.40)^2}{(0.20)(0.20)}=4.0\]</div></div><p class="check"><strong>Microscopic interpretation:</strong> an ideal model consistent with this example must have φ<sub>HI</sub>²/(φ<sub>H₂</sub>φ<sub>I₂</sub>) = 4. This is a condition on the microscopic factors, not a prediction of measured H₂/I₂/HI data from the three supplied concentrations.</p></div>
+<details class="detail"><summary>Finite-number check: the peak need not have a ratio exactly equal to one</summary><div class="detail-body"><p>Use a toy model with q<sub>HI</sub>²/(q<sub>H₂</sub>q<sub>I₂</sub>) = 4, beginning with 40 H₂, 40 I₂ and no HI. After m forward events the populations are 40 − m, 40 − m and 2m. The ratio is:</p><div class="math-display">\[\frac{W_{m+1}}{W_m}=\frac{4(40-m)^2}{(2m+1)(2m+2)}\]</div><p>At m = 19 the ratio is 1764/1560 ≈ 1.131, so the weight increases to m = 20. At m = 20 it is 1600/1722 ≈ 0.929, so it decreases to m = 21. The peak is m = 20, with populations 20, 20 and 40, even though neither neighbouring ratio equals one exactly.</p><p>With corresponding populations 20 million, 20 million and 40 million, the forward ratio is approximately 0.999999925. Macroscopic counting makes the distinction negligible for the usual equilibrium expression. These are illustrative model populations, not measured molecular fluctuations in an experimental flask.</p></div></details>
+<div class="worked"><h3>B. A reaction that changes the total molecule count</h3><div class="formula"><div class="math-display">\[\ce{A2(g) <=> 2A(g)}\]</div><div class="math-display">\[\frac{W'}{W}=\frac{q_{\ce{A}}^2}{q_{\ce{A2}}}\frac{N_{\ce{A2}}}{(N_{\ce{A}}+1)(N_{\ce{A}}+2)}\]</div></div><p>Here Δν = 1, so the q ratio contains one power of V. The population ratio contains its inverse after conversion to concentration. They cancel, giving:</p><div class="formula"><div class="math-display">\[K_c=\frac{[\ce{A}]_{\mathrm{eq}}^2}{[\ce{A2}]_{\mathrm{eq}}}=\frac{\phi_{\ce{A}}^2}{\phi_{\ce{A2}}}\]</div></div><p class="check"><strong>Check:</strong> the classroom K<sub>c</sub> expression has concentration units in this case. Its numerical value depends on the chosen concentration unit. The dimensionless thermodynamic constant below avoids that unit dependence.</p></div>
+</section>
+
+<section class="lesson" id="scope"><h2><span class="number">09</span>Units, assumptions and limits</h2>
+<h3>Distinguish the classroom Kc from a dimensionless thermodynamic K</h3>
+<p>The unnormalized concentration expression has units of concentration raised to Δν. For an ideal concentration-based description, divide every concentration by the same standard concentration c° = 1 mol L⁻¹:</p>
+<div class="formula"><div class="math-display">\[\begin{aligned}K&=\frac{([C]_{\mathrm{eq}}/c^\circ)^c([D]_{\mathrm{eq}}/c^\circ)^d}{([A]_{\mathrm{eq}}/c^\circ)^a([B]_{\mathrm{eq}}/c^\circ)^b}\\&=\frac{K_c}{(c^\circ)^{\Delta\nu}}.\end{aligned}\]</div></div>
+<p>This K is dimensionless. Standard-state conventions must be specified: for gases, thermodynamic constants are commonly defined with pressure activities p<sub>i</sub>/p°. The corresponding pressure and concentration conventions are related through the ideal-gas equation; their numerical constants need not be identical.</p>
+<h3>Where the model applies</h3>
+<ul class="steps"><li><strong>Independent species:</strong> the product of single-particle weights is appropriate to a classical ideal gas or an appropriate ideal-dilute solution model. Interactions generate correlations and activity corrections.</li><li><strong>Fixed constraints:</strong> compare compositions at the same T and V, with the same conserved elemental totals. The q factors must use a consistent energy reference and microscopic normalization.</li><li><strong>Large relevant populations:</strong> replace falling and rising factorials by powers only when each included population is much larger than its coefficient. The most probable composition must lie inside the accessible range.</li><li><strong>Equilibrium rather than rate:</strong> a maximum-weight composition does not imply rapid equilibration. Kinetic barriers can maintain a nonequilibrium composition for a long time.</li><li><strong>Pure phases:</strong> the derivation above treats mobile mixture species. Bulk pure solids and liquids supply fixed phase factors at specified conditions, rather than an ideal-gas population dependence. Their activities are omitted as unity in the usual convention; the phase must be available.</li></ul>
+<p>For real mixtures, the thermodynamic relation uses activities α<sub>i</sub>:</p>
+<div class="formula key"><div class="math-display">\[K=\frac{\alpha_{C,\mathrm{eq}}^c\alpha_{D,\mathrm{eq}}^d}{\alpha_{A,\mathrm{eq}}^a\alpha_{B,\mathrm{eq}}^b}\]</div></div>
+<p>Deriving the activity corrections requires a microscopic interaction model. The elementary independent-particle calculation explains the ideal concentration powers, while the full state sum contains the additional physics.</p>
+<p class="connection">Equilibrium selects the most probable complete mixture. The concentration powers reflect how its microscopic counting changes when a stoichiometric reaction event occurs.</p>
+</section>
+
+<section class="lesson" id="sources"><h2>Sources and related lessons</h2>
+<p>This is an original step-by-step synthesis of the derivation and the follow-up questions about concentrations, factorials and neighbouring weights. The mathematical examples state their model assumptions explicitly.</p>
+<ul class="source-links"><li><a href="tutorial.html#section-2-5">Tutorial §2.5 — The Equilibrium Constant</a>: the general expression, Q versus K and the H₂/I₂ worked check.</li><li><a href="output/pdf/Chemistry12-navigable.pdf#page=125">Chemistry 12, §2.5, printed pp. 115–128</a>: the course-level equilibrium treatment.</li><li><a href="https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/resources/5_60_lecture29/">MIT OpenCourseWare, 5.60, lecture 29 — applications to chemical and phase equilibria</a>: single-particle partition functions, identical-particle factorials, binding-energy factors and equilibrium constants.</li><li><a href="https://edu.itp.phys.ethz.ch/hs12/StatPhys/ex08.pdf">ETH Zürich, Statistical Physics, exercise 8.1 — the law of mass action</a>: a microscopic ideal-gas derivation of reaction equilibrium.</li><li><a href="ksp-thermodynamics.html#microstate-derivation">Ksp lesson, section 10 — state counting for dissolution</a>: the factorial route with a bulk pure crystal and dilute ions.</li><li><a href="entropy-enthalpy.html#two-routes">Entropy versus enthalpy — the two starting points</a>: temperature-first thermodynamics and entropy-first statistical mechanics.</li></ul>
+<p><a href="chemistry12-practice.html?q=chem12-s2-5-q2">Apply the expression to the Section 2.5 practice questions →</a></p>
+</section>
+<footer class="footer"><p>Chemistry 12 · Microscopic foundations of equilibrium</p><p><a href="#main">Back to the question ↑</a></p></footer>
+<noscript><p class="noscript">The full lesson and all equations are available without JavaScript. Use your browser’s print command to print it.</p></noscript>
+</main></div>
+<script>
+'use strict';
+document.getElementById('print-lesson').addEventListener('click',()=>window.print());
+let printState=[];
+window.addEventListener('beforeprint',()=>{printState=[...document.querySelectorAll('details')].map(el=>[el,el.open]);for(const [el] of printState)el.open=true;});
+window.addEventListener('afterprint',()=>{for(const [el,open] of printState)el.open=open;printState=[];});
+</script>
+</body></html>

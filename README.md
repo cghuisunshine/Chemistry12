@@ -4,10 +4,14 @@
 - [Textbook tutorial](tutorial.html)
 - [Ksp from thermodynamics and mixing](ksp-thermodynamics.html)
 - [Entropy versus enthalpy: thermodynamic laws and university connections](entropy-enthalpy.html)
+- [The equilibrium constant from microscopic states](equilibrium-microstates.html)
 - [Practice Studio](chemistry12-practice.html)
 
 The standalone Ksp lesson develops the thermodynamic derivation, chemical
 potentials, activity/concentration distinction and ideal entropy of mixing.
+Section 10 derives the concentration powers independently from dilute-ion
+statistical weights and identical-particle factorials, with a finite-count
+example and explicit energetic, solvent and pure-solid assumptions.
 Equations are pre-rendered with the local KaTeX distribution and work offline.
 Rebuild it with `node tools/build_ksp_thermodynamics.cjs`; this also restores its
 link in tutorial section 3.3 if necessary.
@@ -20,6 +24,13 @@ Rebuild with `node tools/build_entropy_enthalpy.cjs`; this also restores the
 section 2.4 link. The builder shares the Ksp template's base visual style and
 uses the local KaTeX renderer and fonts. Edit its source in
 `tools/entropy-enthalpy-template.html` and the two explorer JavaScript modules.
+
+The equilibrium microstates lesson develops the general section 2.5 expression
+from ideal-mixture statistical weights. It explains the factorials, the
+maximum-weight condition, volume cancellation, concentration powers and units.
+The general Kc equation in the tutorial links directly to this lesson. Rebuild
+with `node tools/build_equilibrium_microstates.cjs`; equations are rendered
+offline and the builder restores the equation link if needed.
 
 The Practice Studio follows the companion Physics 12 page. It contains the
 numbered **Review Questions** from every section of `Chemistry12.pdf`, with

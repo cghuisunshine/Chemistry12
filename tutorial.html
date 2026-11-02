@@ -413,7 +413,7 @@
 <figure class="lesson-visual" id="visual-section-2-5"><a href="assets/chemistry12-tutorial/section-2-5.svg" target="_blank" rel="noopener" aria-label="Open full-size diagram for section 2.5"><picture><source media="(max-width: 760px)" srcset="assets/chemistry12-tutorial/section-2-5-stacked.svg" width="500" height="960"><img src="assets/chemistry12-tutorial/section-2-5.svg" width="1000" height="500" loading="lazy" decoding="async" alt="The ammonia equilibrium expression places squared ammonia over nitrogen times cubed hydrogen. A comparison line places Q below or above K with arrows toward equilibrium."></picture></a><figcaption><strong>See the definitions and theory.</strong> Use the same balanced expression for Q and K. Compare them at the same temperature; K alone says nothing about reaction speed.<span class="visual-links"><a href="assets/chemistry12-tutorial/section-2-5.svg" target="_blank" rel="noopener">Open full-size diagram ↗</a><a href="output/pdf/Chemistry12-navigable.pdf#page=125" target="_blank" rel="noopener">Textbook §2.5 · p. 115 onward ↗</a></span></figcaption></figure>
 <!-- END textbook visual -->
 <h4>Equations & relationships</h4><div class="equation" data-copy tabindex="0" aria-label="Equations for section 2.5; press Enter or double-click to copy">
-<div class="equation-line">aA + bB ⇌ cC + dD: Kc = [C]ᶜ[D]ᵈ / ([A]ᵃ[B]ᵇ)</div>
+<div class="equation-line"><a id="equilibrium-microstates-link" href="equilibrium-microstates.html" title="Derive this equation from microscopic statistical weights">aA + bB ⇌ cC + dD: Kc = [C]ᶜ[D]ᵈ / ([A]ᵃ[B]ᵇ)</a></div>
 <div class="equation-line">For H₂ + I₂ ⇌ 2HI: Kc = [HI]² / ([H₂][I₂])</div>
 <div class="equation-line">Reverse the equation: Knew = 1/K; multiply coefficients by n: Knew = Kⁿ</div>
 </div><h4>Derivation & reasoning</h4><ol class="derivation-steps">
@@ -1144,7 +1144,7 @@ document.querySelectorAll('.quiz').forEach(form=>form.addEventListener('submit',
  form.querySelector('.quiz-score').textContent=answered<3?`${score}/3 correct · ${3-answered} unanswered`:`${score}/3 correct${score===3?' · Well done.':''}`;
 }));
 async function copyEquation(el){try{await navigator.clipboard.writeText(el.innerText.trim());toast('Formula copied');}catch{const range=document.createRange();range.selectNodeContents(el);const selection=window.getSelection();selection.removeAllRanges();selection.addRange(range);toast('Formula selected — use Copy');}}
-document.querySelectorAll('[data-copy]').forEach(el=>{el.addEventListener('dblclick',()=>copyEquation(el));el.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();copyEquation(el);}});});
+document.querySelectorAll('[data-copy]').forEach(el=>{el.addEventListener('dblclick',e=>{if(!e.target.closest('a'))copyEquation(el);});el.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.target.closest('a')){e.preventDefault();copyEquation(el);}});});
 
 function science(n){return n===0?'0':n.toExponential(2).replace('e+',' × 10^').replace('e-',' × 10^−');}
 function rate(){const T=Number($('temperature').value),cat=$('catalyst').checked,Ea=cat?40000:50000;const ratio=Math.exp(50000/(8.314*298)-Ea/(8.314*T));$('tempValue').value=T;$('rateResult').textContent=`Relative rate constant: ${ratio.toFixed(2)}× · Eₐ = ${Ea/1000} kJ mol⁻¹${cat?' · catalyst on':''}`;}
