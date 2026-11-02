@@ -22,7 +22,9 @@ const html=read('entropy-enthalpy.html');
 const dom=new JSDOM(html,{runScripts:'dangerously',url:'https://local-test.invalid/entropy-enthalpy.html',virtualConsole:vc});
 const d=dom.window.document,$=id=>d.getElementById(id);
 assert.equal(d.querySelectorAll('.katex-error').length,0);
-assert.equal(d.querySelectorAll('.katex').length,55);
+const sourceMath=read('tools/entropy-enthalpy-template.html').match(/\\\[[\s\S]*?\\\]|\\\([\s\S]*?\\\)/g)||[];
+const equationCount=d.querySelectorAll('.katex').length;
+assert.equal(equationCount,sourceMath.length,'Render every equation in the lesson source');
 assert.equal(d.querySelectorAll('script[src],link[href^="http"],img[src^="http"]').length,0,'No external rendering dependencies');
 assert.ok(!html.includes('<!-- INITIAL_PLOT -->')&&!html.includes('<!-- SHARED_STYLE -->'));
 assert.ok(!/\\\[|\\\(/.test(d.querySelector('main').textContent),'No raw equation delimiters');
@@ -55,5 +57,5 @@ near(Number(plain.getElementById('result-g0').textContent.replace('−','-')),a.
 const tutorial=new JSDOM(read('tutorial.html')).window.document;
 assert.equal(tutorial.querySelectorAll('#entropy-enthalpy-link').length,1);
 assert.ok(tutorial.querySelector('#section-2-4 #entropy-enthalpy-link a[href="entropy-enthalpy.html"]'));
-console.log(JSON.stringify({status:'PASS',equations:55,sections:17,checks:['thermodynamic signs and units','Q versus K','invalid and extreme inputs','preset and reset interactions','initial no-script content','print restoration','local links and fonts','unique IDs','tutorial section 2.4 link']}));
+console.log(JSON.stringify({status:'PASS',equations:equationCount,sections:17,checks:['thermodynamic signs and units','Q versus K','invalid and extreme inputs','preset and reset interactions','initial no-script content','print restoration','local links and fonts','unique IDs','tutorial section 2.4 link']}));
 dom.window.close();
